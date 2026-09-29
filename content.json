@@ -1,0 +1,1958 @@
+{
+  "members": [
+    {
+      "name": "Bonyoung Ku",
+      "course": "M.S./Ph.D. 5th year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-1.jpg",
+      "field": "Li-ion battery (Olivine-type cathodes), Na-ion battery (Layered-type cathodes)",
+      "email": "qhsdud20@gmail.com"
+    },
+    {
+      "name": "Myungeun Choi",
+      "course": "M.S./Ph.D.  5th year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-2.jpg",
+      "field": "Li-ion battery (mid-nickel cathodes), Na-ion battery (Layered-type cathodes)",
+      "email": "myrlo9497@g.skku.edu"
+    },
+    {
+      "name": "Junseong Kim",
+      "course": "M.S./Ph.D.  5th year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-3.jpg",
+      "field": "All-solid-state batteries",
+      "email": "Junseong.k95@gmail.com"
+    },
+    {
+      "name": "Sangyeop Lee",
+      "course": "M.S./Ph.D.  4th year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-4.jpg",
+      "field": "Li-ion battery (Olivine-type cathodes), Na-ion battery (Layered-type cathodes)",
+      "email": "lsy6955@g.skku.edu"
+    },
+    {
+      "name": "Jihoe Lee",
+      "course": "M.S./Ph.D.  4th year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-5.jpg",
+      "field": "Li-ion battery, Aqueous Zn-ion battery",
+      "email": "jhch1507@gmail.com"
+    },
+    {
+      "name": "Hoseok Lee",
+      "course": "Ph.D.  2nd year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-6.jpg",
+      "field": "First Principles Calculation, All-solid-state batteries",
+      "email": "holee977@gmail.com"
+    },
+    {
+      "name": "Taegyu Kim",
+      "course": "Ph.D.  1st year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-7.jpg",
+      "field": "Na-ion battery (Layered-type cathodes)",
+      "email": "apple3967@g.skku.edu"
+    },
+    {
+      "name": "Sunghyun Lim",
+      "course": "M.S./Ph.D.  3rd year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-8.jpg",
+      "field": "Li-ion battery (Olivine-type cathodes), Na-ion battery (Layered-type cathodes)",
+      "email": "1sunghyunlim@gmail.com"
+    },
+    {
+      "name": "Hyunjin Jang",
+      "course": "M.S./Ph.D.  3rd year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-9.jpg",
+      "field": "Li-ion battery (Li-rich oxide cathodes)",
+      "email": "assi10612@g.skku.edu"
+    },
+    {
+      "name": "Eunyoung Ryu",
+      "course": "M.S./Ph.D.  2nd year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-10.jpg",
+      "field": "All-solid-state batteries",
+      "email": "ryuey@skku.edu"
+    },
+    {
+      "name": "Heejin Choo",
+      "course": "M.S./Ph.D.  2nd year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-11.jpg",
+      "field": "Na-ion battery (Layered-type cathodes)",
+      "email": "heejin0104@g.skku.edu"
+    },
+    {
+      "name": "Lisa Eom",
+      "course": "M.S./Ph.D.  2nd year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-12.jpg",
+      "field": "Na-ion battery (Layered-type cathodes)",
+      "email": "lisa423@g.skku.edu"
+    },
+    {
+      "name": "Soonmin Park",
+      "course": "M.S./Ph.D.  1st year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-13.jpg",
+      "field": "Li-ion battery (Li-rich oxide cathodes)",
+      "email": "psm13211@gmail.com"
+    },
+    {
+      "name": "Chaewon Lee",
+      "course": "M.S./Ph.D.  1st year",
+      "group": "Doctoral researchers",
+      "image": "/assets/member-14.jpg",
+      "field": "All-solid-state batteries",
+      "email": "dlcodnjs25@skku.edu"
+    },
+    {
+      "name": "Junha Kwon",
+      "course": "M.S.  2nd year",
+      "group": "Master’s researchers",
+      "image": "/assets/member-15.png",
+      "field": "First Principles Calculation, Na-ion battery (Polyanion-type cathodes)",
+      "email": "ligerjunskku@gmail.com"
+    },
+    {
+      "name": "Jiwoo Choi",
+      "course": "M.S.  2nd year",
+      "group": "Master’s researchers",
+      "image": "/assets/member-16.jpg",
+      "field": "Li-ion battery (Olivine-type cathodes)",
+      "email": "choijiwoo01@skku.edu"
+    },
+    {
+      "name": "Daesun Kim",
+      "course": "Intern",
+      "group": "Undergraduate researchers",
+      "image": "/assets/member-17.jpg",
+      "field": "Li-ion battery",
+      "email": "daesunnykim@g.skku.edu"
+    },
+    {
+      "name": "Yoonkyu Kang",
+      "course": "Intern",
+      "group": "Undergraduate researchers",
+      "image": "/assets/member-18.jpg",
+      "field": "Li-ion battery",
+      "email": "lukek1012@gmail.com"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Stabilizing High-Voltage Operation in O3-Type Na-Layered Cathodes by Suppressing Distortion-Driven Fe Migration",
+      "url": "https://doi.org/10.1021/acsenergylett.6c02530",
+      "authors": "T. Kim, H. Kweon, H. Lee, L. Jang, B. Ku, M. Choi, S. Lim, H. Choo, L. Eom, J. Kwon, M.-K. Cho, Y. H. Jung, H.-G. Jung, J. Kim*",
+      "citation": "ACS Energy Letters, Accepted (2026)"
+    },
+    {
+      "title": "Basal Plane Graphene Coated Zn Powder for High Performance Aqueous Zn Metal Batteries",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77287",
+      "authors": "D. Kim, D. Jeong, K. Kim, V.‐C. Ho, J. Kim, H.‐G. Jung, J. H. Kim, G. Jeong, J. Mun",
+      "citation": "Advanced Science, Accepted (2026)"
+    },
+    {
+      "title": "A Dispersant-Driven Carbon-Binder Domains Homogeneity in High-Energy-Density Electrodes for Lithium-Ion Batteries",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77293",
+      "authors": "D.-S. Kwon, M. Y. Seo, J. Ahn†, Y.-J. Jeong, W. Ko, W. Shin, M. J. Kim, J. Lee, W.-Y. Jeon, J. Bang, M.-J. Choi, K. I. Kim, J. J. Eom, S. Y. Oh, J. Kim*, Y. J. Kim, J.-K. Yoo",
+      "citation": "Advanced Science, Accepted (2026)"
+    },
+    {
+      "title": "Threshold-Triggered Redox Modulation Maximizing Initial Na+ Extraction in Fe–Mn-Dominant P2-Type Na-Layered Cathodes",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_595dec890b5b44a189746228c32f980f.pdf",
+      "authors": "S. Lim, J. Kim, B. Ku, M. Choi, H Lee, J. Kwon, L. Jang, T. Kim, H.-G. Jung, J. Mun, J. Kim*",
+      "citation": "Energy Storage Materials, 90, 105375 (2026)"
+    },
+    {
+      "title": "A Review of Failure Modes and Safety Strategies of Lithium-ion Batteries from Materials to Systems",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.76228",
+      "authors": "J. H. Yang, J. Y. Sung, H. Kweon†, S. Kim, B. Kim, J. Kim*, J. Mun, J. H. Kim, K. J. Kim",
+      "citation": "Advanced Science, 13, e76228 (2026)"
+    },
+    {
+      "title": "Artificial Intelligence-driven mechanistic insights in electrocatalysis",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_310128c78b6748b5853708581edc69ef.pdf",
+      "authors": "J. Kim, S. Woo, H.-G. Jung, J. Kim*, J. Mun, J. H. Kim",
+      "citation": "Applied Catalysis B: Environment and Energy, 398, 127014 (2026)"
+    },
+    {
+      "title": "Enhanced Interfacial Stability and Electrochemical Performance via Cathode-Adhesion-Enhanced Coatings for All-Solid-State Batteries",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_ca904ed33c8b4b2b94c4a0b3e7986d33.pdf",
+      "authors": "J. Kim†, H. Lee†, T. Kim, E. Ryu,I. Seo, J. Seong, C. Lim, J. Kim*",
+      "citation": "Energy Storage Materials, 89, 105167 (2026)"
+    },
+    {
+      "title": "Fast and Trap-Minimized Li Transport via Size-Mismatch-Driven Cation-Ordering Control in Li-Excess Disordered Rocksalt Cathodes",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_962217b59d6245618ece0392a73fd2a8.pdf",
+      "authors": "J. Ahn†, B. Ku†, H. Kweon, H. Lee, H. Ahn, M. Choi, M. H. Lee, M. Yoon, J. Choi, J Hong, J. Kim*",
+      "citation": "ACS Nano, 20, 10556–10569 (2026)"
+    },
+    {
+      "title": "Growth-Directing Nanostructured Interfaces via Block Copolymer-Templated Au Nanoseed Arrays for Stabilized Zinc Anodes in Lean-Zinc Batteries",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_3ac1175f59774e42b3d69eb4c2a51f6a.pdf",
+      "authors": "D. W. Hae, H. Lee†, H. J. Kook, G. Kim, S. Kim, J. Choi, M. P. Kim, S. H. Kang, W. J. Lee, Y.-G. Lee, H. M. Jin, J. Kim*, D. O Shin",
+      "citation": "Nano-Micro Letters, 18, 355 (2026)"
+    },
+    {
+      "title": "NaF@MnO-based sacrificial cathode/separator composite for boosting the energy density of sodium-ion batteries",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_5be114ae1a1e47f3b1f2cb54b5973662.pdf",
+      "authors": "S. J. Park, S.-Y. Lee†, Y. M. Kim, J. Kang, J. K. Seo, Y.-J. Kim, J. Kim*, K. J. Kim",
+      "citation": "ACS Nano, 20, 4799–4807 (2026)"
+    },
+    {
+      "title": "Enhanced Fast-Charging Performance of High-Mass-Loading Mn-Rich Li[Mn1-xFex]PO4 Cathodes via LiF-Less Cathode–Electrolyte Interphase",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_cad2c9e92196462bb0ef9e9b9d680bbf.pdf",
+      "authors": "B. Ku†, L. Jang†, H. Kweon, J. Ahn, S. Hwang, J. Lee, M. Choi, S. Yoo, K. Yoo, K.-Y. Park, J. Kim*",
+      "citation": "Advanced Energy Materials, 16, e06130 (2026)"
+    },
+    {
+      "title": "Bimodal Composite Cathodes Advancing the Chemo-Mechanical Integrity and Kinetics for All-Solid-State Batteries",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_ec7e58ae54f247f1b85abeccad4def04.pdf",
+      "authors": "H. Oh, U. Jeong, J. Choi, J. Lim, J. T. Kim, H.-J. Shin, J.-y. Im, H.-W. Gong, J.-P. Ahn, Y. M. Lee, J. Kim, J. Mun, K. Y. Chung, S. H. Oh, J.-W. Lee, S.-Y. Lee, H.-G. Jung",
+      "citation": "ACS Energy Letters, 11, 2103–2114 (2026)"
+    },
+    {
+      "title": "Integrated one-step dry process enabling prelithiated thick electrodes without primer coating for high energy density and initial coulombic efficiency",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_3abd54b3ca334c9aa5165b46d5bc7f09.pdf",
+      "authors": "H.-W. Lee, W. Jeong, S. S. Park, H.-J. Ji, J.-S. Woo, J. Lee, Y.-J. An, Y.-C. Hwang, D.-H. Kim, H. Chang, M. Kim, M. Jeong, M. Yoon, D. Lee, J. Kim, Z.-L. Xu, T. Song, J. Moon, J. Choi, W.-J. Kwak",
+      "citation": "Energy & Environmental Science, 19, 1944–1953 (2026)"
+    },
+    {
+      "title": "From Materials to Systems: Challenges and Solutions for Fast-Charge/Discharge Na-Ion Batteries",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504664",
+      "authors": "B. Ku, S. Park, S. Hwang, S. Lim, W.-S. Yoon, J. Kim*",
+      "citation": "Advanced Energy Materials, Accepted (2026)"
+    },
+    {
+      "title": "Co-Free and Ni-Minimized Li- and Mn-Rich Layered Cathodes with Suppressed Structural Disordering for High-Performance and Cost-Effective LIBs",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_be52209007404498803d0867b81bfa26.pdf",
+      "authors": "J. Ahn, H. Jang, H. Ahn, H. Kweon, S. Oh, S. Hwang, M. H. Lee, J. Hong, J. Kim*",
+      "citation": "Advanced Energy Materials, 16, e05121 (2026)"
+    },
+    {
+      "title": "Redox-Mediating Mo2C Nanoparticles Confined Within Nitrogen- and Phosphorus-Codoped Amorphous Carbon Matrix for Lithium–Sulfur Batteries",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_f5b24f41cb3f43239db26b2fa033b860.pdf",
+      "authors": "W. I. Kim, M. J. Kim, H. Park, M. Hwang, J. S. Byun, J. Lee, J. Kim, H. S. Park",
+      "citation": "Energy & Environmental Materials, 9, e70156 (2026)"
+    },
+    {
+      "title": "2D Phosphorene-Decorated Ni-Rich Layered Cathodes for High-Power and High-Energy Li-ion Batteries",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_79d1c860127f4f7e978365ee53d7c1c3.pdf",
+      "authors": "J. Lee, K. Nam, B. Ku, M. Choi, M.-k. Cho, S. Y. Jung, J. Min , J. Ahn, Y. Lee, S.-Y. Lee, D. Lee, Y. S. Cho, D.-S. Kwon, J.-K. Yoo, J. Kang, J. Kim*",
+      "citation": "Advanced Functional Materials, 36, e11385 (2026)"
+    },
+    {
+      "title": "Ultra-High-Mass-Loading Electrodes with Enhanced Homogeneity Using High- Concentration Slurry for Lithium-Ion Batteries",
+      "url": "https://www.energyscilab.com/_files/ugd/bdb293_7c82fee0235a40a58e89b429c01c9f3b.pdf",
+      "authors": "J. K. Park, W. Shin, W. Jo, H.-J. Lee, W.-Y. Jeon, J. Ahn, J. Yoon, Y.-J. Jeong, J. Oh, M. Kang, M.-J. Choi, J. Joo, J. Kim, S.-K. Cho, J. D. Park, J. Nam, J.-K. Yoo",
+      "citation": "Carbon Energy,8, e70108 (2026)"
+    }
+  ],
+  "photos": [
+    {
+      "image": "/assets/life-1.jpg",
+      "date": "2026-07-24",
+      "caption": "Graduation & farewell celebration"
+    },
+    {
+      "image": "/assets/life-2.jpg",
+      "date": "2026-06-05",
+      "caption": "Monthly lab dinner"
+    },
+    {
+      "image": "/assets/life-3.jpg",
+      "date": "2026-05-15",
+      "caption": "Teacher’s Day"
+    },
+    {
+      "image": "/assets/life-4.jpg",
+      "date": "2026-04-29",
+      "caption": "Monthly lab dinner"
+    },
+    {
+      "image": "/assets/life-5.jpg",
+      "date": "2026-02-09",
+      "caption": "Monthly lab dinner"
+    },
+    {
+      "image": "/assets/life-6.jpg",
+      "date": "2025-12-29",
+      "caption": "Graduation & farewell celebration"
+    },
+    {
+      "image": "/assets/life-7.jpg",
+      "date": "2025-11-04",
+      "caption": "Monthly lab dinner"
+    },
+    {
+      "image": "/assets/life-8.jpg",
+      "date": "2025-09-29",
+      "caption": "Professor’s birthday"
+    },
+    {
+      "image": "/assets/life-9.jpg",
+      "date": "2025",
+      "caption": "Group retreat"
+    },
+    {
+      "image": "/assets/life-10.jpg",
+      "date": "2025-07-25",
+      "caption": "Graduation & farewell celebration"
+    },
+    {
+      "image": "/assets/life-11.jpg",
+      "date": "2025-06-16",
+      "caption": "LG Energy Solution Target Lab Tour"
+    },
+    {
+      "image": "/assets/life-12.png",
+      "date": "2025-05-16",
+      "caption": "Teacher’s Day"
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Glove box",
+      "image": "/assets/equipment-1.jpg"
+    },
+    {
+      "name": "X-ray diffractometer",
+      "image": "/assets/equipment-2.jpg"
+    },
+    {
+      "name": "Battery test system",
+      "image": "/assets/equipment-3.jpg"
+    },
+    {
+      "name": "Box furnace",
+      "image": "/assets/equipment-4.jpg"
+    },
+    {
+      "name": "Mini ball mill",
+      "image": "/assets/equipment-5.jpg"
+    },
+    {
+      "name": "Electrochemical impedance spectroscopy system",
+      "image": "/assets/equipment-6.jpg"
+    },
+    {
+      "name": "Furnace",
+      "image": "/assets/equipment-7.jpg"
+    },
+    {
+      "name": "High-energy ball mill",
+      "image": "/assets/equipment-8.jpg"
+    },
+    {
+      "name": "Zig channel",
+      "image": "/assets/equipment-9.jpg"
+    },
+    {
+      "name": "Recirculating chiller",
+      "image": "/assets/equipment-10.jpg"
+    },
+    {
+      "name": "Cluster computing system",
+      "image": "/assets/equipment-11.jpg"
+    },
+    {
+      "name": "Programmable ball mill",
+      "image": "/assets/equipment-12.jpg"
+    },
+    {
+      "name": "Vacuum glass oven",
+      "image": "/assets/equipment-13.png"
+    },
+    {
+      "name": "Glass sealing torch",
+      "image": "/assets/equipment-14.jpg"
+    },
+    {
+      "name": "Low-temperature battery test system",
+      "image": "/assets/equipment-15.png"
+    },
+    {
+      "name": "High-speed planetary ball mill",
+      "image": "/assets/equipment-16.jpg"
+    },
+    {
+      "name": "Glove box for all-solid-state batteries",
+      "image": "/assets/equipment-17.jpg"
+    },
+    {
+      "name": "Co-precipitation system",
+      "image": "/assets/equipment-18.jpg"
+    },
+    {
+      "name": "Stirring machine",
+      "image": "/assets/equipment-19.png"
+    },
+    {
+      "name": "Constant-temperature oven",
+      "image": "/assets/equipment-20.jpg"
+    },
+    {
+      "name": "Mini oven",
+      "image": "/assets/equipment-21.jpg"
+    },
+    {
+      "name": "High-temperature oven",
+      "image": "/assets/equipment-22.jpg"
+    }
+  ],
+  "professor": "/assets/professor.jpg",
+  "archives": [
+    {
+      "label": "2025",
+      "url": "https://www.energyscilab.com/2025"
+    },
+    {
+      "label": "2024",
+      "url": "https://www.energyscilab.com/2024"
+    },
+    {
+      "label": "2023",
+      "url": "https://www.energyscilab.com/2023"
+    },
+    {
+      "label": "2022",
+      "url": "https://www.energyscilab.com/2022"
+    },
+    {
+      "label": "2021",
+      "url": "https://www.energyscilab.com/2021"
+    },
+    {
+      "label": "2020",
+      "url": "https://www.energyscilab.com/2020"
+    },
+    {
+      "label": "2019",
+      "url": "https://www.energyscilab.com/2019"
+    },
+    {
+      "label": "2018-2017",
+      "url": "https://www.energyscilab.com/2018-2017"
+    },
+    {
+      "label": "2016-2015",
+      "url": "https://www.energyscilab.com/2016"
+    },
+    {
+      "label": "2014-2012",
+      "url": "https://www.energyscilab.com/2014"
+    },
+    {
+      "label": "2011-2009",
+      "url": "https://www.energyscilab.com/2011"
+    },
+    {
+      "label": "Alumni",
+      "url": "https://www.energyscilab.com/alumni"
+    }
+  ],
+  "assets": {
+    "/assets/member-1.jpg": "https://static.wixstatic.com/media/bdb293_bc97beea0363428692cc592b5718c4c8~mv2.jpg",
+    "/assets/member-2.jpg": "https://static.wixstatic.com/media/bdb293_b8c231392307413ba9216f0fb4367d6d~mv2.jpg",
+    "/assets/member-3.jpg": "https://static.wixstatic.com/media/bdb293_c84c86a5ab0345d59fd9cf6af0cb800c~mv2.jpg",
+    "/assets/member-4.jpg": "https://static.wixstatic.com/media/bdb293_0b926314454a468191ec80378ece32b9~mv2.jpg",
+    "/assets/member-5.jpg": "https://static.wixstatic.com/media/bdb293_686058a722ab4a849c9b06313acda41a~mv2.jpg",
+    "/assets/member-6.jpg": "https://static.wixstatic.com/media/bdb293_9b0b8496d53f42bd97705090de96e9ea~mv2.jpg",
+    "/assets/member-7.jpg": "https://static.wixstatic.com/media/bdb293_7713b0745789440691052c635d8a2c41~mv2.jpg",
+    "/assets/member-8.jpg": "https://static.wixstatic.com/media/bdb293_5ff17e3976194e5aa2087b835a79f955~mv2.jpg",
+    "/assets/member-9.jpg": "https://static.wixstatic.com/media/bdb293_c4c39ba6ef7b450e908b8454765ee140~mv2.jpg",
+    "/assets/member-10.jpg": "https://static.wixstatic.com/media/bdb293_3fcb22fde6754f17a1df6eae66a16f23~mv2.jpg",
+    "/assets/member-11.jpg": "https://static.wixstatic.com/media/bdb293_1f65284db979418b94a8a99c5701c72b~mv2.jpg",
+    "/assets/member-12.jpg": "https://static.wixstatic.com/media/bdb293_18ab63f6683c4317b68ba8fa78188db9~mv2.jpg",
+    "/assets/member-13.jpg": "https://static.wixstatic.com/media/bdb293_ba774491afcb42568bc6e6431983b9e2~mv2.jpg",
+    "/assets/member-14.jpg": "https://static.wixstatic.com/media/bdb293_90625d9831954846bf077ea3da7188f9~mv2.jpg",
+    "/assets/member-15.png": "https://static.wixstatic.com/media/bdb293_8d1012cce7e24d6091540757c334ffef~mv2.png",
+    "/assets/member-16.jpg": "https://static.wixstatic.com/media/bdb293_6be6b4f70d864db981cda9e4ca0fda60~mv2.jpg",
+    "/assets/member-17.jpg": "https://static.wixstatic.com/media/bdb293_eba7004562164cac8eac8375480b172a~mv2.jpg",
+    "/assets/member-18.jpg": "https://static.wixstatic.com/media/bdb293_51395dbd90ef4174bdb3fdec118be25f~mv2.jpg",
+    "/assets/life-1.jpg": "https://static.wixstatic.com/media/bdb293_5c37f1418fb047549c4f7dedd5d66a5b~mv2.jpg",
+    "/assets/life-2.jpg": "https://static.wixstatic.com/media/bdb293_7b334240356e4397b1b328ad9098734f~mv2.jpg",
+    "/assets/life-3.jpg": "https://static.wixstatic.com/media/bdb293_9cb2bb2798ee46a197a9a5bbe21ea505~mv2.jpg",
+    "/assets/life-4.jpg": "https://static.wixstatic.com/media/bdb293_58cdcca5fafe468887966e6c8a342791~mv2.jpg",
+    "/assets/life-5.jpg": "https://static.wixstatic.com/media/bdb293_73dc5f3443504dc38a0b5ea9b1cc051f~mv2.jpg",
+    "/assets/life-6.jpg": "https://static.wixstatic.com/media/bdb293_495f3e6041734936ab62cbd948be5884~mv2.jpg",
+    "/assets/life-7.jpg": "https://static.wixstatic.com/media/bdb293_ab0fec49f7864c4880fca7e098d824bc~mv2.jpg",
+    "/assets/life-8.jpg": "https://static.wixstatic.com/media/bdb293_36f6052d68e44edeb00700f1a902438f~mv2.jpg",
+    "/assets/life-9.jpg": "https://static.wixstatic.com/media/bdb293_fbf70ff2b73f44049b56875d85747d2f~mv2.jpg",
+    "/assets/life-10.jpg": "https://static.wixstatic.com/media/bdb293_375d8555a7ed47c398151139f73e2582~mv2.jpg",
+    "/assets/life-11.jpg": "https://static.wixstatic.com/media/bdb293_5f6fd049fea442ceb05081a8c12b27b3~mv2.jpg",
+    "/assets/life-12.png": "https://static.wixstatic.com/media/bdb293_21297c432a2444cd9e6278a22b8bd720~mv2.png",
+    "/assets/equipment-1.jpg": "https://static.wixstatic.com/media/bdb293_dc85525c8923444f9c1effc76843be29~mv2.jpg",
+    "/assets/equipment-2.jpg": "https://static.wixstatic.com/media/bdb293_258f0a5477b44b32b8a7fd7504712125~mv2.jpg",
+    "/assets/equipment-3.jpg": "https://static.wixstatic.com/media/bdb293_478090dfa8da4421b404c6ba6ca6c4f9~mv2.jpg",
+    "/assets/equipment-4.jpg": "https://static.wixstatic.com/media/bdb293_ba01d750c889418cb67fbb8c1642c8e5~mv2.jpg",
+    "/assets/equipment-5.jpg": "https://static.wixstatic.com/media/bdb293_f312f714c6bc43cb9341cdd4f867bad9~mv2.jpg",
+    "/assets/equipment-6.jpg": "https://static.wixstatic.com/media/bdb293_0399db9811544d85ac875c9d25f0fa7f~mv2.jpg",
+    "/assets/equipment-7.jpg": "https://static.wixstatic.com/media/bdb293_e4532342960444c9adefe95b3b4c7fad~mv2.jpg",
+    "/assets/equipment-8.jpg": "https://static.wixstatic.com/media/bdb293_502982366445487e9519321efdf5f636~mv2.jpg",
+    "/assets/equipment-9.jpg": "https://static.wixstatic.com/media/bdb293_ab75e46d53ee48c280d52e4f675b5098~mv2.jpg",
+    "/assets/equipment-10.jpg": "https://static.wixstatic.com/media/bdb293_ba1f239f06d24047a62ee2ea5c19fe9c~mv2.jpg",
+    "/assets/equipment-11.jpg": "https://static.wixstatic.com/media/bdb293_4c621b1d79c14919a9c25ffb440714a5~mv2.jpg",
+    "/assets/equipment-12.jpg": "https://static.wixstatic.com/media/bdb293_9d6485379867499a99f6a811e3b10124~mv2.jpg",
+    "/assets/equipment-13.png": "https://static.wixstatic.com/media/bdb293_6b0eb79105534fc187a9336b994237f6~mv2.png",
+    "/assets/equipment-14.jpg": "https://static.wixstatic.com/media/bdb293_c836d7051603469795f9f0efc2d23cd9~mv2.jpg",
+    "/assets/equipment-15.png": "https://static.wixstatic.com/media/bdb293_76dac38f1c62446c9c63018ea0e49e3f~mv2.png",
+    "/assets/equipment-16.jpg": "https://static.wixstatic.com/media/bdb293_49d8a2ff949140a2a17d255109640b65~mv2.jpg",
+    "/assets/equipment-17.jpg": "https://static.wixstatic.com/media/bdb293_9ca273483e6f4bb68b006bd692fbb545~mv2.jpg",
+    "/assets/equipment-18.jpg": "https://static.wixstatic.com/media/bdb293_f42aef7e5ae94b1783fc94834eeca32c~mv2.jpg",
+    "/assets/equipment-19.png": "https://static.wixstatic.com/media/bdb293_503c38e7a1b8474eb9f99a1e360d2188~mv2.png",
+    "/assets/equipment-20.jpg": "https://static.wixstatic.com/media/bdb293_ef30cdc6df1648d0933596119948ee52~mv2.jpg",
+    "/assets/equipment-21.jpg": "https://static.wixstatic.com/media/bdb293_20f9c12ea64b4dff9cbbd87d276c5d73~mv2.jpg",
+    "/assets/equipment-22.jpg": "https://static.wixstatic.com/media/bdb293_00df919e5c894b5583d990703b10d798~mv2.jpg",
+    "/assets/professor.jpg": "https://static.wixstatic.com/media/bdb293_286277b79c334a7c83c4e21e93005fdc~mv2.jpg"
+  },
+  "publication_archive": {
+    "2025": [
+      {
+        "number": 14,
+        "title": "Beyond the Limits of Lithium Iron Phosphate: Cutting-Edge Innovations Toward High Performance and Sustainability for Next-Generation Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_8ac24ad2034f46748437feae584cae3d.pdf",
+        "authors": "A. K. Kakarla, Z. Akhtar, J. Kim, M. Yoon, D. Lee, J. Choi",
+        "citation": "Interdisciplinary Materials, 4, 812-849 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 13,
+        "title": "[Zn1K2]Fe3(PO4)2(P2O7) as a Zn2+/K+ Dual-Ion Cathode with Enhanced Diffusion Kinetics and Structural Stability for Aqueous Zinc-Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_e4fde320f94348a0b9721a2faac3d418.pdf",
+        "authors": "S. Hwang†, H. Kwoen†, J. Lee†, B. Ku, J. Ahn, H. Lee, L. Jang, H. J. Kook, H. Kim, D. O. Shin, J.Kim*",
+        "citation": "Energy Storage Materials, 82, 104570 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 12,
+        "title": "A Trailblazing Quenching Strategy for Simultaneous LiF Formation at Surface and Intergranular Interfaces for Enhanced Stability of High-Ni NCM Cathodes",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_847344b0bf92471db79fcf1da3616dfa.pdf",
+        "authors": "S. J. Park, H. Lee, H.-B. Lee, H. Kweon, B. K. Park, J. W. Kim, F. Yun, F. Zhang, J. Kim*, Y.-M. Kim, K. J. Kim",
+        "citation": "Small, 21, e07292 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 11,
+        "title": "Pinning Effects of Heavy Elements for the Structural Stability of Ni-Based Layered Oxides",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_a3637ec4d6d74edcb4dad418591fedfa.pdf",
+        "authors": "W. Lee, M. Choi, M. Kim, H. Lee, H. Park, J. Seok, S. Lee, J. Kim, S. Yun, Y. J. Yoon, W. S. Jung, J. P. Kim, Y. M. Choi, J. Kim, W.-S. Yoon",
+        "citation": "ACS Energy Letters, 10, 4527−4534 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 10,
+        "title": "Enhancing Power Capability and Fast Discharge Behavior in P2-type K Layered Cathodes through Structural Stabilization via Introducing Li-ions into TM Layers",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_7acb5d39032d46c0bba6c2711bf9dfa9.pdf",
+        "authors": "H. Kweon†, J. Kang†, B. Ku, S. Hwang, J. Ahn, L. Jang, M. Choi, S. Lee, J. Lee, H. Lee, H.-G. Jung, J.-Y. Hwang, H.-D. Lim, J. Kim*",
+        "citation": "Journal of Energy Chemistry, 109, 820-829 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 9,
+        "title": "In situ formation of a lithiophilic Li–Zn alloy using dual-salt electrolyte additives for lithium metal batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_35b5ab7172234bec8876e46e1ede48b8.pdf",
+        "authors": "Y.-J. Jo, H.-J. Shin, H. Kim, S. Kansara, J.-Y. Hwang, J. Kim, J. Mun, W.-J. Kwak, H.-G. Jung",
+        "citation": "Nano Letters, 25, 10082-10089 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 8,
+        "title": "Selective Electrosynthesis of Methanol from CO2 over Cu/Cu2P2O7 via the Formate Pathway",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_f18f40d3f1f64cd2bff2ff192e9c9239.pdf",
+        "authors": "H. Kim, J. Lee†, S. Lee, S. Park, Y. Lee, G. Lee, H. S. Jeon, M. H. Han, S. Jin, H.-W. Lee, A. Soon, J. Kim*, J. Ryu",
+        "citation": "Advanced Materials, 37, 2501021 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 7,
+        "title": "Stable Performance for Pouch-Type All-Solid-State Batteries enabled by Current Collector with Optimized Primer Layer",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_76ead8cbbf6f496796454084f0ccfdfb.pdf",
+        "authors": "H. Oh, J. T. Kim, H.-J. Shin, A-Y. Kim, C. Bak, S.-O. Kim, K. Y. Chung, J. Mun, J. Kim, Y. M. Lee, S.-Y. Lee, H.-G. Jung",
+        "citation": "Materials Science and Engineering: R: Reports, 164, 100970 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 6,
+        "title": "Improving Cyclability and Structural Stability of Co-Free Layered Cathode by Controlling Porosity and Cracks in Secondary Particles for Low-Cost and High-Energy LIBs",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_def58991ad274cca8fa52c60c5a65d85.pdf",
+        "authors": "M. Choi†, H.-B. Lee, Y. Lee, H. Kweon, J. Ahn, B. Ku, J. Lee, S. Lee, J. Park, Y.-M. Kim, J. Kim*",
+        "citation": "Advanced Functional Materials, 35, 2424880 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 5,
+        "title": "Enhancing Redox Stability of Lithium-Oxygen Batteries via Introducing Oxygen Pre-coordinated Vanadyl Phthalocyanine Catalyst",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_5964ed30e82c4b93889ce99806fa8369.pdf",
+        "authors": "B. Kim, H. Kweon†, Y. Lim, H. Park, J. Kim*, W.-H. Ryu",
+        "citation": "Journal of Materials Chemistry A, 13, 8466-8473 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 4,
+        "title": "Reduction-Induced Oxygen Loss: The Hidden Surface Reconstruction Mechanism of Layered Oxide Cathodes in Lithium-Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_1713dfc1a3f54bf59c9407630922e21b.pdf",
+        "authors": "S. Jeon, G. Lim, H. Lee, H. Park, M. K. Cho, C. Kim, Y. Lee, J. Kim, M. Kwon, J.-K. Yoo, H. Jeong, J. Kim, S.-H. Yu, M. Lee, J. Kim*, J. Hong",
+        "citation": "Advanced Energy Materials, 15, 2404193 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 3,
+        "title": "Enhancing Structural Flexibility in P2-type Ni-Mn-based Na-layered Cathodes for High Power-Capability and Fast Charging/Discharging Performance",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_96e941b28e7a4140b9d4797cc4f028c3.pdf",
+        "authors": "B. Ku†, J. Ahn†, H. Lee, H. Ahn, J. Lee, H. Kweon, M. Choi, H.-G. Jung, K. Ihm, E. Sim, J.-K. Yoo, J. Kim*",
+        "citation": "Energy Storage Materials, 74, 103930 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 2,
+        "title": "Relaxation of the Jahn–Teller stress effect in the P3-type K0. 5MnO2 cathode by copper and magnesium co-substitution for high-performance K-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_e484c33ecefe4fc3ba24ef8997475f81.pdf",
+        "authors": "Y. Oh, H. Lee†, G. Oh, S. Ryu, U.-H. Kim, H.-G. Jung, J. Kim*, J.-Y. Hwang",
+        "citation": "Journal of Power Sources, 628, 235786 (2025)",
+        "note": "",
+        "year": "2025"
+      },
+      {
+        "number": 1,
+        "title": "2D Graphene‐Like Carbon Coated Solid Electrolyte for Reducing Inhomogeneous Reactions of All‐Solid‐State Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_055d7b7a68004010b913b4302aafe0c0.pdf",
+        "authors": "H.-J. Shin, J.-T. Kim, D. Han, H.-S. Kim, K. Y. Chung, J. Mun, J. Kim, K.-W. Nam, H.-G. Jung",
+        "citation": "Advanced Energy Materials, 15, 2403247 (2025)",
+        "note": "",
+        "year": "2025"
+      }
+    ],
+    "2024": [
+      {
+        "number": 11,
+        "title": "A Fluorine‐Free Binder with Organic–Inorganic Crosslinked Networks Enabling Structural Stability of Ni‐Rich Layered Cathodes in Lithium‐Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_673b44f6e0284fe1a7ad1d849c7681e7.pdf",
+        "authors": "J. Jang, J. Ahn, J. Ahn†, U. T. Jung, J. Yoon, M. J. Kang, M.-k. Cho, D. J. Kang, J.Kim*, J.-K. Yoo, H.-G. Im",
+        "citation": "Advanced Functional Materials, 34, 2410866 (2024)",
+        "note": "",
+        "year": "2024"
+      },
+      {
+        "number": 10,
+        "title": "Enhanced Fast‐Discharging Performance and Cyclability in Oxygen‐Redox‐Based P3‐Type Na‐Layered Cathode via Vacancies in TM layers",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_c913d17613be4c1ebd67df87539dab5b.pdf",
+        "authors": "S.Y.Lee†, H.Kweon†, S.Lee, M.Cho, H.Ahn, J.Ahn, B.Ku, M.Choi, H.Jung, D.Shin, J.Kim*",
+        "citation": "Advanced Energy Materials, 14, 2402412 (2024)",
+        "note": "",
+        "year": "2024"
+      },
+      {
+        "number": 9,
+        "title": "Activation of Oxygen Redox by Inhibited Dynamic Phase Transition for High-Energy Li-Rich Layered Oxide Cathode",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1385894724046102?ref=pdf_download&fr=RR-2&rr=895901354fb030af",
+        "authors": "J. Kim†, H. Ahn†, H. Ahn, H. Park, J. Hong, M. H. Lee, H. Park, J. Kim*",
+        "citation": "Chemical Engineering Journal, 495, 153122 (2024)",
+        "note": "",
+        "year": "2024"
+      },
+      {
+        "number": 8,
+        "title": "Extending the electrochemical window of Na+ halide nanocomposite solid electrolytes for 5 V-class all-solid-state Na-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_0047475380c04c5f8f443b57d80f3cc8.pdf",
+        "authors": "J. Park, D. Han, J. P. Son, H. Kwak, W. Ko, C. Park, C. Lee, H.-W. Lee, J. Kim, K.-W. Nam, Y. S. Jung",
+        "citation": "ACS Energy Letters, 9, 2222−2230 (2024)",
+        "note": "",
+        "year": "2024"
+      },
+      {
+        "number": 7,
+        "title": "Stabilized High-Voltage Operation of Co-Free NMX Cathode via CEI-Controlling",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_a5d760c84dec4dc89668c49899f22736.pdf",
+        "authors": "M. Choi†, H. Choi, S. Park, W. M. Seong, Y. Lee, W. Ko, M.-k. Cho, J. Ahn, Y. Kong, J. Kim*",
+        "citation": "Energy Storage Materials, 67, 103291 (2024)",
+        "note": "",
+        "year": "2024"
+      },
+      {
+        "number": 6,
+        "title": "Unraveling reaction discrepancy and electrolyte stabilizing effects of auto-oxygenated porphyrin catalysts in lithium–oxygen and lithium–air cells",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_23de3bd2c26947e9a4e7d1ed9c21c998.pdf",
+        "authors": "B. Kim, H. Park†, H.-S. Kim, J. S. Lee, J. Kim*, W.-H. Ryu",
+        "citation": "Carbon Energy, 6, e587 (2024)",
+        "note": "",
+        "year": "2024"
+      },
+      {
+        "number": 5,
+        "title": "In situ techniques for Li-rechargeable battery analysis",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_9a6e89013105478ab2cf1eadbd1bce23.pdf",
+        "authors": "S. Lee, S. Park, J. Seok, J. U. Kim, J. Kim*, W.-S. Yoon",
+        "citation": "Carbon Energy, 6, e549 (2024)",
+        "note": "",
+        "year": "2024"
+      },
+      {
+        "number": 4,
+        "title": "Heterostructured Ni–Co Metal Alloy and Metal Oxide Nanoparticles as a Polysulfide Mediator for Stable Lithium–Sulfur Full Batteries with Lean Electrolyte",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_5d57a6518eb149078767f857b276034e.pdf",
+        "authors": "H. Park, S. Lee, H. Kim, H. Kim, M. H. Alfaruqi, G. Alfaza, J. Kim, H. Park, J. Kim*, M. Agostini, Y.-K. Sun, J.-Y. Hwang",
+        "citation": "Carbon Energy, 6, e472 (2024)",
+        "note": "",
+        "year": "2024"
+      },
+      {
+        "number": 3,
+        "title": "Structural and electrochemical stabilization enabling high-energy P3-type Cr-based layered oxide cathode for K-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_18e3bb805d9f4755b38695bf7a7cd513.pdf",
+        "authors": "W. Ko†, S. Lee, H. Park, J. Kang, J. Ahn, Y. Lee, G. Oh, J-K. Yoo, J-Y. Hwang, J. Kim*",
+        "citation": "Carbon Energy, 6, e454 (2024)",
+        "note": "",
+        "year": "2024"
+      },
+      {
+        "number": 2,
+        "title": "One-dimensional van der Waals transition metal chalcogenide as an anode material for advanced lithium-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_4e30173aacec41dc8812d89d7735452f.pdf",
+        "authors": "W. Choi, S. Oh, S. Hwang, S. Chae, H. Park, W. Lee, C. Woo, X. Dong, K. H. Choi, J. Ahn, Y. Kim, X. Zhang, J. Kang, H.-S. Bang, J. Jeon, H.-S. Oh, J. Kim, J.-Y. Choi, W.-S. Yoon",
+        "citation": "Journal of Materials Chemistry A, 12, 7122-7131 (2024)",
+        "note": "",
+        "year": "2024"
+      },
+      {
+        "number": 1,
+        "title": "Stabilization of Oxygen-Dependent Fe3+/4+ Redox in Li-Excess DRX Cathode Exhibiting Anionic Redox via Transition Metal Combination",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_fad184b607494d36a175406159374a18.pdf",
+        "authors": "H. Lee, M. Kim, H. Park, Y. Yoo, S. Na, H.-D. Lim, J. Kim, W.-S. Yoon",
+        "citation": "Advanced Functional Materials, 34, 2312401 (2024)",
+        "note": "",
+        "year": "2024"
+      }
+    ],
+    "2023": [
+      {
+        "number": 13,
+        "title": "Chiolite Na5Ti3F14: A Novel Sodium Titanium Fluoride Anode for Low-cost and High-performance Na-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_6758e632e5de4f31af63e73b501171a9.pdf",
+        "authors": "J. Kang†, J. Ahn, Y. Lee, H. Park, W. Ko, B. Ku, M. Choi, H. Jung, W. Ryu, J. Kim*",
+        "citation": "Energy Storage Materials, 63, 103048 (2023)",
+        "note": "",
+        "year": "2023"
+      },
+      {
+        "number": 12,
+        "title": "Stable High-voltage Operation of Oxygen Redox in P2-type Na-layered Oxide Cathode at Fast Discharging Via Enhanced Kinetics",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_5ff5a9fde27243e5acbd11ac65aa41ce.pdf",
+        "authors": "B. Ku†, H. Ahn†, S. Lee, J. Ahn, M. Choi, J. Kang, H. Park, J. Kim, A.-Y. Kim, H.-G. Jung, J.-K. Yoo, J. Kim*",
+        "citation": "Energy Storage Materials, 62, 102952 (2023)",
+        "note": "",
+        "year": "2023"
+      },
+      {
+        "number": 11,
+        "title": "Agyrodite sulfide coated NCM cathode for the improved interfacial contact in normal-pressure operational all-solid-state batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_5b20e1a62a6c436f95236490120b4f70.pdf",
+        "authors": "J. T. Kim, H.-J. Shin, A.-Y. Kim, H.-S. Oh, H. Kim, S. Yu, H. Kim, K. Y. Chung, J. Kim, Y.-K. Sun, H.-G. Jung",
+        "citation": "Journal of Materials Chemistry A, 11, 20549–20558 (2023)",
+        "note": "",
+        "year": "2023"
+      },
+      {
+        "number": 10,
+        "title": "Polyoxometalate derived hierarchically structured N,P-Codoped reduced graphene oxide/MoO2 composites for high performance lithium–sulfur batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_a1c497924ab44e398627120d1b5a4546.pdf",
+        "authors": "W. I. Kim, J. S. Yeon, H. Park, H. J. Kim, M. J. Kim, J. Kim, H. S. Park",
+        "citation": "Composites Part B: Engineering, 264, 110886 (2023)",
+        "note": "",
+        "year": "2023"
+      },
+      {
+        "number": 9,
+        "title": "Development of P3-type K0.70[Cr0.86Sb0.14]O2 Cathode for High-Performance K-Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_a3fdc598272247e58c0ca602885f5160.pdf",
+        "authors": "W. Ko†, J. Kim†, J. Kang, H. Park, Y. Lee, J. Ahn, B. Ku, M. Choi, H. Ahn, G. Oh, J-Y. Hwang, J. Kim*",
+        "citation": "Materials Today Energy, 36, 101356 (2023)",
+        "note": "[Invited paper featured in themed collections: Energy Science & Technology at Sungkyunkwan University]",
+        "year": "2023"
+      },
+      {
+        "number": 8,
+        "title": "One-dimensional nanostructured vanadium oxides with single-crystalline structure synthesized by cellulose nanocrystal-template-assisted hydrothermal method for Li-ion battery cathodes",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_17e80f444eb04cd1acc4ca439c96da04.pdf",
+        "authors": "C.Youn, W. Ko†, A. Jo, J. Lee, S. Yeo, Y. Seo, J. Lee, B-S. Lee, J. Kim*, T. Choi",
+        "citation": "Cellulose, 30, 7177-7191 (2023)",
+        "note": "",
+        "year": "2023"
+      },
+      {
+        "number": 7,
+        "title": "Unexpected Li Displacement and Suppressed Phase Transition Enabling Highly Stabilized Oxygen Redox in P3-type Na layered oxide cathode",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_d2fb174b7f8b45d68604dba3f123fa44.pdf",
+        "authors": "M. Choi†, H. Ahn†, H. Park, Y. Lee, J. Ahn, B. Ku, J. Kim, W.Ko, J. Kang, J-K. Yoo, D. Kim, J. Kim*",
+        "citation": "Journal of Energy Chemistry, 85, 144-153 (2023)",
+        "note": "",
+        "year": "2023"
+      },
+      {
+        "number": 6,
+        "title": "Occurrence of Anionic Redox with Absence of Full Oxidation to Ru5+ in High-energy P2-type layered Oxide Cathode",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_a4adb8155b724248b46075267fa6fda2.pdf",
+        "authors": "J.Ahn, H. Park, W. Ko, Y. Lee, J. Kang, S. Lee, S. Lee, E. Sim, K. Ihm, J. Hong, J-K. Yoo, K. Ku, J. Kim*",
+        "citation": "Journal of Energy Chemistry, 84, 153–161 (2023)",
+        "note": "",
+        "year": "2023"
+      },
+      {
+        "number": 5,
+        "title": "Enhanced Conversion Reaction of Na-Cu-PO3 via Amorpholization and Carbon-coating for Large Na storage",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_4b628a126bc64bdf953ad2ff6e531f4c.pdf",
+        "authors": "Y. Lee, J. Kang, J. Ahn, W. Ko, H. Park, J-K. Yoo, W-S. Yoon, J. Kim*",
+        "citation": "Materials Today Energy, 35, 101325 (2023)",
+        "note": "[Invited paper featured in themed collections: Energy Science & Technology at Sungkyunkwan University]",
+        "year": "2023"
+      },
+      {
+        "number": 4,
+        "title": "Multifunctional Polymeric Phthalocyanine‐Coated Carbon Nanotubes for Efficient Redox Mediators of Lithium–Sulfur Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_6cf78c4ae6414a4e8496f311f20a5543.pdf",
+        "authors": "Y. Kim, W. Kim, H. Park, J. Kim, H. Cho, J. Yeon, J. Kim, Y. Kim, J. Lee, H. S. Park",
+        "citation": "Advanced Energy Materials, 13, 2204353 (2023)",
+        "note": "",
+        "year": "2023"
+      },
+      {
+        "number": 3,
+        "title": "Review on cathode materials for sodium‐and potassium ion batteries: structural design with electrochemical properties",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_6cf78c4ae6414a4e8496f311f20a5543.pdf",
+        "authors": "H. Park, Y. Lee, W. Ko, M. Choi, B. Ku, H. Ahn, J. Kim, J. Kang, J.-K. Yoo, J. Kim*",
+        "citation": "Batteries & Supercaps, 6, e220200486 (2023)",
+        "note": "[Invited Review]",
+        "year": "2023"
+      },
+      {
+        "number": 2,
+        "title": "Caffeine as an Energy Storage Material for Next-Generation Lithium Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_74bb1b292aa442d8afc9e2f6a4c517f6.pdf",
+        "authors": "W. Lee, Y. Lee, H. Park, M. Choi, S. Kong, J.W. Yang, J. Kim, W.-S. Yoon",
+        "citation": "Energy Storage Materials, 56, 13-24 (2023)",
+        "note": "",
+        "year": "2023"
+      },
+      {
+        "number": 1,
+        "title": "Gradational Anionic Redox Enabling High-energy P2-type Na-layered Oxide Cathode",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_c6d89bae0bfd4ec1badd341ee6ebf47c.pdf",
+        "authors": "S. Lee†, W. Ko†, H. Park, Y. Lee, J. Kang, J. Ahn, S. Lee, E. Sim, K. Lim, K.-Y. Park, J. Kim*",
+        "citation": "Chemical Engineering Journal, 451, 138883 (2023)",
+        "note": "",
+        "year": "2023"
+      }
+    ],
+    "2022": [
+      {
+        "number": 13,
+        "title": "High-energy P2-type Na-layered oxide cathode with sequentially occurred anionic redox and suppressed phase transition",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_405d0dfbf2b440b9ae70e518f7e5bc5b.pdf",
+        "authors": "S. Lee†, J. Kang†, M. Cho, H. Park, W. Ko, Y. Lee, J. Ahn, S. Lee, E. Sim, K. Ihm, J. Hong, H. Kim and J. Kim*",
+        "citation": "Applied Physics Reviews, 9, 041405 (2022)",
+        "note": "[Scilight: \"Improving stability in Na-ion batteries through vacancy substitution, doping\", 2022]",
+        "year": "2022"
+      },
+      {
+        "number": 12,
+        "title": "NaAlCl4: New Halide Solid Electrolyte for 3 V Stable Cost-Effective All-Solid-State Na-ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_558c7c3348294742be9184052c44d4b3.pdf",
+        "authors": "J. Park, J. Son, W. Ko, J.-S. Kim, Y. Choi, H. Kwak, H. Kim, D.-H. Seo, J. Kim, Y. S. Jung",
+        "citation": "ACS Energy Letters, 7, 3293–3301 (2022)",
+        "note": "",
+        "year": "2022"
+      },
+      {
+        "number": 11,
+        "title": "Crystallinity Regulation of NixFey Alloy Nanoparticles for Improvement of Polysulfide Suppression and Electrochemical Kinetics in Lithium Sulfur Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_bcb5373e881c401f9efac9422c95f2ce.pdf",
+        "authors": "Q. Liu, X. Han, Z. Zheng, P. Xiong, R.-G. Jeong, G. Kim, H. Park, J. Kim*, B.-K. Kim, H. S. Park",
+        "citation": "Advanced Functional Materials, 32, 2207094 (2022)",
+        "note": "",
+        "year": "2022"
+      },
+      {
+        "number": 10,
+        "title": "Rational design of Li off-stoichiometric Ni-rich Layered Cathode Materials for Li-ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_9123cb1fb4d54f1bb3da94dac97fa7f7.pdf",
+        "authors": "S.H. Song, S. Hong, M. Cho, J.-G. Yoo, H. M. Jin, S.-H. Lee, M. Avddv, K. Ikeda, J. Kim, S. C. Nam, S.-Ho, Yu, I. Park, H. Kim",
+        "citation": "Chemical Engineering Journal, 448, 137685 (2022)",
+        "note": "",
+        "year": "2022"
+      },
+      {
+        "number": 9,
+        "title": "Li-rich Mn-Mg layered oxide as a novel Ni-/Co-free cathode",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_8e48d3435d6a4f1dacb72c59378fc62b.pdf",
+        "authors": "Y. Lee†, H. Park†, M.-K. Cho, J. Ahn, W. Ko, J. Kang, Y. Choi, H. Kim, I. Park, W.-H. Ryu, J. Hong, J. Kim*",
+        "citation": "Advanced Functional Materials, 32, 2204354 (2022)",
+        "note": "",
+        "year": "2022"
+      },
+      {
+        "number": 8,
+        "title": "High-energy Conversion-type Cathode Activated by Amorpholization for Li Rechargeable Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_9661ae38d93e4013b43c552f95d48852.pdf",
+        "authors": "Y. Lee, J. Kang, J. Ahn, W. Ko, H. Park, S. Lee, S. Lee, J.-K. Yoo, J. Kim*",
+        "citation": "Journal of Materials Chemistry A, 10, 20080–20089 (2022)",
+        "note": "[Invited paper featured in themed collections: Journal of Materials Chemistry A Emerging Investigators 2022]",
+        "year": "2022"
+      },
+      {
+        "number": 7,
+        "title": "Highly stable Fe2+/Ti3+-based Fluoride Cathode Enabling Low-cost and High-performance Na-ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_3c8e32399b4448349e34e43319f6515b.pdf",
+        "authors": "J. Kang†, J. Ahn†, H. Park, W. Ko, Y. Lee, S. Lee, S. Lee, S.-K. Jung J. Kim*",
+        "citation": "Advanced Functional Materials, 32, 2201816 (2022)",
+        "note": "",
+        "year": "2022"
+      },
+      {
+        "number": 6,
+        "title": "A Novel Organosilicon-type Binder for LiCoO2 cathode in Li-ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_a922281105cc4e1fbc884d7d7ec5715d.pdf",
+        "authors": "J. Ahn, H.-G. Im, Y. Lee†, D. Lee, H. Jang, Y. Oh, K. Chung, T. Park, M.-K. Um, J. W. Yi, J. Kim*, D. J. Kang, J.-K. Yoo",
+        "citation": "Energy Storage Materials, 49, 58-66 (2022)",
+        "note": "",
+        "year": "2022"
+      },
+      {
+        "number": 5,
+        "title": "Exceptionally Increased Reversible Capacity of O3-type NaCrO2 Cathode by Preventing Irreversible Phase Transition",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_4a3e1c25722841caa6271015cc577d8f.pdf",
+        "authors": "W. Ko, M.-K Cho, J. Kang, H. Park, J. Ahn, Y. Lee, S. Lee, S. Lee, K. Heo, J. Hong, J.-K. Yoo, J. Kim*",
+        "citation": "Energy Storage Materials, 46, 289-299 (2022)",
+        "note": "",
+        "year": "2022"
+      },
+      {
+        "number": 4,
+        "title": "Auto-Oxygenated Porphyrin-derived Redox Mediators for High-Performance Lithium Air-Breathing Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_6cf78c4ae6414a4e8496f311f20a5543.pdf",
+        "authors": "H.-S. Kim, B. Kim, H. Park, J. Kim*, W.-H. Ryu",
+        "citation": "Advanced Energy Materials, 12, 2103527 (2022)",
+        "note": "",
+        "year": "2022"
+      },
+      {
+        "number": 3,
+        "title": "Recent Progress of Cathode Materials for Na-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_9188f092bb194130aaaaed580b2d8fc6.pdf",
+        "authors": "W. Ko, B. Ku, H. Park, J. Kang, J. Kim*",
+        "citation": "Ceramist, 25, 76-89 (2022)",
+        "note": "",
+        "year": "2022"
+      },
+      {
+        "number": 2,
+        "title": "Unveiling the role of transition-metal ion in the thermal degradation of layered Ni–Co–Mn cathodes for lithium rechargeable batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_9c5b3b61ddb742d3840c93a03b7e7ada.pdf",
+        "authors": "S.-K. Jung, H. Kim, S. H. Song, S. Lee, J. Kim, K. Kang",
+        "citation": "Advanced Functional Materials, 32, 2108790 (2021)",
+        "note": "",
+        "year": "2022"
+      },
+      {
+        "number": 1,
+        "title": "Multidimensional Hybrid Architecture Encapsulating Cobalt Oxide Nanoparticles into Carbon Nanotube Branched Nitrogen-Doped Reduced Graphene Oxide Networks for Lithium-Sulfur Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_a6e4bc1e8d62411da19903555b30f503.pdf",
+        "authors": "J. S. Yeon, Y. H. Ko, T. H. Park, H. Park, J. Kim, H. S. Park",
+        "citation": "Energy & Environmental Materials, 5, 555-564 (2022)",
+        "note": "",
+        "year": "2022"
+      }
+    ],
+    "2021": [
+      {
+        "number": 11,
+        "title": "Selective Anionic Redox and Suppressed Structural Disordering Enabling High-energy and Long-life Li-rich Layered-oxide cathode",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/aenm.202102311",
+        "authors": "J. Ahn†, J. Kang†, M.-K. Cho, H. Park, W. Ko, Y. Lee, H.-S. Kim, Y.H. Jung, T.-Y. Jeon, H. Kim, W.-H. Ryu, J. Hong, J. Kim*",
+        "citation": "Advanced Energy Materials, 11, 2102311 (2021)",
+        "note": "",
+        "year": "2021"
+      },
+      {
+        "number": 10,
+        "title": "Triple perovskite structured Nd1.5Ba1.5CoFeMnO9-δ oxygen electrode materials for highly efficient and stable reversible protonic ceramic cells",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_53c49eb9ec484af99a3681c57ba664e3.pdf",
+        "authors": "J.-I. Lee, K.-Y. Park, H. Park, H. Bae, M. Saqib, K. Park, J.-S. Shin, M. Jo, J. Kim, S.-J. Song, E. D. Wachsman, J.-Y. Park",
+        "citation": "Journal of Power Sources, 510, 230409 (2021)",
+        "note": "",
+        "year": "2021"
+      },
+      {
+        "number": 9,
+        "title": "K1.5VOPO4F0.5: A Novel High-Power and High-Voltage Cathode for Rechargeable K-Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_53c49eb9ec484af99a3681c57ba664e3.pdf",
+        "authors": "H. Park, W. Ko, Y. Lee, J. Kang, J. Ahn, J.-K. Yoo, J. Kim*,",
+        "citation": "Journal of Material Chemistry A, 9, 11802-11811 (2021)",
+        "note": "",
+        "year": "2021"
+      },
+      {
+        "number": 8,
+        "title": "Critical role of Ti4+ in stabilizing high-voltage redox reactions in Li-rich layered material",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_f496fdb31e0d425c87633078d8f4f475.pdf",
+        "authors": "M. Cho, S.H. Song, S. Hong, K.S. Kim, M. Avdeev, J.-G. Yoo, K.-T. Ko, J. Hong, J. Kim*, S. Lee, H. Kim",
+        "citation": "Small, 17, 2100840 (2021)",
+        "note": "",
+        "year": "2021"
+      },
+      {
+        "number": 7,
+        "title": "Multifunctional Additives for High-Energy-Density Lithium-Ion Batteries: Improved Conductive Additive/Binder Networks and Enhanced Electrochemical Properties",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_5770ca632780460b8ffe377ad50a687b.pdf",
+        "authors": "J. Ahn, B. Park, J. Kim, M.-K. Um, J.W. Yi, J.-K. Yoo",
+        "citation": "ACS Applied Materials & Interfaces, 13, 19970–19982 (2021)",
+        "note": "",
+        "year": "2021"
+      },
+      {
+        "number": 6,
+        "title": "Layered double hydroxide quantum dots for use in bifunctional separator of lithium sulfur batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_7f1898b0994644609acaafb5b782eb28.pdf",
+        "authors": "Q. Liu, X. Han, H. Park, J. Kim, P. Xiong, H. Yuan, J.S. Yeon, Y. Kang, J.M. Park, Q. Dou, B.-K. Kim, H.S. Park",
+        "citation": "ACS Applied Materials & Interfaces, 13, 17978–17987 (2021)",
+        "note": "",
+        "year": "2021"
+      },
+      {
+        "number": 5,
+        "title": "Low-cost and High-power K4[Mn2Fe](PO4)2(P2O7) as a novel cathode with outstanding cyclability for K-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_a054b17e7022413ba78f52ce8592eb49.pdf",
+        "authors": "J. Kang†, H. Park†, W. Ko, Y. Lee, J. Ahn, J.-K. Yoo, S. Song, H. Kim, J. Kim*",
+        "citation": "Journal of Materials Chemistry A, 9, 9898–9908 (2021)",
+        "note": "",
+        "year": "2021"
+      },
+      {
+        "number": 4,
+        "title": "Na2Fe2F7: a fluoride-based cathode for high power and long life Na-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_2edf239e6a9b4f48830a9483ecdf932b.pdf",
+        "authors": "H. Park†, Y. Lee†, M.-K. Cho, J. Kang, W. Ko, Y.H. Jung, T.-Y. Jeon, J. Hong, H. Kim, S.-T. Myung, J. Kim*",
+        "citation": "Energy & Environmental Science, 14, 1469-1479 (2021)",
+        "note": "",
+        "year": "2021"
+      },
+      {
+        "number": 3,
+        "title": "An exceptionally large energy cathode with the K– SO4–Cu conversion reaction for potassium rechargeable batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_a9fa71cb143b4483a0fbb0b22e68280c.pdf",
+        "authors": "Y. Lee, J.-K. Yoo, H. Park, W. Ko, J. Kang, J.H. Jo, G. Yoon, H.-G. Im, H. Yashiro, S.-T. Myung, J. Kim*",
+        "citation": "Journal of Materials Chemistry A, 9, 5475-5484 (2021)",
+        "note": "",
+        "year": "2021"
+      },
+      {
+        "number": 2,
+        "title": "Multiple perovskite layered lanthanum nickelate Ruddlesden-Popper systems as highly active bifunctional oxygen catalysts",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_77dd582e2dcb4768a1dd8004706b0920.pdf",
+        "authors": "S.R. Choi, J.-I. Lee, H. Park, S.W. Lee, D.Y. Kim, W.Y. An, J.H. Kim, J. Kim, H.-S. Cho, J.-Y. Park",
+        "citation": "Chemical Engineering Journal, 409, 128226 (2021)",
+        "note": "",
+        "year": "2021"
+      },
+      {
+        "number": 1,
+        "title": "Activity of layered swedenborgite structured Y0.8Er0.2BaCo3.2Ga0.8O7+δ for oxygen electrode reactions in at intermediate temperature reversible ceramic cells",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_44ec56de2c4943ec834763b13fb32409.pdf",
+        "authors": "J.-S. Shin, H. Park, K. Park, M. Saqib, M. Jo, J.H. Kim, H.-T. Lim, M. Kim, J. Kim, J.-Y. Park",
+        "citation": "Journal of Materials Chemistry A, 9, 607-621, (2021)",
+        "note": "",
+        "year": "2021"
+      }
+    ],
+    "2020": [
+      {
+        "number": 16,
+        "title": "High-power rhombohedral-Fe2(SO4)3 with outstanding cycle performance as Fe-based cathode for K-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_0617ed9767da4d389849fdd053f4d6a8.pdf",
+        "authors": "J. Kang, W. Ko, H. Park, Y. Lee, J.H. Jo, J.U. Choi, S.-T. Myung, J. Kim*",
+        "citation": "Energy Storage Materials, 33, 276-282 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 15,
+        "title": "New Insight on Open‐Structured Sodium Vanadium Oxide as High‐Capacity and Long Life Cathode for Zn–Ion Storage: Structure, Electrochemistry, and First‐Principles Calculation",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_a1708b43467e4d228a55a4a598016ce9.pdf",
+        "authors": "J.H. Jo, Y. Aniskevich, J. Kim†, J.U Choi, H.J Kim, H. Kim, G. Ragoisha, A. Mazanik, E. Streltsove, S.-T Myung",
+        "citation": "Advanced Energy Materials, 10, 2001595 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 14,
+        "title": "Exceptionally high-energy tunnel-type V1.5Cr0.5O4.5H nanocomposite as a novel cathode for Na-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_80e375cea176433ab3de8ebdc5d3b26f.pdf",
+        "authors": "W. Ko, J.-G. Yoo, H. Park, Y. Lee, I. Kang, J. Kang, J.H. Jo, J.U. Choi, J. Hong, S.-T. Myung, J. Kim*",
+        "citation": "Nano Energy, 77, 105175 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 13,
+        "title": "High-energy O3-Na1-2xCax[Ni0.5Mn0.5]O2 cathode for long-life sodium-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_9ae10aaa3131496d98e04cd0c0df797d.pdf",
+        "authors": "T.-Y. Yu, J. Kim, J.-Y. Hwang, H. Kim, G. Han, H.-G. Jung, Y.-K. Sun",
+        "citation": "Journal of Materials Chemistry A, 8, 13776–13786 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 12,
+        "title": "Oriented Wrinkle Textures of Free-Standing Graphene Nanosheets: Application as a High Performance Lithium-Ion Battery Anode",
+        "url": "https://link.springer.com/article/10.1007/s42823-020-00163-9",
+        "authors": "H.-S. Jeong, J. Kim†, K.-I. Jo, J. Kee, J.-H. Choi, J. Koo",
+        "citation": "Carbon Letters, 1-9, (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 11,
+        "title": "High-Voltage Oxygen-Redox-Based Cathode for Rechargeable Sodium-Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_58d9d486804e45f2af57d32694164b38.pdf",
+        "authors": "A. Konarov, HJ Kim, JH Jo, N. Voronina, YS Lee, Z. Bakenov, J Kim*, ST Myung",
+        "citation": "Advanced Energy Materials, 10, 202001111 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 10,
+        "title": "High-Voltage-Driven Surface Structuring and Electrochemical Stabilization of Ni-Rich Layered Cathode Materials for Li Rechargeable Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_d75e2692ea304cb597929aef06873fd3.pdf",
+        "authors": "SH Song, MS Cho, IC Park, JG Yoo, KT Ko, JH Hong, J Kim, SK Jung, M. Avdeev, SD Ji, SS Lee, JN Bang, HS Kim*",
+        "citation": "Advanced Energy Materials, 10, 202000521 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 9,
+        "title": "KTi2(PO4)3 Electrode with a Long Cycling Stability for Potassium-Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_c94c9e74294147a6ac001c951be85cd4.pdf",
+        "authors": "N Voronina, JH Jo, A Konarov, J Kim*, ST Myung",
+        "citation": "Small, 16, 202001090 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 8,
+        "title": "Revealing sodium storage mechanism in lithium titanium phosphate: Combined experimental and theoretical study",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_7ae1971799d44e95b1b9f4e751ceca7e.pdf",
+        "authors": "N Voronina, JH Jo, JU Choi, A Konarov, J Kim*, ST Myung",
+        "citation": "Journal of Power Sources, 455, 227976 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 7,
+        "title": "Development of K4Fe3(PO4)2(P2O7) as a novel Fe-based cathode with high energy densities and excellent cyclability in Rechargeable Potassium Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_080198f117b642219d7235ae45383cbf.pdf",
+        "authors": "HY Park, HS Kim, WS Ko, JH Jo, YS Lee, JM Kang, IC Park, ST Myung, J Kim*",
+        "citation": "Energy Storage Materials, 28, 47-54 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 6,
+        "title": "An Optimized Approach Toward High Energy Density Cathode Material for K-Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_a8e9fa2b550e4ccba5f6666df9fde116.pdf",
+        "authors": "JU Choi, YJ Park, JH Jo, YH Jung, DC Ahn, TY Jeon, KS Lee, HS Kim, SS Lee, J Kim*, ST Myung",
+        "citation": "Energy Storage Materials, 25, 714-723 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 5,
+        "title": "Development of Novel cathode with Large Lithium Storage Mechanism Based on Pyrophosphate-Based Conversion Reaction for Rechargeable Lithium Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_faf01265d83b49e790bfd8c4d6922f4b.pdf",
+        "authors": "YS Lee, JH Jo, HY Park, WS Ko, JM Kang, ST Myung, YK Sun, J Kim*",
+        "citation": "Small Methods, 4, 1900847 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 4,
+        "title": "Facile Migration of Potassium Ions in a Ternary P3-type K0.5[Mn0.8Fe0.1Ni0.1]O2 Cathode in Rechargeable Potassium Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_4246bb82fecc461c89becf933d897aa0.pdf",
+        "authors": "JU Choi, J Kim†, JH Jo, HJ Kim, YH Jung, DC Ahn, YK Sun, ST Myung",
+        "citation": "Energy Storage Materials, 25, 714-723 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 3,
+        "title": "P2-K0.75[Ni1/3Mn2/3]O2 Cathode Material for High Power and Long Life Potassium-Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_811a2f8797a74399bc2d22a6b9ccacba.pdf",
+        "authors": "JH Jo, JU Choi , YJ Park, YH Jung, DC Ahn, TY Jeon, HS Kim, J Kim*, ST Myung",
+        "citation": "Advanced Energy Materials, 10, 1903605 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 2,
+        "title": "Development of new mixed-polyanion cathode with superior electrochemical performances for Na-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_7f5b16920f4e4ecc98021e7c2d3c6324.pdf",
+        "authors": "JM Kang†, HY Park†, HS Kim, JH Jo, WS Ko, YS Lee, ST Myung, J Kim*",
+        "citation": "ACS Sustainable Chemistry & Engineering, 8, 163-171 (2020)",
+        "note": "",
+        "year": "2020"
+      },
+      {
+        "number": 1,
+        "title": "New conversion chemistry of CuSO4 as ultra-high-energy cathode material for rechargeable sodium battery",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_b8b43e1f0e0f473da0acc5d07b1aa7eb.pdf",
+        "authors": "YS Lee, CH Jo, JK Yoo, JU Choi, WS Ko , HY Park, JH Jo, DO Shin, ST Myung, J Kim*",
+        "citation": "Energy Storage Materials, 24, 458-466 (2020)",
+        "note": "",
+        "year": "2020"
+      }
+    ],
+    "2019": [
+      {
+        "number": 13,
+        "title": "Unveiling yavapaiite-type KxFe(SO4)2 as a new Fe-based cathode with outstanding electrochemical performance for potassium-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_2da4e8d798a5400c8d36d9cd731e0212.pdf",
+        "authors": "WS Ko†, HY Park†, JH Jo, YS Lee, JM Kang, YH Jung, TY Jeon, ST Myung, J Kim*",
+        "citation": "Nano Energy, 66, 104184 (2019)",
+        "note": "",
+        "year": "2019"
+      },
+      {
+        "number": 12,
+        "title": "The Conversion Chemistry for High-Energy Cathodes of Rechargeable Sodium Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_655d7a3538ce4e599df9e66824575159.pdf",
+        "authors": "YS Lee†, JK Yoo†, JH Jo, HJ Kim, HY Park, CH Jo, WS Ko, H Yashiro, ST Myung, J Kim*",
+        "citation": "ACS Nano, 13, 11707-11716 (2019)",
+        "note": "",
+        "year": "2019"
+      },
+      {
+        "number": 11,
+        "title": "A new P2-type layered oxide cathode with superior full-cell performances for K-ion battery",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_4b9316d7d86240c9adb69e479f0ad96e.pdf",
+        "authors": "JY Hwang, J Kim†, TY Yu, HG Jung , JK Kim, KH Kim, YK Sun",
+        "citation": "Journal of Materials Chemistry A, 7, 21362-21370 (2019)",
+        "note": "",
+        "year": "2019"
+      },
+      {
+        "number": 10,
+        "title": "Controlled Oxygen Redox for Excellent Power Capability in Layered Sodium-Based Compounds",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_1d8e4956180748acb077cdb7260646a8.pdf",
+        "authors": "HJ Kim, A Konarov, JH Jo, JU Choi, KW Lhm, HK Lee, J Kim*, ST Myung",
+        "citation": "Advanced Energy Materials, 9, 1901181 (2019)",
+        "note": "",
+        "year": "2019"
+      },
+      {
+        "number": 9,
+        "title": "Monoclinic Fe2(SO4)3: A new Fe-based cathode material with superior electrochemical performances for Na-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_76e49e9a9f96483f8349fe89ba473889.pdf",
+        "authors": "HY Park, JK Yoo, WS Ko, YS Lee, HS Kim, IC Park, ST Myung, J Kim*",
+        "citation": "Journal of Power Sources, 434, 226750 (2019)",
+        "note": "",
+        "year": "2019"
+      },
+      {
+        "number": 8,
+        "title": "Development of Na2FePO4F/Conducting-Polymer composite as an exceptionally high performance cathode material for Na-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_1a32b836cdc24d5fa841611bf4274f72.pdf",
+        "authors": "WS Ko, JK Yoo, HY Park, YS Lee, HS Kim, YS Oh, ST Myung, J Kim*",
+        "citation": "Journal of Power Sources, 432, 1-7 (2019)",
+        "note": "",
+        "year": "2019"
+      },
+      {
+        "number": 7,
+        "title": "A New strategy to Build a High-Performance P' 2-Type Cathode Material through Titanium Doping for Sodium-Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_47d54a793f954178a4c2b53989737fe4.pdf",
+        "authors": "YJ Park, JU Choi, JH Jo, CH Jo , J Kim*, ST Myung",
+        "citation": "Advanced Functional Materials, 29, 1901912 (2019)",
+        "note": "",
+        "year": "2019"
+      },
+      {
+        "number": 6,
+        "title": "K0.54 [Co0.5Mn0.5]O2: New cathode with high power capability for potassium-ion batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_968aafe0f01a4f349fd2116ec33633be.pdf",
+        "authors": "JU Choi, J Kim†, JY Hwang, JH Jo, YK Sun, ST Myung",
+        "citation": "Nano Energy, 61, 284-294 (2019)",
+        "note": "",
+        "year": "2019"
+      },
+      {
+        "number": 5,
+        "title": "Exceptionally highly stable cycling performance and facile oxygen-redox of manganese-based cathode materials for rechargeable sodium batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_a3e793fa8f4a429890b521db56aaa98a.pdf",
+        "authors": "A Konarov, JH Jo, JU Choi, Z Bakenov, H Yashiro, J Kim*, ST Myung",
+        "citation": "Nano Energy, 59, 197-206 (2019)",
+        "note": "",
+        "year": "2019"
+      },
+      {
+        "number": 4,
+        "title": "Hollandite- Type VO1. 75 (OH) 0.5: Effective Sodium Storage for High-Performance Sodium-Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_e5b475c03b5c4d65b530496d3f1de65e.pdf",
+        "authors": "JH Jo, JU Choi, MK Cho, Y Aniskevich, H Kim, HS Kim, G. Ragoisha, E. Streltsov, J Kim*, ST Myung",
+        "citation": "Advanced Energy Materials, 9, 1900603 (2019)",
+        "note": "",
+        "year": "2019"
+      },
+      {
+        "number": 3,
+        "title": "Optimal Condition of Solid-Electrolyte-Interphase Prepared by Controlled Prelithiation for High Performance Li-Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_04168345126f43a6814846c89652c367.pdf",
+        "authors": "DI Lee, HW Yang, WS Kang, J Kim*, SJ Kim",
+        "citation": "Journal of The Electrochemical Society, 166 (4), A787-A792 (2019)",
+        "note": "",
+        "year": "2019"
+      },
+      {
+        "number": 2,
+        "title": "Nb-doped titanium phosphate for sodium storage: electrochemical performance and structural insights",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_11c7346191ea49de9b8728f25a587b75.pdf",
+        "authors": "N Voronina, JH Jo, JU Choi, CH Jo, J Kim, ST Myung",
+        "citation": "Journal of Materials Chemistry A, 7, 5748-5759 (2019)",
+        "note": "",
+        "year": "2019"
+      },
+      {
+        "number": 1,
+        "title": "A New P2-Type Layered Oxide Cathode with Extremely High Energy Density for Sodium-Ion Batteries",
+        "url": "https://www.energyscilab.com/_files/ugd/bdb293_7db0218ab6d64598beb95268fe2936c3.pdf",
+        "authors": "JY Hwang, J Kim†, TY Yu, YK Sun",
+        "citation": "Advanced Energy Materials, 9, 1803346 (2019)",
+        "note": "",
+        "year": "2019"
+      }
+    ],
+    "2018": [
+      {
+        "number": 13,
+        "title": "Highly enhancement of the SiOx nanocomposite through Ti-doping and carbon-coating for high-performance Li-ion battery",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0378775318309303",
+        "authors": "HW Yang, DI Lee, N Kang, JK Yoo, ST Myung, J Kim*, SJ Kim",
+        "citation": "Journal of Power Sources, 400, 613-620 (2018)",
+        "note": "",
+        "year": "2018"
+      },
+      {
+        "number": 12,
+        "title": "Open-structured vanadium dioxide as an intercalation host for Zn ions: investigation by first-principles calculation and experiments",
+        "url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.8b02679",
+        "authors": "JS Park, JH Jo, Y Aniskevich, A Bakavets, G Ragoisha, E Streltsov, J Kim*, ST Myung",
+        "citation": "Chemistry of Materials, 30 (19), 6777–6787 (2018)",
+        "note": "",
+        "year": "2018"
+      },
+      {
+        "number": 11,
+        "title": "Na3V(PO4)2: a new layered-type cathode material with high water stability and power capability for Na-ion batteries",
+        "url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.8b00458",
+        "authors": "J Kim*, G Yoon, H Kim, YU Park, K Kang",
+        "citation": "Chemistry of Materials, 30 (11), 3683−3689 (2018)",
+        "note": "",
+        "year": "2018"
+      },
+      {
+        "number": 10,
+        "title": "Surface-Modified Spinel LiNi0.5Mn1.5O4 for Li-Ion Batteries",
+        "url": "https://www.jkcs.or.kr/journal/view.php?number=8098",
+        "authors": "J Kim*, H Kim, K Kang",
+        "citation": "Journal of the Korean Ceramic Society, 55 (1), 21-35 (2018)",
+        "note": "",
+        "year": "2018"
+      },
+      {
+        "number": 9,
+        "title": "Exceptional effect of glassy lithium fluorophosphate on Mn-rich olivine cathode material for high-performance Li ion batteries",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0378775317314775",
+        "authors": "J Kim*, H Kim, ST Myung, JK Yoo, S Lee",
+        "citation": "Journal of Power Sources, 374, 55-60 (2018)",
+        "note": "",
+        "year": "2018"
+      },
+      {
+        "number": 8,
+        "title": "Unexpectedly high electrochemical performances of monoclinic Na2.4V2 (PO4)3/conductive polymer composite for Na-ion batteries",
+        "url": "https://pubs.rsc.org/ja/content/articlehtml/2018/ta/c8ta06238b",
+        "authors": "Y Lee, JK Yoo, Y Oh, H Park, W Ko, ST Myung, J Kim*",
+        "citation": "Journal of Materials Chemistry A, 6, 17571-17578 (2018)",
+        "note": "",
+        "year": "2018"
+      },
+      {
+        "number": 7,
+        "title": "Na0. 97KFe(SO4)2: Iron-based sulfate cathode material with outstanding cyclability and power capability for Na-ion batteries",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2018/ta/c8ta05854g",
+        "authors": "W Ko, T Park, H Park, Y Lee, KE Kee, J Kim*",
+        "citation": "Journal of Materials Chemistry A, 6, 17095-17100 (2018)",
+        "note": "",
+        "year": "2018"
+      },
+      {
+        "number": 6,
+        "title": "Role of the Mn substituent in Na3V2(PO4)3 for high-rate sodium storage",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2018/ta/c8ta06162a",
+        "authors": "JS Park, J Kim, JH Jo, ST Myung",
+        "citation": "Journal of Materials Chemistry A, 6 (34), 16627-16637 (2018)",
+        "note": "",
+        "year": "2018"
+      },
+      {
+        "number": 5,
+        "title": "Development of P3-K0.69CrO2 as an ultra-high-performance cathode material for K-ion batteries",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/ee/2018/c8ee01365a#!divAbstract",
+        "authors": "JY Hwang, J Kim†, TY Yu, ST Myung, YK Sun",
+        "citation": "Energy & Environmental Science, 11, 2821-2827 (2018)",
+        "note": "",
+        "year": "2018"
+      },
+      {
+        "number": 4,
+        "title": "Exceptional Effect of Benzene in Uniform Carbon Coating of SiOx Nanocomposite for High-Performance Li-Ion Batteries",
+        "url": "http://jes.ecsdl.org/content/165/7/A1247.short",
+        "authors": "HW Yang, N Kang, ST Myung, J Kim*, SJ Kim",
+        "citation": "Journal of The Electrochemical Society, 165 (7), A1247-A1253 (2018)",
+        "note": "",
+        "year": "2018"
+      },
+      {
+        "number": 3,
+        "title": "Spontaneous hybrids of graphene and carbon nanotube arrays at the liquid-gas interface for Li-ion battery anodes",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2018/cc/c8cc02148a",
+        "authors": "H Kim, J Kim†, HS Jeong, H Kim, H Lee, JM Ha, SM Choi, TH Kim, YC Nah, TJ Shin, JN Bang, S Satija, JS Koo",
+        "citation": "Chemical Communications, 54, 5229-5232 (2018)",
+        "note": "",
+        "year": "2018"
+      },
+      {
+        "number": 2,
+        "title": "Conversion‐Based Cathode Materials for Rechargeable Sodium Batteries",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/aenm.201702646",
+        "authors": "J Kim, H Kim, K Kang",
+        "citation": "Advanced Energy Materials, 8 (17), 1702646 (2018)",
+        "note": "",
+        "year": "2018"
+      },
+      {
+        "number": 1,
+        "title": "Extremely Small Pyrrhotite Fe7S8 Nanocrystals with Simultaneous Carbon‐Encapsulation for High‐Performance Na–Ion Batteries",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smll.201702816",
+        "authors": "MJ Choi, J Kim†*, JK Yoo, S Yim, J Jeon, YS Jung",
+        "citation": "Small, 14 (2), 1702816 (2018)",
+        "note": "",
+        "year": "2018"
+      }
+    ],
+    "2017": [
+      {
+        "number": 6,
+        "title": "Development of a new alluaudite-based cathode material with high power and long cyclability for application in Na ion batteries in real-life",
+        "url": "http://pubs.rsc.org/en/content/articlepdf/2017/ta/c7ta06693g",
+        "authors": "J Kim*, H Kim, S Lee, ST Myung",
+        "citation": "Journal of Materials Chemistry A, 5 (42), 22334-22340 (2017)",
+        "note": "",
+        "year": "2017"
+      },
+      {
+        "number": 5,
+        "title": "High Power Cathode Material Na4VO(PO4)2 with Open Framework for Na Ion Batteries",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.chemmater.6b04557",
+        "authors": "J Kim*, H Kim, S Lee",
+        "citation": "Chemistry of Materials, 29 (8), 3363-3366 (2017)",
+        "note": "",
+        "year": "2017"
+      },
+      {
+        "number": 4,
+        "title": "Activating layered LiNi0.5Co0.2Mn0.3O2 as a host for Mg intercalation in rechargeable Mg batteries",
+        "url": "https://reader.elsevier.com/reader/sd/658B8DFF5658A765A47CC4B00DF4CD136F394AE2E3DFA82FD4F8A85CFB02764AD7E9E223A1140C926509A0D790C159FF",
+        "authors": "Y Cho, H Kim, K Ku, G Yoon, SK Jung, B Lee, J Kim, K Kang",
+        "citation": "Materials Research Bulletin, 96 (4), 524-532 (2017)",
+        "note": "",
+        "year": "2017"
+      },
+      {
+        "number": 3,
+        "title": "New 4V-Class and Zero-Strain Cathode Material for Na-Ion Batteries",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.chemmater.7b02477",
+        "authors": "J Kim, G Yoon, MH Lee, H Kim, S Lee, K Kang",
+        "citation": "Chemistry of Materials, 29 (18), 7826-7832 (2017)",
+        "note": "",
+        "year": "2017"
+      },
+      {
+        "number": 2,
+        "title": "Tunnel-Type β-FeOOH Cathode Material for High Rate Sodium Storage via a New Conversion Reaction",
+        "url": "https://reader.elsevier.com/reader/sd/A15F8518FD5EB19AD78215FC24A402AEAD2F47CF6CE6A68B18440E66DB836609F794157F3E9BE677265CAFA89E8740B7",
+        "authors": "MK Cho, JH Jo, JU Choi, J Kim, H Yashiro, S Yuan, L Shi, YK Sun, ST Myung",
+        "citation": "Nano Energy, 41, 687-696 (2017)",
+        "note": "",
+        "year": "2017"
+      },
+      {
+        "number": 1,
+        "title": "Effect of Mn in Li3V2–xMnx(PO4)3 as High Capacity Cathodes for Lithium Batteries",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acsami.7b13128",
+        "authors": "JS Park, J Kim, WB Park, YK Sun, ST Myung",
+        "citation": "ACS applied materials & interfaces, 9 (46), 40307-40316 (2017)",
+        "note": "",
+        "year": "2017"
+      }
+    ],
+    "2016": [
+      {
+        "number": 3,
+        "title": "Highly stable iron-and manganese-based cathodes for long-lasting sodium rechargeable batteries",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.chemmater.6b01766",
+        "authors": "H Kim, G Yoon, I Park, J Hong, KY Park, J Kim, KS Lee, NE Sung, S Lee, K Kang",
+        "citation": "Chemistry of Materials, 28 (20), 7241-7249 (2016)",
+        "note": "",
+        "year": "2016"
+      },
+      {
+        "number": 2,
+        "title": "Redesign of Li2MP2O7 (M= Fe or Mn) by Tuning the Li Diffusion in Rechargeable Battery Electrodes",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.chemmater.6b02198",
+        "authors": "J Kim, B Lee, H Kim, H Kim, K Kang",
+        "citation": "Chemistry of Materials, 28 (19), 6894-6899 (2016)",
+        "note": "",
+        "year": "2016"
+      },
+      {
+        "number": 2,
+        "title": "Tailoring a New 4V‐Class Cathode Material for Na‐Ion Batteries",
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/aenm.201502147",
+        "authors": "J Kim, I Park, H Kim, KY Park, YU Park, K Kang",
+        "citation": "Advanced Energy Materials, 6 (6), 1502147 (2016)",
+        "note": "",
+        "year": "2016"
+      },
+      {
+        "number": 1,
+        "title": "Thermal structural stability of a multi-component olivine electrode for lithium ion batteries",
+        "url": "http://pubs.rsc.org/en/content/articlepdf/2016/ce/c6ce00944a",
+        "authors": "KY Park, H Kim, S Lee, J Kim, J Hong, HD Lim, I Park, K Kang",
+        "citation": "CrystEngComm, 18 (39), 7463-7470 (2016)",
+        "note": "",
+        "year": "2016"
+      }
+    ],
+    "2015": [
+      {
+        "number": 2,
+        "title": "Anomalous Jahn–Teller behavior in a manganese-based mixed-phosphate cathode for sodium ion batteries",
+        "url": "http://pubs.rsc.org/en/content/articlepdf/2015/ee/c5ee01876e",
+        "authors": "H Kim, G Yoon, I Park, KY Park, B Lee, J Kim, YU Park, SK Jung, HD Lim, DC Ahn, S Lee, K Kang",
+        "citation": "Energy & Environmental Science, 8 (11), 3325-3335 (2015)",
+        "note": "",
+        "year": "2015"
+      },
+      {
+        "number": 1,
+        "title": "Unexpected discovery of low-cost maricite NaFePO4 as a high-performance electrode for Na-ion batteries",
+        "url": "http://pubs.rsc.org/en/content/articlepdf/2015/ee/c4ee03215b",
+        "authors": "J Kim, DH Seo, H Kim, I Park, JK Yoo, SK Jung, YU Park, G William III, K Kang",
+        "citation": "Energy & Environmental Science, 8 (2), 540-545 (2015)",
+        "note": "",
+        "year": "2015"
+      }
+    ],
+    "2014": [
+      {
+        "number": 6,
+        "title": "Extremely High Yield Conversion from Low‐Cost Sand to High‐Capacity Si Electrodes for Li‐Ion Batteries",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/aenm.201400622",
+        "authors": "JK Yoo†, J Kim†, MJ Choi, YU Park, J Hong, KM Baek, K Kang, YS Jung",
+        "citation": "Advanced Energy Materials, 4 (16), 1400622 (2014)",
+        "note": "",
+        "year": "2014"
+      },
+      {
+        "number": 5,
+        "title": "Anti-site reordering in LiFePO4: defect annihilation on charge carrier injection",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/cm502432q",
+        "authors": "KY Park, I Park, H Kim, H Lim, J Hong, J Kim, K Kang",
+        "citation": "Chemistry of Materials, 26 (18), 5345-5351 (2014)",
+        "note": "",
+        "year": "2014"
+      },
+      {
+        "number": 4,
+        "title": "A Family of High‐Performance Cathode Materials for Na‐ion Batteries, Na3(VO1−xPO4)2F1+2x (0≤ x≤ 1): Combined First‐Principles and Experimental Study",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201400561",
+        "authors": "YU Park, DH Seo, H Kim, J Kim, S Lee, B Kim, K Kang",
+        "citation": "Advanced Functional Materials, 24 (29), 4603-4614 (2014)",
+        "note": "",
+        "year": "2014"
+      },
+      {
+        "number": 3,
+        "title": "A New Water Oxidation Catalyst: Lithium Manganese Pyrophosphate with Tunable Mn Valency",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/ja410223j",
+        "authors": "JM Park, HA Kim, KS Jin, BJ Lee, YS Park, HS Kim, IC Park, KD Yang, HY Jeong, J Kim, KT Hong, HW Jang, K Kang*, KT Nam*",
+        "citation": "Journal of the American Chemical Society, 136 (11), 4201-4211 (2014)",
+        "note": "",
+        "year": "2014"
+      },
+      {
+        "number": 2,
+        "title": "Iron titanium phosphates as high-specific-capacity electrode materials for lithium ion batteries",
+        "url": "https://ac.els-cdn.com/S0925838813022561/1-s2.0-S0925838813022561-main.pdf?_tid=944da466-4395-46a4-a604-b8bd179522dc&acdnat=1531287253_f0e2fdfab180ded9f83089011068c97d",
+        "authors": "R Essehli, B El Bali, A Faik, M Naji, S Benmokhtar, YR Zhong, LW Su, Z Zhou, J Kim, K Kang, M Dusek",
+        "citation": "Journal of Alloys and Compounds, 585, 434-441 (2014)",
+        "note": "",
+        "year": "2014"
+      },
+      {
+        "number": 1,
+        "title": "Alluaudite LiMnPO4: a new Mn-based positive electrode for Li rechargeable batteries",
+        "url": "http://pubs.rsc.org/en/content/articlepdf/2014/ta/c4ta00955j",
+        "authors": "J Kim, H Kim, KY Park, YU Park, S Lee, HS Kwon, HI Yoo, K Kang",
+        "citation": "Journal of Materials Chemistry A, 2 (23), 8632-8636 (2014)",
+        "note": "",
+        "year": "2014"
+      }
+    ],
+    "2013": [
+      {
+        "number": 6,
+        "title": "Porous silicon nanowires for lithium rechargeable batteries",
+        "url": "http://iopscience.iop.org/article/10.1088/0957-4484/24/42/424008/pdf",
+        "authors": "JK Yoo, J Kim, H Lee, J Choi, MJ Choi, DM Sim, YS Jung, K Kang",
+        "citation": "Nanotechnology, 24 (42), 424008 (2013)",
+        "note": "",
+        "year": "2013"
+      },
+      {
+        "number": 5,
+        "title": "A new high-energy cathode for a Na-ion battery with ultrahigh stability",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/ja406016j",
+        "authors": "YU Park, DH Seo, HS Kwon, B Kim, J Kim, H Kim, I Kim, HI Yoo, K Kang",
+        "citation": "Journal of the American Chemical Society, 135 (37), 13870-13878 (2013)",
+        "note": "",
+        "year": "2013"
+      },
+      {
+        "number": 4,
+        "title": "Understanding the Electrochemical Mechanism of the New Iron-Based Mixed-Phosphate Na4Fe3(PO4)2(P2O7) in a Na Rechargeable Battery",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/cm4013816",
+        "authors": "H Kim, I Park, S Lee, H Kim, KY Park, YU Park, H Kim, J Kim, HD Lim, WS Yoon, K Kang",
+        "citation": "Chemistry of Materials, 25 (18), 3614-3622 (2013)",
+        "note": "",
+        "year": "2013"
+      },
+      {
+        "number": 3,
+        "title": "Li3V2(PO4)3/Conducting Polymer as a High Power 4 V‐Class Lithium Battery Electrode",
+        "url": "http://funnano.kaist.ac.kr/publications/43.pdf",
+        "authors": "J Kim, JK Yoo, YS Jung, K Kang",
+        "citation": "Advanced Energy Materials, 3 (8), 1004-1007 (2013)",
+        "note": "",
+        "year": "2013"
+      },
+      {
+        "number": 2,
+        "title": "Factors that Affect the Phase Behavior of Multi-Component Olivine (LiFexMnyCo1-x-yPO4; 0 < x, y< 1) in Lithium Rechargeable Batteries: One-Phase Reaction vs. Two-Phase Reaction",
+        "url": "http://jes.ecsdl.org/content/160/3/A444.full.pdf",
+        "authors": "KY Park, J Hong, J Kim, YU Park, H Kim, DH Seo, SW Kim, JW Choi, K Kang",
+        "citation": "Journal of The Electrochemical Society, 160 (3), A444-A448 (2013)",
+        "note": "",
+        "year": "2013"
+      },
+      {
+        "number": 1,
+        "title": "LiFePO4 with Alluaudite crystal structure for Lithium ion Batteries",
+        "url": "http://pubs.rsc.org/en/content/articlepdf/2013/ee/c3ee24393a",
+        "authors": "J Kim, H Kim, I Park, YU Park, JK Yoo, KY Park, S Lee, K Kang",
+        "citation": "Energy & Environmental Science, 6, 830-834 (2013)",
+        "note": "",
+        "year": "2013"
+      }
+    ],
+    "2012": [
+      {
+        "number": 3,
+        "title": "Scalable fabrication of silicon nanotubes and their application to energy storage",
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/adma.201201601",
+        "authors": "JK Yoo, J Kim†, YS Jung, K Kang",
+        "citation": "Advanced Materials, 24, 5452-5456 (2012)",
+        "note": "",
+        "year": "2012"
+      },
+      {
+        "number": 2,
+        "title": "A combined first principles and experimental study on Na3V2(PO4)2F3 for rechargeable Na batteries",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/2012/JM/c2jm33862a#!divAbstract",
+        "authors": "RA Shakoor, DH Seo, H Kim, YU Park, J Kim, SW Kim, H Gwon, S Lee, K Kang",
+        "citation": "Journal of Materials Chemistry, 22 (38), 20535-20541 (2012)",
+        "note": "",
+        "year": "2012"
+      },
+      {
+        "number": 1,
+        "title": "Thermal stability of Fe–Mn binary olivine cathodes for Li rechargeable batteries",
+        "url": "http://pubs.rsc.org/en/content/articlepdf/2012/jm/c2jm30733b",
+        "authors": "J Kim, KY Park, I Park, JK Yoo, J Hong, K Kang",
+        "citation": "Journal of Materials Chemistry, 22 (24), 11964-11970 (2012)",
+        "note": "",
+        "year": "2012"
+      }
+    ],
+    "2011": [
+      {
+        "number": 5,
+        "title": "The Effect of Particle Size on Phase Stability of the Delithiated LixMnPO4",
+        "url": "https://iopscience.iop.org/article/10.1149/2.065201jes/pdf",
+        "authors": "J Kim, KY Park, I Park, JK Yoo, DH Seo, SW Kim, K Kang",
+        "citation": "Journal of The Electrochemical Society, 159 (1), A55-A59 (2011)",
+        "note": "",
+        "year": "2011"
+      },
+      {
+        "number": 4,
+        "title": "Highly reversible Co3O4/graphene hybrid anode for lithium rechargeable batteries",
+        "url": "https://pdf.sciencedirectassets.com/271508/1-s2.0-S0008622310X00148/1-s2.0-S0008622310006792/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGYaCXVzLWVhc3QtMSJHMEUCIQCn%2BzwGrg0mZGDY7ib58lbdurnq5YrDi2eIG3C84NOZSwIgfIvUDHp4y%2Bqd7WaML4ga6Kv%2Fko4%2FFaxWEB1VePsaT%2FQquwUInv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDK4kfk6bWuRSEurBmyqPBcPRGicdqQx5SPhRPj5g1GG8InsbG34VL98XWhoiSseDqpUJgKJgEZFnrma9Dg1OA6qLJFEkTrpwfxvAGw7Lq22Hmb7EGX%2FdNUruBSCnzxFml7SZQeOxRpc0FIC32V8wDnZ%2FQIcSy6FmLWk6p0dpsrn%2FT7Q5TrNysTNSaOwjGgtj1bPy5TYDWm%2FvDszZVbQLb9wxsFe4lSgMZvx3Ae3egI1ECCP17DOCmTvRMOoylQDx75z79%2BqDiUYzd7YaHu1wxs8%2BCC45buCx2DBmuRKu%2FIqPM6CWUT9vjbRSylMKcjlZUecaFAxgEZAZejSaVE96SnoPTa60qi%2BsS9UFfGIbeGRLVjAc1nJ07JYFcrgKOOwH5JCF5o1peyUkp6QWwZZD7yaEe4dp0LRKPH9X%2BL%2F0Y6prTDuO0ekOmqGsQIyrnSYOHpXlrzWrm7MzabNuDq8tyI9uHFAcc02gpQ%2BLhxAF9mAthnF5pZGg537mj1SjMou%2Fxwd2uB1iMmv2wOuhIDrvuShSF873aNH4r3F8yXvAEaoJe9mne%2BSf%2FI8%2BruF%2BukQvtTfLdngLY5axe%2Bt4OnmdpGEvZIAJLgQoLtAz4OQA%2FZ23dstEacqT2QJ2He2c2QhdwcX2p4bBICe8xME7zUNMUnABmTww7R0rmE12fx4fl5LDWSZgzoqo7F%2BNvL5xgAg5wpwibCXk2ZtpEvvsMaa5j5lLRR3sKY93Nx1aogYzoolbYgWDUwSpG4pb5i9IR7SemS6WKP6dRuj7qiI4pEOhUN%2FGOJLGLNkYH7gJS6w6epPg0sp01yuXp5yxP6al8YsjqmwxqhEjRpXn8SuEPBXomvM921T2kv5QlFh%2Fvt6dRV6Cam%2FH5Z%2FuJ8Yxfva0Sf8w6oynqgY6sQENN%2F%2B2FshJAqyMxJckiH7rfViWxPvTwemv2ZZkHr4EG0bdrD6og%2BX1YECYZ9O9rJkUZ5RILGr0J8GJPnY0Qd6KkHF%2B5yPOgBqwHbkGncLBaRHb1oID7fJOdHdjAHsB92Ia3CT8%2BJ3lE3kCaUQy476sK1ah1teFVRuD836XCWAFvlMMe9qjLtLcVQVXe2ucrEuWEqyUy%2FlSf2BwWy2wE61vCnyw6ZMRihMgLrYzc3VVuXA%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231107T061644Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY56ULVE3C%2F20231107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=799205171d0d4db23977812df7282160f73a5f3de6d2bb04a2b9daedd8e141f5&hash=5b38d6dc31346fd38931d4850a0d851e562ed0f0c39951675e20c852379b2d64&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0008622310006792&tid=spdf-57cb065c-ba43-4cc7-b786-a071aaff4ebb&sid=a98f33b9487e914c177852b84dce12494d64gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=11145e555c5c5553050005&rr=822372faddbc933d&cc=kr",
+        "authors": "H Kim, DH Seo, SW Kim, J Kim, K Kang",
+        "citation": "Carbon, 49 (1), 326-332 (2011)",
+        "note": "",
+        "year": "2011"
+      },
+      {
+        "number": 3,
+        "title": "Mg and Fe Co-doped Mn based olivine cathode material for high power capability",
+        "url": "https://iopscience.iop.org/article/10.1149/1.3524260/pdf",
+        "authors": "J Kim, YU Park, DH Seo, J Kim, SW Kim, K Kang",
+        "citation": "Journal of The Electrochemical Society, 158 (3), A250-A254 (2011)",
+        "note": "",
+        "year": "2011"
+      },
+      {
+        "number": 2,
+        "title": "Preparation and electrochemical characterization of doped spinel LiMn1.88Ge 0.1 Li0.02O4 cathode material",
+        "url": "https://link.springer.com/content/pdf/10.1007/s13391-011-0603-z.pdf",
+        "authors": "SW Kim, VG Kumar, DH Seo, YU Park, J Kim, H Kim, J Kim, J Hong, K Kang",
+        "citation": "Electronic Materials Letters, 7 (2), 105-108 (2011)",
+        "note": "",
+        "year": "2011"
+      },
+      {
+        "number": 1,
+        "title": "Neutron and X-ray Diffraction Study of Pyrophosphate-Based Li2–xMP2O7 (M= Fe, Co) for Lithium Rechargeable Battery Electrodes",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/cm201305z",
+        "authors": "H Kim, S Lee, YU Park, H Kim, J Kim, S Jeon, K Kang",
+        "citation": "Chemistry of Materials, 23 (17), 3930-3937 (2011)",
+        "note": "",
+        "year": "2011"
+      }
+    ],
+    "2010": [
+      {
+        "number": 5,
+        "title": "Fabrication of FeF3 nanoflowers on CNT branches and their application to high power lithium rechargeable batteries",
+        "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/adma.201002879",
+        "authors": "SW Kim, DH Seo, H Gwon, J Kim, K Kang",
+        "citation": "Advanced Materials, 22 (46), 5260-5264 (2010)",
+        "note": "",
+        "year": "2010"
+      },
+      {
+        "number": 4,
+        "title": "Synthesis of multicomponent olivine by a novel mixed transition metal oxalate coprecipitation method and electrochemical characterization",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/cm903616d",
+        "authors": "YU Park, J Kim, H Gwon, DH Seo, SW Kim, K Kang",
+        "citation": "Chemistry of Materials, 22 (8), 2573-2581 (2010)",
+        "note": "",
+        "year": "2010"
+      },
+      {
+        "number": 3,
+        "title": "Synthesis of NaFePO4/NaCoPO4 and their application to sodium batteries",
+        "url": "https://scholar.google.co.kr/scholar?hl=en&as_sdt=0,5&cluster=14242650915617853551",
+        "authors": "R Shakoor, YU Park, J Kim, SW Kim, DH Seo, H Gwon, K Kang",
+        "citation": "J. Korean Battery Soc, 3, 00-00 (2010)",
+        "note": "",
+        "year": "2010"
+      },
+      {
+        "number": 2,
+        "title": "Mn based olivine electrode material with high power and energy",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/2010/cc/b922133f#!divAbstract",
+        "authors": "J Kim, DH Seo, SW Kim, YU Park, K Kang",
+        "citation": "Chemical Communications, 46 (8), 1305-1307 (2010)",
+        "note": "",
+        "year": "2010"
+      },
+      {
+        "number": 1,
+        "title": "Multicomponent olivine cathode for lithium rechargeable batteries: a first-principles study",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/cm903138s",
+        "authors": "DH Seo, H Gwon, SW Kim, J Kim, K Kang",
+        "citation": "Chemistry of Materials, 22 (2), 518-523 (2010)",
+        "note": "",
+        "year": "2010"
+      }
+    ],
+    "2009": [
+      {
+        "number": 4,
+        "title": "Combined First‐Principle Calculations and Experimental Study on Multi‐Component Olivine Cathode for Lithium Rechargeable Batteries",
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/adfm.200900414",
+        "authors": "H Gwon, DH Seo, SW Kim, J Kim, K Kang",
+        "citation": "Advanced Functional Materials, 19 (20), 3285-3292 (2009)",
+        "note": "",
+        "year": "2009"
+      },
+      {
+        "number": 3,
+        "title": "Comparative study of Li(Li1/3Ti5/3)O4 and Li(Ni1/2−xLi2x/3Tix/3)Ti3/2O4 (x= 1/3) anodes for Li rechargeable batteries",
+        "url": "https://ac.els-cdn.com/S0013468609007439/1-s2.0-S0013468609007439-main.pdf?_tid=701a0ec5-d6ae-4aab-9a0f-64fe655843d8&acdnat=1531290567_fa527d55ba56d560a83aec7cc6865257",
+        "authors": "J Kim, SW Kim, H Gwon, WS Yoon, K Kang",
+        "citation": "Electrochimica Acta, 54 (24), 5914-5918 (2009)",
+        "note": "",
+        "year": "2009"
+      },
+      {
+        "number": 2,
+        "title": "Phase Stability Study of Li1−xMnPO4 (0⩽ x⩽ 1) Cathode for Li Rechargeable Battery",
+        "url": "https://iopscience.iop.org/article/10.1149/1.3138705/meta",
+        "authors": "SW Kim, J Kim, H Gwon, K Kang",
+        "citation": "Journal of The Electrochemical Society, 156 (8), A635-A638, (2009)",
+        "note": "",
+        "year": "2009"
+      },
+      {
+        "number": 1,
+        "title": "Fabrication and electrochemical characterization of TiO2 three-dimensional nanonetwork based on peptide assembly",
+        "url": "https://pubs.acs.org/doi/pdf/10.1021/nn900062q",
+        "authors": "SW Kim, TH Han, J Kim, H Gwon, HS Moon, SW Kang, SO Kim, K Kang",
+        "citation": "ACS Nano, 3 (5), 1085-1090 (2009)",
+        "note": "",
+        "year": "2009"
+      }
+    ]
+  },
+  "alumni": [
+    {
+      "name": "Hyunyoung Park",
+      "graduated": "February 2023",
+      "degree": "Ph.D.",
+      "organization": "LG Energy Solution",
+      "email": "werop6@gmail.com",
+      "source_image": "https://static.wixstatic.com/media/bdb293_2add43047ea04413b73912c5e1159a85~mv2.jpg/v1/fill/w_141,h_190,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EB%B0%95%ED%98%84%EC%98%81_%EC%A6%9D%EB%AA%85%EC%82%AC%EC%A7%84.jpg",
+      "image": "/assets/alumni-1.jpg"
+    },
+    {
+      "name": "Wonseok Ko",
+      "graduated": "February 2024",
+      "degree": "Ph.D.",
+      "organization": "Samsung SDI",
+      "email": "gwsnim24@gmail.com",
+      "source_image": "https://static.wixstatic.com/media/bdb293_b7168127c75b494daeceacb5ca7dbd3a~mv2.jpg/v1/fill/w_141,h_190,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9B%90%EC%84%9D%EC%9D%B4%ED%98%95%20%EC%82%AC%EC%A7%84.jpg",
+      "image": "/assets/alumni-2.jpg"
+    },
+    {
+      "name": "Yongseok Lee",
+      "graduated": "February 2024",
+      "degree": "Ph.D.",
+      "organization": "LG Energy Solution",
+      "email": "usingstone@g.skku.edu",
+      "source_image": "https://static.wixstatic.com/media/bdb293_b4787c6b1e5541bdba7928996799bb2c~mv2.jpg/v1/fill/w_141,h_190,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9D%B4%EC%9A%A9%EC%84%9D_%EC%A0%9C%EC%B6%9C%EC%9A%A9.jpg",
+      "image": "/assets/alumni-3.jpg"
+    },
+    {
+      "name": "Jungmin Kang",
+      "graduated": "February 2025",
+      "degree": "Ph.D.",
+      "organization": "Samsung SDI",
+      "email": "kangjungmin3@g.skku.edu",
+      "source_image": "https://static.wixstatic.com/media/bdb293_4d5405507837498ba25f2efd0060e99d~mv2.png/v1/fill/w_141,h_190,al_c,lg_1,q_85,enc_avif,quality_auto/%EB%82%B4%20%EB%AA%85%ED%95%A8%EC%82%AC%EC%A7%84_PNG.png",
+      "image": "/assets/alumni-4.png"
+    },
+    {
+      "name": "Jinho Ahn",
+      "graduated": "February 2026",
+      "degree": "Ph.D.",
+      "organization": "LG Energy Solution",
+      "email": "jinho0113@gmail.com",
+      "source_image": "https://static.wixstatic.com/media/bdb293_0f117eadc5a14c6284d7ff660fb91a14~mv2.jpg/v1/fill/w_141,h_190,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%95%88%EC%A7%84%ED%98%B8%20%EC%82%AC%EC%A7%84.jpg",
+      "image": "/assets/alumni-5.jpg"
+    },
+    {
+      "name": "Seokjin Lee",
+      "graduated": "February 2023",
+      "degree": "M.S.",
+      "organization": "LG Energy Solution",
+      "email": "seokjin6348@g.skku.edu",
+      "source_image": "https://static.wixstatic.com/media/bdb293_c183be2b02fe4b6cb850aa67f245d68d~mv2.jpg/v1/fill/w_141,h_191,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/KakaoTalk_20200820_154648885_edited.jpg",
+      "image": "/assets/alumni-6.jpg"
+    },
+    {
+      "name": "Sangyeop Lee",
+      "graduated": "February 2023",
+      "degree": "M.S.",
+      "organization": "LG Energy Solution",
+      "email": "duq9584@gmail.com",
+      "source_image": "https://static.wixstatic.com/media/bdb293_3ce9695acd8b4dc5bb2e9f38c91f85d0~mv2.png/v1/fill/w_141,h_187,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9D%B4%EC%83%81%EC%97%BD%20%EC%82%AC%EC%A7%84.png",
+      "image": "/assets/alumni-7.png"
+    },
+    {
+      "name": "Hobin Ahn",
+      "graduated": "February 2024",
+      "degree": "M.S.",
+      "organization": "Samsung SDI",
+      "email": "bineeahn@gmail.com",
+      "source_image": "https://static.wixstatic.com/media/bdb293_5b1ea784ec454629bf322598378c0118~mv2.jpg/v1/fill/w_141,h_187,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/KakaoTalk_20220103_154338141.jpg",
+      "image": "/assets/alumni-8.jpg"
+    },
+    {
+      "name": "Jeongwoo Kim",
+      "graduated": "August 2025",
+      "degree": "M.S.",
+      "organization": "Samsung SDI",
+      "email": "dusvlf563@daum.net",
+      "source_image": "https://static.wixstatic.com/media/bdb293_407ab6dc27e74d808826e5887ca65abb~mv2.jpg/v1/fill/w_141,h_187,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EA%B9%80%EC%A0%95%EC%9A%B0%20%EC%82%AC%EC%A7%84.jpg",
+      "image": "/assets/alumni-9.jpg"
+    },
+    {
+      "name": "Sunha Hwang",
+      "graduated": "February 2026",
+      "degree": "M.S.",
+      "organization": "LG Energy Solution",
+      "email": "sunha.hw@g.skku.edu",
+      "source_image": "https://static.wixstatic.com/media/bdb293_37a6c423d1f44e9ab92f3e188e146966~mv2.jpg/v1/fill/w_141,h_187,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/KakaoTalk_20251217_145528497.jpg",
+      "image": "/assets/alumni-10.jpg"
+    },
+    {
+      "name": "Seyeop Oh",
+      "graduated": "August 2026",
+      "degree": "M.S.",
+      "organization": "Samsung SDI",
+      "email": "ohsy2000@g.skku.edu",
+      "source_image": "https://static.wixstatic.com/media/bdb293_3cff2d9984cc4dc59dfc1d04a3b5970c~mv2.jpg/v1/fill/w_141,h_187,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%98%A4%EC%84%B8%EC%97%BD.jpg",
+      "image": "/assets/alumni-11.jpg"
+    }
+  ]
+}
