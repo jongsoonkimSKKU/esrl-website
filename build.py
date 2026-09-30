@@ -4,6 +4,8 @@ from html import escape as e
 import json
 ROOT=Path(__file__).parent
 D=json.loads((ROOT/'content.json').read_text())
+JOURNAL_METRICS=json.loads((ROOT/'journal_metrics.json').read_text())
+LAB_LIFE=json.loads((ROOT/'lab_life.json').read_text())
 DIST=ROOT/'dist'
 ARROW='<span class="arrow" aria-hidden="true">↗</span>'
 NAV=[('Home','/'),('Research','/research/'),('Professor','/professor/'),('People','/people/'),('Publications','/publications/'),('Lab life','/life/')]
@@ -25,6 +27,35 @@ from urllib.parse import quote
 import re
 SCHOLAR='https://scholar.google.co.kr/citations?user=bTPbWeIAAAAJ&hl=en'
 KEYWORDS=[('lithium','Lithium · 리튬',r'lithium|li-ion|libs|li rechargeable'),('sodium','Sodium · 소듐',r'sodium|na-ion|na rechargeable'),('potassium','Potassium · 포타슘',r'potassium|k-ion'),('zinc','Zinc · 아연',r'zinc|zn-ion|zn2'),('solid','Solid-state · 전고체',r'solid.state|solid electrolyte'),('oxygen','Oxygen redox · 산소 산화환원',r'oxygen.redox|anionic.redox'),('modeling','Modeling · 계산',r'first.princip|calculation|computational|simulation'),('interface','Interfaces · 계면',r'interfac|interphase|coating|surface')]
+def journal_key(name):
+ return re.sub(r'[^a-z0-9]','',name.lower().replace('&','and').replace('journal of material chemistry a','journal of materials chemistry a'))
+def category_top(category):
+ return 100*category['rank']/category['total'] if 'rank' in category else category['top_percent']
+def category_rank(category):
+ return f"{category['rank']}/{category['total']} journals" if 'rank' in category else 'Published Top %'
+def journal_metrics(p):
+ name=p['citation'].split(',')[0]
+ journal=JOURNAL_METRICS['journals'].get(journal_key(name),{})
+ year=min(int(p['year']),JOURNAL_METRICS['latest_metric_year'])
+ metric=journal.get('years',{}).get(str(year))
+ if not metric:return ''
+ categories=sorted(metric.get('categories',[]),key=lambda c:(category_top(c),c['category']))
+ impact=metric.get('impact_factor');badges=[]
+ if impact is not None:badges.append(f'<span class="journal-if">IF <strong>{float(impact):.1f}</strong></span>')
+ if categories:
+  best=categories[0];top=category_top(best)
+  badges.append(f'<span class="journal-top">JCR Top <strong>{top:.2f}%</strong></span>')
+ if not badges:return ''
+ badges.append(f'<span class="journal-metric-year">{year} metrics</span>')
+ out='<details class="journal-metrics"><summary>'+''.join(badges)+'<span class="journal-metric-toggle">Details · 지표 정보</span></summary><div class="journal-metric-detail">'
+ if int(p['year'])>year:out+=f'<p lang="ko">{p["year"]}년 지표 발표 전까지 {year}년 지표를 표시합니다.</p>'
+ if categories:
+  out+='<p><strong>Best-ranked category · 최상위 분야</strong><br>'+e(best['category'])+f' · {category_rank(best)}</p>'
+  out+='<ul>'+''.join(f'<li><span>{e(c["category"])}</span><span>{category_rank(c)} · Top {category_top(c):.2f}%</span></li>' for c in categories)+'</ul>'
+ sources=metric.get('sources',[])
+ if not sources:sources=[{'label':'Public JCR data · 공개 연도별 자료','url':journal['source']}]
+ out+='<p class="journal-metric-sources">'+ ' · '.join(f'<a href="{e(s["url"])}" target="_blank" rel="noopener noreferrer">{e(s["label"])}</a>' for s in sources)+'</p>'
+ return out+'</div></details>'
 def bibtex(p,key):
  author=re.sub(r'[†‡*]','',p['authors'])
  author=' and '.join(a.strip() for a in author.replace(' and ',', ').split(',') if a.strip())
@@ -39,6 +70,7 @@ def publication_library(papers,label):
  journals=sorted(set(p['citation'].split(',')[0] for p in papers));years=sorted(set(str(p['year']) for p in papers),reverse=True)
  out='<section class="section publication-library"><div class="wrap">'+nav
  out+='''<div class="publication-metrics"><div><strong>163</strong><span>Listed publications · 게재 논문</span></div><a href="'''+e(SCHOLAR)+'''" target="_blank" rel="noopener noreferrer"><strong>10,964</strong><span>Google Scholar citations ↗</span></a><div><strong>55</strong><span>h-index · Google Scholar</span></div><div><strong>126</strong><span>i10-index · Google Scholar</span></div></div><p class="metrics-date">Google Scholar · 확인일 / Checked 2026-09-29 · <a href="'''+e(SCHOLAR)+'''" target="_blank" rel="noopener noreferrer">View profile ↗</a></p><details class="recent-metrics"><summary>Since 2021 · 최근 지표</summary><p>Citations 6,472 · h-index 45 · i10-index 115</p></details>'''
+ out+='''<details class="journal-metrics-guide"><summary>About IF &amp; JCR · 지표 기준</summary><p lang="ko">IF와 JCR 순위는 논문 게재연도와 같은 연도의 저널 지표를 사용합니다. 2026년 논문에는 최신 발표된 2025년 지표를 표시합니다. JCR 상위 %는 (분야 내 순위 ÷ 해당 분야 저널 수) × 100으로 계산하며, 여러 분야 중 가장 낮은 값을 표시합니다. IF는 소수 첫째 자리로 통일하며, 근거 자료를 확보한 항목만 표시합니다.</p><p>Journal metrics match the publication year; 2026 papers use 2025 metrics. JCR Top % is rank divided by category size × 100, using the lowest value across categories. IF values are shown to one decimal place. Sources and categories are available within each record.</p></details>'''
  out+='<div class="publication-controls" data-library><div class="publication-layout"><aside class="publication-sidebar"><span class="eyebrow">Explore the evidence<br><span lang="ko">연구 성과 찾아보기</span></span><div class="pub-filters"><label>SEARCH · 검색<input type="search" data-search placeholder="Title, author, journal · 제목, 저자, 학술지" autocomplete="off"></label><label>YEAR · 연도<select data-year><option value="">All years · 전체</option>'+''.join(f'<option>{y}</option>' for y in years)+'</select></label><label>JOURNAL · 학술지<select data-journal><option value="">All journals · 전체</option>'+''.join(f'<option>{e(j)}</option>' for j in journals)+'</select></label></div><div class="keyword-filters" aria-label="Title keyword filters">'
  for key,name,pattern in KEYWORDS:out+=f'<button type="button" class="keyword-filter" data-keyword="{key}" aria-pressed="false">{name}</button>'
  out+='</div><p class="keyword-help" lang="ko">키워드는 논문 제목을 기준으로 검색하며, 여러 개를 선택하면 하나 이상에 해당하는 논문을 표시합니다.</p></aside><div class="publication-records"><div class="publication-results"><p role="status" aria-live="polite" data-result-count>'+str(len(papers))+' publications</p><button type="button" data-reset>Reset filters · 초기화</button></div><p class="publication-legend">† / ‡ Equal contribution · * Corresponding author</p><p class="publication-empty" data-empty hidden>검색 결과가 없습니다. 검색어나 필터를 변경해 주세요.<br>No papers match these filters.</p><div class="publication-cards">'
@@ -46,6 +78,7 @@ def publication_library(papers,label):
   tags=[key for key,_,pattern in KEYWORDS if re.search(pattern,p['title'],re.I)];key='esrl'+str(p['year'])+'paper'+str(i+1)
   cite=p['authors']+'. '+p['title']+'. '+p['citation']+'.';bib=bibtex(p,key);journal=p['citation'].split(',')[0]
   out+=f'<article class="publication-card" data-paper data-year="{p["year"]}" data-journal="{e(journal)}" data-keywords="{" ".join(tags)}"><span class="publication-number" aria-hidden="true">{len(papers)-i:03d}</span><div class="publication-card-top"><span>{e(p["citation"])}</span><span>{p["year"]}</span></div><h3><a href="{e(p["url"])}" target="_blank" rel="noopener noreferrer">{e(p["title"])}</a></h3><p class="publication-authors">{e(p["authors"])}</p><div class="publication-tags">'+''.join(f'<span>{e(name.split(" · ")[0])}</span>' for key2,name,_ in KEYWORDS if key2 in tags)+'</div>'
+  out+=journal_metrics(p)
   out+=f'<div class="publication-links"><a href="{e(p["url"])}" target="_blank" rel="noopener noreferrer">Read paper ↗</a><a href="https://scholar.google.com/scholar?q={quote(p["title"])}" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><button type="button" data-copy-citation>Copy citation</button></div>'
   out+=f'<details class="citation-details"><summary>Citation &amp; BibTeX · 인용 정보</summary><p class="citation-text">{e(cite)}</p><pre class="bibtex-text">{e(bib)}</pre><div class="citation-actions"><button type="button" data-copy-bib>Copy BibTeX</button><button type="button" data-download-bib data-filename="{key}.bib">Download .bib ↓</button></div></details>'
   if p.get('note'):out+=f'<p class="publication-note">{e(p["note"])}</p>'
@@ -72,7 +105,7 @@ research=[('01','Lithium-ion batteries','리튬이온전지','고에너지밀도
 cards='''<a href="/research/#cathodes" class="research-card core-card"><span class="number">01 / CORE EXPERTISE</span><h3>Cathode materials</h3><span class="card-name-ko" lang="ko">양극 소재</span><p lang="ko">조성·결정구조·산화환원 반응을 설계하고, 합성과 고도분석을 연결해 에너지밀도·출력·수명을 좌우하는 원리를 규명합니다.</p><span class="core-en">Composition, structure, redox, and transport — from materials design to electrochemical performance.</span><span class="card-footer">LAYERED OXIDES · PHOSPHATES · DISORDERED ROCKSALT ↗</span></a><a href="/research/#solid-electrolytes" class="research-card core-card"><span class="number">02 / CORE EXPERTISE</span><h3>Solid electrolytes</h3><span class="card-name-ko" lang="ko">고체전해질</span><p lang="ko">이온 전도와 구조·화학적 안정성을 이해하고, 양극과 맞닿는 계면까지 함께 설계하여 전고체전지의 반응과 성능을 제어합니다.</p><span class="core-en">Ion transport, electrolyte stability, and cathode–electrolyte interfaces for solid-state batteries.</span><span class="card-footer">SULFIDES · HALIDES · CATHODE–ELECTROLYTE INTERFACES ↗</span></a>'''
 
 selected=[D['publications'][i] for i in [0,3,6,7]]
-home=f'''<section class="hero"><div class="wrap hero-inner"><div class="hero-copy"><span class="eyebrow">AI × Materials × Energy</span><h1>Designing the<br>Future of<br><span>Energy Storage</span></h1><p class="hero-ko" lang="ko">AI와 소재과학으로<br>이차전지의 미래를 설계합니다.</p><p class="hero-desc">We combine AI-guided materials discovery, first-principles calculations, and advanced experiments to design next-generation rechargeable batteries.</p><div class="hero-actions">{link('/research/','<span lang="ko">연구 분야 보기</span>','button')}{link('/publications/','<span lang="ko">최신 논문</span>')}</div><a class="hero-recruit" href="/join/"><span class="hero-recruit-content"><span class="hero-recruit-title"><span lang="ko">모집 안내</span><span lang="en">Join ESRL</span></span><span class="hero-recruit-audience" lang="ko">학부연구생 · 대학원생 · 포닥 모집</span><span class="hero-recruit-audience-en" lang="en">Undergraduate · Graduate · Postdoctoral opportunities</span></span><span class="hero-recruit-arrow" aria-hidden="true">↗</span></a></div><div class="hero-visual">{img('/assets/ai-battery-ev-wide.png','Conceptual illustration connecting AI servers, atomic battery materials, rechargeable cells and an electric vehicle',eager=True)}<div class="visual-caption"><span>ENERGY STORAGE RESEARCH LAB<br><span lang="ko">성균관대학교 에너지 저장 연구실</span></span><span>Cathodes × Solid electrolytes<br><span lang="ko">AI·계산·실험으로 연결하는 소재 연구</span></span></div></div></div></section>
+home=f'''<section class="hero"><div class="wrap hero-inner"><div class="hero-copy"><span class="eyebrow">AI × Materials × Energy</span><h1>Designing the<br>Future of<br><span>Batteries &amp;<br>Energy Storage</span></h1><p class="hero-ko" lang="ko">AI와 소재과학으로<br>이차전지의 미래를 설계합니다.</p><p class="hero-desc hero-intro-ko" lang="ko">고성능 이차전지의 중요성과 수요가 커짐에 따라, 리튬이온전지를 비롯한 차세대 배터리와 에너지 저장 소재를 개발합니다. 양극과 고체전해질에 대한 전문성을 바탕으로 AI·제일원리계산·실험을 연결해 배터리의 성능과 안정성을 높이는 소재 및 전극을 설계합니다.</p><p class="hero-desc hero-intro-en" lang="en">As demand for high-performance rechargeable batteries grows, ESRL develops next-generation batteries and energy storage materials, including those for lithium-ion systems. Building on our expertise in cathodes and solid electrolytes, we combine AI, first-principles calculations, and experiments to design materials and electrodes for better battery performance and stability.</p><div class="hero-actions">{link('/research/','<span lang="ko">연구 분야 보기</span>','button')}{link('/publications/','<span lang="ko">최신 논문</span>')}</div><a class="hero-recruit" href="/join/"><span class="hero-recruit-content"><span class="hero-recruit-title"><span lang="ko">모집 안내</span><span lang="en">Join ESRL</span></span><span class="hero-recruit-audience" lang="ko">학부연구생 · 대학원생 · 포닥 모집</span><span class="hero-recruit-audience-en" lang="en">Undergraduate · Graduate · Postdoctoral opportunities</span></span><span class="hero-recruit-arrow" aria-hidden="true">↗</span></a></div><div class="hero-visual">{img('/assets/ai-battery-ev-wide.png','Conceptual illustration connecting AI servers, atomic battery materials, rechargeable cells and an electric vehicle',eager=True)}<div class="visual-caption"><span>ENERGY STORAGE RESEARCH LAB<br><span lang="ko">성균관대학교 에너지 저장 연구실</span></span><span>Cathodes × Solid electrolytes<br><span lang="ko">AI·계산·실험으로 연결하는 소재 연구</span></span></div></div></div></section>
  <section class="join-section" id="recruitment" aria-labelledby="recruitment-heading"><div class="wrap join-inner"><div><span class="eyebrow">Join ESRL <span lang="ko">· 함께할 연구자를 찾습니다</span></span><h2 id="recruitment-heading">Let’s ask the next question.</h2><p lang="ko"><strong>학부연구생 · 대학원생 · 박사후연구원(포닥)을 모집합니다.</strong><br>AI 기반 소재 설계, 제일원리계산, 실험·분석을 통해 차세대 이차전지 연구에 함께할 분들의 문의를 환영합니다.</p><p class="join-en" lang="en"><strong>We are recruiting undergraduate researchers, graduate students, and postdoctoral researchers.</strong><br>Explore next-generation rechargeable batteries with us through AI-driven materials design, first-principles calculations, and experimental research.</p></div>{link('/join/','<span><span lang="ko">모집 안내</span><small lang="en">Recruitment details</small></span>','button dark join-section-cta')}</div></section>
  <div class="research-strip"><div class="wrap strip-inner"><div class="strip-item"><b class="strip-number">01</b><div><strong>Materials design</strong><br><span lang="ko">전극 소재 설계·합성</span></div></div><div class="strip-item"><b class="strip-number">02</b><div><strong>AI & first-principles modeling</strong><br><span lang="ko">AI 기반 탐색·설계와 제일원리계산</span></div></div><div class="strip-item"><b class="strip-number">03</b><div><strong>Advanced characterization</strong><br><span lang="ko">구조·반응 메커니즘 규명</span></div></div></div></div>
  <section class="section"><div class="wrap"><div class="section-heading"><div><span class="eyebrow">Our research <span lang="ko">· 연구 분야</span></span><h2>Two materials pillars<br>One connected approach</h2></div><p lang="ko">양극과 고체전해질에 대한 소재 전문성을 바탕으로, AI·제일원리계산·합성·고도분석을 하나의 연구 흐름으로 연결합니다.</p></div><div class="research-grid core-grid">{cards}</div><div class="core-connection"><span>AI-guided design</span><b aria-hidden="true">↔</b><span>First-principles insight</span><b aria-hidden="true">↔</b><span>Synthesis &amp; validation</span></div></div></section>
@@ -133,9 +166,27 @@ body=title('Equipment & facilities','Built for discovery.','Our facilities suppo
 body+='<section class="section"><div class="wrap equipment-grid">'+''.join('<article class="equipment">'+img(q['image'],q['name'])+f'<h3>{e(q["name"])}</h3></article>' for q in D['equipment'])+'</div></section>'
 save('/equipment/','Equipment & facilities',body)
 
-body=title('Life at ESRL','Science brings us together.','Celebrations, shared meals, and moments beyond the lab.')
-body+='<section class="section"><div class="wrap photo-grid">'+''.join('<figure class="photo-item">'+img(p['image'],p['caption']+' · '+p['date'])+f'<figcaption><time>{e(p["date"])}</time>{e(p["caption"])}</figcaption></figure>' for p in D['photos'])+'</div><div class="wrap" style="margin-top:40px">'+link('https://www.energyscilab.com/photo','Earlier lab moments',external=True)+'</div></section>'
-save('/life/','Lab life',body)
+life_years=sorted({a['year'] for a in LAB_LIFE['albums']},reverse=True)
+def life_tabs(active):
+ choices=[('All','/life/','All albums · 전체')]+[(y,'/life/'+y+'/',y) for y in life_years]
+ return '<nav class="year-nav life-years" aria-label="Lab life year">'+''.join(f'<a href="{url}"'+(' aria-current="page"' if key==active else '')+f'>{label}</a>' for key,url,label in choices)+'</nav>'
+def album_route(album):return '/life/albums/'+album['slug']+'/'
+for year in ['All',*life_years]:
+ albums=[a for a in LAB_LIFE['albums'] if year=='All' or a['year']==year]
+ body=title('Life at ESRL · 연구실 일상','Science brings us together.','함께 연구하고, 함께 성장하는 우리의 순간들.<br>Celebrations, shared meals, and moments beyond the lab.')
+ body+='<section class="section life-archive"><div class="wrap">'+life_tabs(year)+f'<div class="life-overview"><p><strong>{len(albums)}</strong> albums · 행사 앨범</p><span>2022–2026 · ESRL memories</span></div><div class="album-grid">'
+ for a in albums:
+  body+=f'<article class="album-card"><a class="album-cover" href="{album_route(a)}">'+img(a['cover'],a['title_ko']+' · '+a['date_label'])+f'<span class="album-count">{len(a["photos"])} photos <span aria-hidden="true">↗</span></span></a><div class="album-card-copy"><time>{e(a["date_label"])}</time><h2><a href="{album_route(a)}">{e(a["title_ko"])}</a></h2><p lang="en">{e(a["title"])}</p></div></article>'
+ body+='</div></div></section>'
+ save('/life/' if year=='All' else '/life/'+year+'/','Lab life'+('' if year=='All' else ' · '+year),body)
+for a in LAB_LIFE['albums']:
+ body=title('Life at ESRL · '+a['date_label'],e(a['title_ko']),e(a['title']))
+ body+='<section class="section album-detail"><div class="wrap"><div class="album-toolbar">'+link('/life/'+a['year']+'/',a['year']+' 앨범 목록 · Back to albums')+f'<p>{len(a["photos"])} photos · 사진을 누르면 크게 볼 수 있습니다.</p></div><div class="photo-grid album-photos">'
+ for i,p in enumerate(a['photos'],1):
+  caption=a['title_ko']+' · '+a['date_label']+f' · {i} / {len(a["photos"])}'
+  body+=f'<figure class="photo-item"><a class="photo-open" href="{e(p["image"])}" data-lightbox data-caption="{e(caption)}" aria-label="{e(caption)} 크게 보기">'+img(p['image'],a['title_ko']+f' · Photo {i}')+f'<span class="photo-zoom" aria-hidden="true">크게 보기 ↗</span></a><figcaption><span>{i:02d}</span></figcaption></figure>'
+ body+='''</div></div></section><dialog class="photo-dialog" aria-label="사진 크게 보기 · Photo viewer"><div class="photo-dialog-shell"><div class="photo-dialog-top"><p data-photo-caption aria-live="polite"></p><button type="button" data-photo-close aria-label="닫기 · Close">Close ×</button></div><div class="photo-dialog-stage"><button type="button" data-photo-prev aria-label="이전 사진 · Previous photo">‹</button><img data-photo-image alt=""><button type="button" data-photo-next aria-label="다음 사진 · Next photo">›</button></div><p class="photo-dialog-hint">← → Previous / Next · ESC Close</p></div></dialog>'''
+ save(album_route(a),a['title_ko']+' · '+a['date_label'],body)
 
 body=title('Join ESRL','Your next question<br>could start here.','We are recruiting undergraduate researchers, graduate students, and postdoctoral researchers interested in energy-storage materials.')
 body+='''<section class="section"><div class="wrap contact-grid"><div><span class="eyebrow">Research opportunities</span><h2>Connect experiments<br>with understanding.</h2><p class="recruit-highlight" lang="ko">학부연구생 · 대학원생 · 박사후연구원(포닥) 모집</p><p>Our group combines AI-guided materials exploration, first-principles calculations, and advanced characterization to develop electrode materials and understand their behavior in rechargeable batteries.</p><p>Research opportunities span lithium-ion batteries, sodium- and potassium-ion batteries, aqueous zinc systems, and all-solid-state batteries.</p><p>Our research environment includes financial support for group members, including interns, opportunities to attend academic conferences, and participation in collaborative research with industry.</p><p lang="ko">성균관대학교 에너지 저장 연구실에서 학부연구생, 대학원생 및 박사후연구원(포닥)을 모집합니다. AI 기반 배터리 소재 탐색·설계, 제일원리계산 및 고도분석 연구에 관심 있는 분들은 김종순 교수에게 문의해 주시기 바랍니다.</p>'''+link('mailto:jongsoonkim@skku.edu','Contact Prof. Kim','button dark')+'''</div><aside class="contact-details"><span class="eyebrow">Get in touch</span><h3>Email</h3><p><a href="mailto:jongsoonkim@skku.edu">jongsoonkim@skku.edu</a></p><h3>Principal investigator</h3><p>Prof. Jongsoon Kim<br>김종순 교수</p><h3>Office</h3><p>N-Center, Room 86679<br>Sungkyunkwan University</p><h3>Telephone</h3><p><a href="tel:+82312996271">+82 31 299 6271</a></p></aside></div></section>'''

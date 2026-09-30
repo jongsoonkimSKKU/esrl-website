@@ -1,0 +1,3453 @@
+{
+  "latest_metric_year": 2025,
+  "checked_at": "2026-09-30",
+  "method": {
+    "metric_year": "Publication year, capped at the latest available metric year.",
+    "jcr_top_percent": "Minimum of rank / category journal count * 100 across JIF categories, or the explicitly published category Top % when ranks are not public. No masked ranks are reconstructed.",
+    "impact_factor_precision": "One decimal place, matching the public historical dataset.",
+    "sources": "Public journal-level records; publisher IF cross-checks are included where available. This is not an authenticated Clarivate export."
+  },
+  "journals": {
+    "acsenergyletters": {
+      "title": "ACS Energy Letters",
+      "source": "https://www.akaturk.com/journals/21100832985?lang=en",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 191
+            },
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 44
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 12,
+              "total": 191
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 29,
+              "total": 472
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 12,
+              "total": 148
+            }
+          ],
+          "impact_factor": "17.5",
+          "sources": [
+            {
+              "label": "IF · publisher",
+              "url": "https://pubs.acs.org/doi/10.1021/acsenergylett.6c02086"
+            },
+            {
+              "label": "JCR · public annual record",
+              "url": "https://www.akaturk.com/journals/21100832985?lang=en"
+            }
+          ]
+        },
+        "2024": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 185
+            },
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 44
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 182
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 24,
+              "total": 461
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 147
+            }
+          ],
+          "impact_factor": "18.9"
+        },
+        "2022": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 161
+            },
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 30
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 119
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 344
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 108
+            }
+          ],
+          "impact_factor": "22"
+        }
+      }
+    },
+    "advancedscience": {
+      "title": "Advanced Science",
+      "source": "https://scholar.pusan.ac.kr/journals/22156/",
+      "years": {
+        "2025": {
+          "impact_factor": "14.1",
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "total": 250,
+              "top_percent": 9.6
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "total": 472,
+              "top_percent": 9.75
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "total": 148,
+              "top_percent": 12.16
+            }
+          ],
+          "sources": [
+            {
+              "label": "IF · Wiley",
+              "url": "https://onlinelibrary.wiley.com/journal/21983844"
+            },
+            {
+              "label": "JCR Top % · PNU Scholar",
+              "url": "https://scholar.pusan.ac.kr/journals/22156/"
+            }
+          ]
+        }
+      }
+    },
+    "energystoragematerials": {
+      "title": "Energy Storage Materials",
+      "source": "https://www.akaturk.com/journals/21100420314?lang=en",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 12,
+              "total": 191
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 25,
+              "total": 472
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 148
+            }
+          ],
+          "impact_factor": "19.3",
+          "sources": [
+            {
+              "label": "IF · publisher",
+              "url": "https://pubs.acs.org/doi/10.1021/acsenergylett.6c02086"
+            },
+            {
+              "label": "JCR · public annual record",
+              "url": "https://www.akaturk.com/journals/21100420314?lang=en"
+            }
+          ]
+        },
+        "2024": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 185
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 22,
+              "total": 461
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 147
+            }
+          ],
+          "impact_factor": "20.2"
+        },
+        "2023": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 178
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 19,
+              "total": 439
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 141
+            }
+          ],
+          "impact_factor": "18.9"
+        },
+        "2022": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 161
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 15,
+              "total": 344
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 108
+            }
+          ],
+          "impact_factor": "20.4"
+        },
+        "2020": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 11,
+              "total": 162
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 17,
+              "total": 334
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 106
+            }
+          ],
+          "impact_factor": "17.8"
+        }
+      }
+    },
+    "appliedcatalysisbenvironmentandenergy": {
+      "title": "Applied Catalysis B: Environmental",
+      "source": "https://www.akaturk.com/journals/16343?lang=en",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 11,
+              "total": 191
+            },
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 183
+            },
+            {
+              "category": "ENGINEERING, ENVIRONMENTAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 88
+            }
+          ],
+          "impact_factor": "19.7"
+        }
+      }
+    },
+    "acsnano": {
+      "title": "ACS Nano",
+      "source": "https://www.akaturk.com/journals/11500153511?lang=en",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 17,
+              "total": 250
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 14,
+              "total": 191
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 30,
+              "total": 472
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 148
+            }
+          ],
+          "impact_factor": "17.3",
+          "sources": [
+            {
+              "label": "IF · publisher",
+              "url": "https://pubs.acs.org/ancac3/pages/about"
+            },
+            {
+              "label": "JCR · public annual record",
+              "url": "https://www.akaturk.com/journals/11500153511?lang=en"
+            }
+          ]
+        },
+        "2019": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 14,
+              "total": 177
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 11,
+              "total": 159
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 17,
+              "total": 314
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 103
+            }
+          ],
+          "impact_factor": "14.6"
+        },
+        "2009": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 140
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 214
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 59
+            }
+          ],
+          "impact_factor": "7.5"
+        }
+      }
+    },
+    "nanomicroletters": {
+      "title": "Nano-Micro Letters",
+      "source": "https://www.akaturk.com/journals/21100203115?lang=en",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 472
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 148
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 191
+            }
+          ],
+          "impact_factor": "38.5"
+        }
+      }
+    },
+    "advancedenergymaterials": {
+      "title": "Advanced Energy Materials",
+      "source": "https://www.akaturk.com/journals/21100199127?lang=en",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 191
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 191
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 12,
+              "total": 472
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 191
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 81
+            }
+          ],
+          "impact_factor": "25.5",
+          "sources": [
+            {
+              "label": "IF · publisher",
+              "url": "https://advanced.onlinelibrary.wiley.com/journal/16146840"
+            },
+            {
+              "label": "JCR · public annual record",
+              "url": "https://www.akaturk.com/journals/21100199127?lang=en"
+            }
+          ]
+        },
+        "2024": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 185
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 182
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 12,
+              "total": 461
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 187
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 80
+            }
+          ],
+          "impact_factor": "26"
+        },
+        "2023": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 178
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 171
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 439
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 179
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 79
+            }
+          ],
+          "impact_factor": "24.4"
+        },
+        "2022": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 161
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 119
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 344
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 160
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 67
+            }
+          ],
+          "impact_factor": "27.8"
+        },
+        "2021": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 165
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 119
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 345
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 161
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 69
+            }
+          ],
+          "impact_factor": "29.7"
+        },
+        "2020": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 162
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 114
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 334
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 160
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 69
+            }
+          ],
+          "impact_factor": "29.4"
+        },
+        "2019": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 159
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 112
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 314
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 155
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 69
+            }
+          ],
+          "impact_factor": "25.2"
+        },
+        "2018": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 148
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 103
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 293
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 148
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 68
+            }
+          ],
+          "impact_factor": "24.9"
+        },
+        "2016": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 146
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 92
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 275
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 148
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 67
+            }
+          ],
+          "impact_factor": "16.7"
+        },
+        "2014": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 139
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 89
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 260
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 144
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 67
+            }
+          ],
+          "impact_factor": "16.1"
+        },
+        "2013": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 136
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 83
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 251
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 136
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 67
+            }
+          ],
+          "impact_factor": "14.4"
+        }
+      }
+    },
+    "energyandenvironmentalscience": {
+      "title": "Energy and Environmental Science",
+      "source": "https://www.akaturk.com/journals/17500155114?lang=en",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 250
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 191
+            },
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 183
+            },
+            {
+              "category": "ENVIRONMENTAL SCIENCES",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 395
+            }
+          ],
+          "impact_factor": "30.5"
+        },
+        "2021": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 179
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 119
+            },
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 1,
+              "total": 143
+            },
+            {
+              "category": "ENVIRONMENTAL SCIENCES",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 1,
+              "total": 279
+            }
+          ],
+          "impact_factor": "39.7"
+        },
+        "2018": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 172
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 103
+            },
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 1,
+              "total": 138
+            },
+            {
+              "category": "ENVIRONMENTAL SCIENCES",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 1,
+              "total": 251
+            }
+          ],
+          "impact_factor": "33.2"
+        },
+        "2015": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 163
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 1,
+              "total": 88
+            },
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 1,
+              "total": 135
+            },
+            {
+              "category": "ENVIRONMENTAL SCIENCES",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 1,
+              "total": 225
+            }
+          ],
+          "impact_factor": "25.4"
+        },
+        "2013": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 148
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 83
+            },
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 133
+            },
+            {
+              "category": "ENVIRONMENTAL SCIENCES",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 1,
+              "total": 216
+            }
+          ],
+          "impact_factor": "15.5"
+        }
+      }
+    },
+    "energyandenvironmentalmaterials": {
+      "title": "Energy and Environmental Materials",
+      "source": "https://www.akaturk.com/journals/21101030209?lang=tr",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 20,
+              "total": 191
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 51,
+              "total": 472
+            }
+          ],
+          "impact_factor": "13.8"
+        },
+        "2022": {
+          "categories": [
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 25,
+              "total": 344
+            }
+          ],
+          "impact_factor": "15"
+        }
+      }
+    },
+    "advancedfunctionalmaterials": {
+      "title": "Advanced Functional Materials",
+      "source": "https://www.akaturk.com/journals/25143?lang=tr",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 11,
+              "total": 250
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 191
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 23,
+              "total": 472
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 148
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 191
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 81
+            }
+          ],
+          "impact_factor": "19.9",
+          "sources": [
+            {
+              "label": "IF · publisher",
+              "url": "https://onlinelibrary.wiley.com/journal/16163028"
+            },
+            {
+              "label": "JCR · public annual record",
+              "url": "https://www.akaturk.com/journals/25143?lang=tr"
+            }
+          ]
+        },
+        "2024": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 239
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 12,
+              "total": 185
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 23,
+              "total": 461
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 147
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 187
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 80
+            }
+          ],
+          "impact_factor": "19"
+        },
+        "2022": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 178
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 161
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 16,
+              "total": 344
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 108
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 160
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 67
+            }
+          ],
+          "impact_factor": "19"
+        },
+        "2019": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 177
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 159
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 314
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 103
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 155
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 69
+            }
+          ],
+          "impact_factor": "16.8"
+        },
+        "2014": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 12,
+              "total": 157
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 139
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 12,
+              "total": 260
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 80
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 144
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 67
+            }
+          ],
+          "impact_factor": "11.8"
+        },
+        "2009": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 11,
+              "total": 140
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 121
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 11,
+              "total": 214
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 59
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 108
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 66
+            }
+          ],
+          "impact_factor": "7"
+        }
+      }
+    },
+    "carbonenergy": {
+      "title": "Carbon Energy",
+      "source": "https://scholar.pusan.ac.kr/journals/126020/",
+      "years": {
+        "2025": {
+          "impact_factor": "21.4",
+          "categories": [
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "total": 191,
+              "top_percent": 3.66
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "total": 472,
+              "top_percent": 4.03
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "total": 191,
+              "top_percent": 4.71
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "total": 148,
+              "top_percent": 4.73
+            }
+          ],
+          "sources": [
+            {
+              "label": "IF · Wiley",
+              "url": "https://onlinelibrary.wiley.com/journal/26379368"
+            },
+            {
+              "label": "JCR Top % · PNU Scholar",
+              "url": "https://scholar.pusan.ac.kr/journals/126020/"
+            }
+          ]
+        },
+        "2024": {
+          "impact_factor": "24.2",
+          "categories": [
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "total": 461,
+              "top_percent": 3.04
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "total": 182,
+              "top_percent": 3.3
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "total": 147,
+              "top_percent": 3.4
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "total": 185,
+              "top_percent": 4.32
+            }
+          ],
+          "sources": [
+            {
+              "label": "IF · ACS Energy Letters annual analysis",
+              "url": "https://pubs.acs.org/doi/10.1021/acsenergylett.5c01964"
+            },
+            {
+              "label": "JCR Top % · PNU Scholar",
+              "url": "https://scholar.pusan.ac.kr/journals/126020/"
+            }
+          ]
+        }
+      }
+    },
+    "interdisciplinarymaterials": {
+      "title": "Interdisciplinary Materials",
+      "source": "https://www.akaturk.com/journals/21101274720?lang=en",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "ESCI",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 191
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "ESCI",
+              "quartile": "Q1",
+              "rank": 17,
+              "total": 472
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "ESCI",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 191
+            }
+          ],
+          "impact_factor": "22.5"
+        }
+      }
+    },
+    "small": {
+      "title": "Small",
+      "source": "https://www.akaturk.com/journals/3200147828?lang=en",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 27,
+              "total": 250
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 26,
+              "total": 191
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 63,
+              "total": 472
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 20,
+              "total": 148
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 16,
+              "total": 191
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 81
+            }
+          ],
+          "impact_factor": "11.8"
+        },
+        "2021": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 18,
+              "total": 179
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 17,
+              "total": 165
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 25,
+              "total": 345
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 14,
+              "total": 109
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 11,
+              "total": 161
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 69
+            }
+          ],
+          "impact_factor": "15.2"
+        },
+        "2020": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 18,
+              "total": 178
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 14,
+              "total": 162
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 25,
+              "total": 334
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 106
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 11,
+              "total": 160
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 69
+            }
+          ],
+          "impact_factor": "13.3"
+        },
+        "2018": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 18,
+              "total": 172
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 148
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 20,
+              "total": 293
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 11,
+              "total": 94
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 148
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 68
+            }
+          ],
+          "impact_factor": "10.9"
+        }
+      }
+    },
+    "journalofenergychemistry": {
+      "title": "Journal of Energy Chemistry",
+      "source": "https://www.akaturk.com/journals/21100244836?lang=en",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 77
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 18,
+              "total": 191
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 16,
+              "total": 191
+            },
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 183
+            }
+          ],
+          "impact_factor": "15.6"
+        },
+        "2023": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 74
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 16,
+              "total": 178
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 12,
+              "total": 171
+            },
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 170
+            }
+          ],
+          "impact_factor": "14"
+        }
+      }
+    },
+    "nanoletters": {
+      "title": "Nano Letters",
+      "source": "https://www.akaturk.com/journals/17853?lang=tr",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 43,
+              "total": 250
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 41,
+              "total": 191
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 84,
+              "total": 472
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 28,
+              "total": 148
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 27,
+              "total": 191
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 81
+            }
+          ],
+          "impact_factor": "9.1"
+        }
+      }
+    },
+    "advancedmaterials": {
+      "title": "Advanced Materials",
+      "source": "https://www.akaturk.com/journals/19881?lang=en",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 250
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 191
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 472
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 148
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 191
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 81
+            }
+          ],
+          "impact_factor": "29.1"
+        },
+        "2012": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 152
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 135
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 241
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 69
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 128
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 68
+            }
+          ],
+          "impact_factor": "14.8"
+        },
+        "2010": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 147
+            },
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 127
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 225
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 64
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 118
+            },
+            {
+              "category": "PHYSICS, CONDENSED MATTER",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 68
+            }
+          ],
+          "impact_factor": "10.9"
+        }
+      }
+    },
+    "journalofmaterialschemistrya": {
+      "title": "Journal of Materials Chemistry A",
+      "source": "https://www.akaturk.com/journals/21100232403?lang=en",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 39,
+              "total": 191
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 40,
+              "total": 191
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 82,
+              "total": 472
+            }
+          ],
+          "impact_factor": "9.2"
+        },
+        "2024": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 33,
+              "total": 185
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 29,
+              "total": 182
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 63,
+              "total": 461
+            }
+          ],
+          "impact_factor": "9.5"
+        },
+        "2023": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 24,
+              "total": 178
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 16,
+              "total": 171
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 46,
+              "total": 439
+            }
+          ],
+          "impact_factor": "10.8"
+        },
+        "2022": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 24,
+              "total": 161
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 11,
+              "total": 119
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 32,
+              "total": 344
+            }
+          ],
+          "impact_factor": "11.9"
+        },
+        "2021": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 18,
+              "total": 165
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 119
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 26,
+              "total": 345
+            }
+          ],
+          "impact_factor": "14.5"
+        },
+        "2020": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 18,
+              "total": 162
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 114
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 29,
+              "total": 334
+            }
+          ],
+          "impact_factor": "12.7"
+        },
+        "2019": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 17,
+              "total": 159
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 112
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 24,
+              "total": 314
+            }
+          ],
+          "impact_factor": "11.3"
+        },
+        "2018": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 14,
+              "total": 148
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 103
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 21,
+              "total": 293
+            }
+          ],
+          "impact_factor": "10.7"
+        },
+        "2017": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 14,
+              "total": 147
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 97
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 20,
+              "total": 285
+            }
+          ],
+          "impact_factor": "9.9"
+        },
+        "2014": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 18,
+              "total": 139
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 89
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 20,
+              "total": 260
+            }
+          ],
+          "impact_factor": "7.4"
+        }
+      }
+    },
+    "journalofpowersources": {
+      "title": "Journal of Power Sources",
+      "source": "https://www.akaturk.com/journals/18063?lang=tr",
+      "years": {
+        "2025": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 45,
+              "total": 191
+            },
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 44
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 44,
+              "total": 191
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 96,
+              "total": 472
+            }
+          ],
+          "impact_factor": "8.4"
+        },
+        "2021": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 34,
+              "total": 165
+            },
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 30
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 20,
+              "total": 119
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 56,
+              "total": 345
+            }
+          ],
+          "impact_factor": "9.8"
+        },
+        "2020": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 28,
+              "total": 162
+            },
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 29
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 114
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 45,
+              "total": 334
+            }
+          ],
+          "impact_factor": "9.1"
+        },
+        "2019": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 27,
+              "total": 159
+            },
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 27
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 112
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 38,
+              "total": 314
+            }
+          ],
+          "impact_factor": "8.2"
+        },
+        "2018": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 26,
+              "total": 148
+            },
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 26
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 11,
+              "total": 103
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 32,
+              "total": 293
+            }
+          ],
+          "impact_factor": "7.5"
+        }
+      }
+    },
+    "chemicalengineeringjournal": {
+      "title": "Chemical Engineering Journal",
+      "source": "https://www.akaturk.com/journals/16398?lang=en",
+      "years": {
+        "2024": {
+          "categories": [
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 176
+            },
+            {
+              "category": "ENGINEERING, ENVIRONMENTAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 83
+            }
+          ],
+          "impact_factor": "13.2"
+        },
+        "2023": {
+          "categories": [
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 170
+            },
+            {
+              "category": "ENGINEERING, ENVIRONMENTAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 81
+            }
+          ],
+          "impact_factor": "13.4"
+        },
+        "2022": {
+          "categories": [
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 142
+            },
+            {
+              "category": "ENGINEERING, ENVIRONMENTAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 3,
+              "total": 55
+            }
+          ],
+          "impact_factor": "15.1"
+        },
+        "2021": {
+          "categories": [
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 143
+            },
+            {
+              "category": "ENGINEERING, ENVIRONMENTAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 54
+            }
+          ],
+          "impact_factor": "16.7"
+        }
+      }
+    },
+    "compositespartbengineering": {
+      "title": "Composites Part B: Engineering",
+      "source": "https://www.akaturk.com/journals/28635?lang=en",
+      "years": {
+        "2023": {
+          "categories": [
+            {
+              "category": "ENGINEERING, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 1,
+              "total": 181
+            },
+            {
+              "category": "MATERIALS SCIENCE, COMPOSITES",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 35
+            }
+          ],
+          "impact_factor": "12.7"
+        }
+      }
+    },
+    "materialstodayenergy": {
+      "title": "Materials Today Energy",
+      "source": "https://www.akaturk.com/journals/21100810501?lang=en",
+      "years": {
+        "2023": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 35,
+              "total": 178
+            },
+            {
+              "category": "ENERGY & FUELS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 24,
+              "total": 171
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 62,
+              "total": 439
+            }
+          ],
+          "impact_factor": "9"
+        }
+      }
+    },
+    "cellulose": {
+      "title": "Cellulose",
+      "source": "https://www.akaturk.com/journals/25810?lang=en",
+      "years": {
+        "2023": {
+          "categories": [
+            {
+              "category": "MATERIALS SCIENCE, PAPER & WOOD",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 23
+            },
+            {
+              "category": "MATERIALS SCIENCE, TEXTILES",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 2,
+              "total": 30
+            },
+            {
+              "category": "POLYMER SCIENCE",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 16,
+              "total": 95
+            }
+          ],
+          "impact_factor": "4.9"
+        }
+      }
+    },
+    "batteriesandsupercaps": {
+      "title": "Batteries and Supercaps",
+      "source": "https://www.akaturk.com/journals/21101023387?lang=en",
+      "years": {
+        "2023": {
+          "categories": [
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q2",
+              "rank": 13,
+              "total": 45
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q2",
+              "rank": 130,
+              "total": 439
+            }
+          ],
+          "impact_factor": "5.1"
+        }
+      }
+    },
+    "appliedphysicsreviews": {
+      "title": "Applied Physics Reviews",
+      "source": "https://www.akaturk.com/journals/21100327726?lang=en",
+      "years": {
+        "2022": {
+          "categories": [
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 160
+            }
+          ],
+          "impact_factor": "15"
+        }
+      }
+    },
+    "acsappliedmaterialsandinterfaces": {
+      "title": "ACS Applied Materials and Interfaces",
+      "source": "https://www.akaturk.com/journals/19700171101?lang=tr",
+      "years": {
+        "2021": {
+          "categories": [
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 49,
+              "total": 345
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 23,
+              "total": 109
+            }
+          ],
+          "impact_factor": "10.4"
+        },
+        "2017": {
+          "categories": [
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 26,
+              "total": 285
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 15,
+              "total": 92
+            }
+          ],
+          "impact_factor": "8.1"
+        }
+      }
+    },
+    "nanoenergy": {
+      "title": "Nano Energy",
+      "source": "https://www.akaturk.com/journals/21100197947?lang=tr",
+      "years": {
+        "2020": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 162
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 16,
+              "total": 334
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 106
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 160
+            }
+          ],
+          "impact_factor": "17.9"
+        },
+        "2019": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 159
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 14,
+              "total": 314
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 103
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 8,
+              "total": 155
+            }
+          ],
+          "impact_factor": "16.6"
+        },
+        "2017": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 9,
+              "total": 147
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 15,
+              "total": 285
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 92
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 7,
+              "total": 146
+            }
+          ],
+          "impact_factor": "13.1"
+        }
+      }
+    },
+    "carbonletters": {
+      "title": "Carbon Letters",
+      "source": "https://www.akaturk.com/journals/21100398885?lang=tr",
+      "years": {
+        "2020": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q3",
+              "rank": 120,
+              "total": 178
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q4",
+              "rank": 251,
+              "total": 334
+            }
+          ],
+          "impact_factor": "1.9"
+        }
+      }
+    },
+    "smallmethods": {
+      "title": "Small Methods",
+      "source": "https://www.akaturk.com/journals/21100924211?lang=en",
+      "years": {
+        "2020": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 162
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 24,
+              "total": 334
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 12,
+              "total": 106
+            }
+          ],
+          "impact_factor": "14.2"
+        }
+      }
+    },
+    "acssustainablechemistryandengineering": {
+      "title": "ACS Sustainable Chemistry and Engineering",
+      "source": "https://www.akaturk.com/journals/21100248891?lang=en",
+      "years": {
+        "2020": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 29,
+              "total": 178
+            },
+            {
+              "category": "ENGINEERING, CHEMICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 14,
+              "total": 143
+            },
+            {
+              "category": "GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 6,
+              "total": 44
+            }
+          ],
+          "impact_factor": "8.2"
+        }
+      }
+    },
+    "journaloftheelectrochemicalsociety": {
+      "title": "Journal of the Electrochemical Society",
+      "source": "https://www.akaturk.com/journals/25169?lang=en",
+      "years": {
+        "2019": {
+          "categories": [
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q2",
+              "rank": 12,
+              "total": 27
+            },
+            {
+              "category": "MATERIALS SCIENCE, COATINGS & FILMS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 21
+            }
+          ],
+          "impact_factor": "3.7"
+        },
+        "2018": {
+          "categories": [
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q2",
+              "rank": 11,
+              "total": 26
+            },
+            {
+              "category": "MATERIALS SCIENCE, COATINGS & FILMS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 20
+            }
+          ],
+          "impact_factor": "3.1"
+        },
+        "2013": {
+          "categories": [
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q2",
+              "rank": 9,
+              "total": 27
+            },
+            {
+              "category": "MATERIALS SCIENCE, COATINGS & FILMS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 1,
+              "total": 18
+            }
+          ],
+          "impact_factor": "2.9"
+        },
+        "2011": {
+          "categories": [
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q2",
+              "rank": 13,
+              "total": 27
+            },
+            {
+              "category": "MATERIALS SCIENCE, COATINGS & FILMS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 1,
+              "total": 18
+            }
+          ],
+          "impact_factor": "2.6"
+        },
+        "2009": {
+          "categories": [
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q2",
+              "rank": 10,
+              "total": 24
+            },
+            {
+              "category": "MATERIALS SCIENCE, COATINGS & FILMS",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 1,
+              "total": 17
+            }
+          ],
+          "impact_factor": "2.2"
+        }
+      }
+    },
+    "chemistryofmaterials": {
+      "title": "Chemistry of Materials",
+      "source": "https://www.akaturk.com/journals/12878?lang=en",
+      "years": {
+        "2018": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 17,
+              "total": 148
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 22,
+              "total": 293
+            }
+          ],
+          "impact_factor": "10.2"
+        },
+        "2017": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 15,
+              "total": 147
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 21,
+              "total": 285
+            }
+          ],
+          "impact_factor": "9.9"
+        },
+        "2016": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 12,
+              "total": 146
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 15,
+              "total": 275
+            }
+          ],
+          "impact_factor": "9.5"
+        },
+        "2014": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 15,
+              "total": 139
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 17,
+              "total": 260
+            }
+          ],
+          "impact_factor": "8.4"
+        },
+        "2013": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 136
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 16,
+              "total": 251
+            }
+          ],
+          "impact_factor": "8.5"
+        },
+        "2011": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 14,
+              "total": 134
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 13,
+              "total": 232
+            }
+          ],
+          "impact_factor": "7.3"
+        },
+        "2010": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 15,
+              "total": 127
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 12,
+              "total": 225
+            }
+          ],
+          "impact_factor": "6.4"
+        }
+      }
+    },
+    "chemicalcommunications": {
+      "title": "Chemical Communications",
+      "source": "https://www.akaturk.com/journals/22781?lang=en",
+      "years": {
+        "2018": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 32,
+              "total": 172
+            }
+          ],
+          "impact_factor": "6.2"
+        },
+        "2010": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 17,
+              "total": 147
+            }
+          ],
+          "impact_factor": "5.8"
+        }
+      }
+    },
+    "materialsresearchbulletin": {
+      "title": "Materials Research Bulletin",
+      "source": "https://www.akaturk.com/journals/24709?lang=en",
+      "years": {
+        "2017": {
+          "categories": [
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q2",
+              "rank": 91,
+              "total": 285
+            }
+          ],
+          "impact_factor": "2.9"
+        }
+      }
+    },
+    "crystengcomm": {
+      "title": "CrystEngComm",
+      "source": "https://www.akaturk.com/journals/130039?lang=en",
+      "years": {
+        "2016": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q2",
+              "rank": 49,
+              "total": 166
+            },
+            {
+              "category": "CRYSTALLOGRAPHY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 5,
+              "total": 26
+            }
+          ],
+          "impact_factor": "3.5"
+        }
+      }
+    },
+    "journaloftheamericanchemicalsociety": {
+      "title": "Journal of the American Chemical Society",
+      "source": "https://www.akaturk.com/journals/22680?lang=en",
+      "years": {
+        "2014": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 157
+            }
+          ],
+          "impact_factor": "12.1"
+        },
+        "2013": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 10,
+              "total": 148
+            }
+          ],
+          "impact_factor": "11.4"
+        }
+      }
+    },
+    "journalofalloysandcompounds": {
+      "title": "Journal of Alloys and Compounds",
+      "source": "https://www.akaturk.com/journals/12325?lang=en",
+      "years": {
+        "2014": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q2",
+              "rank": 47,
+              "total": 139
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 48,
+              "total": 260
+            },
+            {
+              "category": "METALLURGY & METALLURGICAL ENGINEERING",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 74
+            }
+          ],
+          "impact_factor": "3"
+        }
+      }
+    },
+    "nanotechnology": {
+      "title": "Nanotechnology",
+      "source": "https://www.akaturk.com/journals/110040?lang=en",
+      "years": {
+        "2013": {
+          "categories": [
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 39,
+              "total": 251
+            },
+            {
+              "category": "NANOSCIENCE & NANOTECHNOLOGY",
+              "edition": "SCIE",
+              "quartile": "Q2",
+              "rank": 24,
+              "total": 73
+            },
+            {
+              "category": "PHYSICS, APPLIED",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 19,
+              "total": 136
+            }
+          ],
+          "impact_factor": "3.7"
+        }
+      }
+    },
+    "journalofmaterialschemistry": {
+      "title": "Journal of Materials Chemistry",
+      "source": "https://www.akaturk.com/journals/24641?lang=en",
+      "years": {
+        "2012": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 18,
+              "total": 135
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 20,
+              "total": 241
+            }
+          ],
+          "impact_factor": "6.1"
+        }
+      }
+    },
+    "carbon": {
+      "title": "Carbon",
+      "source": "https://www.akaturk.com/journals/25806?lang=en",
+      "years": {
+        "2011": {
+          "categories": [
+            {
+              "category": "CHEMISTRY, PHYSICAL",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 21,
+              "total": 134
+            },
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 21,
+              "total": 232
+            }
+          ],
+          "impact_factor": "5.4"
+        }
+      }
+    },
+    "electronicmaterialsletters": {
+      "title": "Electronic Materials Letters",
+      "source": "https://www.akaturk.com/journals/13300154705?lang=en",
+      "years": {
+        "2011": {
+          "categories": [
+            {
+              "category": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "edition": "SCIE",
+              "quartile": "Q2",
+              "rank": 73,
+              "total": 232
+            }
+          ],
+          "impact_factor": "1.8"
+        }
+      }
+    },
+    "electrochimicaacta": {
+      "title": "Electrochimica Acta",
+      "source": "https://www.akaturk.com/journals/25181?lang=tr",
+      "years": {
+        "2009": {
+          "categories": [
+            {
+              "category": "ELECTROCHEMISTRY",
+              "edition": "SCIE",
+              "quartile": "Q1",
+              "rank": 4,
+              "total": 24
+            }
+          ],
+          "impact_factor": "3.3"
+        }
+      }
+    }
+  },
+  "unavailable": [
+    {
+      "journal": "Materials Science and Engineering: R: Reports",
+      "metric_year": 2025,
+      "reason": "No verified public metric record available."
+    },
+    {
+      "journal": "Ceramist",
+      "metric_year": 2022,
+      "reason": "No verified public metric record available."
+    },
+    {
+      "journal": "Journal of the Korean Ceramic Society",
+      "metric_year": 2018,
+      "reason": "No verified public metric record available."
+    },
+    {
+      "journal": "J. Korean Battery Soc",
+      "metric_year": 2010,
+      "reason": "No verified public metric record available."
+    }
+  ]
+}
