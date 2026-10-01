@@ -140,7 +140,7 @@ def student_stories():
  return out+'</div></div></section>'
 RESEARCH_INTERESTS=[
  ('make','01 / MAKE','소재를 직접 만들고 싶다','Design and synthesize materials','저가형 고성능 양극부터 전고체전지용 고체전해질까지','조성과 합성 조건을 바꾸고, 결정구조와 배터리 성능을 비교하면서 새로운 소재를 설계합니다.','소재 설계 · 합성 · 전기화학 평가','research-drx-transport.png','리튬 이동 경로를 분석한 연구 그림','10.1021/acsnano.5c22044','/research/#cathodes'),
- ('understand','02 / UNDERSTAND','계산으로 원리를 알고 싶다','Explore mechanisms with calculations','원자와 전자의 움직임으로 배터리를 이해하기','제일원리계산으로 구조 안정성과 전자구조, 이온 이동을 살펴보고 실험 결과와 연결합니다. AI 기반 소재 탐색도 함께 연구합니다.','제일원리계산 · 전자구조 · AI 소재 탐색','research-sodium-redox.png','소듐 양극의 전자구조와 산소 전하밀도 연구 그림','10.1016/j.ensm.2026.105375','/research/#beyond-lithium'),
+ ('understand','02 / UNDERSTAND','AI와 시뮬레이션으로 원리를 알고 싶다','Explore mechanisms with AI and simulations','AI와 시뮬레이션으로 배터리를 이해하기','AI 기반 소재 탐색과 제일원리 시뮬레이션을 통해 구조 안정성, 전자구조, 이온 이동을 살펴보고 실험 결과와 연결합니다.','AI 소재 탐색 · 제일원리 시뮬레이션 · 전자구조','research-sodium-redox.png','소듐 양극의 전자구조와 산소 전하밀도 연구 그림','10.1016/j.ensm.2026.105375','/research/#beyond-lithium'),
  ('improve','03 / IMPROVE','배터리 성능을 높이고 싶다','Improve battery performance','더 빠른 충전, 더 오래가는 배터리를 향해','전극과 계면을 설계하고 충·방전 특성과 구조 변화를 분석합니다. 고속충전 성능과 수명, 전고체전지의 계면 안정성을 함께 살펴봅니다.','전극 설계 · 계면 제어 · 성능·열화 분석','research-solid-interface.png','접착력 강화 코팅의 전고체전지 성능 비교 연구 그림','10.1016/j.ensm.2026.105167','/research/#solid-electrolytes')
 ]
 def research_explorer():
