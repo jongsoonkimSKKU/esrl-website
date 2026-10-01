@@ -2,12 +2,14 @@
 from pathlib import Path
 from html import escape as e
 import json
+import hashlib
 ROOT=Path(__file__).parent
 D=json.loads((ROOT/'content.json').read_text())
 D['publications']=json.loads((ROOT/'publications.json').read_text())
 JOURNAL_METRICS=json.loads((ROOT/'journal_metrics.json').read_text())
 LAB_LIFE=json.loads((ROOT/'lab_life.json').read_text())
 DIST=ROOT/'dist'
+STYLESHEET_VERSION=hashlib.sha256((DIST/'style.css').read_bytes()).hexdigest()[:12]
 ARROW='<span class="arrow" aria-hidden="true">↗</span>'
 NAV=[('Home','/'),('Research','/research/'),('Professor','/professor/'),('People','/people/'),('Publications','/publications/'),('Lab life','/life/')]
 PUBLICATION_GROUPS=[('2026',['2026']),('2025',['2025']),('2024',['2024']),('2023',['2023']),('2022',['2022']),('2021',['2021']),('2020',['2020']),('2019',['2019']),('2018–2017',['2018','2017']),('2016–2015',['2016','2015']),('2014–2012',['2014','2013','2012']),('2011–2009',['2011','2010','2009'])]
@@ -97,7 +99,7 @@ def link(href,label,cls='text-link',external=False):return f'<a href="{e(href)}"
 def shell(title,route,content,description=None):
  description=description or 'Energy Storage Research Lab at Sungkyunkwan University. AI-guided battery materials design, first-principles calculations, and advanced structural analysis. Led by Prof. Jongsoon Kim.'
  nav=navigation(route)
- return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} · ESRL · SKKU</title><meta name="description" content="{e(description)}"><meta name="theme-color" content="#0a1d32"><link rel="icon" type="image/png" href="/assets/esrl-firefly-logo.png"><link rel="stylesheet" href="/style.css"><script src="/site.js" defer></script></head><body>
+ return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} · ESRL · SKKU</title><meta name="description" content="{e(description)}"><meta name="theme-color" content="#0a1d32"><link rel="icon" type="image/png" href="/assets/esrl-firefly-logo.png"><link rel="stylesheet" href="/style.css?v={STYLESHEET_VERSION}"><script src="/site.js" defer></script></head><body>
  <a class="skip" href="#main">Skip to content</a><div class="topline"><div class="wrap"><span>SUNGKYUNKWAN UNIVERSITY</span><span lang="ko">성균관대학교 에너지 저장 연구실</span></div></div>
  <header class="site-header"><div class="wrap header-inner"><a class="brand" href="/" aria-label="ESRL home"><span class="brand-lockup"><span class="brand-mark">ESRL</span><span class="firefly-mark header-firefly"><img src="/assets/esrl-firefly-logo.png" alt="" width="48" height="48"></span></span><span class="brand-name">Energy Storage<br>Research Lab.</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Menu ☰</button><nav id="navigation" class="nav" aria-label="Main navigation">{nav}<a class="join-link" href="/join/">Join us {ARROW}</a></nav></div></header>
  <main id="main">{content}</main>
