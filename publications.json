@@ -11,8 +11,7 @@
     "url": "https://doi.org/10.1021/acsenergylett.6c02530",
     "authors": "T. Kim, H. Kweon, H. Lee, L. Jang, B. Ku, M. Choi, S. Lim, H. Choo, L. Eom, J. Kwon, M.-K. Cho, Y. H. Jung, H.-G. Jung, J. Kim*",
     "citation": "ACS Energy Letters, Accepted (2026)",
-    "doi": "10.1021/acsenergylett.6c02530",
-    "featured": true
+    "doi": "10.1021/acsenergylett.6c02530"
   },
   {
     "title": "Basal Plane Graphene Coated Zn Powder for High Performance Aqueous Zn Metal Batteries",
@@ -58,8 +57,7 @@
     "authors": "J. Kim†, H. Lee†, T. Kim, E. Ryu,I. Seo, J. Seong, C. Lim, J. Kim*",
     "citation": "Energy Storage Materials, 89, 105167 (2026)",
     "doi": "10.1016/j.ensm.2026.105167",
-    "pdf_url": "/assets/papers/2026-88c67217de4d.pdf",
-    "featured": true
+    "pdf_url": "/assets/papers/2026-88c67217de4d.pdf"
   },
   {
     "title": "Fast and Trap-Minimized Li Transport via Size-Mismatch-Driven Cation-Ordering Control in Li-Excess Disordered Rocksalt Cathodes",
@@ -67,8 +65,7 @@
     "authors": "J. Ahn†, B. Ku†, H. Kweon, H. Lee, H. Ahn, M. Choi, M. H. Lee, M. Yoon, J. Choi, J Hong, J. Kim*",
     "citation": "ACS Nano, 20, 10556–10569 (2026)",
     "doi": "10.1021/acsnano.5c22044",
-    "pdf_url": "/assets/papers/2026-24c595be03a8.pdf",
-    "featured": true
+    "pdf_url": "/assets/papers/2026-24c595be03a8.pdf"
   },
   {
     "title": "Growth-Directing Nanostructured Interfaces via Block Copolymer-Templated Au Nanoseed Arrays for Stabilized Zinc Anodes in Lean-Zinc Batteries",
@@ -76,7 +73,8 @@
     "authors": "D. W. Hae, H. Lee†, H. J. Kook, G. Kim, S. Kim, J. Choi, M. P. Kim, S. H. Kang, W. J. Lee, Y.-G. Lee, H. M. Jin, J. Kim*, D. O Shin",
     "citation": "Nano-Micro Letters, 18, 355 (2026)",
     "doi": "10.1007/s40820-026-02167-y",
-    "pdf_url": "/assets/papers/2026-b1fa9387da7c.pdf"
+    "pdf_url": "/assets/papers/2026-b1fa9387da7c.pdf",
+    "featured": true
   },
   {
     "title": "NaF@MnO-based sacrificial cathode/separator composite for boosting the energy density of sodium-ion batteries",
@@ -92,7 +90,8 @@
     "authors": "B. Ku†, L. Jang†, H. Kweon, J. Ahn, S. Hwang, J. Lee, M. Choi, S. Yoo, K. Yoo, K.-Y. Park, J. Kim*",
     "citation": "Advanced Energy Materials, 16, e06130 (2026)",
     "doi": "10.1002/aenm.202506130",
-    "pdf_url": "/assets/papers/2026-1136374e66d0.pdf"
+    "pdf_url": "/assets/papers/2026-1136374e66d0.pdf",
+    "featured": true
   },
   {
     "title": "Bimodal Composite Cathodes Advancing the Chemo-Mechanical Integrity and Kinetics for All-Solid-State Batteries",
@@ -123,7 +122,8 @@
     "authors": "J. Ahn, H. Jang, H. Ahn, H. Kweon, S. Oh, S. Hwang, M. H. Lee, J. Hong, J. Kim*",
     "citation": "Advanced Energy Materials, 16, e05121 (2026)",
     "doi": "10.1002/aenm.202505121",
-    "pdf_url": "/assets/papers/2026-92a4af5306d1.pdf"
+    "pdf_url": "/assets/papers/2026-92a4af5306d1.pdf",
+    "featured": true
   },
   {
     "title": "Redox-Mediating Mo2C Nanoparticles Confined Within Nitrogen- and Phosphorus-Codoped Amorphous Carbon Matrix for Lithium–Sulfur Batteries",
