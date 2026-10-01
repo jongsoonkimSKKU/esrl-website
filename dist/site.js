@@ -51,3 +51,9 @@ if(photoDialog&&typeof photoDialog.showModal==='function'){
  photoDialog.addEventListener('close',()=>{document.body.classList.remove('photo-dialog-open');opener?.focus()});
  if(links.length<2){photoDialog.querySelector('.photo-dialog-stage').classList.add('single-photo');photoDialog.querySelector('[data-photo-prev]').hidden=true;photoDialog.querySelector('[data-photo-next]').hidden=true}
 }
+
+// Keep one research interest open, including browsers without details grouping.
+const researchChoices=[...document.querySelectorAll('.research-choice')];
+researchChoices.forEach(choice=>choice.addEventListener('toggle',()=>{
+ if(choice.open)researchChoices.filter(other=>other!==choice).forEach(other=>{other.open=false});
+}));
