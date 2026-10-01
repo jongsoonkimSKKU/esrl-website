@@ -22,7 +22,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Build and verify pages and photos
-        run: python3 scripts/prepare_github_pages.py --base-path /esrl-website
+        run: python3 scripts/prepare_github_pages.py --base-path ""
       - name: Upload website
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
