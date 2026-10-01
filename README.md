@@ -2,7 +2,9 @@
 
 성균관대학교 김종순 교수 연구실 홈페이지입니다.
 
-GitHub Pages 배포 주소: https://jongsoonkimskku.github.io/esrl-website/
+GitHub Pages 사용자 지정 도메인: `jkimbattery.com` (가비아 DNS 설정 및 HTTPS 발급 후 사용)
+
+기존 GitHub Pages 주소: https://jongsoonkimskku.github.io/esrl-website/
 
 기존 공개 시안: https://esrl-skku.racing-betta-6814.chatgpt.site/
 
@@ -24,10 +26,12 @@ Actions의 **Deploy ESRL to GitHub Pages → Run workflow**로 수동 배포할 
 Python 3 표준 라이브러리만 사용합니다. 로컬 빌드 명령은 다음과 같습니다.
 
 ```sh
-python3 scripts/prepare_github_pages.py --base-path /esrl-website
+python3 scripts/prepare_github_pages.py --base-path ""
 ```
 
-완성된 Pages 파일은 `_pages/`에 생성됩니다. 빌드할 때 메뉴·이미지·CSS 경로에 `/esrl-website/`가 적용되며, 내부 링크와 이미지 파일의 존재 여부를 검사합니다. 기존 `dist/`는 루트 경로 기반으로 유지됩니다.
+완성된 Pages 파일은 `_pages/`에 생성됩니다. 사용자 지정 도메인에서는 루트 경로(`/`)를 사용하며, 내부 링크와 이미지 파일의 존재 여부를 검사합니다. 기존 `dist/`도 루트 경로 기반으로 유지됩니다. 사용자 지정 도메인을 제거하여 기존 프로젝트 주소로 돌아갈 경우에는 배포 워크플로의 `--base-path`를 `/esrl-website`로 변경해야 합니다.
+
+`jkimbattery.com`은 저장소 Settings → Pages → Custom domain에 등록되어 있습니다. 가비아 DNS 관리에서 `@`의 A 레코드를 GitHub Pages 주소 `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`으로, `www`의 CNAME을 `jongsoonkimskku.github.io.`로 설정해야 합니다. DNS 확인과 인증서 발급이 완료되면 Enforce HTTPS를 켭니다.
 
 Lab life 사진 85장은 모두 `dist/assets/lab-life/`에 원본으로 보관합니다. 빌드 시 `scripts/pages-assets.json`의 SHA-256과 대조하며 외부 사이트에서 다시 내려받지 않습니다. 사진과 논문 PDF 모두 GitHub Pages가 직접 제공합니다.
 
