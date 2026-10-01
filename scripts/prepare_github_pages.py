@@ -10,29 +10,19 @@ import re
 import shutil
 import subprocess
 import sys
-import urllib.request
 
 ROOT = Path(__file__).resolve().parent.parent
 
 
-def restore_asset(entry):
+def verify_asset(entry):
     relative = Path(entry['path'])
     if relative.is_absolute() or '..' in relative.parts or not str(relative).startswith('dist/assets/'):
         raise ValueError('Invalid asset path')
     path = ROOT / relative
-    expected = entry['sha256']
-    if path.is_file() and hashlib.sha256(path.read_bytes()).hexdigest() == expected:
-        return
-    url = entry['url']
-    if urlsplit(url).scheme != 'https':
-        raise ValueError('Asset downloads require HTTPS')
-    with urllib.request.urlopen(url, timeout=90) as response:
-        data = response.read()
-    if hashlib.sha256(data).hexdigest() != expected:
-        raise ValueError('Asset checksum mismatch: ' + str(relative))
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_bytes(data)
-    print('Restored ' + str(relative), flush=True)
+    if not path.is_file():
+        raise FileNotFoundError('Repository asset missing: ' + str(relative))
+    if hashlib.sha256(path.read_bytes()).hexdigest() != entry['sha256']:
+        raise ValueError('Repository asset checksum mismatch: ' + str(relative))
 
 
 def validate_links(output, base_path):
@@ -71,7 +61,7 @@ def main():
         parser.error('Invalid base path')
     manifest = json.loads((ROOT / 'scripts/pages-assets.json').read_text())
     with ThreadPoolExecutor(max_workers=6) as pool:
-        list(pool.map(restore_asset, manifest['files']))
+        list(pool.map(verify_asset, manifest['files']))
     subprocess.run([sys.executable, 'build.py'], cwd=ROOT, check=True)
     output = ROOT / '_pages'
     if output.exists():

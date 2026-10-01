@@ -27,7 +27,7 @@ python3 scripts/prepare_github_pages.py --base-path /esrl-website
 
 완성된 Pages 파일은 `_pages/`에 생성됩니다. 빌드할 때 메뉴·이미지·CSS 경로에 `/esrl-website/`가 적용되며, 내부 링크와 이미지 파일의 존재 여부를 검사합니다. 기존 `dist/`는 루트 경로 기반으로 유지됩니다.
 
-Lab life 사진 85장은 `scripts/pages-assets.json`의 공개 원본 사본에서 빌드 시 복원하고 SHA-256으로 검증합니다. 배포 결과에는 사진 파일 자체가 포함되므로 방문자의 브라우저에서는 GitHub Pages가 사진을 제공합니다. 사진 파일을 동일한 `dist/assets/lab-life/` 경로에 커밋하면 빌드 중 다시 다운로드하지 않습니다.
+Lab life 사진 85장은 모두 `dist/assets/lab-life/`에 원본으로 보관합니다. 빌드 시 `scripts/pages-assets.json`의 SHA-256과 대조하며 외부 사이트에서 다시 내려받지 않습니다. 사진과 논문 PDF 모두 GitHub Pages가 직접 제공합니다.
 
 ## 반영 내용
 
