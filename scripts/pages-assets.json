@@ -424,6 +424,26 @@
       "path": "dist/assets/lab-life/ff6379d020a14929b357950aa5ec8adc.jpg",
       "sha256": "53ff4dcd2c292365e9a65830cb0b394ae3c0ec24af2c06dd11b8c6d301452df5",
       "url": "https://static.wixstatic.com/media/bdb293_ff6379d020a14929b357950aa5ec8adc~mv2.jpg/v1/fit/w_1800,h_1800,q_85/bdb293_ff6379d020a14929b357950aa5ec8adc~mv2.jpg"
+    },
+    {
+      "path": "dist/assets/research-na2fe2f7-design.webp",
+      "sha256": "cf6c610a6cb19a6f9a9e2224ded83f1fab37cba86a19dbb16c773e3f931ec928"
+    },
+    {
+      "path": "dist/assets/research-co-free-ni-minimized-lmr.webp",
+      "sha256": "438968c18282efd91ef25904f650bbbaa3af899cb135cb99165aa694cf8f28a8"
+    },
+    {
+      "path": "dist/assets/research-lmfp-lif-less-cei.webp",
+      "sha256": "da6c1f2df9de3117c01554a1b2b76ff56583ec19659f36807b3f46b28740ddb0"
+    },
+    {
+      "path": "dist/assets/alumni-lahyeon-jang.jpg",
+      "sha256": "d589d5f95eabe69a605037d10e7cfa4c17d1c8e437d9f2ce58ce9997a2177dc5"
+    },
+    {
+      "path": "dist/assets/alumni-hyunji-kweon.jpg",
+      "sha256": "38790248f7b6029119489fea4b16db48bf270b25e59944bedceb7a9022abebf7"
     }
   ]
 }

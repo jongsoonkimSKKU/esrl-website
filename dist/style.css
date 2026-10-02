@@ -245,6 +245,14 @@
 .material-case .material-case-title{font-size:1rem;line-height:1.7;overflow-wrap:anywhere}
 .additional-material-case{padding:0 24px 40px;background:var(--pale)}
 .additional-material-case .material-case{margin-top:0}
+.additional-case-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:48px;align-items:center}
+.case-figure{margin:0;min-width:0}
+.case-figure>a{display:block;background:#fff;border:1px solid var(--line);padding:12px}
+.case-figure img{width:100%;height:auto;max-height:400px;object-fit:contain}
+.case-figure figcaption{font-size:.875rem;line-height:1.6;color:var(--muted);margin-top:10px}
+.case-figure figcaption>a{display:block;margin-top:6px}
+@media(max-width:1000px){.additional-case-grid{gap:28px}}
+@media(max-width:800px){.additional-case-grid{grid-template-columns:1fr;gap:24px}}
 @media(max-width:800px){.additional-material-case{padding:0 18px 28px}}
 @media(max-width:560px){.additional-material-case{padding:0 14px 24px}}
 
