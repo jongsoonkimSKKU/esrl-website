@@ -241,3 +241,9 @@
 .material-case .material-case-result{font-weight:600;color:var(--navy)}
 .material-case .material-case-citation{font-size:.875rem;line-height:1.6}
 .material-case-link{display:inline-block;font-size:1rem;font-weight:600;line-height:1.7;margin-top:14px;padding:4px 0;border-bottom:1px solid currentColor}
+
+.material-case .material-case-title{font-size:1rem;line-height:1.7;overflow-wrap:anywhere}
+.additional-material-case{padding:0 24px 40px;background:var(--pale)}
+.additional-material-case .material-case{margin-top:0}
+@media(max-width:800px){.additional-material-case{padding:0 18px 28px}}
+@media(max-width:560px){.additional-material-case{padding:0 14px 24px}}
