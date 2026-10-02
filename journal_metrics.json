@@ -10,7 +10,6 @@
   "journals": {
     "acsenergyletters": {
       "title": "ACS Energy Letters",
-      "source": "https://www.akaturk.com/journals/21100832985?lang=en",
       "years": {
         "2025": {
           "categories": [
@@ -55,10 +54,6 @@
             {
               "label": "IF · publisher",
               "url": "https://pubs.acs.org/doi/10.1021/acsenergylett.6c02086"
-            },
-            {
-              "label": "JCR · public annual record",
-              "url": "https://www.akaturk.com/journals/21100832985?lang=en"
             }
           ]
         },
@@ -428,7 +423,6 @@
     },
     "energystoragematerials": {
       "title": "Energy Storage Materials",
-      "source": "https://www.akaturk.com/journals/21100420314?lang=en",
       "years": {
         "2025": {
           "categories": [
@@ -457,12 +451,8 @@
           "impact_factor": "19.3",
           "sources": [
             {
-              "label": "IF · publisher",
-              "url": "https://pubs.acs.org/doi/10.1021/acsenergylett.6c02086"
-            },
-            {
-              "label": "JCR · public annual record",
-              "url": "https://www.akaturk.com/journals/21100420314?lang=en"
+              "label": "IF · Elsevier publisher",
+              "url": "https://www.sciencedirect.com/journal/energy-storage-materials/about/insights"
             }
           ]
         },
@@ -635,7 +625,6 @@
     },
     "appliedcatalysisbenvironmentandenergy": {
       "title": "Applied Catalysis B: Environmental",
-      "source": "https://www.akaturk.com/journals/16343?lang=en",
       "years": {
         "2025": {
           "categories": [
@@ -1325,7 +1314,6 @@
     },
     "acsnano": {
       "title": "ACS Nano",
-      "source": "https://www.akaturk.com/journals/11500153511?lang=en",
       "years": {
         "2025": {
           "categories": [
@@ -1363,10 +1351,6 @@
             {
               "label": "IF · publisher",
               "url": "https://pubs.acs.org/ancac3/pages/about"
-            },
-            {
-              "label": "JCR · public annual record",
-              "url": "https://www.akaturk.com/journals/11500153511?lang=en"
             }
           ]
         },
@@ -1924,7 +1908,6 @@
     },
     "nanomicroletters": {
       "title": "Nano-Micro Letters",
-      "source": "https://www.akaturk.com/journals/21100203115?lang=en",
       "years": {
         "2025": {
           "categories": [
@@ -2300,7 +2283,6 @@
     },
     "advancedenergymaterials": {
       "title": "Advanced Energy Materials",
-      "source": "https://www.akaturk.com/journals/21100199127?lang=en",
       "years": {
         "2025": {
           "categories": [
@@ -2345,10 +2327,6 @@
             {
               "label": "IF · publisher",
               "url": "https://advanced.onlinelibrary.wiley.com/journal/16146840"
-            },
-            {
-              "label": "JCR · public annual record",
-              "url": "https://www.akaturk.com/journals/21100199127?lang=en"
             }
           ]
         },
@@ -2879,7 +2857,6 @@
     },
     "energyandenvironmentalscience": {
       "title": "Energy and Environmental Science",
-      "source": "https://www.akaturk.com/journals/17500155114?lang=en",
       "years": {
         "2025": {
           "categories": [
@@ -3446,7 +3423,6 @@
     },
     "energyandenvironmentalmaterials": {
       "title": "Energy and Environmental Materials",
-      "source": "https://www.akaturk.com/journals/21101030209?lang=tr",
       "years": {
         "2025": {
           "categories": [
@@ -3534,7 +3510,6 @@
     },
     "advancedfunctionalmaterials": {
       "title": "Advanced Functional Materials",
-      "source": "https://www.akaturk.com/journals/25143?lang=tr",
       "years": {
         "2025": {
           "categories": [
@@ -3586,10 +3561,6 @@
             {
               "label": "IF · publisher",
               "url": "https://onlinelibrary.wiley.com/journal/16163028"
-            },
-            {
-              "label": "JCR · public annual record",
-              "url": "https://www.akaturk.com/journals/25143?lang=tr"
             }
           ]
         },
@@ -4690,7 +4661,6 @@
     },
     "interdisciplinarymaterials": {
       "title": "Interdisciplinary Materials",
-      "source": "https://www.akaturk.com/journals/21101274720?lang=en",
       "years": {
         "2025": {
           "categories": [
@@ -4777,7 +4747,6 @@
     },
     "small": {
       "title": "Small",
-      "source": "https://www.akaturk.com/journals/3200147828?lang=en",
       "years": {
         "2025": {
           "categories": [
@@ -5705,7 +5674,6 @@
     },
     "journalofenergychemistry": {
       "title": "Journal of Energy Chemistry",
-      "source": "https://www.akaturk.com/journals/21100244836?lang=en",
       "years": {
         "2025": {
           "categories": [
@@ -6119,7 +6087,6 @@
     },
     "nanoletters": {
       "title": "Nano Letters",
-      "source": "https://www.akaturk.com/journals/17853?lang=tr",
       "years": {
         "2025": {
           "categories": [
@@ -7064,7 +7031,6 @@
     },
     "advancedmaterials": {
       "title": "Advanced Materials",
-      "source": "https://www.akaturk.com/journals/19881?lang=en",
       "years": {
         "2025": {
           "categories": [
@@ -8055,7 +8021,6 @@
     },
     "journalofmaterialschemistrya": {
       "title": "Journal of Materials Chemistry A",
-      "source": "https://www.akaturk.com/journals/21100232403?lang=en",
       "years": {
         "2025": {
           "categories": [
@@ -8376,7 +8341,6 @@
     },
     "journalofpowersources": {
       "title": "Journal of Power Sources",
-      "source": "https://www.akaturk.com/journals/18063?lang=tr",
       "years": {
         "2025": {
           "categories": [
@@ -9087,7 +9051,6 @@
     },
     "chemicalengineeringjournal": {
       "title": "Chemical Engineering Journal",
-      "source": "https://www.akaturk.com/journals/16398?lang=en",
       "years": {
         "2024": {
           "categories": [
@@ -9541,7 +9504,6 @@
     },
     "compositespartbengineering": {
       "title": "Composites Part B: Engineering",
-      "source": "https://www.akaturk.com/journals/28635?lang=en",
       "years": {
         "2023": {
           "categories": [
@@ -10098,7 +10060,6 @@
     },
     "materialstodayenergy": {
       "title": "Materials Today Energy",
-      "source": "https://www.akaturk.com/journals/21100810501?lang=en",
       "years": {
         "2023": {
           "categories": [
@@ -10292,7 +10253,6 @@
     },
     "cellulose": {
       "title": "Cellulose",
-      "source": "https://www.akaturk.com/journals/25810?lang=en",
       "years": {
         "2023": {
           "categories": [
@@ -11026,7 +10986,6 @@
     },
     "batteriesandsupercaps": {
       "title": "Batteries and Supercaps",
-      "source": "https://www.akaturk.com/journals/21101023387?lang=en",
       "years": {
         "2023": {
           "categories": [
@@ -11149,7 +11108,6 @@
     },
     "appliedphysicsreviews": {
       "title": "Applied Physics Reviews",
-      "source": "https://www.akaturk.com/journals/21100327726?lang=en",
       "years": {
         "2022": {
           "categories": [
@@ -11290,7 +11248,6 @@
     },
     "acsappliedmaterialsandinterfaces": {
       "title": "ACS Applied Materials and Interfaces",
-      "source": "https://www.akaturk.com/journals/19700171101?lang=tr",
       "years": {
         "2021": {
           "categories": [
@@ -11603,7 +11560,6 @@
     },
     "nanoenergy": {
       "title": "Nano Energy",
-      "source": "https://www.akaturk.com/journals/21100197947?lang=tr",
       "years": {
         "2020": {
           "categories": [
@@ -12041,7 +11997,6 @@
     },
     "carbonletters": {
       "title": "Carbon Letters",
-      "source": "https://www.akaturk.com/journals/21100398885?lang=tr",
       "years": {
         "2020": {
           "categories": [
@@ -12275,7 +12230,6 @@
     },
     "smallmethods": {
       "title": "Small Methods",
-      "source": "https://www.akaturk.com/journals/21100924211?lang=en",
       "years": {
         "2020": {
           "categories": [
@@ -12466,7 +12420,6 @@
     },
     "acssustainablechemistryandengineering": {
       "title": "ACS Sustainable Chemistry and Engineering",
-      "source": "https://www.akaturk.com/journals/21100248891?lang=en",
       "years": {
         "2020": {
           "categories": [
@@ -12780,7 +12733,6 @@
     },
     "journaloftheelectrochemicalsociety": {
       "title": "Journal of the Electrochemical Society",
-      "source": "https://www.akaturk.com/journals/25169?lang=en",
       "years": {
         "2019": {
           "categories": [
@@ -13337,7 +13289,6 @@
     },
     "chemistryofmaterials": {
       "title": "Chemistry of Materials",
-      "source": "https://www.akaturk.com/journals/12878?lang=en",
       "years": {
         "2018": {
           "categories": [
@@ -13894,7 +13845,6 @@
     },
     "chemicalcommunications": {
       "title": "Chemical Communications",
-      "source": "https://www.akaturk.com/journals/22781?lang=en",
       "years": {
         "2018": {
           "categories": [
@@ -14248,7 +14198,6 @@
     },
     "materialsresearchbulletin": {
       "title": "Materials Research Bulletin",
-      "source": "https://www.akaturk.com/journals/24709?lang=en",
       "years": {
         "2017": {
           "categories": [
@@ -14602,7 +14551,6 @@
     },
     "crystengcomm": {
       "title": "CrystEngComm",
-      "source": "https://www.akaturk.com/journals/130039?lang=en",
       "years": {
         "2016": {
           "categories": [
@@ -15024,7 +14972,6 @@
     },
     "journaloftheamericanchemicalsociety": {
       "title": "Journal of the American Chemical Society",
-      "source": "https://www.akaturk.com/journals/22680?lang=en",
       "years": {
         "2014": {
           "categories": [
@@ -15378,7 +15325,6 @@
     },
     "journalofalloysandcompounds": {
       "title": "Journal of Alloys and Compounds",
-      "source": "https://www.akaturk.com/journals/12325?lang=en",
       "years": {
         "2014": {
           "categories": [
@@ -16138,7 +16084,6 @@
     },
     "nanotechnology": {
       "title": "Nanotechnology",
-      "source": "https://www.akaturk.com/journals/110040?lang=en",
       "years": {
         "2013": {
           "categories": [
@@ -16933,7 +16878,6 @@
     },
     "journalofmaterialschemistry": {
       "title": "Journal of Materials Chemistry",
-      "source": "https://www.akaturk.com/journals/24641?lang=en",
       "years": {
         "2012": {
           "categories": [
@@ -17268,7 +17212,6 @@
     },
     "carbon": {
       "title": "Carbon",
-      "source": "https://www.akaturk.com/journals/25806?lang=en",
       "years": {
         "2011": {
           "categories": [
@@ -17825,7 +17768,6 @@
     },
     "electronicmaterialsletters": {
       "title": "Electronic Materials Letters",
-      "source": "https://www.akaturk.com/journals/13300154705?lang=en",
       "years": {
         "2011": {
           "categories": [
@@ -18035,7 +17977,6 @@
     },
     "electrochimicaacta": {
       "title": "Electrochimica Acta",
-      "source": "https://www.akaturk.com/journals/25181?lang=tr",
       "years": {
         "2009": {
           "categories": [
@@ -18389,7 +18330,6 @@
     },
     "journalofthekoreanceramicsociety": {
       "title": "Journal of the Korean Ceramic Society",
-      "source": "https://www.akaturk.com/journals/5300152529?lang=tr",
       "years": {
         "2025": {
           "categories": [

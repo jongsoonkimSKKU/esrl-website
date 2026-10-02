@@ -45,7 +45,7 @@
       "course": "Ph.D.  2nd year",
       "group": "Doctoral researchers",
       "image": "/assets/member-6.jpg",
-      "field": "First Principles Calculation, All-solid-state batteries",
+      "field": "First Principles Calculation, All-solid-state batteries; AI / cluster expansion (CASM)",
       "email": "holee977@gmail.com"
     },
     {
@@ -117,7 +117,7 @@
       "course": "M.S.  2nd year",
       "group": "Master’s researchers",
       "image": "/assets/member-15.png",
-      "field": "First Principles Calculation, Na-ion battery (Polyanion-type cathodes)",
+      "field": "First Principles Calculation, Na-ion battery (Polyanion-type cathodes); AI / cluster expansion (CASM)",
       "email": "ligerjunskku@gmail.com"
     },
     {
@@ -147,33 +147,41 @@
   ],
   "publications": [
     {
+      "title": "A Fluorine-Free Organic–Inorganic Heterostructure Binder for High-Energy Lithium-Ion Batteries Operable at 4.5 V and 60 °C with Minimized Binder Content",
+      "url": "",
+      "authors": "U. Jeong†, J. Choe†, J. Ahn†, J. Jang, J. Kwon, J.-K. Yoo, J. Yoon, M. J. Kang, J. H. Park, M.-H. Lee, J.-H. Choi, D. J. Kang*, J. Kim*, J. M. Yuk*, H.-G. Im*",
+      "citation": "Nano-Micro Letters, Accepted (2026)",
+      "featured": true
+    },
+    {
       "title": "Stabilizing High-Voltage Operation in O3-Type Na-Layered Cathodes by Suppressing Distortion-Driven Fe Migration",
       "url": "https://doi.org/10.1021/acsenergylett.6c02530",
       "authors": "T. Kim, H. Kweon, H. Lee, L. Jang, B. Ku, M. Choi, S. Lim, H. Choo, L. Eom, J. Kwon, M.-K. Cho, Y. H. Jung, H.-G. Jung, J. Kim*",
-      "citation": "ACS Energy Letters, Accepted (2026)",
+      "citation": "ACS Energy Letters, ASAP (2026)",
       "doi": "10.1021/acsenergylett.6c02530"
     },
     {
       "title": "Basal Plane Graphene Coated Zn Powder for High Performance Aqueous Zn Metal Batteries",
       "url": "https://doi.org/10.1002/advs.77287",
       "authors": "D. Kim, D. Jeong, K. Kim, V.‐C. Ho, J. Kim, H.‐G. Jung, J. H. Kim, G. Jeong, J. Mun",
-      "citation": "Advanced Science, Accepted (2026)",
+      "citation": "Advanced Science, e77287, Early View (2026)",
       "doi": "10.1002/advs.77287"
     },
     {
       "title": "A Dispersant-Driven Carbon-Binder Domains Homogeneity in High-Energy-Density Electrodes for Lithium-Ion Batteries",
       "url": "https://doi.org/10.1002/advs.77293",
       "authors": "D.-S. Kwon, M. Y. Seo, J. Ahn†, Y.-J. Jeong, W. Ko, W. Shin, M. J. Kim, J. Lee, W.-Y. Jeon, J. Bang, M.-J. Choi, K. I. Kim, J. J. Eom, S. Y. Oh, J. Kim*, Y. J. Kim, J.-K. Yoo",
-      "citation": "Advanced Science, Accepted (2026)",
+      "citation": "Advanced Science, e77293, Early View (2026)",
       "doi": "10.1002/advs.77293"
     },
     {
       "title": "Threshold-Triggered Redox Modulation Maximizing Initial Na+ Extraction in Fe–Mn-Dominant P2-Type Na-Layered Cathodes",
       "url": "https://doi.org/10.1016/j.ensm.2026.105375",
-      "authors": "S. Lim, J. Kim, B. Ku, M. Choi, H Lee, J. Kwon, L. Jang, T. Kim, H.-G. Jung, J. Mun, J. Kim*",
+      "authors": "S. Lim, J. Kim, B. Ku, M. Choi, H. Lee, J. Kwon, L. Jang, T. Kim, H.-G. Jung, J. Mun, J. Kim*",
       "citation": "Energy Storage Materials, 90, 105375 (2026)",
       "doi": "10.1016/j.ensm.2026.105375",
-      "pdf_url": "/assets/papers/2026-c8a145785c9d.pdf"
+      "pdf_url": "/assets/papers/2026-c8a145785c9d.pdf",
+      "featured": true
     },
     {
       "title": "A Review of Failure Modes and Safety Strategies of Lithium-ion Batteries from Materials to Systems",
@@ -193,7 +201,7 @@
     {
       "title": "Enhanced Interfacial Stability and Electrochemical Performance via Cathode-Adhesion-Enhanced Coatings for All-Solid-State Batteries",
       "url": "https://doi.org/10.1016/j.ensm.2026.105167",
-      "authors": "J. Kim†, H. Lee†, T. Kim, E. Ryu,I. Seo, J. Seong, C. Lim, J. Kim*",
+      "authors": "J. Kim†, H. Lee†, T. Kim, E. Ryu, I. Seo, J. Seong, C. Lim, J. Kim*",
       "citation": "Energy Storage Materials, 89, 105167 (2026)",
       "doi": "10.1016/j.ensm.2026.105167",
       "pdf_url": "/assets/papers/2026-88c67217de4d.pdf"
@@ -201,7 +209,7 @@
     {
       "title": "Fast and Trap-Minimized Li Transport via Size-Mismatch-Driven Cation-Ordering Control in Li-Excess Disordered Rocksalt Cathodes",
       "url": "https://doi.org/10.1021/acsnano.5c22044",
-      "authors": "J. Ahn†, B. Ku†, H. Kweon, H. Lee, H. Ahn, M. Choi, M. H. Lee, M. Yoon, J. Choi, J Hong, J. Kim*",
+      "authors": "J. Ahn†, B. Ku†, H. Kweon, H. Lee, H. Ahn, M. Choi, M. H. Lee, M. Yoon, J. Choi, J. Hong, J. Kim*",
       "citation": "ACS Nano, 20, 10556–10569 (2026)",
       "doi": "10.1021/acsnano.5c22044",
       "pdf_url": "/assets/papers/2026-24c595be03a8.pdf"
@@ -212,7 +220,8 @@
       "authors": "D. W. Hae, H. Lee†, H. J. Kook, G. Kim, S. Kim, J. Choi, M. P. Kim, S. H. Kang, W. J. Lee, Y.-G. Lee, H. M. Jin, J. Kim*, D. O Shin",
       "citation": "Nano-Micro Letters, 18, 355 (2026)",
       "doi": "10.1007/s40820-026-02167-y",
-      "pdf_url": "/assets/papers/2026-b1fa9387da7c.pdf"
+      "pdf_url": "/assets/papers/2026-b1fa9387da7c.pdf",
+      "featured": true
     },
     {
       "title": "NaF@MnO-based sacrificial cathode/separator composite for boosting the energy density of sodium-ion batteries",
@@ -228,7 +237,8 @@
       "authors": "B. Ku†, L. Jang†, H. Kweon, J. Ahn, S. Hwang, J. Lee, M. Choi, S. Yoo, K. Yoo, K.-Y. Park, J. Kim*",
       "citation": "Advanced Energy Materials, 16, e06130 (2026)",
       "doi": "10.1002/aenm.202506130",
-      "pdf_url": "/assets/papers/2026-1136374e66d0.pdf"
+      "pdf_url": "/assets/papers/2026-1136374e66d0.pdf",
+      "featured": true
     },
     {
       "title": "Bimodal Composite Cathodes Advancing the Chemo-Mechanical Integrity and Kinetics for All-Solid-State Batteries",
@@ -249,9 +259,10 @@
     {
       "title": "From Materials to Systems: Challenges and Solutions for Fast-Charge/Discharge Na-Ion Batteries",
       "url": "https://doi.org/10.1002/aenm.202504664",
-      "authors": "B. Ku, S. Park, S. Hwang, S. Lim, W.-S. Yoon, J. Kim*",
-      "citation": "Advanced Energy Materials, Accepted (2026)",
-      "doi": "10.1002/aenm.202504664"
+      "authors": "B. Ku†, S. Park†, S. Hwang, S. Lim, W.-S. Yoon*, J. Kim*",
+      "citation": "Advanced Energy Materials, e04664, Early View (2025)",
+      "doi": "10.1002/aenm.202504664",
+      "year": "2025"
     },
     {
       "title": "Co-Free and Ni-Minimized Li- and Mn-Rich Layered Cathodes with Suppressed Structural Disordering for High-Performance and Cost-Effective LIBs",
@@ -259,7 +270,8 @@
       "authors": "J. Ahn, H. Jang, H. Ahn, H. Kweon, S. Oh, S. Hwang, M. H. Lee, J. Hong, J. Kim*",
       "citation": "Advanced Energy Materials, 16, e05121 (2026)",
       "doi": "10.1002/aenm.202505121",
-      "pdf_url": "/assets/papers/2026-92a4af5306d1.pdf"
+      "pdf_url": "/assets/papers/2026-92a4af5306d1.pdf",
+      "featured": true
     },
     {
       "title": "Redox-Mediating Mo2C Nanoparticles Confined Within Nitrogen- and Phosphorus-Codoped Amorphous Carbon Matrix for Lithium–Sulfur Batteries",
@@ -272,16 +284,16 @@
     {
       "title": "2D Phosphorene-Decorated Ni-Rich Layered Cathodes for High-Power and High-Energy Li-ion Batteries",
       "url": "https://doi.org/10.1002/adfm.202511385",
-      "authors": "J. Lee, K. Nam, B. Ku, M. Choi, M.-k. Cho, S. Y. Jung, J. Min , J. Ahn, Y. Lee, S.-Y. Lee, D. Lee, Y. S. Cho, D.-S. Kwon, J.-K. Yoo, J. Kang, J. Kim*",
+      "authors": "J. Lee, K. Nam, B. Ku, M. Choi, M.-k. Cho, S. Y. Jung, J. Min, J. Ahn, Y. Lee, S.-Y. Lee, D. Lee, Y. S. Cho, D.-S. Kwon, J.-K. Yoo, J. Kang, J. Kim*",
       "citation": "Advanced Functional Materials, 36, e11385 (2026)",
       "doi": "10.1002/adfm.202511385",
       "pdf_url": "/assets/papers/2026-13ac5314d7ea.pdf"
     },
     {
-      "title": "Ultra-High-Mass-Loading Electrodes with Enhanced Homogeneity Using High- Concentration Slurry for Lithium-Ion Batteries",
+      "title": "Ultra-High-Mass-Loading Electrodes with Enhanced Homogeneity Using High-Concentration Slurry for Lithium-Ion Batteries",
       "url": "https://doi.org/10.1002/cey2.70108",
       "authors": "J. K. Park, W. Shin, W. Jo, H.-J. Lee, W.-Y. Jeon, J. Ahn, J. Yoon, Y.-J. Jeong, J. Oh, M. Kang, M.-J. Choi, J. Joo, J. Kim, S.-K. Cho, J. D. Park, J. Nam, J.-K. Yoo",
-      "citation": "Carbon Energy,8, e70108 (2026)",
+      "citation": "Carbon Energy, 8, e70108 (2026)",
       "doi": "10.1002/cey2.70108",
       "pdf_url": "/assets/papers/2026-1bd52f7403de.pdf"
     }
@@ -351,91 +363,113 @@
   "equipment": [
     {
       "name": "Glove box",
-      "image": "/assets/equipment-1.jpg"
+      "image": "/assets/equipment-1.jpg",
+      "description": "수분과 산소를 제어한 분위기에서 전극 소재를 취급하고 전지를 조립합니다."
     },
     {
       "name": "X-ray diffractometer",
-      "image": "/assets/equipment-2.jpg"
+      "image": "/assets/equipment-2.jpg",
+      "description": "X선 회절로 소재의 결정구조와 상 변화를 분석합니다."
     },
     {
       "name": "Battery test system",
-      "image": "/assets/equipment-3.jpg"
+      "image": "/assets/equipment-3.jpg",
+      "description": "충·방전 시험으로 전지의 용량, 출력과 수명을 평가합니다."
     },
     {
       "name": "Box furnace",
-      "image": "/assets/equipment-4.jpg"
+      "image": "/assets/equipment-4.jpg",
+      "description": "열처리를 통해 양극 및 전해질 소재를 합성합니다."
     },
     {
       "name": "Mini ball mill",
-      "image": "/assets/equipment-5.jpg"
+      "image": "/assets/equipment-5.jpg",
+      "description": "소량의 분말을 혼합·분쇄하여 균일한 전구체를 준비합니다."
     },
     {
       "name": "Electrochemical impedance spectroscopy system",
-      "image": "/assets/equipment-6.jpg"
+      "image": "/assets/equipment-6.jpg",
+      "description": "임피던스 측정으로 전극 반응과 계면 저항을 분석합니다."
     },
     {
       "name": "Furnace",
-      "image": "/assets/equipment-7.jpg"
+      "image": "/assets/equipment-7.jpg",
+      "description": "설정한 온도 조건에서 소재를 열처리합니다."
     },
     {
       "name": "High-energy ball mill",
-      "image": "/assets/equipment-8.jpg"
+      "image": "/assets/equipment-8.jpg",
+      "description": "강한 기계적 에너지로 분말을 미세화하고 혼합합니다."
     },
     {
-      "name": "Zig channel",
-      "image": "/assets/equipment-9.jpg"
+      "name": "Jig channel",
+      "image": "/assets/equipment-9.jpg",
+      "description": "전지와 측정 장치를 연결해 안정적인 전기적 접촉을 유지합니다."
     },
     {
       "name": "Recirculating chiller",
-      "image": "/assets/equipment-10.jpg"
+      "image": "/assets/equipment-10.jpg",
+      "description": "냉각수를 순환시켜 장비의 작동 온도를 제어합니다."
     },
     {
       "name": "Cluster computing system",
-      "image": "/assets/equipment-11.jpg"
+      "image": "/assets/equipment-11.jpg",
+      "description": "제일원리계산과 원자 수준 시뮬레이션을 병렬로 수행합니다."
     },
     {
       "name": "Programmable ball mill",
-      "image": "/assets/equipment-12.jpg"
+      "image": "/assets/equipment-12.jpg",
+      "description": "프로그램한 운전 조건으로 분말을 반복 혼합·분쇄합니다."
     },
     {
       "name": "Vacuum glass oven",
-      "image": "/assets/equipment-13.png"
+      "image": "/assets/equipment-13.png",
+      "description": "진공 조건에서 시료의 수분과 잔류 용매를 제거합니다."
     },
     {
       "name": "Glass sealing torch",
-      "image": "/assets/equipment-14.jpg"
+      "image": "/assets/equipment-14.jpg",
+      "description": "유리 용기를 가열·밀봉하여 시료를 보관하거나 합성합니다."
     },
     {
       "name": "Low-temperature battery test system",
-      "image": "/assets/equipment-15.png"
+      "image": "/assets/equipment-15.png",
+      "description": "저온 조건에서 전지의 충·방전 성능을 평가합니다."
     },
     {
       "name": "High-speed planetary ball mill",
-      "image": "/assets/equipment-16.jpg"
+      "image": "/assets/equipment-16.jpg",
+      "description": "행성형 회전으로 분말을 빠르게 혼합하고 미세화합니다."
     },
     {
       "name": "Glove box for all-solid-state batteries",
-      "image": "/assets/equipment-17.jpg"
+      "image": "/assets/equipment-17.jpg",
+      "description": "수분과 산소를 제어한 분위기에서 고체전해질을 취급하고 전고체전지를 조립합니다."
     },
     {
       "name": "Co-precipitation system",
-      "image": "/assets/equipment-18.jpg"
+      "image": "/assets/equipment-18.jpg",
+      "description": "반응 조건을 제어해 양극 전구체를 공침 합성합니다."
     },
     {
       "name": "Stirring machine",
-      "image": "/assets/equipment-19.png"
+      "image": "/assets/equipment-19.png",
+      "description": "용액과 슬러리를 교반하여 균일하게 혼합합니다."
     },
     {
       "name": "Constant-temperature oven",
-      "image": "/assets/equipment-20.jpg"
+      "image": "/assets/equipment-20.jpg",
+      "description": "일정한 온도에서 시료를 건조하거나 전지 성능을 평가합니다."
     },
     {
       "name": "Mini oven",
-      "image": "/assets/equipment-21.jpg"
+      "image": "/assets/equipment-21.jpg",
+      "description": "소량의 시료와 실험용 부품을 건조합니다."
     },
     {
       "name": "High-temperature oven",
-      "image": "/assets/equipment-22.jpg"
+      "image": "/assets/equipment-22.jpg",
+      "description": "고온 조건에서 시료를 건조하고 열적 거동을 평가합니다."
     }
   ],
   "professor": "/assets/professor.jpg",
@@ -1658,7 +1692,7 @@
         "number": 3,
         "title": "Spontaneous hybrids of graphene and carbon nanotube arrays at the liquid-gas interface for Li-ion battery anodes",
         "url": "https://pubs.rsc.org/en/content/articlehtml/2018/cc/c8cc02148a",
-        "authors": "H Kim, J Kim†, HS Jeong, H Kim, H Lee, JM Ha, SM Choi, TH Kim, YC Nah, TJ Shin, JN Bang, S Satija, JS Koo",
+        "authors": "H Kim, J Kim†, HS Jeong, H Kim, H. Lee, JM Ha, SM Choi, TH Kim, YC Nah, TJ Shin, JN Bang, S Satija, JS Koo",
         "citation": "Chemical Communications, 54, 5229-5232 (2018)",
         "note": "",
         "year": "2018"
@@ -1719,7 +1753,7 @@
         "number": 3,
         "title": "New 4V-Class and Zero-Strain Cathode Material for Na-Ion Batteries",
         "url": "https://doi.org/10.1021/acs.chemmater.7b02477",
-        "authors": "J Kim, G Yoon, MH Lee, H Kim, S Lee, K Kang",
+        "authors": "J Kim, G Yoon, MH. Lee, H Kim, S Lee, K Kang",
         "citation": "Chemistry of Materials, 29 (18), 7826-7832 (2017)",
         "note": "",
         "year": "2017",
@@ -1751,7 +1785,7 @@
         "number": 3,
         "title": "Highly stable iron-and manganese-based cathodes for long-lasting sodium rechargeable batteries",
         "url": "https://doi.org/10.1021/acs.chemmater.6b01766",
-        "authors": "H Kim, G Yoon, I Park, J Hong, KY Park, J Kim, KS Lee, NE Sung, S Lee, K Kang",
+        "authors": "H Kim, G Yoon, I Park, J. Hong, KY Park, J Kim, KS Lee, NE Sung, S Lee, K Kang",
         "citation": "Chemistry of Materials, 28 (20), 7241-7249 (2016)",
         "note": "",
         "year": "2016",
@@ -1781,7 +1815,7 @@
         "number": 1,
         "title": "Thermal structural stability of a multi-component olivine electrode for lithium ion batteries",
         "url": "https://doi.org/10.1039/c6ce00944a",
-        "authors": "KY Park, H Kim, S Lee, J Kim, J Hong, HD Lim, I Park, K Kang",
+        "authors": "KY Park, H Kim, S Lee, J Kim, J. Hong, HD Lim, I Park, K Kang",
         "citation": "CrystEngComm, 18 (39), 7463-7470 (2016)",
         "note": "",
         "year": "2016",
@@ -1815,7 +1849,7 @@
         "number": 6,
         "title": "Extremely High Yield Conversion from Low‐Cost Sand to High‐Capacity Si Electrodes for Li‐Ion Batteries",
         "url": "https://doi.org/10.1002/aenm.201400622",
-        "authors": "JK Yoo†, J Kim†, MJ Choi, YU Park, J Hong, KM Baek, K Kang, YS Jung",
+        "authors": "JK Yoo†, J Kim†, MJ Choi, YU Park, J. Hong, KM Baek, K Kang, YS Jung",
         "citation": "Advanced Energy Materials, 4 (16), 1400622 (2014)",
         "note": "",
         "year": "2014",
@@ -1825,7 +1859,7 @@
         "number": 5,
         "title": "Anti-site reordering in LiFePO4: defect annihilation on charge carrier injection",
         "url": "https://doi.org/10.1021/cm502432q",
-        "authors": "KY Park, I Park, H Kim, H Lim, J Hong, J Kim, K Kang",
+        "authors": "KY Park, I Park, H Kim, H Lim, J. Hong, J Kim, K Kang",
         "citation": "Chemistry of Materials, 26 (18), 5345-5351 (2014)",
         "note": "",
         "year": "2014",
@@ -1877,7 +1911,7 @@
         "number": 6,
         "title": "Porous silicon nanowires for lithium rechargeable batteries",
         "url": "https://doi.org/10.1088/0957-4484/24/42/424008",
-        "authors": "JK Yoo, J Kim, H Lee, J Choi, MJ Choi, DM Sim, YS Jung, K Kang",
+        "authors": "JK Yoo, J Kim, H. Lee, J Choi, MJ Choi, DM Sim, YS Jung, K Kang",
         "citation": "Nanotechnology, 24 (42), 424008 (2013)",
         "note": "",
         "year": "2013",
@@ -1917,7 +1951,7 @@
         "number": 2,
         "title": "Factors that Affect the Phase Behavior of Multi-Component Olivine (LiFexMnyCo1-x-yPO4; 0 < x, y< 1) in Lithium Rechargeable Batteries: One-Phase Reaction vs. Two-Phase Reaction",
         "url": "https://doi.org/10.1149/2.036303jes",
-        "authors": "KY Park, J Hong, J Kim, YU Park, H Kim, DH Seo, SW Kim, JW Choi, K Kang",
+        "authors": "KY Park, J. Hong, J Kim, YU Park, H Kim, DH Seo, SW Kim, JW Choi, K Kang",
         "citation": "Journal of The Electrochemical Society, 160 (3), A444-A448 (2013)",
         "note": "",
         "year": "2013",
@@ -1959,7 +1993,7 @@
         "number": 1,
         "title": "Thermal stability of Fe–Mn binary olivine cathodes for Li rechargeable batteries",
         "url": "https://doi.org/10.1039/c2jm30733b",
-        "authors": "J Kim, KY Park, I Park, JK Yoo, J Hong, K Kang",
+        "authors": "J Kim, KY Park, I Park, JK Yoo, J. Hong, K Kang",
         "citation": "Journal of Materials Chemistry, 22 (24), 11964-11970 (2012)",
         "note": "",
         "year": "2012",
@@ -2000,7 +2034,7 @@
         "number": 2,
         "title": "Preparation and electrochemical characterization of doped spinel LiMn1.88Ge 0.1 Li0.02O4 cathode material",
         "url": "https://doi.org/10.1007/s13391-011-0603-z",
-        "authors": "SW Kim, VG Kumar, DH Seo, YU Park, J Kim, H Kim, J Kim, J Hong, K Kang",
+        "authors": "SW Kim, VG Kumar, DH Seo, YU Park, J Kim, H Kim, J Kim, J. Hong, K Kang",
         "citation": "Electronic Materials Letters, 7 (2), 105-108 (2011)",
         "note": "",
         "year": "2011",
@@ -2120,7 +2154,8 @@
       "organization": "LG Energy Solution",
       "email": "werop6@gmail.com",
       "source_image": "https://static.wixstatic.com/media/bdb293_2add43047ea04413b73912c5e1159a85~mv2.jpg/v1/fill/w_141,h_190,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EB%B0%95%ED%98%84%EC%98%81_%EC%A6%9D%EB%AA%85%EC%82%AC%EC%A7%84.jpg",
-      "image": "/assets/alumni-1.jpg"
+      "image": "/assets/alumni-1.jpg",
+      "representative_doi": "10.1002/adfm.202204354"
     },
     {
       "name": "Wonseok Ko",
@@ -2129,7 +2164,8 @@
       "organization": "Samsung SDI",
       "email": "gwsnim24@gmail.com",
       "source_image": "https://static.wixstatic.com/media/bdb293_b7168127c75b494daeceacb5ca7dbd3a~mv2.jpg/v1/fill/w_141,h_190,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9B%90%EC%84%9D%EC%9D%B4%ED%98%95%20%EC%82%AC%EC%A7%84.jpg",
-      "image": "/assets/alumni-2.jpg"
+      "image": "/assets/alumni-2.jpg",
+      "representative_doi": "10.1002/cey2.454"
     },
     {
       "name": "Yongseok Lee",
@@ -2138,7 +2174,8 @@
       "organization": "LG Energy Solution",
       "email": "usingstone@g.skku.edu",
       "source_image": "https://static.wixstatic.com/media/bdb293_b4787c6b1e5541bdba7928996799bb2c~mv2.jpg/v1/fill/w_141,h_190,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9D%B4%EC%9A%A9%EC%84%9D_%EC%A0%9C%EC%B6%9C%EC%9A%A9.jpg",
-      "image": "/assets/alumni-3.jpg"
+      "image": "/assets/alumni-3.jpg",
+      "representative_doi": "10.1002/adfm.202204354"
     },
     {
       "name": "Jungmin Kang",
@@ -2147,7 +2184,8 @@
       "organization": "Samsung SDI",
       "email": "kangjungmin3@g.skku.edu",
       "source_image": "https://static.wixstatic.com/media/bdb293_4d5405507837498ba25f2efd0060e99d~mv2.png/v1/fill/w_141,h_190,al_c,lg_1,q_85,enc_avif,quality_auto/%EB%82%B4%20%EB%AA%85%ED%95%A8%EC%82%AC%EC%A7%84_PNG.png",
-      "image": "/assets/alumni-4.png"
+      "image": "/assets/alumni-4.png",
+      "representative_doi": "10.1063/5.0100108"
     },
     {
       "name": "Jinho Ahn",
@@ -2156,7 +2194,8 @@
       "organization": "LG Energy Solution",
       "email": "jinho0113@gmail.com",
       "source_image": "https://static.wixstatic.com/media/bdb293_0f117eadc5a14c6284d7ff660fb91a14~mv2.jpg/v1/fill/w_141,h_190,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%95%88%EC%A7%84%ED%98%B8%20%EC%82%AC%EC%A7%84.jpg",
-      "image": "/assets/alumni-5.jpg"
+      "image": "/assets/alumni-5.jpg",
+      "representative_doi": "10.1021/acsnano.5c22044"
     },
     {
       "name": "Seokjin Lee",
@@ -2165,7 +2204,8 @@
       "organization": "LG Energy Solution",
       "email": "seokjin6348@g.skku.edu",
       "source_image": "https://static.wixstatic.com/media/bdb293_c183be2b02fe4b6cb850aa67f245d68d~mv2.jpg/v1/fill/w_141,h_191,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/KakaoTalk_20200820_154648885_edited.jpg",
-      "image": "/assets/alumni-6.jpg"
+      "image": "/assets/alumni-6.jpg",
+      "representative_doi": "10.1002/cey2.454"
     },
     {
       "name": "Sangyeop Lee",
@@ -2174,7 +2214,8 @@
       "organization": "LG Energy Solution",
       "email": "duq9584@gmail.com",
       "source_image": "https://static.wixstatic.com/media/bdb293_3ce9695acd8b4dc5bb2e9f38c91f85d0~mv2.png/v1/fill/w_141,h_187,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9D%B4%EC%83%81%EC%97%BD%20%EC%82%AC%EC%A7%84.png",
-      "image": "/assets/alumni-7.png"
+      "image": "/assets/alumni-7.png",
+      "representative_doi": "10.1063/5.0100108"
     },
     {
       "name": "Hobin Ahn",
@@ -2183,7 +2224,8 @@
       "organization": "Samsung SDI",
       "email": "bineeahn@gmail.com",
       "source_image": "https://static.wixstatic.com/media/bdb293_5b1ea784ec454629bf322598378c0118~mv2.jpg/v1/fill/w_141,h_187,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/KakaoTalk_20220103_154338141.jpg",
-      "image": "/assets/alumni-8.jpg"
+      "image": "/assets/alumni-8.jpg",
+      "representative_doi": "10.1016/j.ensm.2023.102952"
     },
     {
       "name": "Jeongwoo Kim",
@@ -2192,7 +2234,8 @@
       "organization": "Samsung SDI",
       "email": "dusvlf563@daum.net",
       "source_image": "https://static.wixstatic.com/media/bdb293_407ab6dc27e74d808826e5887ca65abb~mv2.jpg/v1/fill/w_141,h_187,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EA%B9%80%EC%A0%95%EC%9A%B0%20%EC%82%AC%EC%A7%84.jpg",
-      "image": "/assets/alumni-9.jpg"
+      "image": "/assets/alumni-9.jpg",
+      "representative_doi": "10.1016/j.ensm.2026.105375"
     },
     {
       "name": "Sunha Hwang",
@@ -2201,7 +2244,8 @@
       "organization": "LG Energy Solution",
       "email": "sunha.hw@g.skku.edu",
       "source_image": "https://static.wixstatic.com/media/bdb293_37a6c423d1f44e9ab92f3e188e146966~mv2.jpg/v1/fill/w_141,h_187,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/KakaoTalk_20251217_145528497.jpg",
-      "image": "/assets/alumni-10.jpg"
+      "image": "/assets/alumni-10.jpg",
+      "representative_doi": "10.1016/j.ensm.2025.104570"
     },
     {
       "name": "Seyeop Oh",
@@ -2210,7 +2254,28 @@
       "organization": "Samsung SDI",
       "email": "ohsy2000@g.skku.edu",
       "source_image": "https://static.wixstatic.com/media/bdb293_3cff2d9984cc4dc59dfc1d04a3b5970c~mv2.jpg/v1/fill/w_141,h_187,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%98%A4%EC%84%B8%EC%97%BD.jpg",
-      "image": "/assets/alumni-11.jpg"
+      "image": "/assets/alumni-11.jpg",
+      "representative_doi": "10.1002/aenm.202505121"
+    },
+    {
+      "name": "Lahyeon Jang",
+      "name_ko": "장라현",
+      "degree": "M.S.",
+      "graduated": "August 2026",
+      "organization": "",
+      "email": "",
+      "image": "",
+      "representative_doi": "10.1002/aenm.202506130"
+    },
+    {
+      "name": "Hyunji Kweon",
+      "name_ko": "권현지",
+      "degree": "M.S.",
+      "graduated": "August 2026",
+      "organization": "",
+      "email": "",
+      "image": "",
+      "representative_doi": "10.1016/j.ensm.2025.104570"
     }
   ]
 }

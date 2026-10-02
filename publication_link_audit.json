@@ -1794,5 +1794,50 @@
       "pdf_source": null,
       "pdf_sha256": null
     }
+  ],
+  "metadata_checked_at": "2026-10-02",
+  "metadata_updates": [
+    {
+      "doi": "10.1021/acsenergylett.6c02530",
+      "citation": "ACS Energy Letters, ASAP (2026)",
+      "source": "https://api.crossref.org/works/10.1021/acsenergylett.6c02530",
+      "status": "Online publication confirmed; volume/issue not assigned"
+    },
+    {
+      "doi": "10.1002/advs.77287",
+      "citation": "Advanced Science, e77287, Early View (2026)",
+      "source": "https://api.crossref.org/works/10.1002/advs.77287",
+      "status": "Online publication confirmed; volume/issue not assigned"
+    },
+    {
+      "doi": "10.1002/advs.77293",
+      "citation": "Advanced Science, e77293, Early View (2026)",
+      "source": "https://api.crossref.org/works/10.1002/advs.77293",
+      "status": "Online publication confirmed; volume/issue not assigned"
+    },
+    {
+      "doi": "10.1002/aenm.202504664",
+      "citation": "Advanced Energy Materials, e04664, Early View (2025)",
+      "source": "https://api.crossref.org/works/10.1002/aenm.202504664",
+      "status": "Online publication confirmed; volume/issue not assigned"
+    }
+  ],
+  "academic_service_sources": [
+    {
+      "role": "한국세라믹학회 학술운영이사",
+      "url": "https://kcers.or.kr/intro/sub_intro08.asp"
+    },
+    {
+      "role": "2026 이차전지 재료 심포지엄 Organizer",
+      "url": "https://www.kcersmeeting.or.kr/challenge_01.asp"
+    },
+    {
+      "role": "한국전기화학회 총무위원·이차전지분과 실무위원",
+      "source": "Professor-confirmed on 2026-10-02"
+    },
+    {
+      "role": "2026 K-BIG Project 제1간사",
+      "source": "K-BIG Project_기술트리_초안_20260626_0702.pptx"
+    }
   ]
 }

@@ -10,27 +10,27 @@
     "title": "Stabilizing High-Voltage Operation in O3-Type Na-Layered Cathodes by Suppressing Distortion-Driven Fe Migration",
     "url": "https://doi.org/10.1021/acsenergylett.6c02530",
     "authors": "T. Kim, H. Kweon, H. Lee, L. Jang, B. Ku, M. Choi, S. Lim, H. Choo, L. Eom, J. Kwon, M.-K. Cho, Y. H. Jung, H.-G. Jung, J. Kim*",
-    "citation": "ACS Energy Letters, Accepted (2026)",
+    "citation": "ACS Energy Letters, ASAP (2026)",
     "doi": "10.1021/acsenergylett.6c02530"
   },
   {
     "title": "Basal Plane Graphene Coated Zn Powder for High Performance Aqueous Zn Metal Batteries",
     "url": "https://doi.org/10.1002/advs.77287",
     "authors": "D. Kim, D. Jeong, K. Kim, V.‐C. Ho, J. Kim, H.‐G. Jung, J. H. Kim, G. Jeong, J. Mun",
-    "citation": "Advanced Science, Accepted (2026)",
+    "citation": "Advanced Science, e77287, Early View (2026)",
     "doi": "10.1002/advs.77287"
   },
   {
     "title": "A Dispersant-Driven Carbon-Binder Domains Homogeneity in High-Energy-Density Electrodes for Lithium-Ion Batteries",
     "url": "https://doi.org/10.1002/advs.77293",
     "authors": "D.-S. Kwon, M. Y. Seo, J. Ahn†, Y.-J. Jeong, W. Ko, W. Shin, M. J. Kim, J. Lee, W.-Y. Jeon, J. Bang, M.-J. Choi, K. I. Kim, J. J. Eom, S. Y. Oh, J. Kim*, Y. J. Kim, J.-K. Yoo",
-    "citation": "Advanced Science, Accepted (2026)",
+    "citation": "Advanced Science, e77293, Early View (2026)",
     "doi": "10.1002/advs.77293"
   },
   {
     "title": "Threshold-Triggered Redox Modulation Maximizing Initial Na+ Extraction in Fe–Mn-Dominant P2-Type Na-Layered Cathodes",
     "url": "https://doi.org/10.1016/j.ensm.2026.105375",
-    "authors": "S. Lim, J. Kim, B. Ku, M. Choi, H Lee, J. Kwon, L. Jang, T. Kim, H.-G. Jung, J. Mun, J. Kim*",
+    "authors": "S. Lim, J. Kim, B. Ku, M. Choi, H. Lee, J. Kwon, L. Jang, T. Kim, H.-G. Jung, J. Mun, J. Kim*",
     "citation": "Energy Storage Materials, 90, 105375 (2026)",
     "doi": "10.1016/j.ensm.2026.105375",
     "pdf_url": "/assets/papers/2026-c8a145785c9d.pdf",
@@ -54,7 +54,7 @@
   {
     "title": "Enhanced Interfacial Stability and Electrochemical Performance via Cathode-Adhesion-Enhanced Coatings for All-Solid-State Batteries",
     "url": "https://doi.org/10.1016/j.ensm.2026.105167",
-    "authors": "J. Kim†, H. Lee†, T. Kim, E. Ryu,I. Seo, J. Seong, C. Lim, J. Kim*",
+    "authors": "J. Kim†, H. Lee†, T. Kim, E. Ryu, I. Seo, J. Seong, C. Lim, J. Kim*",
     "citation": "Energy Storage Materials, 89, 105167 (2026)",
     "doi": "10.1016/j.ensm.2026.105167",
     "pdf_url": "/assets/papers/2026-88c67217de4d.pdf"
@@ -62,7 +62,7 @@
   {
     "title": "Fast and Trap-Minimized Li Transport via Size-Mismatch-Driven Cation-Ordering Control in Li-Excess Disordered Rocksalt Cathodes",
     "url": "https://doi.org/10.1021/acsnano.5c22044",
-    "authors": "J. Ahn†, B. Ku†, H. Kweon, H. Lee, H. Ahn, M. Choi, M. H. Lee, M. Yoon, J. Choi, J Hong, J. Kim*",
+    "authors": "J. Ahn†, B. Ku†, H. Kweon, H. Lee, H. Ahn, M. Choi, M. H. Lee, M. Yoon, J. Choi, J. Hong, J. Kim*",
     "citation": "ACS Nano, 20, 10556–10569 (2026)",
     "doi": "10.1021/acsnano.5c22044",
     "pdf_url": "/assets/papers/2026-24c595be03a8.pdf"
@@ -112,9 +112,10 @@
   {
     "title": "From Materials to Systems: Challenges and Solutions for Fast-Charge/Discharge Na-Ion Batteries",
     "url": "https://doi.org/10.1002/aenm.202504664",
-    "authors": "B. Ku, S. Park, S. Hwang, S. Lim, W.-S. Yoon, J. Kim*",
-    "citation": "Advanced Energy Materials, Accepted (2026)",
-    "doi": "10.1002/aenm.202504664"
+    "authors": "B. Ku†, S. Park†, S. Hwang, S. Lim, W.-S. Yoon*, J. Kim*",
+    "citation": "Advanced Energy Materials, e04664, Early View (2025)",
+    "doi": "10.1002/aenm.202504664",
+    "year": "2025"
   },
   {
     "title": "Co-Free and Ni-Minimized Li- and Mn-Rich Layered Cathodes with Suppressed Structural Disordering for High-Performance and Cost-Effective LIBs",
@@ -136,16 +137,16 @@
   {
     "title": "2D Phosphorene-Decorated Ni-Rich Layered Cathodes for High-Power and High-Energy Li-ion Batteries",
     "url": "https://doi.org/10.1002/adfm.202511385",
-    "authors": "J. Lee, K. Nam, B. Ku, M. Choi, M.-k. Cho, S. Y. Jung, J. Min , J. Ahn, Y. Lee, S.-Y. Lee, D. Lee, Y. S. Cho, D.-S. Kwon, J.-K. Yoo, J. Kang, J. Kim*",
+    "authors": "J. Lee, K. Nam, B. Ku, M. Choi, M.-k. Cho, S. Y. Jung, J. Min, J. Ahn, Y. Lee, S.-Y. Lee, D. Lee, Y. S. Cho, D.-S. Kwon, J.-K. Yoo, J. Kang, J. Kim*",
     "citation": "Advanced Functional Materials, 36, e11385 (2026)",
     "doi": "10.1002/adfm.202511385",
     "pdf_url": "/assets/papers/2026-13ac5314d7ea.pdf"
   },
   {
-    "title": "Ultra-High-Mass-Loading Electrodes with Enhanced Homogeneity Using High- Concentration Slurry for Lithium-Ion Batteries",
+    "title": "Ultra-High-Mass-Loading Electrodes with Enhanced Homogeneity Using High-Concentration Slurry for Lithium-Ion Batteries",
     "url": "https://doi.org/10.1002/cey2.70108",
     "authors": "J. K. Park, W. Shin, W. Jo, H.-J. Lee, W.-Y. Jeon, J. Ahn, J. Yoon, Y.-J. Jeong, J. Oh, M. Kang, M.-J. Choi, J. Joo, J. Kim, S.-K. Cho, J. D. Park, J. Nam, J.-K. Yoo",
-    "citation": "Carbon Energy,8, e70108 (2026)",
+    "citation": "Carbon Energy, 8, e70108 (2026)",
     "doi": "10.1002/cey2.70108",
     "pdf_url": "/assets/papers/2026-1bd52f7403de.pdf"
   }
