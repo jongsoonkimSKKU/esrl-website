@@ -233,3 +233,11 @@
 .support-card>p{font-size:1rem;line-height:1.8;color:#e3eaf0;margin:18px 0 0;max-width:520px}
 .support-card .support-description-en{font-size:.875rem;line-height:1.75;color:#b9c9d6;margin-top:12px}
 @media(max-width:560px){.recruit-support-items{flex-direction:column;gap:18px}.recruit-support-items strong{font-size:1.45rem}.support-grid{grid-template-columns:1fr;gap:18px}.support-card{padding:26px}.support-number{margin-bottom:18px}.support-card h3{font-size:1.5rem}.support-section .support-heading-en{font-size:1rem}.support-section .section-heading>p br{display:none}}
+
+.material-case{margin-top:26px;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.material-case-label{display:block;font-size:.875rem;font-weight:600;color:#456535;line-height:1.6}
+.material-case h4{font-size:1.125rem;line-height:1.7;font-weight:600;margin-top:10px;word-break:keep-all;overflow-wrap:anywhere}
+.material-case p{font-size:1rem;line-height:1.8;margin-top:12px;color:var(--muted)}
+.material-case .material-case-result{font-weight:600;color:var(--navy)}
+.material-case .material-case-citation{font-size:.875rem;line-height:1.6}
+.material-case-link{display:inline-block;font-size:1rem;font-weight:600;line-height:1.7;margin-top:14px;padding:4px 0;border-bottom:1px solid currentColor}
