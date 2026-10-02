@@ -269,3 +269,18 @@
 .alumni-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.alumni-member{border:1px solid var(--line);padding:26px;background:#fff;display:flow-root;min-width:0}.alumni-member img{width:86px;aspect-ratio:3/4;object-fit:cover;float:left;margin:0 22px 18px 0}.alumni-member h3{margin-top:2px;font-size:1.25rem}.alumni-member .course{font-size:.95rem;line-height:1.5}.alumni-name-ko{font-size:.95rem;margin:6px 0 0;color:var(--muted)}.alumni-name-mark{width:86px;height:115px;display:flex;align-items:center;justify-content:center;background:var(--pale);color:#547844;font-family:Manrope,Arial,sans-serif;font-weight:700;font-size:1.2rem;float:left;margin:0 22px 18px 0}.alumni-paper{clear:both;border-top:1px solid var(--line);padding-top:18px;margin-top:20px}.alumni-paper>span{font-size:.875rem;color:var(--muted);display:block;margin-bottom:10px}.alumni-paper h4{font-size:1rem;line-height:1.6;letter-spacing:-.015em}.alumni-paper h4 a:hover{text-decoration:underline}.alumni-paper p{font-size:.9rem;line-height:1.6;margin:12px 0 0;color:var(--muted)}.alumni-organization{font-size:.95rem;margin:18px 0 0}.equipment>p{font-size:1rem;line-height:1.7;color:var(--muted);margin-top:12px}
 @media(max-width:700px){.impact-grid{gap:14px}.impact-grid a{padding-right:12px}.impact-grid span{font-size:.875rem;line-height:1.6}.application-grid{grid-template-columns:1fr;gap:24px}.application-steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.alumni-grid{grid-template-columns:1fr}.alumni-member{padding:22px}.beginner-note{padding:22px}.beginner-note strong{font-size:1.12rem}.case-metrics{gap:12px}.case-metrics p{padding:14px}.case-metrics strong{font-size:1.6rem}}
 @media(max-width:380px){.impact-grid{gap:9px}.impact-grid strong{font-size:1.8rem}.impact-grid span{font-size:.8rem}}
+
+/* Topic-specific studies connect research questions with published evidence. */
+.research-paper-section{grid-column:1/-1;min-width:0;margin-top:8px}
+.research-paper-section>h3{font-size:1.25rem;margin-bottom:24px;line-height:1.6}
+.research-paper-section>h3 span{font-size:1rem;color:var(--muted);font-weight:500}
+.research-paper-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:24px;align-items:start}
+.research-paper-card{margin:0;padding:26px;background:var(--pale);border:1px solid var(--line);border-top:3px solid #789c61;min-width:0}
+.research-paper-card .material-case-title a:hover{text-decoration:underline;text-underline-offset:4px}
+.research-paper-card .story-researchers{margin-top:18px;margin-bottom:12px}
+.research-paper-card .journal-metrics{margin-top:20px}
+.research-paper-card .journal-metrics summary{flex-wrap:wrap;font-size:.875rem;gap:6px 10px}
+.research-paper-card .case-metrics{grid-template-columns:1fr}
+.research-paper-card .case-metrics p{margin:0}
+.research-paper-files{margin-top:16px;font-size:.9rem}
+@media(max-width:800px){.research-paper-grid{grid-template-columns:1fr}.research-paper-card{padding:24px}.research-paper-section{margin-top:12px}}
