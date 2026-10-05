@@ -125,7 +125,7 @@
 @media(max-width:800px){.nav-group summary{padding:14px 8px;justify-content:space-between}.nav-group.active summary{border-bottom:0}.nav-submenu{position:static;min-width:0;margin:0 0 10px;border:0;box-shadow:none;background:var(--pale);padding:8px}.publication-menu{grid-template-columns:repeat(3,minmax(0,1fr));gap:0}.nav .nav-submenu a{padding:12px 10px;font-size:.85rem}.people-tabs{gap:8px}.people-tabs a{font-size:.85rem}.publication-year+.publication-year{margin-top:48px}}
 
 /* Searchable publication library. */
-.publication-metrics{display:grid;grid-template-columns:repeat(4,1fr);border-block:1px solid var(--line);padding:28px 0;gap:24px}
+.publication-metrics{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--line);padding:28px 0;gap:24px}
 .publication-metrics>div,.publication-metrics>a{display:flex;flex-direction:column;gap:9px}
 .publication-metrics strong{font-family:Manrope,Arial,sans-serif;font-size:2.5rem;letter-spacing:-.04em;color:var(--navy)}
 .publication-metrics span{font-size:.8rem;color:var(--muted);line-height:1.5}
