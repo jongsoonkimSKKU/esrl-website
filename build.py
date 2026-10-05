@@ -128,6 +128,7 @@ def profile_id(name):return 'researcher-'+re.sub(r'[^a-z0-9]+','-',name.lower())
 def cta(href,label,cls='text-link'):return f'<a href="{e(href)}" class="{cls}">{label}</a>'
 def story_paper(doi):return next(p for p in D['publications']+[p for archive in D['publication_archive'].values() for p in archive] if p.get('doi')==doi)
 STUDENT_STORIES=[
+ {'doi':'10.1021/acsenergylett.6c02530','topic':'Na-ion cathodes · Fe 이동 억제','question':'소듐 양극의 고전압 구조를 안정화하려면?','summary':'Fe 산화에 따른 구조 왜곡과 Fe 이동 경로를 분석하고 고전압 작동 안정성을 개선한 연구입니다.','people':[('Taegyu Kim','T. Kim','제1저자 · 김태규','current')]},
  {'doi':'10.1021/acsnano.5c22044','topic':'Li-ion cathodes · 리튬 양극','question':'리튬이 더 빠르게 움직이려면?','summary':'양이온 배열을 제어해 리튬이 이동하는 경로를 개선하는 양극 연구입니다.','people':[('Jinho Ahn','J. Ahn','공동 제1저자 · 졸업생','alumni'),('Bonyoung Ku','B. Ku','공동 제1저자','current')]},
  {'doi':'10.1016/j.ensm.2026.105375','topic':'Na-ion cathodes · 소듐 양극','question':'저가형 소듐 양극의 성능을 높이려면?','summary':'철·망간 중심 양극의 산화환원 반응을 조절해 초기 소듐 추출을 높이는 연구입니다.','people':[('Sunghyun Lim','S. Lim','제1저자','current')]},
  {'doi':'10.1002/aenm.202505121','topic':'Li-ion cathodes · Co-free·Ni 최소화 양극','question':'초저가 조성에서 높은 에너지밀도와 수명을 함께 얻으려면?','summary':'초기 충전 활성화와 전이금속 이동 억제를 연결해 초저가·고성능 양극을 구현한 연구입니다.','people':[('Jinho Ahn','J. Ahn','제1저자 · 졸업생','alumni')]},
@@ -226,18 +227,42 @@ def research_impact(surface):
 def application_section():
  return '<section class="section application-section"><div class="wrap"><div class="section-heading"><div><span class="eyebrow">How to apply · 지원 안내</span><h2 lang="ko">관심에서 첫 만남까지.</h2></div></div><div class="beginner-note"><strong lang="ko">실험에서 AI·계산까지, 배터리 소재를 이해하는 연구 역량을 넓혀갑니다.</strong><p lang="ko">AI·계산 분야에 새롭게 도전하는 학생도 환영합니다. 기초부터 실제 소재 설계까지 연결하며 연구 역량을 쌓아갑니다.</p><p lang="en">Build your research capabilities across experiments, AI, and computation. Students new to AI and computational research are welcome to develop their skills from the fundamentals to materials design.</p></div><div class="application-grid"><article><h3>지원 서류 · Documents</h3><p lang="ko">간단한 이력서(CV), 성적증명서, 관심 연구주제와 희망 시작 시기를 이메일로 보내 주세요. 박사후연구원은 연구 경력 및 주요 논문 목록을 함께 보내 주세요.</p><p lang="en">Email your CV, transcript, research interests, and preferred start date. Postdoctoral applicants should also include their research experience and publication list.</p></article><article><h3>지원 시기 · Timing</h3><p lang="ko">연구실 사전 문의는 상시 가능합니다. 대학원 진학 희망자는 성균관대학교 공식 모집 일정에 앞서 연락해 주세요. 학부연구생·박사후연구원의 시작 시기는 면담 후 협의합니다.</p><p lang="en">Lab inquiries are welcome throughout the year. Prospective graduate students should contact us before the official university application period. Start dates for undergraduate researchers and postdoctoral researchers are discussed individually.</p></article></div><ol class="application-steps"><li><strong>이메일 문의</strong><span>지원 서류와 관심 분야 전달</span></li><li><strong>서류 검토</strong><span>연구 관심과 참여 가능 시기 확인</span></li><li><strong>면담</strong><span>연구 방향·참여 과정 논의</span></li><li><strong>지원·합류</strong><span>대학원은 공식 입학 전형, 인턴·포닥은 개별 협의</span></li></ol></div></section>'
 
+def publication_year(p):
+ return int(p.get('year') or re.search(r'(20\d{2})',p['citation'])[1])
+
 def featured_impact(p):
  journal=JOURNAL_METRICS['journals'].get(journal_key(p['citation'].split(',')[0]),{})
- year=int(re.search(r'(20\d{2})',p['citation'])[1])-1
+ year=publication_year(p)-1
  return float(journal.get('years',{}).get(str(year),{}).get('impact_factor') or 0)
 
-HOME_EXPLORER_DOIS={'10.1021/acsnano.5c22044','10.1039/d0ee02803g','10.1016/j.ensm.2026.105375','10.1002/aenm.202505121','10.1016/j.ensm.2026.105167','10.1002/aenm.202506130'}
-selected=sorted((p for p in D['publications'] if p.get('featured') and p.get('doi') not in HOME_EXPLORER_DOIS),key=featured_impact,reverse=True)
+def is_last_corresponding_author(p):
+ last=p.get('authors','').split(',')[-1].strip()
+ name=re.sub(r'[\s.†‡*]+','',last).casefold()
+ return '*' in last and name in ('jkim','jongsoonkim')
+
+def featured_publications(papers,year):
+ eligible=[]
+ seen=set()
+ for p in papers:
+  key=p.get('doi') or p['title'].casefold()
+  if key in seen or not is_last_corresponding_author(p) or featured_impact(p)<=0:continue
+  seen.add(key)
+  eligible.append(p)
+ current=sorted((p for p in eligible if publication_year(p)==year),key=featured_impact,reverse=True)[:3]
+ previous=sorted((p for p in eligible if publication_year(p)==year-1),key=featured_impact,reverse=True)
+ return current+previous[:3-len(current)]
+
+from datetime import datetime
+from zoneinfo import ZoneInfo
+CURRENT_YEAR=datetime.now(ZoneInfo('Asia/Seoul')).year
+available_papers=D['publications']+[dict(p,year=p.get('year',year)) for year,papers in D['publication_archive'].items() for p in papers]
+selected=featured_publications(available_papers,CURRENT_YEAR)
+selected_years=' · '.join(dict.fromkeys(str(publication_year(p)) for p in selected)) or str(CURRENT_YEAR)
 home=f'''<section class="hero"><div class="wrap hero-inner"><div class="hero-copy"><span class="eyebrow">Materials × Computation × Energy</span><h1 class="student-hero-title" lang="ko">배터리의 다음 질문,<br><span>우리가 함께 풀어갑니다.</span></h1><p class="hero-question-en" lang="en">Together, we tackle the next questions in batteries.</p><p class="hero-ko" lang="ko">소재를 만들고, 원리를 밝히고,<br>미래의 배터리를 함께 설계합니다.</p><p class="hero-desc hero-intro-ko" lang="ko">리튬·소듐이온전지용 저가형 고성능 양극과 전고체전지용 고체전해질. 제일원리계산·합성·실험을 연결해 배터리의 성능과 안정성을 높이는 소재 및 전극을 설계합니다.</p><p class="hero-desc hero-intro-en" lang="en">Cost-effective cathodes for Li- and Na-ion batteries, and solid electrolytes for all-solid-state batteries — connecting materials design, calculations, and experiments.</p><div class="hero-actions">{cta('#find-your-research','<span lang="ko">우리 연구 둘러보기</span>','button')}{cta('/join/','<span lang="ko">연구실 지원 안내</span>','text-link')}</div><a class="hero-recruit" href="/join/"><span class="hero-recruit-content"><span class="hero-recruit-title"><span lang="ko">모집 안내</span><span lang="en">Join ESRL</span></span><span class="hero-recruit-audience" lang="ko">학부연구생 · 대학원생 · 포닥 모집</span><span class="hero-recruit-audience-en" lang="en">Undergraduate · Graduate · Postdoctoral opportunities</span></span><span class="hero-recruit-arrow" aria-hidden="true">↗</span></a></div><div class="hero-visual">{img('/assets/ai-battery-ev-wide.png','Conceptual illustration connecting computation servers, atomic battery materials, rechargeable cells and an electric vehicle',eager=True)}<div class="visual-caption"><span>ENERGY STORAGE RESEARCH LAB<br><span lang="ko">성균관대학교 에너지 저장 연구실</span></span><span>Cathodes × Solid electrolytes<br><span lang="ko">소재·계산·실험으로 연결하는 연구</span></span></div></div></div></section>
  <section class="join-section" id="recruitment" aria-labelledby="recruitment-heading"><div class="wrap join-inner"><div><span class="eyebrow">Join ESRL <span lang="ko">· 함께할 연구자를 찾습니다</span></span><h2 id="recruitment-heading">Let’s ask the next question.</h2><p lang="ko"><strong>학부연구생 · 대학원생 · 박사후연구원(포닥)을 모집합니다.</strong><br>양극·고체전해질 설계, 제일원리계산, 실험·분석을 통해 차세대 이차전지 연구에 함께할 분들의 문의를 환영합니다.</p><p class="join-en" lang="en"><strong>We are recruiting undergraduate researchers, graduate students, and postdoctoral researchers.</strong><br>Explore next-generation rechargeable batteries with us through cathode and solid-electrolyte design, first-principles calculations, and experimental research.</p><div class="recruit-support" aria-label="Graduate student support"><span class="recruit-support-label" lang="ko">대학원생 연구 지원</span><div class="recruit-support-items"><span><strong lang="ko">등록금 전액 지원</strong><small lang="en">Full tuition support</small></span><span><strong lang="ko">인건비 지원</strong><small lang="en">Research stipends</small></span></div><p class="recruit-support-more" lang="ko">국내·국제 학회 참여 · 산학 공동연구 기회</p></div></div>{link('/join/','<span><span lang="ko">모집 안내</span><small lang="en">Recruitment details</small></span>','button dark join-section-cta')}</div></section>
  <div class="research-strip"><div class="wrap strip-inner"><div class="strip-item"><b class="strip-number">01</b><div><strong>Materials design</strong><br><span lang="ko">전극 소재 설계·합성</span></div></div><div class="strip-item"><b class="strip-number">02</b><div><strong>Computation & simulations</strong><br><span lang="ko">제일원리계산 · 구조·이온 이동 시뮬레이션</span></div></div><div class="strip-item"><b class="strip-number">03</b><div><strong>Advanced characterization</strong><br><span lang="ko">구조·반응 메커니즘 규명</span></div></div></div></div>
  <section class="section"><div class="wrap"><div class="section-heading"><div><span class="eyebrow">Our research <span lang="ko">· 연구 분야</span></span><h2>Two materials pillars<br>One connected approach</h2></div><p lang="ko">양극과 고체전해질에 대한 소재 전문성을 바탕으로, 제일원리계산·합성·고도분석을 하나의 연구 흐름으로 연결합니다.</p></div><div class="research-grid core-grid">{cards}</div><div class="core-connection"><span>Materials design</span><b aria-hidden="true">↔</b><span>First-principles insight</span><b aria-hidden="true">↔</b><span>Synthesis &amp; validation</span></div></div></section>
- <section class="section paper-section"><div class="wrap"><div class="section-heading"><div><span class="eyebrow">Selected publications <span lang="ko">· 주요 논문</span> · 2026</span><h2>Ideas into evidence.</h2></div>{link('/publications/','<span lang="ko">전체 논문 보기</span>')}</div>{''.join(paper(p,False) for p in selected)}</div></section>
+ <section class="section paper-section"><div class="wrap"><div class="section-heading"><div><span class="eyebrow">Selected publications <span lang="ko">· 주요 논문</span> · {selected_years}</span><h2>Ideas into evidence.</h2></div>{link('/publications/','<span lang="ko">전체 논문 보기</span>')}</div>{''.join(paper(p,False) for p in selected)}</div></section>
  <section class="section"><div class="wrap people-feature"><div>{img('/assets/esrl-group-samsung-library-wide.png','ESRL group photograph in front of Samsung Library at Sungkyunkwan University')}<p class="photo-credit">ESRL at Sungkyunkwan University · Samsung Library</p></div><div><span class="eyebrow">Our people <span lang="ko">· 연구실 구성원</span></span><h2>Different perspectives.<br>A shared curiosity.</h2><p lang="ko">성균관대학교 김종순 교수의 에너지 저장 연구실은 서로 다른 전문성을 가진 연구자들이 함께 소재 설계, 계산, 실험을 연결하며 이차전지 소재의 가능성을 넓혀갑니다.</p><div class="hero-actions">{link('/people/','<span lang="ko">구성원 소개</span>')}{link('/life/','<span lang="ko">연구실 일상</span>')}</div></div></div></section>
 '''
 recruitment=re.search(r' <section class="join-section".*?</section>',home,re.S)[0]
@@ -261,7 +286,7 @@ RESEARCH_CASES={
 def additional_research_case(key):
  doi,heading,summary,result=RESEARCH_CASES[key]
  p=research_paper(doi)
- return f'<article class="material-case" aria-labelledby="research-case-{key}"><span class="material-case-label">{e(p["citation"].split(",")[0])} · {p["year"]}</span><h4 id="research-case-{key}" lang="ko">{e(heading)}</h4><p lang="ko">{e(summary)}</p><p class="material-case-result" lang="ko">{e(result)}</p><p class="material-case-title" lang="en">{e(p["title"])}</p><p class="material-case-citation">{e(p["citation"])}</p>'+cta(p['url'],'논문 보기 · Read paper','material-case-link')+'</article>'
+ return f'<article class="material-case" aria-labelledby="research-case-{key}"><span class="material-case-label">{e(p["citation"].split(",")[0])} · {p["year"]}</span><h4 id="research-case-{key}" lang="ko">{e(heading)}</h4><p lang="ko">{e(summary)}</p><p class="material-case-result" lang="ko">{e(result)}</p><p class="material-case-title" lang="en">{e(p["title"])}</p><p class="material-case-citation">{e(p["citation"])}</p>'+research_credits(p)+cta(p['url'],'논문 보기 · Read paper','material-case-link')+'</article>'
 
 def research_publications(section):
  cases={
