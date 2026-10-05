@@ -316,6 +316,7 @@
 .hero .hero-intro-en{font-size:.875rem;line-height:1.65;margin-top:8px}
 .hero .hero-actions{margin-top:18px;gap:16px 22px}
 .hero .button{padding:12px 18px}
+.hero-visual img{width:auto;height:auto;max-width:100%;max-height:350px;margin-inline:auto;object-fit:contain}
 @media(max-width:800px){
  .page-title,.page-title.publication-title{padding:24px 0 26px}
  .page-title h1,.page-title.publication-title h1{font-size:1.5rem;line-height:1.5}
@@ -326,4 +327,6 @@
  .hero-copy{padding:28px 0}
  .hero h1.student-hero-title{font-size:clamp(1.5rem,4.5vw,1.875rem)}
  .hero-visual{margin:0 -20px}
+ .hero-visual img{max-height:220px}
+ .hero-visual .visual-caption{display:none}
 }
