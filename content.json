@@ -151,28 +151,54 @@
       "url": "",
       "authors": "U. Jeong†, J. Choe†, J. Ahn†, J. Jang, J. Kwon, J.-K. Yoo, J. Yoon, M. J. Kang, J. H. Park, M.-H. Lee, J.-H. Choi, D. J. Kang*, J. Kim*, J. M. Yuk*, H.-G. Im*",
       "citation": "Nano-Micro Letters, Accepted (2026)",
-      "featured": true
+      "featured": true,
+      "lab_author_indices": [
+        2,
+        4,
+        12
+      ]
     },
     {
       "title": "Stabilizing High-Voltage Operation in O3-Type Na-Layered Cathodes by Suppressing Distortion-Driven Fe Migration",
       "url": "https://doi.org/10.1021/acsenergylett.6c02530",
       "authors": "T. Kim, H. Kweon, H. Lee, L. Jang, B. Ku, M. Choi, S. Lim, H. Choo, L. Eom, J. Kwon, M.-K. Cho, Y. H. Jung, H.-G. Jung, J. Kim*",
       "citation": "ACS Energy Letters, ASAP (2026)",
-      "doi": "10.1021/acsenergylett.6c02530"
+      "doi": "10.1021/acsenergylett.6c02530",
+      "lab_author_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        13
+      ]
     },
     {
       "title": "Basal Plane Graphene Coated Zn Powder for High Performance Aqueous Zn Metal Batteries",
       "url": "https://doi.org/10.1002/advs.77287",
       "authors": "D. Kim, D. Jeong, K. Kim, V.‐C. Ho, J. Kim, H.‐G. Jung, J. H. Kim, G. Jeong, J. Mun",
       "citation": "Advanced Science, e77287, Early View (2026)",
-      "doi": "10.1002/advs.77287"
+      "doi": "10.1002/advs.77287",
+      "lab_author_indices": [
+        4
+      ]
     },
     {
       "title": "A Dispersant-Driven Carbon-Binder Domains Homogeneity in High-Energy-Density Electrodes for Lithium-Ion Batteries",
       "url": "https://doi.org/10.1002/advs.77293",
       "authors": "D.-S. Kwon, M. Y. Seo, J. Ahn†, Y.-J. Jeong, W. Ko, W. Shin, M. J. Kim, J. Lee, W.-Y. Jeon, J. Bang, M.-J. Choi, K. I. Kim, J. J. Eom, S. Y. Oh, J. Kim*, Y. J. Kim, J.-K. Yoo",
       "citation": "Advanced Science, e77293, Early View (2026)",
-      "doi": "10.1002/advs.77293"
+      "doi": "10.1002/advs.77293",
+      "lab_author_indices": [
+        2,
+        4,
+        14
+      ]
     },
     {
       "title": "Threshold-Triggered Redox Modulation Maximizing Initial Na+ Extraction in Fe–Mn-Dominant P2-Type Na-Layered Cathodes",
@@ -181,14 +207,29 @@
       "citation": "Energy Storage Materials, 90, 105375 (2026)",
       "doi": "10.1016/j.ensm.2026.105375",
       "pdf_url": "/assets/papers/2026-c8a145785c9d.pdf",
-      "featured": true
+      "featured": true,
+      "lab_author_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10
+      ]
     },
     {
       "title": "A Review of Failure Modes and Safety Strategies of Lithium-ion Batteries from Materials to Systems",
       "url": "https://doi.org/10.1002/advs.76228",
       "authors": "J. H. Yang, J. Y. Sung, H. Kweon†, S. Kim, B. Kim, J. Kim*, J. Mun, J. H. Kim, K. J. Kim",
       "citation": "Advanced Science, 13, e76228 (2026)",
-      "doi": "10.1002/advs.76228"
+      "doi": "10.1002/advs.76228",
+      "lab_author_indices": [
+        2,
+        5
+      ]
     },
     {
       "title": "Artificial Intelligence-driven mechanistic insights in electrocatalysis",
@@ -196,7 +237,10 @@
       "authors": "J. Kim, S. Woo, H.-G. Jung, J. Kim*, J. Mun, J. H. Kim",
       "citation": "Applied Catalysis B: Environment and Energy, 398, 127014 (2026)",
       "doi": "10.1016/j.apcatb.2026.127014",
-      "pdf_url": "/assets/papers/2026-83063b76a44b.pdf"
+      "pdf_url": "/assets/papers/2026-83063b76a44b.pdf",
+      "lab_author_indices": [
+        3
+      ]
     },
     {
       "title": "Enhanced Interfacial Stability and Electrochemical Performance via Cathode-Adhesion-Enhanced Coatings for All-Solid-State Batteries",
@@ -204,7 +248,14 @@
       "authors": "J. Kim†, H. Lee†, T. Kim, E. Ryu, I. Seo, J. Seong, C. Lim, J. Kim*",
       "citation": "Energy Storage Materials, 89, 105167 (2026)",
       "doi": "10.1016/j.ensm.2026.105167",
-      "pdf_url": "/assets/papers/2026-88c67217de4d.pdf"
+      "pdf_url": "/assets/papers/2026-88c67217de4d.pdf",
+      "lab_author_indices": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ]
     },
     {
       "title": "Fast and Trap-Minimized Li Transport via Size-Mismatch-Driven Cation-Ordering Control in Li-Excess Disordered Rocksalt Cathodes",
@@ -212,7 +263,16 @@
       "authors": "J. Ahn†, B. Ku†, H. Kweon, H. Lee, H. Ahn, M. Choi, M. H. Lee, M. Yoon, J. Choi, J. Hong, J. Kim*",
       "citation": "ACS Nano, 20, 10556–10569 (2026)",
       "doi": "10.1021/acsnano.5c22044",
-      "pdf_url": "/assets/papers/2026-24c595be03a8.pdf"
+      "pdf_url": "/assets/papers/2026-24c595be03a8.pdf",
+      "lab_author_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        10
+      ]
     },
     {
       "title": "Growth-Directing Nanostructured Interfaces via Block Copolymer-Templated Au Nanoseed Arrays for Stabilized Zinc Anodes in Lean-Zinc Batteries",
@@ -221,7 +281,11 @@
       "citation": "Nano-Micro Letters, 18, 355 (2026)",
       "doi": "10.1007/s40820-026-02167-y",
       "pdf_url": "/assets/papers/2026-b1fa9387da7c.pdf",
-      "featured": true
+      "featured": true,
+      "lab_author_indices": [
+        1,
+        11
+      ]
     },
     {
       "title": "NaF@MnO-based sacrificial cathode/separator composite for boosting the energy density of sodium-ion batteries",
@@ -229,7 +293,12 @@
       "authors": "S. J. Park, S.-Y. Lee†, Y. M. Kim, J. Kang, J. K. Seo, Y.-J. Kim, J. Kim*, K. J. Kim",
       "citation": "ACS Nano, 20, 4799–4807 (2026)",
       "doi": "10.1021/acsnano.5c16400",
-      "pdf_url": "/assets/papers/2026-7bbd266b9a95.pdf"
+      "pdf_url": "/assets/papers/2026-7bbd266b9a95.pdf",
+      "lab_author_indices": [
+        1,
+        3,
+        6
+      ]
     },
     {
       "title": "Enhanced Fast-Charging Performance of High-Mass-Loading Mn-Rich Li[Mn1-xFex]PO4 Cathodes via LiF-Less Cathode–Electrolyte Interphase",
@@ -238,7 +307,17 @@
       "citation": "Advanced Energy Materials, 16, e06130 (2026)",
       "doi": "10.1002/aenm.202506130",
       "pdf_url": "/assets/papers/2026-1136374e66d0.pdf",
-      "featured": true
+      "featured": true,
+      "lab_author_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10
+      ]
     },
     {
       "title": "Bimodal Composite Cathodes Advancing the Chemo-Mechanical Integrity and Kinetics for All-Solid-State Batteries",
@@ -246,7 +325,10 @@
       "authors": "H. Oh, U. Jeong, J. Choi, J. Lim, J. T. Kim, H.-J. Shin, J.-y. Im, H.-W. Gong, J.-P. Ahn, Y. M. Lee, J. Kim, J. Mun, K. Y. Chung, S. H. Oh, J.-W. Lee, S.-Y. Lee, H.-G. Jung",
       "citation": "ACS Energy Letters, 11, 2103–2114 (2026)",
       "doi": "10.1021/acsenergylett.5c03923",
-      "pdf_url": "/assets/papers/2026-91beaf7652ca.pdf"
+      "pdf_url": "/assets/papers/2026-91beaf7652ca.pdf",
+      "lab_author_indices": [
+        10
+      ]
     },
     {
       "title": "Integrated one-step dry process enabling prelithiated thick electrodes without primer coating for high energy density and initial coulombic efficiency",
@@ -254,7 +336,10 @@
       "authors": "H.-W. Lee, W. Jeong, S. S. Park, H.-J. Ji, J.-S. Woo, J. Lee, Y.-J. An, Y.-C. Hwang, D.-H. Kim, H. Chang, M. Kim, M. Jeong, M. Yoon, D. Lee, J. Kim, Z.-L. Xu, T. Song, J. Moon, J. Choi, W.-J. Kwak",
       "citation": "Energy & Environmental Science, 19, 1944–1953 (2026)",
       "doi": "10.1039/d5ee05739f",
-      "pdf_url": "/assets/papers/2026-108d40d24916.pdf"
+      "pdf_url": "/assets/papers/2026-108d40d24916.pdf",
+      "lab_author_indices": [
+        14
+      ]
     },
     {
       "title": "From Materials to Systems: Challenges and Solutions for Fast-Charge/Discharge Na-Ion Batteries",
@@ -262,7 +347,14 @@
       "authors": "B. Ku†, S. Park†, S. Hwang, S. Lim, W.-S. Yoon*, J. Kim*",
       "citation": "Advanced Energy Materials, e04664 (2026)",
       "doi": "10.1002/aenm.202504664",
-      "year": "2026"
+      "year": "2026",
+      "lab_author_indices": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ]
     },
     {
       "title": "Co-Free and Ni-Minimized Li- and Mn-Rich Layered Cathodes with Suppressed Structural Disordering for High-Performance and Cost-Effective LIBs",
@@ -271,7 +363,16 @@
       "citation": "Advanced Energy Materials, 16, e05121 (2026)",
       "doi": "10.1002/aenm.202505121",
       "pdf_url": "/assets/papers/2026-92a4af5306d1.pdf",
-      "featured": true
+      "featured": true,
+      "lab_author_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ]
     },
     {
       "title": "Redox-Mediating Mo2C Nanoparticles Confined Within Nitrogen- and Phosphorus-Codoped Amorphous Carbon Matrix for Lithium–Sulfur Batteries",
@@ -279,7 +380,11 @@
       "authors": "W. I. Kim, M. J. Kim, H. Park, M. Hwang, J. S. Byun, J. Lee, J. Kim, H. S. Park",
       "citation": "Energy & Environmental Materials, 9, e70156 (2026)",
       "doi": "10.1002/eem2.70156",
-      "pdf_url": "/assets/papers/2026-e020733a8ce8.pdf"
+      "pdf_url": "/assets/papers/2026-e020733a8ce8.pdf",
+      "lab_author_indices": [
+        2,
+        6
+      ]
     },
     {
       "title": "2D Phosphorene-Decorated Ni-Rich Layered Cathodes for High-Power and High-Energy Li-ion Batteries",
@@ -287,7 +392,16 @@
       "authors": "J. Lee, K. Nam, B. Ku, M. Choi, M.-k. Cho, S. Y. Jung, J. Min, J. Ahn, Y. Lee, S.-Y. Lee, D. Lee, Y. S. Cho, D.-S. Kwon, J.-K. Yoo, J. Kang, J. Kim*",
       "citation": "Advanced Functional Materials, 36, e11385 (2026)",
       "doi": "10.1002/adfm.202511385",
-      "pdf_url": "/assets/papers/2026-13ac5314d7ea.pdf"
+      "pdf_url": "/assets/papers/2026-13ac5314d7ea.pdf",
+      "lab_author_indices": [
+        0,
+        2,
+        3,
+        7,
+        8,
+        9,
+        15
+      ]
     },
     {
       "title": "Ultra-High-Mass-Loading Electrodes with Enhanced Homogeneity Using High-Concentration Slurry for Lithium-Ion Batteries",
@@ -295,7 +409,11 @@
       "authors": "J. K. Park, W. Shin, W. Jo, H.-J. Lee, W.-Y. Jeon, J. Ahn, J. Yoon, Y.-J. Jeong, J. Oh, M. Kang, M.-J. Choi, J. Joo, J. Kim, S.-K. Cho, J. D. Park, J. Nam, J.-K. Yoo",
       "citation": "Carbon Energy, 8, e70108 (2026)",
       "doi": "10.1002/cey2.70108",
-      "pdf_url": "/assets/papers/2026-1bd52f7403de.pdf"
+      "pdf_url": "/assets/papers/2026-1bd52f7403de.pdf",
+      "lab_author_indices": [
+        5,
+        12
+      ]
     }
   ],
   "photos": [
@@ -588,7 +706,10 @@
         "citation": "Advanced Functional Materials, 19 (20), 3285-3292 (2009)",
         "note": "",
         "year": "2009",
-        "doi": "10.1002/adfm.200900414"
+        "doi": "10.1002/adfm.200900414",
+        "lab_author_indices": [
+          3
+        ]
       },
       {
         "number": 3,
@@ -598,7 +719,10 @@
         "citation": "Electrochimica Acta, 54 (24), 5914-5918 (2009)",
         "note": "",
         "year": "2009",
-        "doi": "10.1016/j.electacta.2009.05.058"
+        "doi": "10.1016/j.electacta.2009.05.058",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 2,
@@ -608,7 +732,10 @@
         "citation": "Journal of The Electrochemical Society, 156 (8), A635-A638, (2009)",
         "note": "",
         "year": "2009",
-        "doi": "10.1149/1.3138705"
+        "doi": "10.1149/1.3138705",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 1,
@@ -618,7 +745,10 @@
         "citation": "ACS Nano, 3 (5), 1085-1090 (2009)",
         "note": "",
         "year": "2009",
-        "doi": "10.1021/nn900062q"
+        "doi": "10.1021/nn900062q",
+        "lab_author_indices": [
+          2
+        ]
       }
     ],
     "2010": [
@@ -630,7 +760,10 @@
         "citation": "Advanced Materials, 22 (46), 5260-5264 (2010)",
         "note": "",
         "year": "2010",
-        "doi": "10.1002/adma.201002879"
+        "doi": "10.1002/adma.201002879",
+        "lab_author_indices": [
+          3
+        ]
       },
       {
         "number": 4,
@@ -640,7 +773,10 @@
         "citation": "Chemistry of Materials, 22 (8), 2573-2581 (2010)",
         "note": "",
         "year": "2010",
-        "doi": "10.1021/cm903616d"
+        "doi": "10.1021/cm903616d",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 3,
@@ -650,7 +786,10 @@
         "citation": "J. Korean Battery Soc, 3, 00-00 (2010)",
         "note": "",
         "year": "2010",
-        "link_label": "Bibliographic record ↗"
+        "link_label": "Bibliographic record ↗",
+        "lab_author_indices": [
+          2
+        ]
       },
       {
         "number": 2,
@@ -660,7 +799,10 @@
         "citation": "Chemical Communications, 46 (8), 1305-1307 (2010)",
         "note": "",
         "year": "2010",
-        "doi": "10.1039/b922133f"
+        "doi": "10.1039/b922133f",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 1,
@@ -670,7 +812,10 @@
         "citation": "Chemistry of Materials, 22 (2), 518-523 (2010)",
         "note": "",
         "year": "2010",
-        "doi": "10.1021/cm903138s"
+        "doi": "10.1021/cm903138s",
+        "lab_author_indices": [
+          3
+        ]
       }
     ],
     "2011": [
@@ -682,7 +827,10 @@
         "citation": "Journal of The Electrochemical Society, 159 (1), A55-A59 (2011)",
         "note": "",
         "year": "2011",
-        "doi": "10.1149/2.065201jes"
+        "doi": "10.1149/2.065201jes",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 4,
@@ -691,7 +839,10 @@
         "authors": "H Kim, DH Seo, SW Kim, J Kim, K Kang",
         "citation": "Carbon, 49 (1), 326-332 (2011)",
         "note": "",
-        "year": "2011"
+        "year": "2011",
+        "lab_author_indices": [
+          3
+        ]
       },
       {
         "number": 3,
@@ -701,7 +852,10 @@
         "citation": "Journal of The Electrochemical Society, 158 (3), A250-A254 (2011)",
         "note": "",
         "year": "2011",
-        "doi": "10.1149/1.3524260"
+        "doi": "10.1149/1.3524260",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 2,
@@ -711,7 +865,10 @@
         "citation": "Electronic Materials Letters, 7 (2), 105-108 (2011)",
         "note": "",
         "year": "2011",
-        "doi": "10.1007/s13391-011-0603-z"
+        "doi": "10.1007/s13391-011-0603-z",
+        "lab_author_indices": [
+          6
+        ]
       },
       {
         "number": 1,
@@ -721,7 +878,10 @@
         "citation": "Chemistry of Materials, 23 (17), 3930-3937 (2011)",
         "note": "",
         "year": "2011",
-        "doi": "10.1021/cm201305z"
+        "doi": "10.1021/cm201305z",
+        "lab_author_indices": [
+          4
+        ]
       }
     ],
     "2012": [
@@ -733,7 +893,10 @@
         "citation": "Advanced Materials, 24, 5452-5456 (2012)",
         "note": "",
         "year": "2012",
-        "doi": "10.1002/adma.201201601"
+        "doi": "10.1002/adma.201201601",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 2,
@@ -743,7 +906,10 @@
         "citation": "Journal of Materials Chemistry, 22 (38), 20535-20541 (2012)",
         "note": "",
         "year": "2012",
-        "doi": "10.1039/c2jm33862a"
+        "doi": "10.1039/c2jm33862a",
+        "lab_author_indices": [
+          4
+        ]
       },
       {
         "number": 1,
@@ -753,7 +919,10 @@
         "citation": "Journal of Materials Chemistry, 22 (24), 11964-11970 (2012)",
         "note": "",
         "year": "2012",
-        "doi": "10.1039/c2jm30733b"
+        "doi": "10.1039/c2jm30733b",
+        "lab_author_indices": [
+          0
+        ]
       }
     ],
     "2013": [
@@ -765,7 +934,10 @@
         "citation": "Nanotechnology, 24 (42), 424008 (2013)",
         "note": "",
         "year": "2013",
-        "doi": "10.1088/0957-4484/24/42/424008"
+        "doi": "10.1088/0957-4484/24/42/424008",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 5,
@@ -775,7 +947,10 @@
         "citation": "Journal of the American Chemical Society, 135 (37), 13870-13878 (2013)",
         "note": "",
         "year": "2013",
-        "doi": "10.1021/ja406016j"
+        "doi": "10.1021/ja406016j",
+        "lab_author_indices": [
+          4
+        ]
       },
       {
         "number": 4,
@@ -785,7 +960,10 @@
         "citation": "Chemistry of Materials, 25 (18), 3614-3622 (2013)",
         "note": "",
         "year": "2013",
-        "doi": "10.1021/cm4013816"
+        "doi": "10.1021/cm4013816",
+        "lab_author_indices": [
+          7
+        ]
       },
       {
         "number": 3,
@@ -795,7 +973,10 @@
         "citation": "Advanced Energy Materials, 3 (8), 1004-1007 (2013)",
         "note": "",
         "year": "2013",
-        "doi": "10.1002/aenm.201300205"
+        "doi": "10.1002/aenm.201300205",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 2,
@@ -805,7 +986,10 @@
         "citation": "Journal of The Electrochemical Society, 160 (3), A444-A448 (2013)",
         "note": "",
         "year": "2013",
-        "doi": "10.1149/2.036303jes"
+        "doi": "10.1149/2.036303jes",
+        "lab_author_indices": [
+          2
+        ]
       },
       {
         "number": 1,
@@ -815,7 +999,10 @@
         "citation": "Energy & Environmental Science, 6, 830-834 (2013)",
         "note": "",
         "year": "2013",
-        "doi": "10.1039/c3ee24393a"
+        "doi": "10.1039/c3ee24393a",
+        "lab_author_indices": [
+          0
+        ]
       }
     ],
     "2014": [
@@ -827,7 +1014,10 @@
         "citation": "Advanced Energy Materials, 4 (16), 1400622 (2014)",
         "note": "",
         "year": "2014",
-        "doi": "10.1002/aenm.201400622"
+        "doi": "10.1002/aenm.201400622",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 5,
@@ -837,7 +1027,10 @@
         "citation": "Chemistry of Materials, 26 (18), 5345-5351 (2014)",
         "note": "",
         "year": "2014",
-        "doi": "10.1021/cm502432q"
+        "doi": "10.1021/cm502432q",
+        "lab_author_indices": [
+          5
+        ]
       },
       {
         "number": 4,
@@ -847,7 +1040,10 @@
         "citation": "Advanced Functional Materials, 24 (29), 4603-4614 (2014)",
         "note": "",
         "year": "2014",
-        "doi": "10.1002/adfm.201400561"
+        "doi": "10.1002/adfm.201400561",
+        "lab_author_indices": [
+          3
+        ]
       },
       {
         "number": 3,
@@ -857,7 +1053,10 @@
         "citation": "Journal of the American Chemical Society, 136 (11), 4201-4211 (2014)",
         "note": "",
         "year": "2014",
-        "doi": "10.1021/ja410223j"
+        "doi": "10.1021/ja410223j",
+        "lab_author_indices": [
+          9
+        ]
       },
       {
         "number": 2,
@@ -867,7 +1066,10 @@
         "citation": "Journal of Alloys and Compounds, 585, 434-441 (2014)",
         "note": "",
         "year": "2014",
-        "doi": "10.1016/j.jallcom.2013.09.093"
+        "doi": "10.1016/j.jallcom.2013.09.093",
+        "lab_author_indices": [
+          8
+        ]
       },
       {
         "number": 1,
@@ -877,7 +1079,10 @@
         "citation": "Journal of Materials Chemistry A, 2 (23), 8632-8636 (2014)",
         "note": "",
         "year": "2014",
-        "doi": "10.1039/c4ta00955j"
+        "doi": "10.1039/c4ta00955j",
+        "lab_author_indices": [
+          0
+        ]
       }
     ],
     "2015": [
@@ -889,7 +1094,10 @@
         "citation": "Energy & Environmental Science, 8 (11), 3325-3335 (2015)",
         "note": "",
         "year": "2015",
-        "doi": "10.1039/c5ee01876e"
+        "doi": "10.1039/c5ee01876e",
+        "lab_author_indices": [
+          5
+        ]
       },
       {
         "number": 1,
@@ -899,7 +1107,10 @@
         "citation": "Energy & Environmental Science, 8 (2), 540-545 (2015)",
         "note": "",
         "year": "2015",
-        "doi": "10.1039/c4ee03215b"
+        "doi": "10.1039/c4ee03215b",
+        "lab_author_indices": [
+          0
+        ]
       }
     ],
     "2016": [
@@ -911,7 +1122,10 @@
         "citation": "Chemistry of Materials, 28 (20), 7241-7249 (2016)",
         "note": "",
         "year": "2016",
-        "doi": "10.1021/acs.chemmater.6b01766"
+        "doi": "10.1021/acs.chemmater.6b01766",
+        "lab_author_indices": [
+          5
+        ]
       },
       {
         "number": 2,
@@ -921,7 +1135,10 @@
         "citation": "Chemistry of Materials, 28 (19), 6894-6899 (2016)",
         "note": "",
         "year": "2016",
-        "doi": "10.1021/acs.chemmater.6b02198"
+        "doi": "10.1021/acs.chemmater.6b02198",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 2,
@@ -931,7 +1148,10 @@
         "citation": "Advanced Energy Materials, 6 (6), 1502147 (2016)",
         "note": "",
         "year": "2016",
-        "doi": "10.1002/aenm.201502147"
+        "doi": "10.1002/aenm.201502147",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 1,
@@ -941,7 +1161,10 @@
         "citation": "CrystEngComm, 18 (39), 7463-7470 (2016)",
         "note": "",
         "year": "2016",
-        "doi": "10.1039/c6ce00944a"
+        "doi": "10.1039/c6ce00944a",
+        "lab_author_indices": [
+          3
+        ]
       }
     ],
     "2017": [
@@ -953,7 +1176,10 @@
         "citation": "Journal of Materials Chemistry A, 5 (42), 22334-22340 (2017)",
         "note": "",
         "year": "2017",
-        "doi": "10.1039/c7ta06693g"
+        "doi": "10.1039/c7ta06693g",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 5,
@@ -963,7 +1189,10 @@
         "citation": "Chemistry of Materials, 29 (8), 3363-3366 (2017)",
         "note": "",
         "year": "2017",
-        "doi": "10.1021/acs.chemmater.6b04557"
+        "doi": "10.1021/acs.chemmater.6b04557",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 4,
@@ -973,7 +1202,10 @@
         "citation": "Materials Research Bulletin, 96 (4), 524-532 (2017)",
         "note": "",
         "year": "2017",
-        "doi": "10.1016/j.materresbull.2017.04.047"
+        "doi": "10.1016/j.materresbull.2017.04.047",
+        "lab_author_indices": [
+          6
+        ]
       },
       {
         "number": 3,
@@ -983,7 +1215,10 @@
         "citation": "Chemistry of Materials, 29 (18), 7826-7832 (2017)",
         "note": "",
         "year": "2017",
-        "doi": "10.1021/acs.chemmater.7b02477"
+        "doi": "10.1021/acs.chemmater.7b02477",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 2,
@@ -993,7 +1228,10 @@
         "citation": "Nano Energy, 41, 687-696 (2017)",
         "note": "",
         "year": "2017",
-        "doi": "10.1016/j.nanoen.2017.10.022"
+        "doi": "10.1016/j.nanoen.2017.10.022",
+        "lab_author_indices": [
+          3
+        ]
       },
       {
         "number": 1,
@@ -1003,7 +1241,10 @@
         "citation": "ACS applied materials & interfaces, 9 (46), 40307-40316 (2017)",
         "note": "",
         "year": "2017",
-        "doi": "10.1021/acsami.7b13128"
+        "doi": "10.1021/acsami.7b13128",
+        "lab_author_indices": [
+          1
+        ]
       }
     ],
     "2018": [
@@ -1015,7 +1256,10 @@
         "citation": "Journal of Power Sources, 400, 613-620 (2018)",
         "note": "",
         "year": "2018",
-        "doi": "10.1016/j.jpowsour.2018.08.065"
+        "doi": "10.1016/j.jpowsour.2018.08.065",
+        "lab_author_indices": [
+          5
+        ]
       },
       {
         "number": 12,
@@ -1025,7 +1269,10 @@
         "citation": "Chemistry of Materials, 30 (19), 6777–6787 (2018)",
         "note": "",
         "year": "2018",
-        "doi": "10.1021/acs.chemmater.8b02679"
+        "doi": "10.1021/acs.chemmater.8b02679",
+        "lab_author_indices": [
+          6
+        ]
       },
       {
         "number": 11,
@@ -1035,7 +1282,10 @@
         "citation": "Chemistry of Materials, 30 (11), 3683−3689 (2018)",
         "note": "",
         "year": "2018",
-        "doi": "10.1021/acs.chemmater.8b00458"
+        "doi": "10.1021/acs.chemmater.8b00458",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 10,
@@ -1045,7 +1295,10 @@
         "citation": "Journal of the Korean Ceramic Society, 55 (1), 21-35 (2018)",
         "note": "",
         "year": "2018",
-        "doi": "10.4191/kcers.2018.55.1.08"
+        "doi": "10.4191/kcers.2018.55.1.08",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 9,
@@ -1055,7 +1308,10 @@
         "citation": "Journal of Power Sources, 374, 55-60 (2018)",
         "note": "",
         "year": "2018",
-        "doi": "10.1016/j.jpowsour.2017.11.018"
+        "doi": "10.1016/j.jpowsour.2017.11.018",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 8,
@@ -1065,7 +1321,13 @@
         "citation": "Journal of Materials Chemistry A, 6, 17571-17578 (2018)",
         "note": "",
         "year": "2018",
-        "doi": "10.1039/c8ta06238b"
+        "doi": "10.1039/c8ta06238b",
+        "lab_author_indices": [
+          0,
+          3,
+          4,
+          6
+        ]
       },
       {
         "number": 7,
@@ -1074,7 +1336,13 @@
         "authors": "W Ko, T Park, H Park, Y Lee, KE Kee, J Kim*",
         "citation": "Journal of Materials Chemistry A, 6, 17095-17100 (2018)",
         "note": "",
-        "year": "2018"
+        "year": "2018",
+        "lab_author_indices": [
+          0,
+          2,
+          3,
+          5
+        ]
       },
       {
         "number": 6,
@@ -1083,7 +1351,10 @@
         "authors": "JS Park, J Kim, JH Jo, ST Myung",
         "citation": "Journal of Materials Chemistry A, 6 (34), 16627-16637 (2018)",
         "note": "",
-        "year": "2018"
+        "year": "2018",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 5,
@@ -1092,7 +1363,10 @@
         "authors": "JY Hwang, J Kim†, TY Yu, ST Myung, YK Sun",
         "citation": "Energy & Environmental Science, 11, 2821-2827 (2018)",
         "note": "",
-        "year": "2018"
+        "year": "2018",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 4,
@@ -1102,7 +1376,10 @@
         "citation": "Journal of The Electrochemical Society, 165 (7), A1247-A1253 (2018)",
         "note": "",
         "year": "2018",
-        "doi": "10.1149/2.0291807jes"
+        "doi": "10.1149/2.0291807jes",
+        "lab_author_indices": [
+          3
+        ]
       },
       {
         "number": 3,
@@ -1111,7 +1388,10 @@
         "authors": "H Kim, J Kim†, HS Jeong, H Kim, H. Lee, JM Ha, SM Choi, TH Kim, YC Nah, TJ Shin, JN Bang, S Satija, JS Koo",
         "citation": "Chemical Communications, 54, 5229-5232 (2018)",
         "note": "",
-        "year": "2018"
+        "year": "2018",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 2,
@@ -1121,7 +1401,10 @@
         "citation": "Advanced Energy Materials, 8 (17), 1702646 (2018)",
         "note": "",
         "year": "2018",
-        "doi": "10.1002/aenm.201702646"
+        "doi": "10.1002/aenm.201702646",
+        "lab_author_indices": [
+          0
+        ]
       },
       {
         "number": 1,
@@ -1131,7 +1414,10 @@
         "citation": "Small, 14 (2), 1702816 (2018)",
         "note": "",
         "year": "2018",
-        "doi": "10.1002/smll.201702816"
+        "doi": "10.1002/smll.201702816",
+        "lab_author_indices": [
+          1
+        ]
       }
     ],
     "2019": [
@@ -1144,7 +1430,14 @@
         "note": "",
         "year": "2019",
         "doi": "10.1016/j.nanoen.2019.104184",
-        "pdf_url": "/assets/papers/2019-4d992afab0c8.pdf"
+        "pdf_url": "/assets/papers/2019-4d992afab0c8.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          3,
+          4,
+          8
+        ]
       },
       {
         "number": 12,
@@ -1155,7 +1448,13 @@
         "note": "",
         "year": "2019",
         "doi": "10.1021/acsnano.9b05635",
-        "pdf_url": "/assets/papers/2019-99e8f4e866de.pdf"
+        "pdf_url": "/assets/papers/2019-99e8f4e866de.pdf",
+        "lab_author_indices": [
+          0,
+          4,
+          6,
+          9
+        ]
       },
       {
         "number": 11,
@@ -1166,7 +1465,10 @@
         "note": "",
         "year": "2019",
         "doi": "10.1039/c9ta07837a",
-        "pdf_url": "/assets/papers/2019-f36afa168526.pdf"
+        "pdf_url": "/assets/papers/2019-f36afa168526.pdf",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 10,
@@ -1177,7 +1479,10 @@
         "note": "",
         "year": "2019",
         "doi": "10.1002/aenm.201901181",
-        "pdf_url": "/assets/papers/2019-f3423f7c2953.pdf"
+        "pdf_url": "/assets/papers/2019-f3423f7c2953.pdf",
+        "lab_author_indices": [
+          6
+        ]
       },
       {
         "number": 9,
@@ -1188,7 +1493,13 @@
         "note": "",
         "year": "2019",
         "doi": "10.1016/j.jpowsour.2019.226750",
-        "pdf_url": "/assets/papers/2019-09c0fd6cf71e.pdf"
+        "pdf_url": "/assets/papers/2019-09c0fd6cf71e.pdf",
+        "lab_author_indices": [
+          0,
+          2,
+          3,
+          7
+        ]
       },
       {
         "number": 8,
@@ -1199,7 +1510,13 @@
         "note": "",
         "year": "2019",
         "doi": "10.1016/j.jpowsour.2019.05.066",
-        "pdf_url": "/assets/papers/2019-faa4cf415a43.pdf"
+        "pdf_url": "/assets/papers/2019-faa4cf415a43.pdf",
+        "lab_author_indices": [
+          0,
+          2,
+          3,
+          7
+        ]
       },
       {
         "number": 7,
@@ -1210,7 +1527,10 @@
         "note": "",
         "year": "2019",
         "doi": "10.1002/adfm.201901912",
-        "pdf_url": "/assets/papers/2019-3b0b830cdc69.pdf"
+        "pdf_url": "/assets/papers/2019-3b0b830cdc69.pdf",
+        "lab_author_indices": [
+          4
+        ]
       },
       {
         "number": 6,
@@ -1221,7 +1541,10 @@
         "note": "",
         "year": "2019",
         "doi": "10.1016/j.nanoen.2019.04.062",
-        "pdf_url": "/assets/papers/2019-3db2a4b37b88.pdf"
+        "pdf_url": "/assets/papers/2019-3db2a4b37b88.pdf",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 5,
@@ -1232,7 +1555,10 @@
         "note": "",
         "year": "2019",
         "doi": "10.1016/j.nanoen.2019.02.042",
-        "pdf_url": "/assets/papers/2019-8effabf1c159.pdf"
+        "pdf_url": "/assets/papers/2019-8effabf1c159.pdf",
+        "lab_author_indices": [
+          5
+        ]
       },
       {
         "number": 4,
@@ -1243,7 +1569,10 @@
         "note": "",
         "year": "2019",
         "doi": "10.1002/aenm.201900603",
-        "pdf_url": "/assets/papers/2019-5c19d95982d3.pdf"
+        "pdf_url": "/assets/papers/2019-5c19d95982d3.pdf",
+        "lab_author_indices": [
+          8
+        ]
       },
       {
         "number": 3,
@@ -1254,7 +1583,10 @@
         "note": "",
         "year": "2019",
         "doi": "10.1149/2.1201904jes",
-        "pdf_url": "/assets/papers/2019-3b8677d107ec.pdf"
+        "pdf_url": "/assets/papers/2019-3b8677d107ec.pdf",
+        "lab_author_indices": [
+          3
+        ]
       },
       {
         "number": 2,
@@ -1265,7 +1597,10 @@
         "note": "",
         "year": "2019",
         "doi": "10.1039/c8ta11517f",
-        "pdf_url": "/assets/papers/2019-5fd51a3b12dd.pdf"
+        "pdf_url": "/assets/papers/2019-5fd51a3b12dd.pdf",
+        "lab_author_indices": [
+          4
+        ]
       },
       {
         "number": 1,
@@ -1276,7 +1611,10 @@
         "note": "",
         "year": "2019",
         "doi": "10.1002/aenm.201803346",
-        "pdf_url": "/assets/papers/2019-d17fe622080d.pdf"
+        "pdf_url": "/assets/papers/2019-d17fe622080d.pdf",
+        "lab_author_indices": [
+          1
+        ]
       }
     ],
     "2020": [
@@ -1289,7 +1627,14 @@
         "note": "",
         "year": "2020",
         "doi": "10.1016/j.ensm.2020.08.024",
-        "pdf_url": "/assets/papers/2020-fae9587c035e.pdf"
+        "pdf_url": "/assets/papers/2020-fae9587c035e.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          7
+        ]
       },
       {
         "number": 15,
@@ -1300,7 +1645,10 @@
         "note": "",
         "year": "2020",
         "doi": "10.1002/aenm.202001595",
-        "pdf_url": "/assets/papers/2020-1d31b0ad7f6e.pdf"
+        "pdf_url": "/assets/papers/2020-1d31b0ad7f6e.pdf",
+        "lab_author_indices": [
+          2
+        ]
       },
       {
         "number": 14,
@@ -1311,7 +1659,14 @@
         "note": "",
         "year": "2020",
         "doi": "10.1016/j.nanoen.2020.105175",
-        "pdf_url": "/assets/papers/2020-cfd579c6e4f7.pdf"
+        "pdf_url": "/assets/papers/2020-cfd579c6e4f7.pdf",
+        "lab_author_indices": [
+          0,
+          2,
+          3,
+          5,
+          10
+        ]
       },
       {
         "number": 13,
@@ -1322,7 +1677,10 @@
         "note": "",
         "year": "2020",
         "doi": "10.1039/d0ta04847j",
-        "pdf_url": "/assets/papers/2020-3e17da50eb94.pdf"
+        "pdf_url": "/assets/papers/2020-3e17da50eb94.pdf",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 12,
@@ -1332,7 +1690,10 @@
         "citation": "Carbon Letters, 1-9, (2020)",
         "note": "",
         "year": "2020",
-        "doi": "10.1007/s42823-020-00163-9"
+        "doi": "10.1007/s42823-020-00163-9",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 11,
@@ -1343,7 +1704,11 @@
         "note": "",
         "year": "2020",
         "doi": "10.1002/aenm.202001111",
-        "pdf_url": "/assets/papers/2020-917919004720.pdf"
+        "pdf_url": "/assets/papers/2020-917919004720.pdf",
+        "lab_author_indices": [
+          4,
+          6
+        ]
       },
       {
         "number": 10,
@@ -1354,7 +1719,10 @@
         "note": "",
         "year": "2020",
         "doi": "10.1002/aenm.202000521",
-        "pdf_url": "/assets/papers/2020-e37f9932fdac.pdf"
+        "pdf_url": "/assets/papers/2020-e37f9932fdac.pdf",
+        "lab_author_indices": [
+          6
+        ]
       },
       {
         "number": 9,
@@ -1365,7 +1733,10 @@
         "note": "",
         "year": "2020",
         "doi": "10.1002/smll.202001090",
-        "pdf_url": "/assets/papers/2020-800ba0e76881.pdf"
+        "pdf_url": "/assets/papers/2020-800ba0e76881.pdf",
+        "lab_author_indices": [
+          3
+        ]
       },
       {
         "number": 8,
@@ -1376,7 +1747,10 @@
         "note": "",
         "year": "2020",
         "doi": "10.1016/j.jpowsour.2020.227976",
-        "pdf_url": "/assets/papers/2020-7fe35e618e56.pdf"
+        "pdf_url": "/assets/papers/2020-7fe35e618e56.pdf",
+        "lab_author_indices": [
+          4
+        ]
       },
       {
         "number": 7,
@@ -1387,7 +1761,14 @@
         "note": "",
         "year": "2020",
         "doi": "10.1016/j.ensm.2020.02.031",
-        "pdf_url": "/assets/papers/2020-d35528c004e4.pdf"
+        "pdf_url": "/assets/papers/2020-d35528c004e4.pdf",
+        "lab_author_indices": [
+          0,
+          2,
+          4,
+          5,
+          8
+        ]
       },
       {
         "number": 6,
@@ -1398,7 +1779,10 @@
         "note": "",
         "year": "2020",
         "doi": "10.1016/j.ensm.2020.02.025",
-        "pdf_url": "/assets/papers/2020-76c3f8a26009.pdf"
+        "pdf_url": "/assets/papers/2020-76c3f8a26009.pdf",
+        "lab_author_indices": [
+          9
+        ]
       },
       {
         "number": 5,
@@ -1409,7 +1793,14 @@
         "note": "",
         "year": "2020",
         "doi": "10.1002/smtd.201900847",
-        "pdf_url": "/assets/papers/2020-d4e62ab92404.pdf"
+        "pdf_url": "/assets/papers/2020-d4e62ab92404.pdf",
+        "lab_author_indices": [
+          0,
+          2,
+          3,
+          4,
+          7
+        ]
       },
       {
         "number": 4,
@@ -1420,7 +1811,10 @@
         "note": "",
         "year": "2020",
         "doi": "10.1016/j.ensm.2019.09.015",
-        "pdf_url": "/assets/papers/2020-e4f7f1118cc2.pdf"
+        "pdf_url": "/assets/papers/2020-e4f7f1118cc2.pdf",
+        "lab_author_indices": [
+          1
+        ]
       },
       {
         "number": 3,
@@ -1431,7 +1825,10 @@
         "note": "",
         "year": "2020",
         "doi": "10.1002/aenm.201903605",
-        "pdf_url": "/assets/papers/2020-4906c345415d.pdf"
+        "pdf_url": "/assets/papers/2020-4906c345415d.pdf",
+        "lab_author_indices": [
+          7
+        ]
       },
       {
         "number": 2,
@@ -1442,7 +1839,14 @@
         "note": "",
         "year": "2020",
         "doi": "10.1021/acssuschemeng.9b04944",
-        "pdf_url": "/assets/papers/2020-3724926ffa7f.pdf"
+        "pdf_url": "/assets/papers/2020-3724926ffa7f.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          4,
+          5,
+          7
+        ]
       },
       {
         "number": 1,
@@ -1453,7 +1857,13 @@
         "note": "",
         "year": "2020",
         "doi": "10.1016/j.ensm.2019.07.013",
-        "pdf_url": "/assets/papers/2020-c869b307fd78.pdf"
+        "pdf_url": "/assets/papers/2020-c869b307fd78.pdf",
+        "lab_author_indices": [
+          0,
+          4,
+          5,
+          9
+        ]
       }
     ],
     "2021": [
@@ -1465,7 +1875,15 @@
         "citation": "Advanced Energy Materials, 11, 2102311 (2021)",
         "note": "",
         "year": "2021",
-        "doi": "10.1002/aenm.202102311"
+        "doi": "10.1002/aenm.202102311",
+        "lab_author_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          12
+        ]
       },
       {
         "number": 10,
@@ -1476,7 +1894,11 @@
         "note": "",
         "year": "2021",
         "doi": "10.1016/j.jpowsour.2021.230409",
-        "pdf_url": "/assets/papers/2021-2bb4133f5356.pdf"
+        "pdf_url": "/assets/papers/2021-2bb4133f5356.pdf",
+        "lab_author_indices": [
+          2,
+          8
+        ]
       },
       {
         "number": 9,
@@ -1487,7 +1909,15 @@
         "note": "",
         "year": "2021",
         "doi": "10.1039/d1ta02247d",
-        "pdf_url": "/assets/papers/2021-7530ebd75dff.pdf"
+        "pdf_url": "/assets/papers/2021-7530ebd75dff.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6
+        ]
       },
       {
         "number": 8,
@@ -1498,7 +1928,10 @@
         "note": "",
         "year": "2021",
         "doi": "10.1002/smll.202100840",
-        "pdf_url": "/assets/papers/2021-b9b1c1936407.pdf"
+        "pdf_url": "/assets/papers/2021-b9b1c1936407.pdf",
+        "lab_author_indices": [
+          8
+        ]
       },
       {
         "number": 7,
@@ -1509,7 +1942,10 @@
         "note": "",
         "year": "2021",
         "doi": "10.1021/acsami.1c00848",
-        "pdf_url": "/assets/papers/2021-a04aae8404cc.pdf"
+        "pdf_url": "/assets/papers/2021-a04aae8404cc.pdf",
+        "lab_author_indices": [
+          2
+        ]
       },
       {
         "number": 6,
@@ -1520,7 +1956,11 @@
         "note": "",
         "year": "2021",
         "doi": "10.1021/acsami.1c00974",
-        "pdf_url": "/assets/papers/2021-3fe401e1456b.pdf"
+        "pdf_url": "/assets/papers/2021-3fe401e1456b.pdf",
+        "lab_author_indices": [
+          2,
+          3
+        ]
       },
       {
         "number": 5,
@@ -1531,7 +1971,15 @@
         "note": "",
         "year": "2021",
         "doi": "10.1039/d1ta01602d",
-        "pdf_url": "/assets/papers/2021-ca4fac6413b3.pdf"
+        "pdf_url": "/assets/papers/2021-ca4fac6413b3.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          8
+        ]
       },
       {
         "number": 4,
@@ -1542,7 +1990,14 @@
         "note": "",
         "year": "2021",
         "doi": "10.1039/d0ee02803g",
-        "pdf_url": "/assets/papers/2021-93286f301557.pdf"
+        "pdf_url": "/assets/papers/2021-93286f301557.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          3,
+          4,
+          10
+        ]
       },
       {
         "number": 3,
@@ -1553,7 +2008,14 @@
         "note": "",
         "year": "2021",
         "doi": "10.1039/d0ta10234b",
-        "pdf_url": "/assets/papers/2021-bc005afa4929.pdf"
+        "pdf_url": "/assets/papers/2021-bc005afa4929.pdf",
+        "lab_author_indices": [
+          0,
+          2,
+          3,
+          4,
+          10
+        ]
       },
       {
         "number": 2,
@@ -1564,7 +2026,11 @@
         "note": "",
         "year": "2021",
         "doi": "10.1016/j.cej.2020.128226",
-        "pdf_url": "/assets/papers/2021-133f19464e08.pdf"
+        "pdf_url": "/assets/papers/2021-133f19464e08.pdf",
+        "lab_author_indices": [
+          2,
+          7
+        ]
       },
       {
         "number": 1,
@@ -1575,7 +2041,11 @@
         "note": "",
         "year": "2021",
         "doi": "10.1039/d0ta11000k",
-        "pdf_url": "/assets/papers/2021-52961525f1ec.pdf"
+        "pdf_url": "/assets/papers/2021-52961525f1ec.pdf",
+        "lab_author_indices": [
+          1,
+          8
+        ]
       }
     ],
     "2022": [
@@ -1588,7 +2058,17 @@
         "note": "[Scilight: \"Improving stability in Na-ion batteries through vacancy substitution, doping\", 2022]",
         "year": "2022",
         "doi": "10.1063/5.0100108",
-        "pdf_url": "/assets/papers/2022-644ca79634a0.pdf"
+        "pdf_url": "/assets/papers/2022-644ca79634a0.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          12
+        ]
       },
       {
         "number": 12,
@@ -1599,7 +2079,11 @@
         "note": "",
         "year": "2022",
         "doi": "10.1021/acsenergylett.2c01514",
-        "pdf_url": "/assets/papers/2022-b551a798594b.pdf"
+        "pdf_url": "/assets/papers/2022-b551a798594b.pdf",
+        "lab_author_indices": [
+          2,
+          8
+        ]
       },
       {
         "number": 11,
@@ -1610,7 +2094,11 @@
         "note": "",
         "year": "2022",
         "doi": "10.1002/adfm.202207094",
-        "pdf_url": "/assets/papers/2022-621d00160d44.pdf"
+        "pdf_url": "/assets/papers/2022-621d00160d44.pdf",
+        "lab_author_indices": [
+          6,
+          7
+        ]
       },
       {
         "number": 10,
@@ -1621,7 +2109,10 @@
         "note": "",
         "year": "2022",
         "doi": "10.1016/j.cej.2022.137685",
-        "pdf_url": "/assets/papers/2022-19169e57c1cf.pdf"
+        "pdf_url": "/assets/papers/2022-19169e57c1cf.pdf",
+        "lab_author_indices": [
+          8
+        ]
       },
       {
         "number": 9,
@@ -1632,7 +2123,15 @@
         "note": "",
         "year": "2022",
         "doi": "10.1002/adfm.202204354",
-        "pdf_url": "/assets/papers/2022-96e612e953f6.pdf"
+        "pdf_url": "/assets/papers/2022-96e612e953f6.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          11
+        ]
       },
       {
         "number": 8,
@@ -1643,18 +2142,38 @@
         "note": "[Invited paper featured in themed collections: Journal of Materials Chemistry A Emerging Investigators 2022]",
         "year": "2022",
         "doi": "10.1039/d2ta02167f",
-        "pdf_url": "/assets/papers/2022-45ef1b19d5f7.pdf"
+        "pdf_url": "/assets/papers/2022-45ef1b19d5f7.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8
+        ]
       },
       {
         "number": 7,
         "title": "Highly stable Fe2+/Ti3+-based Fluoride Cathode Enabling Low-cost and High-performance Na-ion Batteries",
         "url": "https://doi.org/10.1002/adfm.202201816",
-        "authors": "J. Kang†, J. Ahn†, H. Park, W. Ko, Y. Lee, S. Lee, S. Lee, S.-K. Jung J. Kim*",
+        "authors": "J. Kang†, J. Ahn†, H. Park, W. Ko, Y. Lee, S. Lee, S. Lee, S.-K. Jung, J. Kim*",
         "citation": "Advanced Functional Materials, 32, 2201816 (2022)",
         "note": "",
         "year": "2022",
         "doi": "10.1002/adfm.202201816",
-        "pdf_url": "/assets/papers/2022-fadd4e594529.pdf"
+        "pdf_url": "/assets/papers/2022-fadd4e594529.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8
+        ]
       },
       {
         "number": 6,
@@ -1665,7 +2184,11 @@
         "note": "",
         "year": "2022",
         "doi": "10.1016/j.ensm.2022.04.005",
-        "pdf_url": "/assets/papers/2022-d49d1bf7d2c4.pdf"
+        "pdf_url": "/assets/papers/2022-d49d1bf7d2c4.pdf",
+        "lab_author_indices": [
+          2,
+          10
+        ]
       },
       {
         "number": 5,
@@ -1676,7 +2199,17 @@
         "note": "",
         "year": "2022",
         "doi": "10.1016/j.ensm.2022.01.023",
-        "pdf_url": "/assets/papers/2022-8f346755ef87.pdf"
+        "pdf_url": "/assets/papers/2022-8f346755ef87.pdf",
+        "lab_author_indices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          11
+        ]
       },
       {
         "number": 4,
@@ -1687,7 +2220,11 @@
         "note": "",
         "year": "2022",
         "doi": "10.1002/aenm.202103527",
-        "pdf_url": "/assets/papers/2022-bf3a223100d3.pdf"
+        "pdf_url": "/assets/papers/2022-bf3a223100d3.pdf",
+        "lab_author_indices": [
+          2,
+          3
+        ]
       },
       {
         "number": 3,
@@ -1698,7 +2235,14 @@
         "note": "",
         "year": "2022",
         "doi": "10.31613/ceramist.2022.25.1.04",
-        "pdf_url": "/assets/papers/2022-38856ca4de2a.pdf"
+        "pdf_url": "/assets/papers/2022-38856ca4de2a.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
       },
       {
         "number": 2,
@@ -1709,7 +2253,10 @@
         "note": "",
         "year": "2022",
         "doi": "10.1002/adfm.202108790",
-        "pdf_url": "/assets/papers/2022-89a141a007c6.pdf"
+        "pdf_url": "/assets/papers/2022-89a141a007c6.pdf",
+        "lab_author_indices": [
+          4
+        ]
       },
       {
         "number": 1,
@@ -1720,7 +2267,11 @@
         "note": "",
         "year": "2022",
         "doi": "10.1002/eem2.12187",
-        "pdf_url": "/assets/papers/2022-8830c036ed04.pdf"
+        "pdf_url": "/assets/papers/2022-8830c036ed04.pdf",
+        "lab_author_indices": [
+          3,
+          4
+        ]
       }
     ],
     "2023": [
@@ -1733,7 +2284,17 @@
         "note": "",
         "year": "2023",
         "doi": "10.1016/j.ensm.2023.103048",
-        "pdf_url": "/assets/papers/2023-d6b8675e65e3.pdf"
+        "pdf_url": "/assets/papers/2023-d6b8675e65e3.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9
+        ]
       },
       {
         "number": 12,
@@ -1744,7 +2305,18 @@
         "note": "",
         "year": "2023",
         "doi": "10.1016/j.ensm.2023.102952",
-        "pdf_url": "/assets/papers/2023-1cb30243762d.pdf"
+        "pdf_url": "/assets/papers/2023-1cb30243762d.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          11
+        ]
       },
       {
         "number": 11,
@@ -1755,7 +2327,10 @@
         "note": "",
         "year": "2023",
         "doi": "10.1039/d3ta03283c",
-        "pdf_url": "/assets/papers/2023-969b71bee549.pdf"
+        "pdf_url": "/assets/papers/2023-969b71bee549.pdf",
+        "lab_author_indices": [
+          8
+        ]
       },
       {
         "number": 10,
@@ -1766,7 +2341,11 @@
         "note": "",
         "year": "2023",
         "doi": "10.1016/j.compositesb.2023.110886",
-        "pdf_url": "/assets/papers/2023-a945cd5b0675.pdf"
+        "pdf_url": "/assets/papers/2023-a945cd5b0675.pdf",
+        "lab_author_indices": [
+          2,
+          5
+        ]
       },
       {
         "number": 9,
@@ -1777,7 +2356,19 @@
         "note": "[Invited paper featured in themed collections: Energy Science & Technology at Sungkyunkwan University]",
         "year": "2023",
         "doi": "10.1016/j.mtener.2023.101356",
-        "pdf_url": "/assets/papers/2023-0e8537a61b12.pdf"
+        "pdf_url": "/assets/papers/2023-0e8537a61b12.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11
+        ]
       },
       {
         "number": 8,
@@ -1788,7 +2379,11 @@
         "note": "",
         "year": "2023",
         "doi": "10.1007/s10570-023-05325-2",
-        "pdf_url": "/assets/papers/2023-9d9ade17862a.pdf"
+        "pdf_url": "/assets/papers/2023-9d9ade17862a.pdf",
+        "lab_author_indices": [
+          1,
+          8
+        ]
       },
       {
         "number": 7,
@@ -1799,7 +2394,19 @@
         "note": "",
         "year": "2023",
         "doi": "10.1016/j.jechem.2023.06.009",
-        "pdf_url": "/assets/papers/2023-910b5261d490.pdf"
+        "pdf_url": "/assets/papers/2023-910b5261d490.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11
+        ]
       },
       {
         "number": 6,
@@ -1810,7 +2417,17 @@
         "note": "",
         "year": "2023",
         "doi": "10.1016/j.jechem.2023.05.016",
-        "pdf_url": "/assets/papers/2023-a33a9a1b1834.pdf"
+        "pdf_url": "/assets/papers/2023-a33a9a1b1834.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          12
+        ]
       },
       {
         "number": 5,
@@ -1821,7 +2438,15 @@
         "note": "[Invited paper featured in themed collections: Energy Science & Technology at Sungkyunkwan University]",
         "year": "2023",
         "doi": "10.1016/j.mtener.2023.101325",
-        "pdf_url": "/assets/papers/2023-3d484a4dbf11.pdf"
+        "pdf_url": "/assets/papers/2023-3d484a4dbf11.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7
+        ]
       },
       {
         "number": 4,
@@ -1832,7 +2457,11 @@
         "note": "",
         "year": "2023",
         "doi": "10.1002/aenm.202204353",
-        "pdf_url": "/assets/papers/2023-242a855a9cec.pdf"
+        "pdf_url": "/assets/papers/2023-242a855a9cec.pdf",
+        "lab_author_indices": [
+          2,
+          6
+        ]
       },
       {
         "number": 3,
@@ -1843,7 +2472,18 @@
         "note": "[Invited Review]",
         "year": "2023",
         "doi": "10.1002/batt.202200486",
-        "pdf_url": "/assets/papers/2023-4ab48753c994.pdf"
+        "pdf_url": "/assets/papers/2023-4ab48753c994.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
       },
       {
         "number": 2,
@@ -1854,7 +2494,11 @@
         "note": "",
         "year": "2023",
         "doi": "10.1016/j.ensm.2023.01.003",
-        "pdf_url": "/assets/papers/2023-0a82aae82032.pdf"
+        "pdf_url": "/assets/papers/2023-0a82aae82032.pdf",
+        "lab_author_indices": [
+          2,
+          6
+        ]
       },
       {
         "number": 1,
@@ -1865,7 +2509,17 @@
         "note": "",
         "year": "2023",
         "doi": "10.1016/j.cej.2022.138883",
-        "pdf_url": "/assets/papers/2023-97ba89fa751b.pdf"
+        "pdf_url": "/assets/papers/2023-97ba89fa751b.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10
+        ]
       }
     ],
     "2024": [
@@ -1878,7 +2532,11 @@
         "note": "",
         "year": "2024",
         "doi": "10.1002/adfm.202410866",
-        "pdf_url": "/assets/papers/2024-031d68f9bf15.pdf"
+        "pdf_url": "/assets/papers/2024-031d68f9bf15.pdf",
+        "lab_author_indices": [
+          2,
+          8
+        ]
       },
       {
         "number": 10,
@@ -1889,7 +2547,17 @@
         "note": "",
         "year": "2024",
         "doi": "10.1002/aenm.202402412",
-        "pdf_url": "/assets/papers/2024-dd7c9b352094.pdf"
+        "pdf_url": "/assets/papers/2024-dd7c9b352094.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          10
+        ]
       },
       {
         "number": 9,
@@ -1898,7 +2566,14 @@
         "authors": "J. Kim†, H. Ahn†, H. Ahn, H. Park, J. Hong, M. H. Lee, H. Park, J. Kim*",
         "citation": "Chemical Engineering Journal, 495, 153122 (2024)",
         "note": "",
-        "year": "2024"
+        "year": "2024",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          7
+        ]
       },
       {
         "number": 8,
@@ -1909,7 +2584,11 @@
         "note": "",
         "year": "2024",
         "doi": "10.1021/acsenergylett.4c00490",
-        "pdf_url": "/assets/papers/2024-deee6fcf3063.pdf"
+        "pdf_url": "/assets/papers/2024-deee6fcf3063.pdf",
+        "lab_author_indices": [
+          4,
+          8
+        ]
       },
       {
         "number": 7,
@@ -1920,7 +2599,14 @@
         "note": "",
         "year": "2024",
         "doi": "10.1016/j.ensm.2024.103291",
-        "pdf_url": "/assets/papers/2024-6238c34b0f9c.pdf"
+        "pdf_url": "/assets/papers/2024-6238c34b0f9c.pdf",
+        "lab_author_indices": [
+          0,
+          4,
+          5,
+          7,
+          9
+        ]
       },
       {
         "number": 6,
@@ -1931,7 +2617,11 @@
         "note": "",
         "year": "2024",
         "doi": "10.1002/cey2.587",
-        "pdf_url": "/assets/papers/2024-52417e7e9b95.pdf"
+        "pdf_url": "/assets/papers/2024-52417e7e9b95.pdf",
+        "lab_author_indices": [
+          1,
+          4
+        ]
       },
       {
         "number": 5,
@@ -1942,7 +2632,10 @@
         "note": "",
         "year": "2024",
         "doi": "10.1002/cey2.549",
-        "pdf_url": "/assets/papers/2024-5d1b10a88769.pdf"
+        "pdf_url": "/assets/papers/2024-5d1b10a88769.pdf",
+        "lab_author_indices": [
+          4
+        ]
       },
       {
         "number": 4,
@@ -1953,7 +2646,11 @@
         "note": "",
         "year": "2024",
         "doi": "10.1002/cey2.472",
-        "pdf_url": "/assets/papers/2024-fdc70bd9092a.pdf"
+        "pdf_url": "/assets/papers/2024-fdc70bd9092a.pdf",
+        "lab_author_indices": [
+          7,
+          8
+        ]
       },
       {
         "number": 3,
@@ -1964,7 +2661,16 @@
         "note": "",
         "year": "2024",
         "doi": "10.1002/cey2.454",
-        "pdf_url": "/assets/papers/2024-015f5b5c6bdb.pdf"
+        "pdf_url": "/assets/papers/2024-015f5b5c6bdb.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          9
+        ]
       },
       {
         "number": 2,
@@ -1975,7 +2681,11 @@
         "note": "",
         "year": "2024",
         "doi": "10.1039/d3ta06867f",
-        "pdf_url": "/assets/papers/2024-018eeecdbaf8.pdf"
+        "pdf_url": "/assets/papers/2024-018eeecdbaf8.pdf",
+        "lab_author_indices": [
+          4,
+          16
+        ]
       },
       {
         "number": 1,
@@ -1986,7 +2696,12 @@
         "note": "",
         "year": "2024",
         "doi": "10.1002/adfm.202312401",
-        "pdf_url": "/assets/papers/2024-600ee06d753b.pdf"
+        "pdf_url": "/assets/papers/2024-600ee06d753b.pdf",
+        "lab_author_indices": [
+          0,
+          2,
+          6
+        ]
       }
     ],
     "2025": [
@@ -1999,7 +2714,10 @@
         "note": "",
         "year": "2025",
         "doi": "10.1002/idm2.70024",
-        "pdf_url": "/assets/papers/2025-a90b73de7902.pdf"
+        "pdf_url": "/assets/papers/2025-a90b73de7902.pdf",
+        "lab_author_indices": [
+          2
+        ]
       },
       {
         "number": 13,
@@ -2010,7 +2728,17 @@
         "note": "",
         "year": "2025",
         "doi": "10.1016/j.ensm.2025.104570",
-        "pdf_url": "/assets/papers/2025-10f69653ff84.pdf"
+        "pdf_url": "/assets/papers/2025-10f69653ff84.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10
+        ]
       },
       {
         "number": 12,
@@ -2021,7 +2749,11 @@
         "note": "",
         "year": "2025",
         "doi": "10.1002/smll.202507292",
-        "pdf_url": "/assets/papers/2025-393845a02e84.pdf"
+        "pdf_url": "/assets/papers/2025-393845a02e84.pdf",
+        "lab_author_indices": [
+          3,
+          8
+        ]
       },
       {
         "number": 11,
@@ -2032,7 +2764,12 @@
         "note": "",
         "year": "2025",
         "doi": "10.1021/acsenergylett.5c02563",
-        "pdf_url": "/assets/papers/2025-893c47cbc353.pdf"
+        "pdf_url": "/assets/papers/2025-893c47cbc353.pdf",
+        "lab_author_indices": [
+          3,
+          4,
+          13
+        ]
       },
       {
         "number": 10,
@@ -2043,7 +2780,20 @@
         "note": "",
         "year": "2025",
         "doi": "10.1016/j.jechem.2025.06.019",
-        "pdf_url": "/assets/papers/2025-cc414b25ee5b.pdf"
+        "pdf_url": "/assets/papers/2025-cc414b25ee5b.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          13
+        ]
       },
       {
         "number": 9,
@@ -2054,7 +2804,10 @@
         "note": "",
         "year": "2025",
         "doi": "10.1021/acs.nanolett.5c01307",
-        "pdf_url": "/assets/papers/2025-f06db030224a.pdf"
+        "pdf_url": "/assets/papers/2025-f06db030224a.pdf",
+        "lab_author_indices": [
+          5
+        ]
       },
       {
         "number": 8,
@@ -2065,7 +2818,12 @@
         "note": "",
         "year": "2025",
         "doi": "10.1002/adma.202501021",
-        "pdf_url": "/assets/papers/2025-dc628d0c6c9e.pdf"
+        "pdf_url": "/assets/papers/2025-dc628d0c6c9e.pdf",
+        "lab_author_indices": [
+          1,
+          4,
+          11
+        ]
       },
       {
         "number": 7,
@@ -2076,7 +2834,10 @@
         "note": "",
         "year": "2025",
         "doi": "10.1016/j.mser.2025.100970",
-        "pdf_url": "/assets/papers/2025-d550def6c9e5.pdf"
+        "pdf_url": "/assets/papers/2025-d550def6c9e5.pdf",
+        "lab_author_indices": [
+          8
+        ]
       },
       {
         "number": 6,
@@ -2087,7 +2848,17 @@
         "note": "",
         "year": "2025",
         "doi": "10.1002/adfm.202424880",
-        "pdf_url": "/assets/papers/2025-5c40e4ad347a.pdf"
+        "pdf_url": "/assets/papers/2025-5c40e4ad347a.pdf",
+        "lab_author_indices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          10
+        ]
       },
       {
         "number": 5,
@@ -2098,7 +2869,12 @@
         "note": "",
         "year": "2025",
         "doi": "10.1039/d4ta07071b",
-        "pdf_url": "/assets/papers/2025-d90e4223d14a.pdf"
+        "pdf_url": "/assets/papers/2025-d90e4223d14a.pdf",
+        "lab_author_indices": [
+          1,
+          3,
+          4
+        ]
       },
       {
         "number": 4,
@@ -2109,7 +2885,12 @@
         "note": "",
         "year": "2025",
         "doi": "10.1002/aenm.202404193",
-        "pdf_url": "/assets/papers/2025-6bac401f55b4.pdf"
+        "pdf_url": "/assets/papers/2025-6bac401f55b4.pdf",
+        "lab_author_indices": [
+          2,
+          3,
+          14
+        ]
       },
       {
         "number": 3,
@@ -2120,7 +2901,17 @@
         "note": "",
         "year": "2025",
         "doi": "10.1016/j.ensm.2024.103930",
-        "pdf_url": "/assets/papers/2025-8b66ae0acee4.pdf"
+        "pdf_url": "/assets/papers/2025-8b66ae0acee4.pdf",
+        "lab_author_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          11
+        ]
       },
       {
         "number": 2,
@@ -2131,7 +2922,11 @@
         "note": "",
         "year": "2025",
         "doi": "10.1016/j.jpowsour.2024.235786",
-        "pdf_url": "/assets/papers/2025-2ba486247433.pdf"
+        "pdf_url": "/assets/papers/2025-2ba486247433.pdf",
+        "lab_author_indices": [
+          1,
+          6
+        ]
       },
       {
         "number": 1,
@@ -2142,7 +2937,10 @@
         "note": "",
         "year": "2025",
         "doi": "10.1002/aenm.202403247",
-        "pdf_url": "/assets/papers/2025-d02c5d68a855.pdf"
+        "pdf_url": "/assets/papers/2025-d02c5d68a855.pdf",
+        "lab_author_indices": [
+          6
+        ]
       }
     ]
   },

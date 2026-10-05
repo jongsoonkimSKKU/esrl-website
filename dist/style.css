@@ -292,3 +292,12 @@
 .research-paper-card .case-metrics p{margin:0}
 .research-paper-files{margin-top:16px;font-size:.9rem}
 @media(max-width:800px){.research-paper-grid{grid-template-columns:1fr}.research-paper-card{padding:24px}.research-paper-section{margin-top:12px}}
+
+
+/* Research-group author emphasis uses the existing body typeface. */
+.lab-author{font-weight:700}
+.page-title.research-intro h1{max-width:1160px;font-size:clamp(1.75rem,3.25vw,2.75rem);line-height:1.55;letter-spacing:-.035em;word-break:keep-all;overflow-wrap:break-word}
+.page-title.research-intro p{max-width:1000px;font-size:clamp(1rem,1.3vw,1.125rem);line-height:1.8;margin-top:24px}
+.page-title.life-intro h1{max-width:1100px;font-size:clamp(2rem,4.5vw,4rem);line-height:1.45;word-break:keep-all;overflow-wrap:break-word}
+.page-title.life-intro p{max-width:1000px;font-size:clamp(1.125rem,1.75vw,1.5rem);font-weight:500;line-height:1.7;margin-top:24px;color:#fff}
+.brand-affiliation{display:inline-block;margin-left:8px;font-size:.5em;font-weight:600;letter-spacing:-.025em;white-space:nowrap}
