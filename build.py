@@ -12,7 +12,7 @@ DIST=ROOT/'dist'
 STYLESHEET_VERSION=hashlib.sha256((DIST/'style.css').read_bytes()).hexdigest()[:12]
 SCRIPT_VERSION=hashlib.sha256((DIST/'site.js').read_bytes()).hexdigest()[:12]
 ARROW='<span class="arrow" aria-hidden="true">↗</span>'
-NAV=[('Home','/'),('Research','/research/'),('Professor','/professor/'),('People','/people/'),('Publications','/publications/'),('Lab life','/life/')]
+NAV=[('Home','/'),('Research','/research/'),('Professor','/professor/'),('People','/people/'),('Publications','/publications/'),('Equipment','/equipment/'),('Lab life','/life/')]
 PUBLICATION_GROUPS=[('2026',['2026']),('2025',['2025']),('2024',['2024']),('2023',['2023']),('2022',['2022']),('2021',['2021']),('2020',['2020']),('2019',['2019']),('2018–2017',['2018','2017']),('2016–2015',['2016','2015']),('2014–2012',['2014','2013','2012']),('2011–2009',['2011','2010','2009'])]
 def pubroute(label):return '/publications/'+label.replace('–','-')+'/'
 def navigation(route):
@@ -378,8 +378,25 @@ body+='</div></section>'
 save('/people/alumni/','Alumni',body)
 
 
-body=title('Equipment & facilities','Built for discovery.','Our facilities support materials synthesis, battery assembly, electrochemical testing, and computational research.')
-body+='<section class="section"><div class="wrap equipment-grid">'+''.join('<article class="equipment">'+img(q['image'],q['name'])+f'<h3>{e(q["name"])}</h3><p lang="ko">{e(q["description"])}</p></article>' for q in D['equipment'])+'</div></section>'
+equipment_groups=[
+ ('assembly-testing','전지 조립·전기화학 평가','Battery assembly & electrochemistry',[1,17,3,15,6,9]),
+ ('synthesis','소재 합성·시료 준비','Materials synthesis & preparation',[18,4,7,5,8,12,16,19,13,14,20,21,22,10]),
+ ('analysis','구조 분석','Structural analysis',[2]),
+ ('computation','계산·시뮬레이션','Computation & simulations',[11]),
+]
+equipment_by_number={int(re.search(r'equipment-(\d+)',q['image'])[1]):q for q in D['equipment']}
+grouped_numbers=[number for _,_,_,numbers in equipment_groups for number in numbers]
+if len(grouped_numbers)!=len(set(grouped_numbers)) or set(grouped_numbers)!=set(equipment_by_number):
+ raise ValueError('Every equipment photo must appear in exactly one equipment group')
+body=title('Equipment & facilities · 연구 장비','<span lang="ko">장비와 연구 시설</span>',f'<span lang="ko">소재 합성부터 전지 평가와 계산까지, 연구에 활용하는 장비 {len(D["equipment"])}종을 소개합니다.</span>')
+body+='<section class="section equipment-catalog"><div class="wrap">'
+for group_id,heading,heading_en,numbers in equipment_groups:
+ body+=f'<section class="equipment-group" aria-labelledby="equipment-{group_id}"><div class="equipment-group-heading"><h2 id="equipment-{group_id}" lang="ko">{heading}</h2><p lang="en">{e(heading_en)}</p></div><div class="equipment-grid">'
+ for number in numbers:
+  q=equipment_by_number[number]
+  body+='<article class="equipment">'+img(q['image'],q['name'])+f'<h3>{e(q["name"])}</h3><p lang="ko">{e(q["description"])}</p></article>'
+ body+='</div></section>'
+body+='</div></section>'
 save('/equipment/','Equipment & facilities',body)
 
 life_years=sorted({a['year'] for a in LAB_LIFE['albums']},reverse=True)
