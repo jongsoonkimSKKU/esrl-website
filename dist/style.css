@@ -369,13 +369,13 @@
 .hero .hero-action-bilingual small{display:block;font-size:.8125rem;font-weight:400;line-height:1.4;letter-spacing:0}
 
 /* Keep the recruitment message beside its application link. */
-.hero .hero-recruitment{display:flex;align-items:center;gap:1rem;margin-top:1rem}
-.hero .hero-recruitment p{flex:1;min-width:0;margin:0;font-size:.9375rem;line-height:1.7;color:#fff;word-break:keep-all;overflow-wrap:break-word}
+.hero .hero-recruitment{display:flex;align-items:center;gap:.75rem;margin-top:1rem}
+.hero .hero-recruitment p{flex:0 1 18rem;min-width:0;margin:0;font-size:.9375rem;line-height:1.7;color:#fff;word-break:keep-all;overflow-wrap:break-word}
 .hero .hero-recruitment .hero-action-bilingual{flex-shrink:0}
 
 /* The research action sits beside the main title and wraps on narrow screens. */
 .hero .hero-heading-row{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.25rem}
-.hero .hero-heading-row h1{flex:1 1 15rem;min-width:0;font-size:clamp(1.125rem,1.6vw,1.5rem);word-break:keep-all;overflow-wrap:break-word}
+.hero .hero-heading-row h1{flex:1 1 15rem;min-width:0;font-size:clamp(1.125rem,1.6vw,1.5rem);font-weight:700;word-break:keep-all;overflow-wrap:break-word}
 .hero .hero-heading-row .button{flex:none}
 
 /* Keep the professor’s research interests readable as a compact three-item list. */
