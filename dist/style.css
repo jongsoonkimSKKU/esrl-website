@@ -402,3 +402,12 @@
 
 /* Keep the home research question compact and on one line. */
 .research-explorer #explorer-heading{font-size:clamp(1.125rem,1.8vw,1.5rem);line-height:1.5;white-space:nowrap}
+
+/* Introduce AI and first-principles research as the first core expertise. */
+.research-ai-core{padding-top:40px;padding-bottom:0}
+.research-ai-core+.research-pillars{padding-top:30px}
+.research-ai-core .ai-core{min-height:0;background:#eaf0e4;border-color:#6ba946}
+.ai-core .number{margin-bottom:18px}
+.ai-core h3{font-size:clamp(1.2rem,1.8vw,1.5rem);line-height:1.6}
+.ai-core p{margin-bottom:0;line-height:1.8}
+.ai-core .hero-actions{margin-top:22px;gap:16px 24px}
