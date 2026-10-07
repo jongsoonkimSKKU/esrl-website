@@ -242,7 +242,7 @@ def support_section():
 def research_impact(surface):
  count=SCHOLAR_METRICS['publications']
  out=f'<section class="research-impact research-impact-{surface}" aria-label="Research impact · 연구 성과"><div class="wrap"><div class="impact-grid"><a href="{SCHOLAR}" target="_blank" rel="noopener noreferrer"><strong>{count:,}</strong><span>논문 총수 · Publications</span></a><a href="{SCHOLAR}" target="_blank" rel="noopener noreferrer"><strong>{SCHOLAR_METRICS["citations"]:,}</strong><span>총인용수 · Citations</span></a><a href="{SCHOLAR}" target="_blank" rel="noopener noreferrer"><strong>{SCHOLAR_METRICS["h_index"]}</strong><span>h-index · Google Scholar</span></a></div><p class="metrics-date">Google Scholar 전체 지표 · 확인일: {e(SCHOLAR_METRICS["checked_at"])}</p>'
- if surface in ('home','join'):out+='<p class="alumni-careers" lang="ko">졸업생 주요 진로: LG에너지솔루션, 삼성SDI</p>'
+ if surface=='join':out+='<p class="alumni-careers" lang="ko">졸업생 주요 진로: LG에너지솔루션, 삼성SDI</p>'
  return out+'</div></section>'
 
 def application_section():
