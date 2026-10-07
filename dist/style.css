@@ -375,7 +375,7 @@
 
 /* The research action sits beside the main title and wraps on narrow screens. */
 .hero .hero-heading-row{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.25rem}
-.hero .hero-heading-row h1{flex:1 1 15rem;min-width:0;font-size:clamp(1.125rem,1.6vw,1.5rem);font-weight:700;word-break:keep-all;overflow-wrap:break-word}
+.hero .hero-heading-row h1{flex:1 1 15rem;min-width:0;font-size:clamp(1.125rem,1.75vw,1.625rem);font-weight:700;word-break:keep-all;overflow-wrap:break-word}
 .hero .hero-heading-row .button{flex:none}
 
 /* Keep the professor’s research interests readable as a compact three-item list. */
@@ -399,3 +399,6 @@
 .section-heading .home-research-summary{max-width:none;text-align:left;font-size:clamp(1.125rem,1.8vw,1.5rem);font-weight:700;line-height:1.7;letter-spacing:-.025em;word-break:keep-all;overflow-wrap:break-word}
 .section-heading.home-research-heading>div{width:100%}
 .home-research-summary .home-research-approach{display:block;text-align:right}
+
+/* Keep the home research question compact and on one line. */
+.research-explorer #explorer-heading{font-size:clamp(1.125rem,1.8vw,1.5rem);line-height:1.5;white-space:nowrap}
