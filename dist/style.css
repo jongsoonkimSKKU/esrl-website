@@ -396,4 +396,6 @@
 .section-heading .home-publications-title{font-size:clamp(1.4rem,2.6vw,2.2rem);font-weight:700;line-height:1.35}
 
 /* Emphasize the home research approach in Korean. */
-.section-heading .home-research-summary{max-width:1000px;font-size:clamp(1.125rem,1.8vw,1.5rem);font-weight:700;line-height:1.7;letter-spacing:-.025em;word-break:keep-all;overflow-wrap:break-word}
+.section-heading .home-research-summary{max-width:none;text-align:left;font-size:clamp(1.125rem,1.8vw,1.5rem);font-weight:700;line-height:1.7;letter-spacing:-.025em;word-break:keep-all;overflow-wrap:break-word}
+.section-heading.home-research-heading>div{width:100%}
+.home-research-summary .home-research-approach{display:block;text-align:right}
