@@ -386,3 +386,11 @@
 
 /* Keep the main title on one line at desktop widths. */
 @media(min-width:1001px){.hero .hero-heading-row h1{white-space:nowrap}}
+
+/* Compact the home page’s Scholar summary and emphasize its publications heading. */
+.research-impact-home{padding:22px 0}
+.research-impact-home .impact-grid a{gap:4px}
+.research-impact-home .impact-grid strong{font-size:clamp(1.5rem,2.4vw,1.875rem)}
+.research-impact-home .impact-grid span{font-size:.8125rem;line-height:1.6}
+.research-impact-home .metrics-date{font-size:.75rem;margin-top:12px}
+.section-heading .home-publications-title{font-size:clamp(1.4rem,2.6vw,2.2rem);font-weight:700;line-height:1.35}
