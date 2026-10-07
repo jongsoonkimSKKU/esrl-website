@@ -411,3 +411,8 @@
 .ai-core h3{font-size:clamp(1.2rem,1.8vw,1.5rem);line-height:1.6}
 .ai-core p{margin-bottom:0;line-height:1.8}
 .ai-core .hero-actions{margin-top:22px;gap:16px 24px}
+
+/* Keep the research label compact above the bilingual introduction. */
+.research-intro h1.eyebrow{font-size:.6875rem;font-weight:600;line-height:1.7;letter-spacing:.12em}
+.research-approach{padding-top:40px}
+.research-approach .research-flow{margin-top:0}
