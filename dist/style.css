@@ -377,3 +377,9 @@
 .hero .hero-heading-row{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.25rem}
 .hero .hero-heading-row h1{flex:1 1 15rem;min-width:0;font-size:clamp(1.5rem,2vw,1.75rem);word-break:keep-all;overflow-wrap:break-word}
 .hero .hero-heading-row .button{flex:none}
+
+/* Keep the professor’s research interests readable as a compact three-item list. */
+.professor-research-interests{margin:24px 0}
+.professor-research-interests h3{font-family:inherit;font-size:1rem;line-height:1.5;letter-spacing:0;margin-bottom:.625rem}
+.professor-research-interests ul{margin:0;padding-left:1.25rem;color:var(--muted);font-size:1rem;line-height:1.7}
+.professor-research-interests li+li{margin-top:.375rem}
