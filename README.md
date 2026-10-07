@@ -78,7 +78,7 @@ JCR 출처는 연도 텍스트로 표시하고 akaturk.com 링크는 제거합�
 
 졸업생 13명 모두 영문명과 한글명을 함께 표시합니다.
 
-소듐 양극의 Fe 이동 억제 연구(ACS Energy Letters, 10.1021/acsenergylett.6c02530)에 제1저자 김태규(Taegyu Kim)의 기존 구성원 사진과 소개를 연결합니다.
+나트륨 양극의 Fe 이동 억제 연구(ACS Energy Letters, 10.1021/acsenergylett.6c02530)에 제1저자 김태규(Taegyu Kim)의 기존 구성원 사진과 소개를 연결합니다.
 
 
 ## 2026-10-05 Google Scholar 지표
