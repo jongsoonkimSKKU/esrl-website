@@ -370,7 +370,7 @@
 
 /* Keep the recruitment message beside its application link. */
 .hero .hero-recruitment{display:flex;align-items:center;gap:1rem;margin-top:1rem}
-.hero .hero-recruitment p{flex:1;min-width:0;margin:0;font-size:.9375rem;line-height:1.7;color:#c7d2de;word-break:keep-all;overflow-wrap:break-word}
+.hero .hero-recruitment p{flex:1;min-width:0;margin:0;font-size:.9375rem;line-height:1.7;color:#fff;word-break:keep-all;overflow-wrap:break-word}
 .hero .hero-recruitment .hero-action-bilingual{flex-shrink:0}
 
 /* The research action sits beside the main title and wraps on narrow screens. */
