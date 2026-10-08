@@ -53,7 +53,7 @@
 @media(max-width:380px){.site-header .brand-name{display:none}}
 
 /* Research illustrations and the connected experimental/computational approach. */
-.research-detail.illustrated{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:center;gap:56px;padding:50px 0}
+.research-detail.illustrated{grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);align-items:center;gap:56px;padding:50px 0}
 .research-detail.illustrated:first-child{border-top:0;padding-top:0}
 .research-figure{margin:0;min-width:0}
 .research-figure img{display:block;width:100%;height:auto;border-radius:14px}
@@ -74,7 +74,7 @@
 @media(max-width:800px){.research-detail.illustrated{grid-template-columns:1fr;gap:24px}.research-detail.illustrated p{grid-column:auto}.research-flow{padding:28px 20px}.flow-nodes{grid-template-columns:1fr;gap:34px}.flow-nodes>div+div:before{content:'↕';left:calc(50% - 8px);top:-31px}.flow-nodes svg{margin:14px 0;width:130px;height:65px}.research-explanation h2{margin-top:10px}.research-figure figcaption{font-size:.875rem}}
 
 /* Published ESRL research: retain complete panels, scale bars and legends. */
-.research-detail.illustrated{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}
+.research-detail.illustrated{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr)}
 .paper-figure .figure-zoom{display:block;background:white;border:1px solid var(--line);border-radius:10px;padding:18px;transition:border-color .2s}
 .paper-figure .figure-zoom:hover{border-color:#789c61}
 .paper-figure img{border-radius:0;object-fit:contain;width:100%;height:auto}
