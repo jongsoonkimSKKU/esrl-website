@@ -532,3 +532,6 @@
 @media(max-width:1000px){.join-section .join-inner{grid-template-columns:minmax(0,1fr) 300px;gap:24px}.join-section .recruit-support{padding:20px}.join-section .recruit-support-items{gap:12px}.join-section .recruit-support-items strong{font-size:1.05rem}}
 @media(max-width:800px){.join-section{padding:32px 0}.join-section .join-inner{grid-template-columns:minmax(0,1fr);gap:20px}.join-section .recruit-support-items strong{font-size:1.15rem}}
 @media(max-width:560px){.join-section{padding:28px 0}.join-section .join-inner .join-section-cta{width:fit-content;max-width:100%;min-width:0}.join-section .join-copy .join-ko strong{font-size:.9375rem}.join-section .recruit-support-items strong{font-size:1.05rem}.join-section .recruit-support{padding:18px}}
+
+/* Quiet accents for the professor and publication page labels. */
+.page-title.professor-title>.wrap>.eyebrow,.page-title.publication-title>.wrap>.eyebrow{color:#b7c9ba}
