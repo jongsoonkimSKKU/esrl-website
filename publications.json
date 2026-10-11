@@ -1,5 +1,26 @@
 [
   {
+    "title": "Stabilizing Li- and Mn-Rich Layered Cathodes through Oxygen-Redox-Coupled Interphase Transformation",
+    "url": "https://doi.org/10.1016/j.nanoen.2026.112487",
+    "authors": "H. Jang, S. Oh, H. Lee, H. Kweon, B. Ku, M. Choi, J. Lee, J. Ahn, H. Park, M. H. Lee, H.-S. Kim, J. Kim*",
+    "citation": "Nano Energy, 112487 (2026)",
+    "doi": "10.1016/j.nanoen.2026.112487",
+    "article_number": "112487",
+    "pages": "112487",
+    "lab_author_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11
+    ]
+  },
+  {
     "title": "Improved High-Voltage Operation and Fast-Discharge Performance of O3-Type Layered Cathodes for Na-Ion Batteries by Regulating the Fe-Driven Distortion–Dissolution Cascade",
     "url": "",
     "authors": "L. Jang, J. Kwon, H. Lee, T. Kim, M. Choi, B. Ku, S. Lim, H. Choo, L. Eom, H.-G. Jung, J. Kim*",
@@ -35,7 +56,7 @@
     "title": "Stabilizing High-Voltage Operation in O3-Type Na-Layered Cathodes by Suppressing Distortion-Driven Fe Migration",
     "url": "https://doi.org/10.1021/acsenergylett.6c02530",
     "authors": "T. Kim, H. Kweon, H. Lee, L. Jang, B. Ku, M. Choi, S. Lim, H. Choo, L. Eom, J. Kwon, M.-K. Cho, Y. H. Jung, H.-G. Jung, J. Kim*",
-    "citation": "ACS Energy Letters, ASAP (2026)",
+    "citation": "ACS Energy Letters, 11(10), 6972–6980 (2026)",
     "doi": "10.1021/acsenergylett.6c02530",
     "lab_author_indices": [
       0,
@@ -49,7 +70,12 @@
       8,
       9,
       13
-    ]
+    ],
+    "volume": "11",
+    "issue": "10",
+    "pages": "6972–6980",
+    "published_online": "2026-09-09",
+    "published_print": "2026-10-09"
   },
   {
     "title": "Basal Plane Graphene Coated Zn Powder for High Performance Aqueous Zn Metal Batteries",

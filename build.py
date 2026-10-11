@@ -64,6 +64,8 @@ def bibtex(p,key):
  author=re.sub(r'[†‡*]','',p['authors'])
  author=' and '.join(a.strip() for a in author.replace(' and ',', ').split(',') if a.strip())
  fields={'title':p['title'],'author':author,'journal':p['citation'].split(',')[0],'year':str(p['year'])}
+ for source,target in [('volume','volume'),('issue','number'),('pages','pages')]:
+  if p.get(source):fields[target]=str(p[source]).replace('–','--') if source=='pages' else str(p[source])
  if p.get('url'):fields['url']=p['url']
  if 'doi.org/' in p.get('url',''):fields['doi']=p['url'].split('doi.org/',1)[1]
  def safe(s):return s.replace('\\',r'\textbackslash{}').replace('{',r'\{').replace('}',r'\}').replace('&',r'\&').replace('%',r'\%').replace('_',r'\_')
