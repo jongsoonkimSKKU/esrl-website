@@ -381,21 +381,33 @@ research_visuals={
 }
 body+='<section class="section research-illustrated"><div class="wrap">'+''.join(f'<article class="research-detail illustrated" id="{n}"><span id="{dict({'01':'cathodes','02':'beyond-lithium','03':'solid-electrolytes'})[n]}" class="section-anchor" aria-hidden="true"></span><div class="research-explanation"><span class="eyebrow">Research {n} / {s}</span><h2>{h}<small>{short}</small></h2><p>{p}</p><p class="research-summary-ko" lang="ko">{research_visuals[n][2]}</p></div><figure class="research-figure paper-figure"><a class="figure-zoom" href="/assets/{research_visuals[n][0]}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size research figure: {research_visuals[n][1]}">'+img('/assets/'+research_visuals[n][0],research_visuals[n][1])+f'<span class="figure-zoom-label">View full size · 크게 보기</span></a><figcaption><strong lang="ko">{research_visuals[n][2]}</strong><a class="figure-source" href="{research_visuals[n][4]}" target="_blank" rel="noopener noreferrer">{research_visuals[n][3]}</a></figcaption></figure>'+research_publications(n)+'</article>' for n,s,h,short,p in details)+'</div></section>'
 research_approach='''<section class="section research-approach expertise-section" aria-labelledby="expertise-approach-heading"><div class="wrap">
- <header class="expertise-heading"><h2 id="expertise-approach-heading" lang="ko">계산과 실험을 연결해 성능과 안정성을 좌우하는 핵심 인자를 규명합니다.</h2><p lang="en">Connecting computation and experiments to identify the key factors governing performance and stability.</p></header>
+ <header class="expertise-heading"><span class="expertise-scale" lang="en">OUR RESEARCH CAPABILITIES</span><h2 id="expertise-approach-heading" lang="ko">AI·계산으로 예측하고, 실험으로 만들고 확인합니다.</h2><p lang="en">Materials design and mechanistic insight through AI, first-principles calculations, synthesis, characterization, and cell testing.</p></header>
  <figure class="expertise-illustration">
-  <div class="expertise-domains">
-   <div class="expertise-domain expertise-design"><span class="expertise-step">01 / DESIGN &amp; PREDICT</span><h3 lang="ko">AI·제일원리계산 기반 설계</h3><p lang="en">AI &amp; First-principles Materials Design</p></div>
-   <div class="expertise-domain expertise-experiment"><span class="expertise-step">02 / SYNTHESIZE &amp; VALIDATE</span><h3 lang="ko">소재 합성·정밀 분석·셀 평가</h3><p lang="en">Synthesis, Characterization &amp; Cell Testing</p></div>
-  </div>
-  <a class="expertise-artwork-link" href="/assets/research-expertise-ai-synthesis-analysis-cell-testing.webp" data-lightbox data-caption="AI·제일원리계산 기반 설계와 소재 합성·정밀 분석·셀 평가를 연결하는 ESRL 연구 개념도" aria-label="ESRL 연구 개념도 크게 보기">
-   <img src="/assets/research-expertise-ai-synthesis-analysis-cell-testing.webp" alt="원자 구조와 AI 후보 탐색, 합성로, 정밀 분석 장비, 코인셀 충·방전 평가 장비를 소재 입자와 양방향 화살표로 연결한 연구 개념도" width="1774" height="887" loading="eager" decoding="async" fetchpriority="high">
+  <a class="expertise-artwork-link" href="/assets/research-expertise-capabilities.webp" data-lightbox data-caption="AI·제일원리계산 기반 설계, 소재 합성·정밀 분석·셀 평가와 입자 내부·계면의 확대 모습을 연결한 ESRL 연구 개념도" aria-label="ESRL 연구 방법과 소재 내부를 보여주는 연구 개념도 크게 보기">
+   <img src="/assets/research-expertise-capabilities.webp" alt="AI·제일원리계산용 컴퓨터와 결정구조, 합성로, 정밀 분석 장비, 충·방전 장비를 배치하고 중앙 소재 입자의 내부와 계면을 확대해 보여주는 연구 개념도" width="1774" height="887" loading="eager" decoding="async" fetchpriority="high">
    <span class="expertise-zoom-label">그림 크게 보기 ↗</span>
   </a>
-  <figcaption>
-   <div class="expertise-domain-notes"><p lang="ko">원자 배열 탐색 · 구조 안정성 · 이온 이동 · 전자구조</p><p lang="ko">소재 합성 · 정밀 분석 · 셀 충·방전 및 수명 평가</p></div>
-   <div class="expertise-outcome"><p lang="ko">소재 설계·합성·분석·셀 평가를 연결해 성능과 안정성을 검증하고, 그 결과를 다시 설계에 반영합니다.</p><span lang="en">Research concept illustration</span></div>
-  </figcaption>
+  <figcaption class="expertise-image-caption"><span lang="ko">설계 → 합성 → 분석 → 셀 평가 → 설계에 반영</span><span>연구 개념도 · Concept illustration</span></figcaption>
  </figure>
+ <div class="expertise-capabilities">
+  <article class="expertise-capability-panel expertise-computation" aria-labelledby="expertise-computation-heading">
+   <header><span class="expertise-panel-kicker" lang="en">DESIGN &amp; PREDICT</span><h3 id="expertise-computation-heading" lang="ko">AI·제일원리계산 기반 설계</h3><p lang="ko">어떤 구조가 안정하고, 왜 반응하며, 어떻게 이온이 이동하는지 예측합니다.</p></header>
+   <div class="expertise-capability-list"><div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">01</span><div><h4 lang="ko">AI로 원자 배열 후보 선별</h4><p class="expertise-capability-method" lang="ko">AI · Cluster expansion (CASM)</p><p class="expertise-capability-description" lang="ko">제일원리계산 데이터를 학습해 다수 후보의 에너지를 평가하고 안정한 원자 배열을 탐색합니다.</p></div></div>
+<div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">02</span><div><h4 lang="ko">안정한 결정구조·치환 위치 설계</h4><p class="expertise-capability-method" lang="ko">구조 최적화 · 에너지 계산</p><p class="expertise-capability-description" lang="ko">구조별 안정성, 원소의 자리 선호와 결함 형성 에너지를 비교해 소재 설계의 근거를 찾습니다.</p></div></div>
+<div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">03</span><div><h4 lang="ko">산화환원 반응의 전자적 원리 분석</h4><p class="expertise-capability-method" lang="ko">상태밀도(DOS) · 전하밀도 · 스핀밀도</p><p class="expertise-capability-description" lang="ko">금속·산소의 산화환원, 결합 특성과 전자구조 변화를 분석합니다.</p></div></div>
+<div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">04</span><div><h4 lang="ko">작동 전압·이온 이동 예측</h4><p class="expertise-capability-method" lang="ko">반응 에너지 · 이온 이동 경로 계산</p><p class="expertise-capability-description" lang="ko">작동 전압과 Li·Na의 이동 경로·에너지 장벽을 예측합니다.</p></div></div></div>
+   <div class="expertise-panel-links"><a href="#simulation-na-heading" lang="ko">전자구조 연구 예시 ↓</a><a href="#simulation-li-heading" lang="ko">소재 설계 연구 예시 ↓</a></div>
+  </article>
+  <article class="expertise-capability-panel expertise-experiments" aria-labelledby="expertise-experiments-heading">
+   <header><span class="expertise-panel-kicker" lang="en">SYNTHESIZE &amp; VALIDATE</span><h3 id="expertise-experiments-heading" lang="ko">소재 합성·정밀 분석·셀 평가</h3><p lang="ko">설계한 소재를 만들고, 구조·반응·계면과 실제 셀 성능을 확인합니다.</p></header>
+   <div class="expertise-capability-list"><div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">01</span><div><h4 lang="ko">목표 조성과 구조의 소재 합성</h4><p class="expertise-capability-method" lang="ko">고상 합성 · 공침 · 이온 교환</p><p class="expertise-capability-description" lang="ko">조성·열처리·합성 조건을 조절해 양극과 고체전해질 소재를 구현합니다.</p></div></div>
+<div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">02</span><div><h4 lang="ko">결정구조·미세구조·원자 배열 확인</h4><p class="expertise-capability-method" lang="ko">X선·중성자 회절 · 전자현미경</p><p class="expertise-capability-description" lang="ko">평균 결정구조와 입자·미세구조, 국소 원자 배열을 연결해 분석합니다.</p></div></div>
+<div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">03</span><div><h4 lang="ko">산화상태·계면·작동 중 반응 추적</h4><p class="expertise-capability-method" lang="ko">X선 흡수분석 · X선 광전자분석 · Operando XRD</p><p class="expertise-capability-description" lang="ko">산화상태·국소 구조·계면 화학과 충·방전 중 결정구조 변화를 분석합니다.</p></div></div>
+<div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">04</span><div><h4 lang="ko">셀 성능·계면 저항 검증</h4><p class="expertise-capability-method" lang="ko">충·방전 시험 · 임피던스 분석 · 조건별 평가</p><p class="expertise-capability-description" lang="ko">용량·수명·고속 충·방전과 온도 조건별 성능, 계면 저항을 평가합니다.</p></div></div></div>
+   <div class="expertise-panel-links"><a href="/equipment/" lang="ko">장비·연구 시설 보기 ↗</a><a href="#performance-lmfp-heading" lang="ko">셀 성능 연구 예시 ↓</a></div>
+  </article>
+ </div>
+ <p class="expertise-feedback" lang="ko">계산으로 예측한 구조와 반응을 실험으로 검증하고, 분석·셀 평가 결과를 다시 소재 설계에 반영합니다.</p>
  </div></section>
  <dialog class="photo-dialog expertise-artwork-dialog" aria-label="ESRL 연구 개념도 크게 보기"><div class="photo-dialog-shell"><div class="photo-dialog-top"><p data-photo-caption aria-live="polite"></p><button type="button" data-photo-close aria-label="닫기 · Close">Close ×</button></div><div class="photo-dialog-stage"><button type="button" data-photo-prev aria-label="이전 그림">‹</button><img data-photo-image alt=""><button type="button" data-photo-next aria-label="다음 그림">›</button></div><p class="photo-dialog-hint">ESC Close</p></div></dialog>'''
 body=research_intro+research_approach+body
@@ -493,4 +505,3 @@ body+='''<section class="section"><div class="wrap contact-grid"><div><span clas
 save('/join/','Join us',body)
 (DIST/'404.html').write_text(shell('Page not found','', '<section class="not-found"><span class="eyebrow">404</span><h1>Page not found.</h1><p>Let’s get you back to the lab.</p>'+link('/','Back to home','button dark')+'</section>'))
 print('Created',len(list(DIST.rglob('index.html'))),'pages and a 404 page.')
-

@@ -459,6 +459,11 @@
       "path": "dist/assets/research-expertise-ai-synthesis-analysis-cell-testing.webp",
       "sha256": "801cadbbd35e46441e924873987080dd133ddc1789c3126ecea1f03ef6fd9157",
       "source": "ImageGen: ESRL research concept illustration connecting AI and first-principles design with synthesis, advanced characterization and cell testing, 2026-10-11"
+    },
+    {
+      "path": "dist/assets/research-expertise-capabilities.webp",
+      "sha256": "17543386db62e0d12210293ec56ad2dbf315fea4c996dba278f692684d7d3c87",
+      "source": "ImageGen: simplified ESRL research capabilities illustration combining AI and first-principles design, synthesis, characterization and cell testing with a particle cutaway and a single interphase inset, 2026-10-11"
     }
   ]
 }
