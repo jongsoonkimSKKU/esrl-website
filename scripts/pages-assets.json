@@ -453,7 +453,12 @@
     {
       "path": "dist/assets/research-expertise-reference.png",
       "sha256": "bc09e9bdd2cb370a1056aeef6c67707ac3035d4d5940e9453bd8f29213759eba",
-      "description": "User-supplied ESRL calculation, synthesis and characterization examples; original pixels retained in SVG viewports."
+      "description": "User-supplied ESRL reference for computational and experimental materials research."
+    },
+    {
+      "path": "dist/assets/research-expertise-ai-synthesis-analysis-cell-testing.webp",
+      "sha256": "801cadbbd35e46441e924873987080dd133ddc1789c3126ecea1f03ef6fd9157",
+      "source": "ImageGen: ESRL research concept illustration connecting AI and first-principles design with synthesis, advanced characterization and cell testing, 2026-10-11"
     }
   ]
 }

@@ -380,45 +380,24 @@ research_visuals={
  '03':('research-solid-interface.png','Comparison of cathode-adhesion-enhanced and conventional coatings in sulfide-based all-solid-state batteries','접착력 강화 코팅을 통한 전극–고체전해질 계면 안정화','J. Kim et al. · Energy Storage Materials 89, 105167 (2026) · Fig. 6','https://doi.org/10.1016/j.ensm.2026.105167')
 }
 body+='<section class="section research-illustrated"><div class="wrap">'+''.join(f'<article class="research-detail illustrated" id="{n}"><span id="{dict({'01':'cathodes','02':'beyond-lithium','03':'solid-electrolytes'})[n]}" class="section-anchor" aria-hidden="true"></span><div class="research-explanation"><span class="eyebrow">Research {n} / {s}</span><h2>{h}<small>{short}</small></h2><p>{p}</p><p class="research-summary-ko" lang="ko">{research_visuals[n][2]}</p></div><figure class="research-figure paper-figure"><a class="figure-zoom" href="/assets/{research_visuals[n][0]}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size research figure: {research_visuals[n][1]}">'+img('/assets/'+research_visuals[n][0],research_visuals[n][1])+f'<span class="figure-zoom-label">View full size · 크게 보기</span></a><figcaption><strong lang="ko">{research_visuals[n][2]}</strong><a class="figure-source" href="{research_visuals[n][4]}" target="_blank" rel="noopener noreferrer">{research_visuals[n][3]}</a></figcaption></figure>'+research_publications(n)+'</article>' for n,s,h,short,p in details)+'</div></section>'
-def expertise_evidence(x,y,width,height,label):
- return f'<svg class="expertise-evidence-image" viewBox="{x} {y} {width} {height}" role="img" aria-label="{e(label)}"><image href="/assets/research-expertise-reference.png" width="1501" height="883"/></svg>'
-
-def expertise_candidates():
- # A conceptual array-selection motif, with no invented energies or performance data.
- palette=('#173b61','#54a8a0')
- motifs=[]
- for candidate in range(6):
-  x=12+(candidate%3)*64
-  y=12+(candidate//3)*54
-  dots=''.join(f'<circle cx="{x+12+(i%3)*13}" cy="{y+11+(i//3)*13}" r="4.5" fill="{palette[(i+candidate+(i//3)*candidate)%2]}"/>' for i in range(9))
-  motifs.append(f'<g><rect x="{x}" y="{y}" width="52" height="47" rx="8" fill="#f2f6fa" stroke="#d9e3ec"/>{dots}</g>')
- chosen=''.join(f'<circle cx="{421+(i%3)*20}" cy="{40+(i//3)*20}" r="7" fill="{palette[(i+2+(i//3)*2)%2]}"/>' for i in range(9))
- return '<svg class="expertise-candidate-image" viewBox="0 0 510 132" role="img" aria-label="AI와 제일원리계산 데이터를 활용한 원자 배열 후보 탐색의 개념도">'+''.join(motifs)+'<path d="M215 66H253M244 59L253 66L244 73M337 66H387M378 59L387 66L378 73" fill="none" stroke="#53758c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="266" y="39" width="58" height="54" rx="12" fill="#173b61"/><text x="295" y="74" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="24" font-weight="700">AI</text><rect x="402" y="19" width="77" height="94" rx="10" fill="#eef8f6" stroke="#54a8a0" stroke-width="2"/>'+chosen+'</svg>'
-
-research_approach=f'''<section class="section research-approach expertise-section" aria-labelledby="expertise-approach-heading"><div class="wrap">
+research_approach='''<section class="section research-approach expertise-section" aria-labelledby="expertise-approach-heading"><div class="wrap">
  <header class="expertise-heading"><h2 id="expertise-approach-heading" lang="ko">계산과 실험을 연결해 성능과 안정성을 좌우하는 핵심 인자를 규명합니다.</h2><p lang="en">Connecting computation and experiments to identify the key factors governing performance and stability.</p></header>
- <div class="expertise-layout">
-  <article class="expertise-panel expertise-design" aria-labelledby="expertise-design-heading">
-   <header class="expertise-panel-heading"><span class="expertise-step">01 / DESIGN &amp; PREDICT</span><h3 id="expertise-design-heading" lang="ko">AI·제일원리계산 기반 설계</h3><p lang="en">AI &amp; First-principles Materials Design</p></header>
-   <div class="expertise-feature expertise-ai"><div class="expertise-feature-heading"><h4 lang="ko">AI 기반 원자 배열 탐색</h4><span lang="en">Atomic configurations</span></div>{expertise_candidates()}<p class="expertise-ai-note" lang="ko">제일원리계산 데이터와 머신러닝을 연결한 후보 구조 탐색</p></div>
-   <div class="expertise-evidence-grid">
-    <figure class="expertise-evidence">{expertise_evidence(433,316,212,171,'제일원리계산을 활용한 결정구조와 이온 이동 경로의 연구 예시')}<figcaption><strong lang="ko">결정구조·이온 이동</strong><span lang="en">Crystal structure &amp; ion transport</span></figcaption></figure>
-    <figure class="expertise-evidence">{expertise_evidence(68,584,332,223,'상태밀도와 전하밀도로 살펴보는 전자구조의 연구 예시')}<figcaption><strong lang="ko">전자구조·산화환원</strong><span lang="en">Electronic structure &amp; redox</span></figcaption></figure>
-   </div>
-  </article>
-  <div class="expertise-feedback" aria-label="계산 기반 설계와 실험 기반 검증을 연결하는 양방향 피드백"><span lang="ko">설계</span><svg class="expertise-feedback-arrows" viewBox="0 0 80 60" aria-hidden="true"><path d="M9 20H69L59 10M69 20L59 30" fill="none" stroke="#173b61" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M71 43H11L21 33M11 43L21 53" fill="none" stroke="#2a857d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span lang="ko">검증</span></div>
-  <article class="expertise-panel expertise-experiment" aria-labelledby="expertise-experiment-heading">
-   <header class="expertise-panel-heading"><span class="expertise-step">02 / SYNTHESIZE &amp; VALIDATE</span><h3 id="expertise-experiment-heading" lang="ko">소재 합성·정밀 분석</h3><p lang="en">Materials Synthesis &amp; Advanced Characterization</p></header>
-   <div class="expertise-feature"><div class="expertise-feature-heading"><h4 lang="ko">소재 합성</h4><span lang="en">Materials synthesis</span></div>{expertise_evidence(891,314,552,175,'직접 합성과 간접 합성의 연구 접근법 예시')}<p class="expertise-ai-note" lang="ko">설계한 조성과 구조를 실제 소재로 구현</p></div>
-   <div class="expertise-evidence-grid">
-    <figure class="expertise-evidence">{expertise_evidence(823,594,413,178,'회절과 X선 흡수 분석으로 확인하는 결정구조와 국소 환경의 연구 예시')}<figcaption><strong lang="ko">회절·X선 흡수 분석</strong><span lang="en">X-ray / Neutron diffraction · XAS</span></figcaption></figure>
-    <figure class="expertise-evidence">{expertise_evidence(1243,592,212,183,'작동 중 회절 분석으로 관찰하는 구조 변화의 연구 예시')}<figcaption><strong lang="ko">작동 중 구조 변화</strong><span lang="en">Operando characterization</span></figcaption></figure>
-   </div>
-  </article>
- </div>
- <div class="expertise-outcome"><p lang="ko">구조·산화환원·이온 이동의 원리를 이해하고, 소재 설계와 실험 검증을 반복합니다.</p><a class="expertise-reference-link" href="/assets/research-expertise-reference.png" data-lightbox data-caption="계산·합성·분석의 연구 예시" aria-label="계산·합성·분석의 연구 예시 크게 보기"><img src="/assets/research-expertise-reference.png" alt="제일원리계산과 합성·분석을 연결하는 연구 접근도" loading="lazy" hidden>연구 예시 크게 보기 ↗</a></div>
+ <figure class="expertise-illustration">
+  <div class="expertise-domains">
+   <div class="expertise-domain expertise-design"><span class="expertise-step">01 / DESIGN &amp; PREDICT</span><h3 lang="ko">AI·제일원리계산 기반 설계</h3><p lang="en">AI &amp; First-principles Materials Design</p></div>
+   <div class="expertise-domain expertise-experiment"><span class="expertise-step">02 / SYNTHESIZE &amp; VALIDATE</span><h3 lang="ko">소재 합성·정밀 분석·셀 평가</h3><p lang="en">Synthesis, Characterization &amp; Cell Testing</p></div>
+  </div>
+  <a class="expertise-artwork-link" href="/assets/research-expertise-ai-synthesis-analysis-cell-testing.webp" data-lightbox data-caption="AI·제일원리계산 기반 설계와 소재 합성·정밀 분석·셀 평가를 연결하는 ESRL 연구 개념도" aria-label="ESRL 연구 개념도 크게 보기">
+   <img src="/assets/research-expertise-ai-synthesis-analysis-cell-testing.webp" alt="원자 구조와 AI 후보 탐색, 합성로, 정밀 분석 장비, 코인셀 충·방전 평가 장비를 소재 입자와 양방향 화살표로 연결한 연구 개념도" width="1774" height="887" loading="eager" decoding="async" fetchpriority="high">
+   <span class="expertise-zoom-label">그림 크게 보기 ↗</span>
+  </a>
+  <figcaption>
+   <div class="expertise-domain-notes"><p lang="ko">원자 배열 탐색 · 구조 안정성 · 이온 이동 · 전자구조</p><p lang="ko">소재 합성 · 정밀 분석 · 셀 충·방전 및 수명 평가</p></div>
+   <div class="expertise-outcome"><p lang="ko">소재 설계·합성·분석·셀 평가를 연결해 성능과 안정성을 검증하고, 그 결과를 다시 설계에 반영합니다.</p><span lang="en">Research concept illustration</span></div>
+  </figcaption>
+ </figure>
  </div></section>
- <dialog class="photo-dialog expertise-reference-dialog" aria-label="연구 예시 크게 보기"><div class="photo-dialog-shell"><div class="photo-dialog-top"><p data-photo-caption aria-live="polite"></p><button type="button" data-photo-close aria-label="닫기 · Close">Close ×</button></div><div class="photo-dialog-stage"><button type="button" data-photo-prev aria-label="이전 그림">‹</button><img data-photo-image alt=""><button type="button" data-photo-next aria-label="다음 그림">›</button></div><p class="photo-dialog-hint">ESC Close</p></div></dialog>'''
+ <dialog class="photo-dialog expertise-artwork-dialog" aria-label="ESRL 연구 개념도 크게 보기"><div class="photo-dialog-shell"><div class="photo-dialog-top"><p data-photo-caption aria-live="polite"></p><button type="button" data-photo-close aria-label="닫기 · Close">Close ×</button></div><div class="photo-dialog-stage"><button type="button" data-photo-prev aria-label="이전 그림">‹</button><img data-photo-image alt=""><button type="button" data-photo-next aria-label="다음 그림">›</button></div><p class="photo-dialog-hint">ESC Close</p></div></dialog>'''
 body=research_intro+research_approach+body
 save('/research/','Research',body)
 
