@@ -97,7 +97,8 @@
 /* A wider landscape composition for the connected AI-to-EV story. */
 .hero-visual{align-self:center;min-height:0;height:auto;aspect-ratio:auto}
 .hero-visual img{position:relative;inset:auto;width:100%;height:auto;object-fit:contain;object-position:center;background:#0a1d32}
-.hero-visual:after{background:linear-gradient(90deg,var(--navy),transparent 12%);pointer-events:none}
+.hero-visual:after{display:none;pointer-events:none}
+.hero-visual .hero-image-link{display:block;cursor:zoom-in}
 .visual-caption{position:relative;bottom:auto;left:auto;right:auto;margin:0 28px 24px;padding-top:18px}
 @media(min-width:801px){.hero-inner{grid-template-columns:minmax(0,.9fr) minmax(0,1.25fr)}.hero-copy{padding-right:28px}.hero h1{font-size:clamp(2.8rem,4.4vw,4.25rem)}}
 @media(max-width:800px){.hero-visual{height:auto;min-height:0;aspect-ratio:auto}.hero-visual:after{display:none}.visual-caption{margin:0 20px 24px;font-size:.7rem;gap:12px}}
@@ -441,3 +442,6 @@
 .publication-results button{flex-shrink:0;align-self:flex-start;line-height:1.6;white-space:nowrap}
 @media(max-width:600px){.publication-results{flex-direction:column;align-items:stretch;gap:8px}.publication-results button{align-self:flex-end}.publication-summary{gap:8px 14px}.publication-impact{gap:8px 14px}}
 
+
+/* Keep the research methods readable beneath the complete mobile illustration. */
+@media(max-width:800px){.hero-visual .visual-caption{display:block;margin-top:12px;border-top:0;padding-top:0}.hero-visual .visual-caption>span:first-child{display:none}}

@@ -444,6 +444,11 @@
     {
       "path": "dist/assets/alumni-hyunji-kweon.jpg",
       "sha256": "38790248f7b6029119489fea4b16db48bf270b25e59944bedceb7a9022abebf7"
+    },
+    {
+      "path": "dist/assets/research-ai-synthesis-analysis-battery-ev.webp",
+      "sha256": "8b2d8dc9e08e8736a2dca99b410128349e7548265c1715f8888d63ca634d921a",
+      "source": "ImageGen: user-approved ESRL homepage research illustration, 2026-10-11"
     }
   ]
 }
