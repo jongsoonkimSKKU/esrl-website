@@ -316,11 +316,11 @@
 .publication-title .wrap{background-size:76px;padding-right:110px}
 .page-title+.section{padding-top:40px}
 .hero-inner{min-height:420px}
-.hero-copy{padding-top:32px;padding-bottom:32px}
+.hero-copy{align-self:center;padding-top:32px;padding-bottom:32px}
 .hero .eyebrow{font-size:.6875rem;letter-spacing:.12em;margin-bottom:14px}
 .hero h1.student-hero-title{font-family:inherit;font-size:clamp(1.625rem,2.8vw,2.25rem);font-weight:500;line-height:1.5;letter-spacing:-.025em}
 .hero .hero-question-en{font-size:.875rem;margin-top:8px}
-.hero .hero-intro-ko{font-size:.9375rem;line-height:1.7;margin-top:16px}
+.hero .hero-intro-ko{font-size:1.125rem;line-height:1.7;margin-top:16px;color:#fff}
 .hero .hero-intro-en{font-size:.875rem;line-height:1.65;margin-top:8px}
 .hero .hero-actions{margin-top:18px;gap:16px 22px}
 .hero .button{padding:12px 18px}
