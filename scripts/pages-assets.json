@@ -449,6 +449,11 @@
       "path": "dist/assets/research-ai-synthesis-analysis-battery-ev.webp",
       "sha256": "8b2d8dc9e08e8736a2dca99b410128349e7548265c1715f8888d63ca634d921a",
       "source": "ImageGen: user-approved ESRL homepage research illustration, 2026-10-11"
+    },
+    {
+      "path": "dist/assets/research-expertise-reference.png",
+      "sha256": "bc09e9bdd2cb370a1056aeef6c67707ac3035d4d5940e9453bd8f29213759eba",
+      "description": "User-supplied ESRL calculation, synthesis and characterization examples; original pixels retained in SVG viewports."
     }
   ]
 }
