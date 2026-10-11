@@ -3,6 +3,7 @@ from pathlib import Path
 from html import escape as e
 import json
 import hashlib
+from decimal import Decimal, ROUND_HALF_UP
 ROOT=Path(__file__).parent
 D=json.loads((ROOT/'content.json').read_text())
 D['publications']=json.loads((ROOT/'publications.json').read_text())
@@ -38,6 +39,22 @@ def category_top(category):
  return 100*category['rank']/category['total'] if 'rank' in category else category['top_percent']
 def category_rank(category):
  return f"{category['rank']}/{category['total']} journals" if 'rank' in category else f"JCR Top {category_top(category):.2f}%"+(f" · {category['total']} journals" if category.get('total') else '')
+def publication_impact(p):
+ journal=JOURNAL_METRICS['journals'].get(journal_key(p['citation'].split(',')[0]),{})
+ value=journal.get('years',{}).get(str(int(p['year'])-1),{}).get('impact_factor')
+ if value is None:return None
+ impact=Decimal(f'{float(value):.1f}')
+ return impact if impact.is_finite() and impact>=0 else None
+def publication_impact_summary(papers,label):
+ impacts=[impact for p in papers if (impact:=publication_impact(p)) is not None]
+ total=sum(impacts,Decimal(0))
+ total_text=f'{total:,.1f}' if impacts else '—'
+ average_text=f'{(total/len(impacts)).quantize(Decimal("0.01"),rounding=ROUND_HALF_UP):.2f}' if impacts else '—'
+ scope='전체 연도' if label=='All' else label+'년'
+ basis=str(int(label)-1)+'년 IF' if re.fullmatch(r'\d{4}',label) else '논문 게재연도의 전년도 IF'
+ missing=len(impacts)!=len(papers)
+ note=scope+(' 논문 기준 · ' if label=='All' else ' 전체 논문 기준 · ')+basis+(' · IF가 확인된 논문만 집계' if missing else '')
+ return '<div class="publication-impact" role="group" aria-label="IF statistics · IF 집계"><span>IF 합계 <strong data-if-sum>'+total_text+'</strong></span><span>평균 IF <strong data-if-average>'+average_text+'</strong></span><small data-if-coverage'+('' if missing else ' hidden')+f'>IF 확인 {len(impacts)} / {len(papers)}편</small></div><p class="publication-impact-note" data-if-scope>'+e(note)+'</p>'
 def journal_metrics(p):
  name=p['citation'].split(',')[0]
  journal=JOURNAL_METRICS['journals'].get(journal_key(name),{})
@@ -99,13 +116,13 @@ def publication_library(papers,label):
  out='<section class="section publication-library"><div class="wrap">'+nav
  out+=f'''<div class="publication-metrics"><a href="{e(SCHOLAR)}" target="_blank" rel="noopener noreferrer"><strong>{SCHOLAR_METRICS['publications']:,}</strong><span>논문 총수 · Publications</span></a><a href="{e(SCHOLAR)}" target="_blank" rel="noopener noreferrer"><strong>{SCHOLAR_METRICS['citations']:,}</strong><span>총인용수 · Citations</span></a><a href="{e(SCHOLAR)}" target="_blank" rel="noopener noreferrer"><strong>{SCHOLAR_METRICS['h_index']}</strong><span>h-index · Google Scholar</span></a></div><p class="metrics-date">Google Scholar 전체 지표 · 확인일 / Checked {e(SCHOLAR_METRICS['checked_at'])} · <a href="{e(SCHOLAR)}" target="_blank" rel="noopener noreferrer">View profile ↗</a></p>'''
  out+='''<details class="journal-metrics-guide"><summary>About IF &amp; JCR · 지표 기준</summary><p lang="ko">IF와 JCR 순위는 모든 논문에 대해 게재연도의 전년도 저널 지표를 사용합니다. 예를 들어 2026년 논문에는 2025년, 2025년 논문에는 2024년 지표를 표시합니다. JCR 상위 %는 (분야 내 순위 ÷ 해당 분야 저널 수) × 100으로 계산하며, 여러 분야 중 가장 낮은 값을 표시합니다. IF는 소수 첫째 자리로 통일하며, 근거 자료를 확보한 항목만 표시합니다.</p><p>All papers use journal metrics from the year before publication: 2026 papers use 2025 metrics, and 2025 papers use 2024 metrics. JCR Top % is rank divided by category size × 100, using the lowest value across categories. IF values are shown to one decimal place. Sources and categories are available within each record.</p></details>'''
- out+='<div class="publication-controls" data-library><div class="publication-layout"><aside class="publication-sidebar"><span class="eyebrow">Explore the evidence<br><span lang="ko">연구 성과 찾아보기</span></span><div class="pub-filters"><label>SEARCH · 검색<input type="search" data-search placeholder="Title, author, journal · 제목, 저자, 학술지" autocomplete="off"></label><label>YEAR · 연도<select data-year><option value="">All years · 전체</option>'+''.join(f'<option>{y}</option>' for y in years)+'</select></label><label>JOURNAL · 학술지<select data-journal><option value="">All journals · 전체</option>'+''.join(f'<option>{e(j)}</option>' for j in journals)+'</select></label></div><div class="keyword-filters" aria-label="Title keyword filters">'
+ out+='<div class="publication-controls" data-library data-if-year-label="'+e(label)+'"><div class="publication-layout"><aside class="publication-sidebar"><span class="eyebrow">Explore the evidence<br><span lang="ko">연구 성과 찾아보기</span></span><div class="pub-filters"><label>SEARCH · 검색<input type="search" data-search placeholder="Title, author, journal · 제목, 저자, 학술지" autocomplete="off"></label><label>YEAR · 연도<select data-year><option value="">All years · 전체</option>'+''.join(f'<option>{y}</option>' for y in years)+'</select></label><label>JOURNAL · 학술지<select data-journal><option value="">All journals · 전체</option>'+''.join(f'<option>{e(j)}</option>' for j in journals)+'</select></label></div><div class="keyword-filters" aria-label="Title keyword filters">'
  for key,name,pattern in KEYWORDS:out+=f'<button type="button" class="keyword-filter" data-keyword="{key}" aria-pressed="false">{name}</button>'
- out+='</div><p class="keyword-help" lang="ko">키워드는 논문 제목을 기준으로 검색하며, Lithium/Li, Sodium/Na, Potassium/K, Zinc/Zn을 각각 함께 검색합니다. Calculation은 제일원리계산·계산·시뮬레이션 관련 제목을 검색합니다. 여러 개를 선택하면 하나 이상에 해당하는 논문을 표시합니다.</p></aside><div class="publication-records"><div class="publication-results"><p role="status" aria-live="polite" data-result-count>'+str(len(papers))+' publications</p><button type="button" data-reset>Reset filters · 초기화</button></div><p class="publication-legend"><strong>Bold · 굵은 이름</strong>: ESRL members &amp; alumni · 연구실 구성원·졸업생<br>† / ‡ Equal contribution · * Corresponding author</p><p class="publication-empty" data-empty hidden>검색 결과가 없습니다. 검색어나 필터를 변경해 주세요.<br>No papers match these filters.</p><div class="publication-cards">'
+ out+='</div><p class="keyword-help" lang="ko">키워드는 논문 제목을 기준으로 검색하며, Lithium/Li, Sodium/Na, Potassium/K, Zinc/Zn을 각각 함께 검색합니다. Calculation은 제일원리계산·계산·시뮬레이션 관련 제목을 검색합니다. 여러 개를 선택하면 하나 이상에 해당하는 논문을 표시합니다.</p></aside><div class="publication-records"><div class="publication-results"><div class="publication-summary"><p role="status" aria-live="polite" data-result-count>'+str(len(papers))+' / '+str(len(papers))+' publications · 논문</p>'+publication_impact_summary(papers,label)+'</div><button type="button" data-reset>Reset filters · 초기화</button></div><p class="publication-legend"><strong>Bold · 굵은 이름</strong>: ESRL members &amp; alumni · 연구실 구성원·졸업생<br>† / ‡ Equal contribution · * Corresponding author</p><p class="publication-empty" data-empty hidden>검색 결과가 없습니다. 검색어나 필터를 변경해 주세요.<br>No papers match these filters.</p><div class="publication-cards">'
  for i,p in enumerate(papers):
   tags=[key for key,_,pattern in KEYWORDS if re.search(pattern,p['title'],re.I)];key='esrl'+str(p['year'])+'paper'+str(i+1)
-  bib=bibtex(p,key);journal=p['citation'].split(',')[0]
-  out+=f'<article class="publication-card" data-paper data-year="{p["year"]}" data-journal="{e(journal)}" data-keywords="{" ".join(tags)}"><span class="publication-number" aria-hidden="true">{len(papers)-i:03d}</span><div class="publication-card-top"><span>{e(p["citation"])}</span><span>{p["year"]}</span></div><h3>{publication_title(p)}</h3><p class="publication-authors">{publication_authors(p)}</p><div class="publication-tags">'+''.join(f'<span>{e(name.split(" · ")[0])}</span>' for key2,name,_ in KEYWORDS if key2 in tags)+'</div>'
+  bib=bibtex(p,key);journal=p['citation'].split(',')[0];impact=publication_impact(p)
+  out+=f'<article class="publication-card" data-paper data-year="{p["year"]}" data-journal="{e(journal)}" data-if="{impact if impact is not None else ""}" data-keywords="{" ".join(tags)}"><span class="publication-number" aria-hidden="true">{len(papers)-i:03d}</span><div class="publication-card-top"><span>{e(p["citation"])}</span><span>{p["year"]}</span></div><h3>{publication_title(p)}</h3><p class="publication-authors">{publication_authors(p)}</p><div class="publication-tags">'+''.join(f'<span>{e(name.split(" · ")[0])}</span>' for key2,name,_ in KEYWORDS if key2 in tags)+'</div>'
   out+=journal_metrics(p)
   pdf=f'<a href="{e(p["pdf_url"])}" target="_blank" rel="noopener noreferrer">PDF ↗</a>' if p.get("pdf_url") else ""
   article_page=f'<a href="{e(p["url"])}" target="_blank" rel="noopener noreferrer">{e(p.get("link_label", "Article page ↗"))}</a>' if p.get("url") else ""

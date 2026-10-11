@@ -14,11 +14,26 @@ if(library){
  const keywords=[...library.querySelectorAll('[data-keyword]')];
  const normalize=s=>s.toLowerCase().normalize('NFKC').replace(/[‐‑–−]/g,'-');
  const searchable=new Map(cards.map(card=>[card,normalize(card.querySelector('h3').textContent+' '+card.querySelector('.publication-authors').textContent+' '+card.dataset.journal)]));
+ function updateImpactSummary(){
+  if(!library.querySelector('[data-if-sum]'))return;
+  const scopeCards=cards.filter(card=>!year.value||card.dataset.year===year.value);
+  const impacts=scopeCards.map(card=>card.dataset.if).filter(value=>value!==undefined&&value!=='').map(Number).filter(value=>Number.isFinite(value)&&value>=0);
+  const tenths=impacts.reduce((sum,value)=>sum+Math.round(value*10),0);
+  library.querySelector('[data-if-sum]').textContent=impacts.length?(tenths/10).toLocaleString('en-US',{minimumFractionDigits:1,maximumFractionDigits:1}):'—';
+  library.querySelector('[data-if-average]').textContent=impacts.length?(Math.round(tenths*10/impacts.length)/100).toFixed(2):'—';
+  const coverage=library.querySelector('[data-if-coverage]'),missing=impacts.length!==scopeCards.length;
+  coverage.hidden=!missing;coverage.textContent=`IF 확인 ${impacts.length} / ${scopeCards.length}편`;
+  const label=year.value||library.dataset.ifYearLabel;
+  const scope=label==='All'?'전체 연도':`${label}년`;
+  const basis=/^\d{4}$/.test(label)?`${Number(label)-1}년 IF`:'논문 게재연도의 전년도 IF';
+  library.querySelector('[data-if-scope]').textContent=`${scope}${label==='All'?' 논문':' 전체 논문'} 기준 · ${basis}${missing?' · IF가 확인된 논문만 집계':''}`;
+ }
  function filter(){
   const terms=normalize(search.value).trim().split(/\s+/).filter(Boolean),selected=keywords.filter(b=>b.getAttribute('aria-pressed')==='true').map(b=>b.dataset.keyword);
   let count=0;
   cards.forEach(card=>{const show=(!year.value||card.dataset.year===year.value)&&(!journal.value||card.dataset.journal===journal.value)&&terms.every(term=>searchable.get(card).includes(term))&&(!selected.length||selected.some(key=>card.dataset.keywords.split(' ').includes(key)));card.hidden=!show;if(show)count++});
   library.querySelector('[data-result-count]').textContent=`${count} / ${cards.length} publications · 논문`;
+  updateImpactSummary();
   library.querySelector('[data-empty]').hidden=count!==0;
  }
  search.addEventListener('input',filter);year.addEventListener('change',filter);journal.addEventListener('change',filter);
