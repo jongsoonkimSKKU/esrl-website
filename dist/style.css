@@ -445,3 +445,12 @@
 
 /* Keep the research methods readable beneath the complete mobile illustration. */
 @media(max-width:800px){.hero-visual .visual-caption{display:block;margin-top:12px;border-top:0;padding-top:0}.hero-visual .visual-caption>span:first-child{display:none}}
+
+/* Frame the bright research illustration as a separate panel within the navy hero. */
+.hero-visual.hero-research-panel{margin:24px 0;min-width:0;padding:18px;background:#f7f9fb;border:1px solid #dce2e5;border-radius:16px;color:var(--navy);isolation:isolate}
+.hero-research-panel .hero-image-link{overflow:hidden;border-radius:8px}
+.hero-research-panel img{width:100%;height:auto;max-height:none;margin:0;background:transparent;mix-blend-mode:multiply}
+.hero-research-panel .visual-caption{position:static;display:flex;flex-direction:column;gap:4px;margin:14px 0 0;padding:14px 0 0;border-top:1px solid #dce2e5;color:#46586b;font-size:.8125rem;line-height:1.65;text-align:center}
+.hero-research-panel .visual-caption>span:first-child{display:block;color:#657385;font-size:.75rem}
+.hero-research-panel .visual-caption>span[lang=ko]{color:#244563;font-weight:500}
+@media(max-width:800px){.hero-visual.hero-research-panel{margin:0 0 24px;padding:12px;border-radius:12px}.hero-research-panel .visual-caption{margin-top:10px;padding-top:10px;font-size:.75rem}}
