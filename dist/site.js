@@ -7,13 +7,62 @@ document.addEventListener('click',event=>{groups.forEach(group=>{if(!group.conta
 document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;const openGroup=groups.find(group=>group.open);if(openGroup){openGroup.open=false;openGroup.querySelector('summary').focus()}else if(toggle?.getAttribute('aria-expanded')==='true'){toggle.click();toggle.focus()}});
 nav?.addEventListener('click',event=>{if(event.target.closest('a')&&toggle?.getAttribute('aria-expanded')==='true')toggle.click()});
 
+// One shared name card keeps full names out of copied citations and author text.
+const authorTriggers=[...document.querySelectorAll('.author-name-trigger')];
+if(authorTriggers.length){
+ const tooltip=document.createElement('div');
+ tooltip.id='author-name-tooltip';tooltip.className='author-name-tooltip';tooltip.setAttribute('role','tooltip');tooltip.hidden=true;
+ const korean=document.createElement('span'),english=document.createElement('span');
+ korean.className='author-name-ko';korean.lang='ko';english.className='author-name-en';english.lang='en';
+ tooltip.append(korean,english);document.body.append(tooltip);
+ let active=null,pinned=false,closeTimer=null;
+ const cancelClose=()=>{clearTimeout(closeTimer);closeTimer=null};
+ function hideAuthorName(){
+  cancelClose();
+  if(active){active.setAttribute('aria-expanded','false');active.removeAttribute('aria-describedby')}
+  active=null;pinned=false;tooltip.hidden=true;
+ }
+ function showAuthorName(trigger,pin=false){
+  cancelClose();
+  if(active&&active!==trigger){active.setAttribute('aria-expanded','false');active.removeAttribute('aria-describedby')}
+  active=trigger;pinned=pin;
+  korean.textContent=trigger.dataset.authorKo;english.textContent=trigger.dataset.authorEn;
+  tooltip.hidden=false;trigger.setAttribute('aria-expanded','true');trigger.setAttribute('aria-describedby',tooltip.id);
+  const anchor=trigger.getBoundingClientRect(),card=tooltip.getBoundingClientRect(),margin=12,gap=9;
+  const left=Math.max(margin,Math.min(anchor.left+(anchor.width-card.width)/2,window.innerWidth-card.width-margin));
+  const below=anchor.bottom+gap;
+  const top=below+card.height<=window.innerHeight-margin?below:Math.max(margin,anchor.top-card.height-gap);
+  tooltip.style.left=`${left}px`;tooltip.style.top=`${top}px`;
+ }
+ function scheduleClose(){
+  cancelClose();if(pinned)return;
+  closeTimer=setTimeout(()=>{
+   if(active===document.activeElement||active?.matches(':hover')||tooltip.matches(':hover'))return;
+   hideAuthorName();
+  },160);
+ }
+ authorTriggers.forEach(trigger=>{
+  trigger.setAttribute('aria-controls',tooltip.id);
+  trigger.addEventListener('pointerenter',event=>{if(event.pointerType!=='touch')showAuthorName(trigger)});
+  trigger.addEventListener('pointerleave',scheduleClose);
+  trigger.addEventListener('focus',()=>{if(trigger.matches(':focus-visible'))showAuthorName(trigger)});
+  trigger.addEventListener('blur',()=>{if(active===trigger){pinned=false;scheduleClose()}});
+  trigger.addEventListener('click',()=>{if(active===trigger&&pinned)hideAuthorName();else showAuthorName(trigger,true)});
+ });
+ tooltip.addEventListener('pointerenter',cancelClose);tooltip.addEventListener('pointerleave',scheduleClose);
+ document.addEventListener('click',event=>{if(!event.target.closest('.author-name-trigger')&&!tooltip.contains(event.target))hideAuthorName()});
+ document.addEventListener('keydown',event=>{if(event.key==='Escape')hideAuthorName()});
+ document.addEventListener('input',hideAuthorName);document.addEventListener('change',hideAuthorName);
+ window.addEventListener('scroll',hideAuthorName,{passive:true,capture:true});window.addEventListener('resize',hideAuthorName);
+}
+
 const library=document.querySelector('[data-library]');
 if(library){
  const cards=[...library.querySelectorAll('[data-paper]')];
  const search=library.querySelector('[data-search]'),year=library.querySelector('[data-year]'),journal=library.querySelector('[data-journal]');
  const keywords=[...library.querySelectorAll('[data-keyword]')];
  const normalize=s=>s.toLowerCase().normalize('NFKC').replace(/[‐‑–−]/g,'-');
- const searchable=new Map(cards.map(card=>[card,normalize(card.querySelector('h3').textContent+' '+card.querySelector('.publication-authors').textContent+' '+card.dataset.journal)]));
+ const searchable=new Map(cards.map(card=>[card,normalize(card.querySelector('h3').textContent+' '+card.querySelector('.publication-authors').textContent+' '+[...card.querySelectorAll('.publication-authors .author-name-trigger')].map(author=>author.dataset.authorKo+' '+author.dataset.authorEn).join(' ')+' '+card.dataset.journal)]));
  function updateImpactSummary(){
   if(!library.querySelector('[data-if-sum]'))return;
   const scopeCards=cards.filter(card=>!year.value||card.dataset.year===year.value);
@@ -72,3 +121,4 @@ const researchChoices=[...document.querySelectorAll('.research-choice')];
 researchChoices.forEach(choice=>choice.addEventListener('toggle',()=>{
  if(choice.open)researchChoices.filter(other=>other!==choice).forEach(other=>{other.open=false});
 }));
+

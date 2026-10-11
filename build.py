@@ -9,6 +9,7 @@ D=json.loads((ROOT/'content.json').read_text())
 D['publications']=json.loads((ROOT/'publications.json').read_text())
 JOURNAL_METRICS=json.loads((ROOT/'journal_metrics.json').read_text())
 LAB_LIFE=json.loads((ROOT/'lab_life.json').read_text())
+AUTHOR_NAMES=json.loads((ROOT/'author_names.json').read_text())
 DIST=ROOT/'dist'
 STYLESHEET_VERSION=hashlib.sha256((DIST/'style.css').read_bytes()).hexdigest()[:12]
 SCRIPT_VERSION=hashlib.sha256((DIST/'site.js').read_bytes()).hexdigest()[:12]
@@ -103,9 +104,28 @@ def publication_authors(p):
  if any(type(i) is not int or i<0 or i>=len(names) for i in indices):
   raise ValueError('Invalid lab author position: '+p['title'])
  selected=set(indices);position=0;out=[]
+ roster={m['name']:dict(m) for m in D['members']+D['alumni']}
+ roster['Jongsoon Kim']={'name':'Jongsoon Kim'}
+ for name,person in roster.items():
+  person['name_ko']=AUTHOR_NAMES['korean_names'].get(name,person.get('name_ko',''))
+ normalize=lambda name:re.sub(r'[\W_]+','',name.casefold())
+ full_names={normalize(name):name for name in roster}
+ overrides=AUTHOR_NAMES['paper_author_names'].get(p.get('url',''),{})
  for i,part in enumerate(parts):
   if i%2 or not part.strip():out.append(e(part));continue
-  out.append('<strong class="lab-author">'+e(part)+'</strong>' if position in selected else e(part))
+  if position in selected:
+   name=p.get('lab_author_names',{}).get(str(position)) or overrides.get(str(position)) or full_names.get(normalize(part))
+   if not name:
+    same_initials=[j for j,value in enumerate(names) if j in selected and normalize(value)==normalize(part)]
+    if normalize(part)=='jkim' and len(same_initials)>1 and '*' not in part:
+     raise ValueError('Ambiguous lab author requires a paper-specific name: '+p['title']+' / '+str(position))
+    name=AUTHOR_NAMES['aliases'].get(normalize(part))
+   person=roster.get(name,{})
+   if not person.get('name_ko'):
+    raise ValueError('Missing bilingual lab author name: '+p['title']+' / '+part)
+   label=person['name_ko']+' / '+person['name']
+   out.append('<strong class="lab-author"><button type="button" class="author-name-trigger" data-author-ko="'+e(person['name_ko'])+'" data-author-en="'+e(person['name'])+'" aria-label="'+e(label)+'" aria-expanded="false">'+e(part)+'</button></strong>')
+  else:out.append(e(part))
   position+=1
  return ''.join(out)
 def publication_library(papers,label):
@@ -118,7 +138,7 @@ def publication_library(papers,label):
  out+='''<details class="journal-metrics-guide"><summary>About IF &amp; JCR · 지표 기준</summary><p lang="ko">IF와 JCR 순위는 모든 논문에 대해 게재연도의 전년도 저널 지표를 사용합니다. 예를 들어 2026년 논문에는 2025년, 2025년 논문에는 2024년 지표를 표시합니다. JCR 상위 %는 (분야 내 순위 ÷ 해당 분야 저널 수) × 100으로 계산하며, 여러 분야 중 가장 낮은 값을 표시합니다. IF는 소수 첫째 자리로 통일하며, 근거 자료를 확보한 항목만 표시합니다.</p><p>All papers use journal metrics from the year before publication: 2026 papers use 2025 metrics, and 2025 papers use 2024 metrics. JCR Top % is rank divided by category size × 100, using the lowest value across categories. IF values are shown to one decimal place. Sources and categories are available within each record.</p></details>'''
  out+='<div class="publication-controls" data-library data-if-year-label="'+e(label)+'"><div class="publication-layout"><aside class="publication-sidebar"><span class="eyebrow">Explore the evidence<br><span lang="ko">연구 성과 찾아보기</span></span><div class="pub-filters"><label>SEARCH · 검색<input type="search" data-search placeholder="Title, author, journal · 제목, 저자, 학술지" autocomplete="off"></label><label>YEAR · 연도<select data-year><option value="">All years · 전체</option>'+''.join(f'<option>{y}</option>' for y in years)+'</select></label><label>JOURNAL · 학술지<select data-journal><option value="">All journals · 전체</option>'+''.join(f'<option>{e(j)}</option>' for j in journals)+'</select></label></div><div class="keyword-filters" aria-label="Title keyword filters">'
  for key,name,pattern in KEYWORDS:out+=f'<button type="button" class="keyword-filter" data-keyword="{key}" aria-pressed="false">{name}</button>'
- out+='</div><p class="keyword-help" lang="ko">키워드는 논문 제목을 기준으로 검색하며, Lithium/Li, Sodium/Na, Potassium/K, Zinc/Zn을 각각 함께 검색합니다. Calculation은 제일원리계산·계산·시뮬레이션 관련 제목을 검색합니다. 여러 개를 선택하면 하나 이상에 해당하는 논문을 표시합니다.</p></aside><div class="publication-records"><div class="publication-results"><div class="publication-summary"><p role="status" aria-live="polite" data-result-count>'+str(len(papers))+' / '+str(len(papers))+' publications · 논문</p>'+publication_impact_summary(papers,label)+'</div><button type="button" data-reset>Reset filters · 초기화</button></div><p class="publication-legend"><strong>Bold · 굵은 이름</strong>: ESRL members &amp; alumni · 연구실 구성원·졸업생<br>† / ‡ Equal contribution · * Corresponding author</p><p class="publication-empty" data-empty hidden>검색 결과가 없습니다. 검색어나 필터를 변경해 주세요.<br>No papers match these filters.</p><div class="publication-cards">'
+ out+='</div><p class="keyword-help" lang="ko">키워드는 논문 제목을 기준으로 검색하며, Lithium/Li, Sodium/Na, Potassium/K, Zinc/Zn을 각각 함께 검색합니다. Calculation은 제일원리계산·계산·시뮬레이션 관련 제목을 검색합니다. 여러 개를 선택하면 하나 이상에 해당하는 논문을 표시합니다.</p></aside><div class="publication-records"><div class="publication-results"><div class="publication-summary"><p role="status" aria-live="polite" data-result-count>'+str(len(papers))+' / '+str(len(papers))+' publications · 논문</p>'+publication_impact_summary(papers,label)+'</div><button type="button" data-reset>Reset filters · 초기화</button></div><p class="publication-legend"><strong>Bold · 굵은 이름</strong>: ESRL members &amp; alumni · 연구실 구성원·졸업생<br><span lang="ko">이름에 마우스를 올리거나 터치하면 한글·영문 전체 이름이 표시됩니다.</span><br>† / ‡ Equal contribution · * Corresponding author</p><p class="publication-empty" data-empty hidden>검색 결과가 없습니다. 검색어나 필터를 변경해 주세요.<br>No papers match these filters.</p><div class="publication-cards">'
  for i,p in enumerate(papers):
   tags=[key for key,_,pattern in KEYWORDS if re.search(pattern,p['title'],re.I)];key='esrl'+str(p['year'])+'paper'+str(i+1)
   bib=bibtex(p,key);journal=p['citation'].split(',')[0];impact=publication_impact(p)
@@ -455,3 +475,4 @@ body+='''<section class="section"><div class="wrap contact-grid"><div><span clas
 save('/join/','Join us',body)
 (DIST/'404.html').write_text(shell('Page not found','', '<section class="not-found"><span class="eyebrow">404</span><h1>Page not found.</h1><p>Let’s get you back to the lab.</p>'+link('/','Back to home','button dark')+'</section>'))
 print('Created',len(list(DIST.rglob('index.html'))),'pages and a 404 page.')
+
