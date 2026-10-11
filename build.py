@@ -20,7 +20,7 @@ def navigation(route):
  items=[]
  for label,url in NAV:
   if label in ('People','Publications'):
-   entries=[('Current members · 현재 구성원','/people/'),('Alumni · 졸업생','/people/alumni/')] if label=='People' else [('All papers · 전체','/publications/')]+[(label,pubroute(label)) for label,_ in PUBLICATION_GROUPS]
+   entries=[('Current members · 현재 구성원','/people/'),('Alumni · 졸업생','/people/alumni/')] if label=='People' else [(label,pubroute(label)) for label,_ in PUBLICATION_GROUPS]+[('All papers · 전체','/publications/')]
    active=route.startswith(url)
    links=''.join(f'<a href="{href}"'+(' aria-current="page"' if route==href else '')+f'>{text}</a>' for text,href in entries)
    items.append(f'<details class="nav-group'+(' active' if active else '')+'"><summary>'+label+'<span aria-hidden="true">⌄</span></summary><div class="nav-submenu'+(' publication-menu' if label=='Publications' else '')+'">'+links+'</div></details>')
@@ -111,7 +111,7 @@ def publication_authors(p):
 def publication_library(papers,label):
  from html import escape as e
  selected=lambda x:' aria-current="page"' if x==label else ''
- nav='<nav class="year-nav" aria-label="Publication year"><a href="/publications/"'+selected('All')+'>All papers · 전체</a>'+''.join('<a href="'+pubroute(other)+'"'+selected(other)+'>'+other+'</a>' for other,_ in PUBLICATION_GROUPS)+'</nav>'
+ nav='<nav class="year-nav" aria-label="Publication year">'+''.join('<a href="'+pubroute(other)+'"'+selected(other)+'>'+other+'</a>' for other,_ in PUBLICATION_GROUPS)+'<a href="/publications/"'+selected('All')+'>All papers · 전체</a></nav>'
  journals=sorted(set(p['citation'].split(',')[0] for p in papers));years=sorted(set(str(p['year']) for p in papers),reverse=True)
  out='<section class="section publication-library"><div class="wrap">'+nav
  out+=f'''<div class="publication-metrics"><a href="{e(SCHOLAR)}" target="_blank" rel="noopener noreferrer"><strong>{SCHOLAR_METRICS['publications']:,}</strong><span>논문 총수 · Publications</span></a><a href="{e(SCHOLAR)}" target="_blank" rel="noopener noreferrer"><strong>{SCHOLAR_METRICS['citations']:,}</strong><span>총인용수 · Citations</span></a><a href="{e(SCHOLAR)}" target="_blank" rel="noopener noreferrer"><strong>{SCHOLAR_METRICS['h_index']}</strong><span>h-index · Google Scholar</span></a></div><p class="metrics-date">Google Scholar 전체 지표 · 확인일 / Checked {e(SCHOLAR_METRICS['checked_at'])} · <a href="{e(SCHOLAR)}" target="_blank" rel="noopener noreferrer">View profile ↗</a></p>'''
