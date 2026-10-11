@@ -464,6 +464,16 @@
       "path": "dist/assets/research-expertise-capabilities.webp",
       "sha256": "17543386db62e0d12210293ec56ad2dbf315fea4c996dba278f692684d7d3c87",
       "source": "ImageGen: simplified ESRL research capabilities illustration combining AI and first-principles design, synthesis, characterization and cell testing with a particle cutaway and a single interphase inset, 2026-10-11"
+    },
+    {
+      "path": "dist/assets/research-expertise-computation.webp",
+      "sha256": "c1a18886dfebd187d761d0adaf0b6dcb5ff0147fe249dd3783995aec6a77ced9",
+      "source": "ImageGen: dedicated ESRL AI and first-principles calculation concept illustration showing atomic configuration screening, electronic structure and ion migration, 2026-10-11"
+    },
+    {
+      "path": "dist/assets/research-expertise-experiments.webp",
+      "sha256": "be54b0b169a4a2460d6a42c2da0a4f5b9fdd2527cc36a2754ab91386a8fe3177",
+      "source": "ImageGen: dedicated ESRL experimental research concept illustration showing materials synthesis, advanced characterization and electrochemical cell testing, 2026-10-11"
     }
   ]
 }

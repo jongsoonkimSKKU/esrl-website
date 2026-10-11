@@ -382,16 +382,16 @@ research_visuals={
 body+='<section class="section research-illustrated"><div class="wrap">'+''.join(f'<article class="research-detail illustrated" id="{n}"><span id="{dict({'01':'cathodes','02':'beyond-lithium','03':'solid-electrolytes'})[n]}" class="section-anchor" aria-hidden="true"></span><div class="research-explanation"><span class="eyebrow">Research {n} / {s}</span><h2>{h}<small>{short}</small></h2><p>{p}</p><p class="research-summary-ko" lang="ko">{research_visuals[n][2]}</p></div><figure class="research-figure paper-figure"><a class="figure-zoom" href="/assets/{research_visuals[n][0]}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size research figure: {research_visuals[n][1]}">'+img('/assets/'+research_visuals[n][0],research_visuals[n][1])+f'<span class="figure-zoom-label">View full size · 크게 보기</span></a><figcaption><strong lang="ko">{research_visuals[n][2]}</strong><a class="figure-source" href="{research_visuals[n][4]}" target="_blank" rel="noopener noreferrer">{research_visuals[n][3]}</a></figcaption></figure>'+research_publications(n)+'</article>' for n,s,h,short,p in details)+'</div></section>'
 research_approach='''<section class="section research-approach expertise-section" aria-labelledby="expertise-approach-heading"><div class="wrap">
  <header class="expertise-heading"><span class="expertise-scale" lang="en">OUR RESEARCH CAPABILITIES</span><h2 id="expertise-approach-heading" lang="ko">AI·계산으로 예측하고, 실험으로 만들고 확인합니다.</h2><p lang="en">Materials design and mechanistic insight through AI, first-principles calculations, synthesis, characterization, and cell testing.</p></header>
- <figure class="expertise-illustration">
-  <a class="expertise-artwork-link" href="/assets/research-expertise-capabilities.webp" data-lightbox data-caption="AI·제일원리계산 기반 설계, 소재 합성·정밀 분석·셀 평가와 입자 내부·계면의 확대 모습을 연결한 ESRL 연구 개념도" aria-label="ESRL 연구 방법과 소재 내부를 보여주는 연구 개념도 크게 보기">
-   <img src="/assets/research-expertise-capabilities.webp" alt="AI·제일원리계산용 컴퓨터와 결정구조, 합성로, 정밀 분석 장비, 충·방전 장비를 배치하고 중앙 소재 입자의 내부와 계면을 확대해 보여주는 연구 개념도" width="1774" height="887" loading="eager" decoding="async" fetchpriority="high">
-   <span class="expertise-zoom-label">그림 크게 보기 ↗</span>
-  </a>
-  <figcaption class="expertise-image-caption"><span lang="ko">설계 → 합성 → 분석 → 셀 평가 → 설계에 반영</span><span>연구 개념도 · Concept illustration</span></figcaption>
- </figure>
  <div class="expertise-capabilities">
   <article class="expertise-capability-panel expertise-computation" aria-labelledby="expertise-computation-heading">
    <header><span class="expertise-panel-kicker" lang="en">DESIGN &amp; PREDICT</span><h3 id="expertise-computation-heading" lang="ko">AI·제일원리계산 기반 설계</h3><p lang="ko">어떤 구조가 안정하고, 왜 반응하며, 어떻게 이온이 이동하는지 예측합니다.</p></header>
+   <figure class="expertise-panel-figure">
+    <a class="expertise-artwork-link" href="/assets/research-expertise-computation.webp" data-lightbox data-caption="AI·제일원리계산으로 원자 배열 후보를 탐색하고 전자구조와 이온 이동을 분석하는 연구 개념도" aria-label="AI·제일원리계산 연구 개념도 크게 보기">
+     <img src="/assets/research-expertise-computation.webp" alt="AI로 결정구조 후보를 비교하는 화면, 전자구조 분석을 표현한 층상 원자 배열과 이온 이동 경로를 보여주는 계산 연구 개념도" width="1536" height="1024" loading="eager" decoding="async" fetchpriority="high">
+     <span class="expertise-zoom-label">그림 크게 보기 ↗</span>
+    </a>
+    <figcaption><span lang="ko">원자 배열 탐색 · 전자구조 · 이온 이동</span><span lang="ko">연구 개념도</span></figcaption>
+   </figure>
    <div class="expertise-capability-list"><div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">01</span><div><h4 lang="ko">AI로 원자 배열 후보 선별</h4><p class="expertise-capability-method" lang="ko">AI · Cluster expansion (CASM)</p><p class="expertise-capability-description" lang="ko">제일원리계산 데이터를 학습해 다수 후보의 에너지를 평가하고 안정한 원자 배열을 탐색합니다.</p></div></div>
 <div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">02</span><div><h4 lang="ko">안정한 결정구조·치환 위치 설계</h4><p class="expertise-capability-method" lang="ko">구조 최적화 · 에너지 계산</p><p class="expertise-capability-description" lang="ko">구조별 안정성, 원소의 자리 선호와 결함 형성 에너지를 비교해 소재 설계의 근거를 찾습니다.</p></div></div>
 <div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">03</span><div><h4 lang="ko">산화환원 반응의 전자적 원리 분석</h4><p class="expertise-capability-method" lang="ko">상태밀도(DOS) · 전하밀도 · 스핀밀도</p><p class="expertise-capability-description" lang="ko">금속·산소의 산화환원, 결합 특성과 전자구조 변화를 분석합니다.</p></div></div>
@@ -400,6 +400,13 @@ research_approach='''<section class="section research-approach expertise-section
   </article>
   <article class="expertise-capability-panel expertise-experiments" aria-labelledby="expertise-experiments-heading">
    <header><span class="expertise-panel-kicker" lang="en">SYNTHESIZE &amp; VALIDATE</span><h3 id="expertise-experiments-heading" lang="ko">소재 합성·정밀 분석·셀 평가</h3><p lang="ko">설계한 소재를 만들고, 구조·반응·계면과 실제 셀 성능을 확인합니다.</p></header>
+   <figure class="expertise-panel-figure">
+    <a class="expertise-artwork-link" href="/assets/research-expertise-experiments.webp" data-lightbox data-caption="소재를 합성하고 정밀 분석과 충·방전 시험으로 구조와 셀 성능을 확인하는 실험 연구 개념도" aria-label="소재 합성·분석·셀 평가 연구 개념도 크게 보기">
+     <img src="/assets/research-expertise-experiments.webp" alt="합성로와 소재 분말, 원자 배열 관찰을 표현한 분석 장비, 셀 홀더에 연결된 충·방전 장비를 보여주는 실험 연구 개념도" width="1536" height="1024" loading="eager" decoding="async">
+     <span class="expertise-zoom-label">그림 크게 보기 ↗</span>
+    </a>
+    <figcaption><span lang="ko">소재 합성 · 정밀 분석 · 셀 평가</span><span lang="ko">연구 개념도</span></figcaption>
+   </figure>
    <div class="expertise-capability-list"><div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">01</span><div><h4 lang="ko">목표 조성과 구조의 소재 합성</h4><p class="expertise-capability-method" lang="ko">고상 합성 · 공침 · 이온 교환</p><p class="expertise-capability-description" lang="ko">조성·열처리·합성 조건을 조절해 양극과 고체전해질 소재를 구현합니다.</p></div></div>
 <div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">02</span><div><h4 lang="ko">결정구조·미세구조·원자 배열 확인</h4><p class="expertise-capability-method" lang="ko">X선·중성자 회절 · 전자현미경</p><p class="expertise-capability-description" lang="ko">평균 결정구조와 입자·미세구조, 국소 원자 배열을 연결해 분석합니다.</p></div></div>
 <div class="expertise-capability-item"><span class="expertise-capability-number" aria-hidden="true">03</span><div><h4 lang="ko">산화상태·계면·작동 중 반응 추적</h4><p class="expertise-capability-method" lang="ko">X선 흡수분석 · X선 광전자분석 · Operando XRD</p><p class="expertise-capability-description" lang="ko">산화상태·국소 구조·계면 화학과 충·방전 중 결정구조 변화를 분석합니다.</p></div></div>
