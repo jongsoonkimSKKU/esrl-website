@@ -9,12 +9,15 @@ SITE_URL='https://jkimbattery.com'
 SITE_NAME='Energy Storage Research Lab(성균관대 김종순 교수 연구실)'
 HOME_SUPPORT_CSS='''
 .join-section .join-inner{grid-template-columns:minmax(0,1fr) 380px}
-.join-section .recruit-support-items{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:start}
+.join-section .recruit-support-items{grid-template-columns:repeat(3,max-content);gap:24px;align-items:start;justify-content:start}
+.join-section .recruit-support-items>span:first-child{text-align:right}
+.join-section .recruit-support-items strong{white-space:nowrap}
 .join-section .recruit-support-plus{font-size:1.5rem;line-height:1.15;font-weight:600;color:#285d53;text-align:center;padding-top:2px}
 .join-section .join-inner .recruit-support-more{font-size:1rem;font-weight:600;line-height:1.75;color:#253f35;margin-top:18px;padding-top:16px;border-top:1px solid #d5e0d7}
-@media(max-width:1000px){.join-section .join-inner{grid-template-columns:minmax(0,1fr) 320px}.join-section .recruit-support-items{gap:8px}}
+@media(max-width:1000px){.join-section .join-inner{grid-template-columns:minmax(0,1fr) 320px}.join-section .recruit-support-items{gap:16px}}
 @media(max-width:800px){.join-section .join-inner{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:560px){.join-section .join-inner .recruit-support-more{font-size:.9375rem}.join-section .recruit-support-plus{font-size:1.35rem}}
+@media(max-width:360px){.join-section .recruit-support-items{gap:8px}.join-section .recruit-support-items strong{font-size:1rem}.join-section .recruit-support-items small{font-size:.7rem}}
 '''
 D=json.loads((ROOT/'content.json').read_text())
 D['publications']=json.loads((ROOT/'publications.json').read_text())
@@ -26,7 +29,7 @@ STYLESHEET_VERSION=hashlib.sha256((DIST/'style.css').read_bytes()).hexdigest()[:
 SCRIPT_VERSION=hashlib.sha256((DIST/'site.js').read_bytes()).hexdigest()[:12]
 ARROW='<span class="arrow" aria-hidden="true">↗</span>'
 NAV=[('Home','/'),('Research','/research/'),('Professor','/professor/'),('People','/people/'),('Publications','/publications/'),('Equipment','/equipment/'),('Lab life','/life/')]
-PUBLICATION_GROUPS=[('2026',['2026']),('2025',['2025']),('2024',['2024']),('2023',['2023']),('2022',['2022']),('2021',['2021']),('2020',['2020']),('2019',['2019']),('2018–2017',['2018','2017']),('2016–2015',['2016','2015']),('2014–2012',['2014','2013','2012']),('2011–2009',['2011','2010','2009'])]
+PUBLICATION_GROUPS=[('2026',['2026']),('2025',['2025']),('2024',['2024']),('2023',['2023']),('2022',['2022']),('2021',['2021']),('2020',['2020']),('2019',['2019']),('2018',['2018']),('2017',['2017']),('2016–2015',['2016','2015']),('2014–2012',['2014','2013','2012']),('2011–2009',['2011','2010','2009'])]
 def pubroute(label):return '/publications/'+label.replace('–','-')+'/'
 def navigation(route):
  items=[]
@@ -148,13 +151,14 @@ def publication_library(papers,label):
  if label=='All':
   out+=f'''<div class="publication-metrics"><a href="{e(SCHOLAR)}" target="_blank" rel="noopener noreferrer"><strong>{SCHOLAR_METRICS['publications']:,}</strong><span>논문 총수 · Publications</span></a><a href="{e(SCHOLAR)}" target="_blank" rel="noopener noreferrer"><strong>{SCHOLAR_METRICS['citations']:,}</strong><span>총인용수 · Citations</span></a><a href="{e(SCHOLAR)}" target="_blank" rel="noopener noreferrer"><strong>{SCHOLAR_METRICS['h_index']}</strong><span>h-index · Google Scholar</span></a></div><p class="metrics-date">Google Scholar 전체 지표 · 확인일 / Checked {e(SCHOLAR_METRICS['checked_at'])} · <a href="{e(SCHOLAR)}" target="_blank" rel="noopener noreferrer">View profile ↗</a></p>'''
  out+='''<details class="journal-metrics-guide"><summary>About IF &amp; JCR · 지표 기준</summary><p lang="ko">IF와 JCR 순위는 모든 논문에 대해 게재연도의 전년도 저널 지표를 사용합니다. 예를 들어 2026년 논문에는 2025년, 2025년 논문에는 2024년 지표를 표시합니다. JCR 상위 %는 (분야 내 순위 ÷ 해당 분야 저널 수) × 100으로 계산하며, 여러 분야 중 가장 낮은 값을 표시합니다. IF는 소수 첫째 자리로 통일하며, 근거 자료를 확보한 항목만 표시합니다.</p><p>All papers use journal metrics from the year before publication: 2026 papers use 2025 metrics, and 2025 papers use 2024 metrics. JCR Top % is rank divided by category size × 100, using the lowest value across categories. IF values are shown to one decimal place. Sources and categories are available within each record.</p></details>'''
- out+='<div class="publication-controls" data-library data-if-year-label="'+e(label)+'"><div class="publication-layout"><aside class="publication-sidebar"><span class="eyebrow">Explore the evidence<br><span lang="ko">연구 성과 찾아보기</span></span><div class="pub-filters"><label>SEARCH · 검색<input type="search" data-search placeholder="Title, author, journal · 제목, 저자, 학술지" autocomplete="off"></label><label>YEAR · 연도<select data-year><option value="">All years · 전체</option>'+''.join(f'<option>{y}</option>' for y in years)+'</select></label><label>JOURNAL · 학술지<select data-journal><option value="">All journals · 전체</option>'+''.join(f'<option>{e(j)}</option>' for j in journals)+'</select></label></div><div class="keyword-filters" aria-label="Title keyword filters">'
+ out+='<div class="publication-controls" data-library data-if-year-label="'+e(label)+'"><div class="publication-layout"><aside class="publication-sidebar"><span class="eyebrow">Explore the evidence<br><span lang="ko">연구 성과 찾아보기</span></span><div class="pub-filters"><label>SEARCH · 검색<input type="search" data-search placeholder="Title, author, journal, keyword · 제목, 저자, 학술지, 키워드" autocomplete="off"></label><label>YEAR · 연도<select data-year><option value="">All years · 전체</option>'+''.join(f'<option>{y}</option>' for y in years)+'</select></label><label>JOURNAL · 학술지<select data-journal><option value="">All journals · 전체</option>'+''.join(f'<option>{e(j)}</option>' for j in journals)+'</select></label></div><div class="keyword-filters" aria-label="Research keyword filters · 연구 키워드 필터">'
  for key,name,pattern in KEYWORDS:out+=f'<button type="button" class="keyword-filter" data-keyword="{key}" aria-pressed="false">{name}</button>'
- out+='</div><p class="keyword-help" lang="ko">키워드는 논문 제목을 기준으로 검색하며, Lithium/Li, Sodium/Na, Potassium/K, Zinc/Zn을 각각 함께 검색합니다. Calculation은 제일원리계산·계산·시뮬레이션 관련 제목을 검색합니다. 여러 개를 선택하면 하나 이상에 해당하는 논문을 표시합니다.</p></aside><div class="publication-records"><div class="publication-results"><div class="publication-summary"><p role="status" aria-live="polite" data-result-count>'+str(len(papers))+' / '+str(len(papers))+' publications · 논문</p>'+publication_impact_summary(papers,label)+'</div><button type="button" data-reset>Reset filters · 초기화</button></div><p class="publication-legend"><strong>Bold · 굵은 이름</strong>: ESRL members &amp; alumni · 연구실 구성원·졸업생<br><span lang="ko">이름에 마우스를 올리거나 터치하면 한글·영문 전체 이름이 표시됩니다.</span><br>† / ‡ Equal contribution · * Corresponding author</p><p class="publication-empty" data-empty hidden>검색 결과가 없습니다. 검색어나 필터를 변경해 주세요.<br>No papers match these filters.</p><div class="publication-cards">'
+ out+='</div><p class="keyword-help" lang="ko">Calculation · 계산은 계산 연구를 포함한 2018년부터의 모든 논문과, 이전 연도 중 제목에 제일원리계산·계산·시뮬레이션이 명시된 논문을 표시합니다. 나머지 키워드는 제목을 기준으로 검색하며, Lithium/Li, Sodium/Na, Potassium/K, Zinc/Zn을 각각 함께 검색합니다. 여러 개를 선택하면 하나 이상에 해당하는 논문을 표시합니다.</p></aside><div class="publication-records"><div class="publication-results"><div class="publication-summary"><p role="status" aria-live="polite" data-result-count>'+str(len(papers))+' / '+str(len(papers))+' publications · 논문</p>'+publication_impact_summary(papers,label)+'</div><button type="button" data-reset>Reset filters · 초기화</button></div><p class="publication-legend"><strong>Bold · 굵은 이름</strong>: ESRL members &amp; alumni · 연구실 구성원·졸업생<br><span lang="ko">이름에 마우스를 올리거나 터치하면 한글·영문 전체 이름이 표시됩니다.</span><br>† / ‡ Equal contribution · * Corresponding author</p><p class="publication-empty" data-empty hidden>검색 결과가 없습니다. 검색어나 필터를 변경해 주세요.<br>No papers match these filters.</p><div class="publication-cards">'
  for i,p in enumerate(papers):
-  tags=[key for key,_,pattern in KEYWORDS if re.search(pattern,p['title'],re.I)];key='esrl'+str(p['year'])+'paper'+str(i+1)
+  # The lab confirms that every paper from 2018 onward includes calculations.
+  tags=[key for key,_,pattern in KEYWORDS if (key=='modeling' and int(p['year'])>=2018) or re.search(pattern,p['title'],re.I)];key='esrl'+str(p['year'])+'paper'+str(i+1)
   bib=bibtex(p,key);journal=p['citation'].split(',')[0];impact=publication_impact(p)
-  out+=f'<article class="publication-card" data-paper data-year="{p["year"]}" data-journal="{e(journal)}" data-if="{impact if impact is not None else ""}" data-keywords="{" ".join(tags)}"><span class="publication-number" aria-hidden="true">{len(papers)-i:03d}</span><div class="publication-card-top"><span>{e(p["citation"])}</span><span>{p["year"]}</span></div><h3>{publication_title(p)}</h3><p class="publication-authors">{publication_authors(p)}</p><div class="publication-tags">'+''.join(f'<span>{e(name.split(" · ")[0])}</span>' for key2,name,_ in KEYWORDS if key2 in tags)+'</div>'
+  out+=f'<article class="publication-card" data-paper data-year="{p["year"]}" data-journal="{e(journal)}" data-if="{impact if impact is not None else ""}" data-keywords="{" ".join(tags)}"><span class="publication-number" aria-hidden="true">{len(papers)-i:03d}</span><div class="publication-card-top"><span>{e(p["citation"])}</span><span>{p["year"]}</span></div><h3>{publication_title(p)}</h3><p class="publication-authors">{publication_authors(p)}</p><div class="publication-tags">'+''.join(f'<span>{e(name if key2=="modeling" else name.split(" · ")[0])}</span>' for key2,name,_ in KEYWORDS if key2 in tags)+'</div>'
   out+=journal_metrics(p)
   pdf=f'<a href="{e(p["pdf_url"])}" target="_blank" rel="noopener noreferrer">PDF ↗</a>' if p.get("pdf_url") else ""
   article_page=f'<a href="{e(p["url"])}" target="_blank" rel="noopener noreferrer">{e(p.get("link_label", "Article page ↗"))}</a>' if p.get("url") else ""
@@ -457,6 +461,12 @@ for label,years in [('All',None)]+PUBLICATION_GROUPS:
  body=title('ESRL publications · 연구 성과','The science behind<br>better batteries','양극과 고체전해질, 소재의 발견에서 작동 원리의 이해까지 — ESRL의 연구 기록').replace('class="page-title"','class="page-title publication-title"')+publication_library(papers,label)
  save(route,'Publications'+('' if label=='All' else ' · '+label),body)
 
+# Keep existing bookmarks useful after separating the two publication years.
+legacy_route='/publications/2018-2017/'
+legacy_body=title('ESRL publications · 연구 성과','2017 · 2018년 논문','<span lang="ko">2017년과 2018년 논문을 각각의 페이지에서 확인하세요.</span><span lang="en">Publications for 2017 and 2018 now have separate pages.</span>')
+legacy_body+='<section class="section"><div class="wrap"><nav class="year-nav" aria-label="Publication year">'+link('/publications/2018/','2018년 논문 · 2018 papers')+link('/publications/2017/','2017년 논문 · 2017 papers')+'</nav></div></section>'
+(DIST/legacy_route.strip('/')/'index.html').write_text(shell('Publications · 2017 & 2018',legacy_route,legacy_body).replace('<meta name="description"','<meta name="robots" content="noindex"><meta name="description"',1))
+
 body=title('Our people','Curiosity is a team effort.','Meet the researchers exploring materials, mechanisms, and energy storage at ESRL.')
 body+='<section class="section"><div class="wrap">'+people_tabs('current')+'<div class="section-heading"><h2>Current members</h2>'+link('/professor/','Prof. Jongsoon Kim')+'</div>'
 for group in dict.fromkeys(m['group'] for m in D['members']):
@@ -536,6 +546,7 @@ save('/join/','Join us',body)
 sitemap_urls=[]
 for page in sorted(DIST.rglob('index.html')):
  relative=page.parent.relative_to(DIST).as_posix()
+ if relative=='publications/2018-2017':continue
  route='/' if relative=='.' else f'/{relative}/'
  sitemap_urls.append(SITE_URL+quote(route,safe='/-._~'))
 (DIST/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join('<url><loc>'+e(url)+'</loc></url>\n' for url in sitemap_urls)+'</urlset>\n')
