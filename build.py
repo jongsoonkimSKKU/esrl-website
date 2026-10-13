@@ -458,6 +458,7 @@ all_papers=[dict(p,year=str(p.get('year',re.search(r'(20\d{2})',p['citation'])[1
 for label,years in [('All',None)]+PUBLICATION_GROUPS:
  route='/publications/' if label=='All' else pubroute(label)
  papers=all_papers if years is None else [p for p in all_papers if p['year'] in years]
+ if years and len(years)>1:papers=sorted(papers,key=lambda p:int(p['year']),reverse=True)
  body=title('ESRL publications · 연구 성과','The science behind<br>better batteries','양극과 고체전해질, 소재의 발견에서 작동 원리의 이해까지 — ESRL의 연구 기록').replace('class="page-title"','class="page-title publication-title"')+publication_library(papers,label)
  save(route,'Publications'+('' if label=='All' else ' · '+label),body)
 
