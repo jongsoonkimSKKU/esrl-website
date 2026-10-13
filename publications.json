@@ -3,7 +3,7 @@
     "title": "Stabilizing Li- and Mn-Rich Layered Cathodes through Oxygen-Redox-Coupled Interphase Transformation",
     "url": "https://doi.org/10.1016/j.nanoen.2026.112487",
     "authors": "H. Jang, S. Oh, H. Lee, H. Kweon, B. Ku, M. Choi, J. Lee, J. Ahn, H. Park, M. H. Lee, H.-S. Kim, J. Kim*",
-    "citation": "Nano Energy, 112487 (2026)",
+    "citation": "Nano Energy, 159, 112487 (2026)",
     "doi": "10.1016/j.nanoen.2026.112487",
     "article_number": "112487",
     "pages": "112487",
@@ -18,7 +18,9 @@
       7,
       8,
       11
-    ]
+    ],
+    "pdf_url": "/assets/papers/2026-nano-energy-112487.pdf",
+    "volume": "159"
   },
   {
     "title": "Improved High-Voltage Operation and Fast-Discharge Performance of O3-Type Layered Cathodes for Na-Ion Batteries by Regulating the Fe-Driven Distortion–Dissolution Cascade",

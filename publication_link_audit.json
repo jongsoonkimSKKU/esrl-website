@@ -9,11 +9,15 @@
       "verification": "Publisher-deposited Crossref metadata: exact supplied PII S2211285526007913, title, and author match",
       "original_url": "https://www.sciencedirect.com/science/article/abs/pii/S2211285526007913",
       "bibliographic_source": "https://api.crossref.org/works/10.1016/j.nanoen.2026.112487",
-      "citation": "Nano Energy, 112487 (2026)",
+      "citation": "Nano Energy, 159, 112487 (2026)",
       "verified_at": "2026-10-11",
-      "pdf_path": null,
-      "pdf_source": null,
-      "pdf_sha256": null
+      "pdf_path": "dist/assets/papers/2026-nano-energy-112487.pdf",
+      "pdf_source": "User-provided publisher PDF, uploaded 2026-10-13",
+      "pdf_sha256": "87deb7ee8b9893549fdd3d14ec7fd63bb56eed47f64d7142f2a98fc346bd95e2",
+      "pdf_verified_at": "2026-10-13",
+      "pdf_verification": "Exact title and DOI match on the first page; 16 pages; original PDF preserved",
+      "volume": "159",
+      "metadata_source": "User-provided publisher PDF, first page: Nano Energy 159 (2026) 112487"
     },
     {
       "index": 3,
