@@ -62,7 +62,7 @@ if(library){
  const search=library.querySelector('[data-search]'),year=library.querySelector('[data-year]'),journal=library.querySelector('[data-journal]');
  const keywords=[...library.querySelectorAll('[data-keyword]')];
  const normalize=s=>s.toLowerCase().normalize('NFKC').replace(/[‐‑–−]/g,'-');
- const searchable=new Map(cards.map(card=>[card,normalize(card.querySelector('h3').textContent+' '+card.querySelector('.publication-authors').textContent+' '+[...card.querySelectorAll('.publication-authors .author-name-trigger')].map(author=>author.dataset.authorKo+' '+author.dataset.authorEn).join(' ')+' '+card.dataset.journal)]));
+ const searchable=new Map(cards.map(card=>[card,normalize(card.querySelector('h3').textContent+' '+card.querySelector('.publication-authors').textContent+' '+[...card.querySelectorAll('.publication-authors .author-name-trigger')].map(author=>author.dataset.authorKo+' '+author.dataset.authorEn).join(' ')+' '+card.dataset.journal+' '+[...card.querySelectorAll('.publication-tags span')].map(tag=>tag.textContent).join(' '))]));
  function updateImpactSummary(){
   if(!library.querySelector('[data-if-sum]'))return;
   const scopeCards=cards.filter(card=>!year.value||card.dataset.year===year.value);
