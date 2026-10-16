@@ -127,10 +127,10 @@
 
 /* Searchable publication library. */
 .publication-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid var(--line);padding:28px 0;gap:24px}
-.publication-metrics>div,.publication-metrics>a{display:flex;flex-direction:column;gap:9px}
+.publication-metrics>div,.publication-metrics>a{display:flex;flex-direction:column;align-items:center;text-align:center;gap:9px}
 .publication-metrics strong{font-family:Manrope,Arial,sans-serif;font-size:2.5rem;letter-spacing:-.04em;color:var(--navy)}
 .publication-metrics span{font-size:.8rem;color:var(--muted);line-height:1.5}
-.metrics-date{font-size:.8rem;color:var(--muted);margin:15px 0 8px}.metrics-date a{text-decoration:underline}
+.metrics-date{font-size:.8rem;color:var(--muted);margin:15px 0 8px}.metrics-date a{text-decoration:underline}.publication-library .metrics-date{text-align:center}
 .recent-metrics{font-size:.8rem;color:var(--muted);margin-bottom:35px}.recent-metrics summary{cursor:pointer}.recent-metrics p{margin-top:12px}
 .pub-filters{display:grid;grid-template-columns:minmax(0,2fr) minmax(120px,.65fr) minmax(0,1.2fr);gap:20px;padding:28px;background:var(--pale);border-radius:10px}
 .pub-filters label{display:flex;flex-direction:column;gap:10px;font-size:.73rem;font-weight:600;letter-spacing:.04em;min-width:0}
@@ -269,9 +269,9 @@
 /* Research impact, application guidance, and alumni research records. */
 .research-impact{padding:38px 0;border-bottom:1px solid var(--line);background:var(--pale)}
 .impact-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:30px}
-.impact-grid a{display:flex;flex-direction:column;gap:8px;padding-right:24px;border-right:1px solid var(--line)}
+.impact-grid a{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;padding:0 12px;border-right:1px solid var(--line)}
 .impact-grid a:last-child{border:0}.impact-grid strong{font-size:clamp(2.2rem,4vw,3.6rem);font-family:Manrope,Arial,sans-serif;line-height:1.15;font-weight:700;letter-spacing:-.04em}.impact-grid span{font-size:.95rem}
-.research-impact .metrics-date{margin:20px 0 0;line-height:1.6}.alumni-careers{margin:12px 0 0;font-size:1rem;font-weight:600}
+.research-impact .metrics-date{margin:20px 0 0;line-height:1.6;text-align:center}.alumni-careers{margin:12px 0 0;font-size:1rem;font-weight:600}
 .case-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0}.case-metrics p{margin:0;padding:18px;background:#e9eff2;border-left:3px solid #547844}.case-metrics strong{display:block;font-size:1.8rem;color:var(--navy)}.case-metrics span{display:block;font-size:.9rem;line-height:1.6;margin-top:5px}
 .beginner-note{padding:28px 32px;border-left:4px solid #547844;background:var(--pale);margin:30px 0}.beginner-note strong{display:block;font-size:1.3rem;line-height:1.6}.beginner-note p{margin:12px 0 0}.beginner-note p[lang=en]{color:var(--muted);font-size:.95rem}
 .application-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:42px}.application-grid h3{font-size:1.25rem;margin-bottom:16px}.application-grid p[lang=en]{color:var(--muted);font-size:.95rem}
