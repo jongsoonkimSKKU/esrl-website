@@ -580,3 +580,11 @@
  .professor-contact-items{flex:initial}
  .professor-contact .professor-scholar{width:100%}
 }
+
+/* Bilingual titles for the shared materials cards and the AI research card. */
+.core-card .card-name-bilingual{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 12px;margin-bottom:19px}
+.core-card .card-name-bilingual .card-name-ko{margin-bottom:0}
+.core-card .card-name-en{font-size:.85rem;line-height:1.65;font-weight:500;color:#587064;letter-spacing:0}
+.ai-core h3{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 14px}
+.ai-core .core-heading-en{font-size:1rem;line-height:1.6;font-weight:500;letter-spacing:0;color:#426a58}
+.ai-core .ai-core-description-en{margin:6px 0 0;font-size:.9rem;line-height:1.75;color:var(--muted)}
