@@ -24,6 +24,10 @@ D['publications']=json.loads((ROOT/'publications.json').read_text())
 JOURNAL_METRICS=json.loads((ROOT/'journal_metrics.json').read_text())
 LAB_LIFE=json.loads((ROOT/'lab_life.json').read_text())
 AUTHOR_NAMES=json.loads((ROOT/'author_names.json').read_text())
+for person in D['members']+D['alumni']:
+ person['name_ko']=person.get('name_ko') or AUTHOR_NAMES['korean_names'].get(person['name'],'')
+ if not person['name_ko']:
+  raise ValueError('Missing Korean member name: '+person['name'])
 DIST=ROOT/'dist'
 STYLESHEET_VERSION=hashlib.sha256((DIST/'style.css').read_bytes()).hexdigest()[:12]
 SCRIPT_VERSION=hashlib.sha256((DIST/'site.js').read_bytes()).hexdigest()[:12]
@@ -212,10 +216,14 @@ research=[('01','Lithium-ion batteries','리튬이온전지','고에너지밀도
 cards='''<a href="/research/#cathodes" class="research-card core-card"><span class="number">01 / CORE EXPERTISE</span><h3>Li- and Na-ion batteries</h3><span class="card-name-bilingual"><span class="card-name-ko" lang="ko">저가형 고성능 양극</span><span class="card-name-en" lang="en">Cost-effective, high-performance cathodes</span></span><p lang="ko">리튬이온전지와 나트륨이온전지용 저가형 고성능 양극을 설계합니다. 조성·결정구조·산화환원 반응을 분석해 에너지밀도·출력·수명을 높이는 원리를 규명합니다.</p><span class="core-en">Cost-effective, high-performance cathodes for lithium-ion and sodium-ion batteries.</span><span class="card-footer">LAYERED OXIDES · PHOSPHATES · DISORDERED ROCKSALT ↗</span></a><a href="/research/#solid-electrolytes" class="research-card core-card"><span class="number">02 / CORE EXPERTISE</span><h3>All-solid-state batteries</h3><span class="card-name-bilingual"><span class="card-name-ko" lang="ko">고성능 고체전해질 및 양극복합체</span><span class="card-name-en" lang="en">High-performance solid electrolytes &amp; cathode composites</span></span><p lang="ko">고성능 고체전해질과 양극복합체를 설계하고, 이온 전도와 구조·화학적 안정성, 양극–고체전해질 계면을 함께 개선합니다.</p><span class="core-en">High-performance solid electrolytes and cathode composites for all-solid-state batteries: ion transport, structural and chemical stability, and cathode–electrolyte interfaces.</span><span class="card-footer">SULFIDES · HALIDES · CATHODE–ELECTROLYTE INTERFACES ↗</span></a>'''
 
 def profile_id(name):return 'researcher-'+re.sub(r'[^a-z0-9]+','-',name.lower()).strip('-')
+def member_names(person):
+ return f'<h3 lang="en">{e(person["name"])}</h3><p class="member-name-ko" lang="ko">{e(person["name_ko"])}</p>'
+def researcher_names(person):
+ return f'<strong><span lang="en">{e(person["name"])}</span><span class="researcher-name-ko" lang="ko">{e(person["name_ko"])}</span></strong>'
 def cta(href,label,cls='text-link'):return f'<a href="{e(href)}" class="{cls}">{label}</a>'
 def story_paper(doi):return next(p for p in D['publications']+[p for archive in D['publication_archive'].values() for p in archive] if p.get('doi')==doi)
 STUDENT_STORIES=[
- {'doi':'10.1021/acsenergylett.6c02530','topic':'Na-ion cathodes · Fe 이동 억제','question':'나트륨 양극의 고전압 구조를 안정화하려면?','summary':'Fe 산화에 따른 구조 왜곡과 Fe 이동 경로를 분석하고 고전압 작동 안정성을 개선한 연구입니다.','people':[('Taegyu Kim','T. Kim','제1저자 · 김태규','current')]},
+ {'doi':'10.1021/acsenergylett.6c02530','topic':'Na-ion cathodes · Fe 이동 억제','question':'나트륨 양극의 고전압 구조를 안정화하려면?','summary':'Fe 산화에 따른 구조 왜곡과 Fe 이동 경로를 분석하고 고전압 작동 안정성을 개선한 연구입니다.','people':[('Taegyu Kim','T. Kim','제1저자','current')]},
  {'doi':'10.1021/acsnano.5c22044','topic':'Li-ion cathodes · 리튬 양극','question':'리튬이 더 빠르게 움직이려면?','summary':'양이온 배열을 제어해 리튬이 이동하는 경로를 개선하는 양극 연구입니다.','people':[('Jinho Ahn','J. Ahn','공동 제1저자 · 졸업생','alumni'),('Bonyoung Ku','B. Ku','공동 제1저자','current')]},
  {'doi':'10.1016/j.ensm.2026.105375','topic':'Na-ion cathodes · 나트륨 양극','question':'저가형 나트륨 양극의 성능을 높이려면?','summary':'철·망간 중심 양극의 산화환원 반응을 조절해 초기 나트륨 추출을 높이는 연구입니다.','people':[('Sunghyun Lim','S. Lim','제1저자','current')]},
  {'doi':'10.1002/aenm.202505121','topic':'Li-ion cathodes · Co-free·Ni 최소화 양극','question':'초저가 조성에서 높은 에너지밀도와 수명을 함께 얻으려면?','summary':'초기 충전 활성화와 전이금속 이동 억제를 연결해 초저가·고성능 양극을 구현한 연구입니다.','people':[('Jinho Ahn','J. Ahn','제1저자 · 졸업생','alumni')]},
@@ -232,7 +240,7 @@ def student_stories():
    person=next(m for m in D['alumni' if group=='alumni' else 'members'] if m['name']==name)
    assert any(initial in author for author in authors), 'Author mapping must match paper'
    route='/people/alumni/' if group=='alumni' else '/people/'
-   out+=f'<a class="story-researcher" href="{route}#{profile_id(name)}">'+img(person['image'],name)+f'<span><strong>{e(name)}</strong><small lang="ko">{e(role)}</small></span></a>'
+   out+=f'<a class="story-researcher" href="{route}#{profile_id(name)}">'+img(person['image'],name)+'<span>'+researcher_names(person)+f'<small lang="ko">{e(role)}</small></span></a>'
   out+='</div><div class="story-paper"><span class="story-citation">'+e(paper['citation'])+'</span><p class="story-paper-title" lang="en">'+e(paper['title'])+'</p>'+journal_metrics(dict(paper,year='2026'))+cta(paper['url'],'논문 보기 · Read paper','story-paper-link')+'</div></article>'
  return out+'</div></div></section>'
 RESEARCH_INTERESTS=[
@@ -248,7 +256,7 @@ def research_credits(paper):
   person=next(m for m in D['alumni' if group=='alumni' else 'members'] if m['name']==name)
   assert any(initial in author for author in paper['authors'].split(',')), 'Author mapping must match paper'
   route='/people/alumni/' if group=='alumni' else '/people/'
-  out+=f'<a class="story-researcher" href="{route}#{profile_id(name)}">'+img(person['image'],name)+f'<span><strong>{e(name)}</strong><small lang="ko">{e(role)}</small></span></a>'
+  out+=f'<a class="story-researcher" href="{route}#{profile_id(name)}">'+img(person['image'],name)+'<span>'+researcher_names(person)+f'<small lang="ko">{e(role)}</small></span></a>'
  return out+'</div>'
 
 def materials_design_example():
@@ -477,7 +485,7 @@ for group in dict.fromkeys(m['group'] for m in D['members']):
  body+=f'<section class="member-group"><h2>{group}</h2><div class="members-grid">'
  for m in D['members']:
   if m['group']!=group:continue
-  body+=f'<article class="member" id="{profile_id(m["name"])}">'+img(m['image'],m['name'])+f'<h3>{e(m["name"])}</h3><div class="course">{e(m["course"])}</div><p class="field">{e(m["field"])}</p>'+(f'<a class="member-email" href="mailto:{e(m["email"])}" aria-label="Email {e(m["name"])}">Email ↗</a>' if m['email'] else '')+'</article>'
+  body+=f'<article class="member" id="{profile_id(m["name"])}">'+img(m['image'],m['name'])+member_names(m)+f'<div class="course">{e(m["course"])}</div><p class="field">{e(m["field"])}</p>'+(f'<a class="member-email" href="mailto:{e(m["email"])}" aria-label="Email {e(m["name"])}">Email ↗</a>' if m['email'] else '')+'</article>'
  body+='</div></section>'
 body+='</div></section>'
 save('/people/','People',body)
@@ -489,7 +497,7 @@ for degree,ko in [('Ph.D.','박사 졸업생'),('M.S.','석사 졸업생')]:
  for m in D['alumni']:
   if m['degree']!=degree:continue
   portrait=img(m['image'],m['name']) if m.get('image') else '<div class="alumni-name-mark" aria-hidden="true">'+e(m['degree'])+'</div>'
-  body+=f'<article class="member alumni-member" id="{profile_id(m["name"])}">'+portrait+f'<h3>{e(m["name"])}</h3>'+(f'<p class="alumni-name-ko" lang="ko">{e(m["name_ko"])}</p>' if m.get('name_ko') else '')+f'<div class="course">{e(m["degree"])} · {e(m["graduated"])}</div>'
+  body+=f'<article class="member alumni-member" id="{profile_id(m["name"])}">'+portrait+member_names(m)+f'<div class="course">{e(m["degree"])} · {e(m["graduated"])}</div>'
   if m.get('organization'):body+=f'<p class="alumni-organization">{e(m["organization"])}</p>'
   if m.get('email'):body+=f'<a class="member-email" href="mailto:{e(m["email"])}" aria-label="Email {e(m["name"])}">Email ↗</a>'
   body+='</article>'

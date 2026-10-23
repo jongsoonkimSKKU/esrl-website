@@ -14,7 +14,11 @@
     "Heejin Choo": "추희진",
     "Lisa Eom": "엄리사",
     "Soonmin Park": "박순민",
-    "Junha Kwon": "권준하"
+    "Chaewon Lee": "이채원",
+    "Junha Kwon": "권준하",
+    "Jiwoo Choi": "최지우",
+    "Daesun Kim": "김대선",
+    "Yoonkyu Kang": "강윤구"
   },
   "aliases": {
     "hjang": "Hyunjin Jang",
@@ -68,6 +72,7 @@
   },
   "sources": {
     "current_members": "https://www.energyscilab.com/currentmembers",
+    "additional_current_member_names": "https://www.energyscilab.com/currentmembers — portrait labels: 이채원사진.jpg, 최지우사진.jpg, 대선이 사진.jpg, 강윤구.jpg; surnames match the listed English names",
     "alumni": "Existing reviewed name_ko fields in content.json",
     "early_members": "https://pal.postech.ac.kr/ko/pls/plsbeamLineMap/4D/beamSelectPopup.do",
     "Eunyoung Ryu": "Korean spelling confirmed by the user on 2026-10-11",
