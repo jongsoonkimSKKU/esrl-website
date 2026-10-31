@@ -77,7 +77,9 @@
     "issue": "10",
     "pages": "6972–6980",
     "published_online": "2026-09-09",
-    "published_print": "2026-10-09"
+    "published_print": "2026-10-09",
+    "year": "2026",
+    "status": "published"
   },
   {
     "title": "Basal Plane Graphene Coated Zn Powder for High Performance Aqueous Zn Metal Batteries",
@@ -125,12 +127,18 @@
     "title": "A Review of Failure Modes and Safety Strategies of Lithium-ion Batteries from Materials to Systems",
     "url": "https://doi.org/10.1002/advs.76228",
     "authors": "J. H. Yang, J. Y. Sung, H. Kweon†, S. Kim, B. Kim, J. Kim*, J. Mun, J. H. Kim, K. J. Kim",
-    "citation": "Advanced Science, 13, e76228 (2026)",
+    "citation": "Advanced Science, 13(42), e76228 (2026)",
     "doi": "10.1002/advs.76228",
     "lab_author_indices": [
       2,
       5
-    ]
+    ],
+    "volume": "13",
+    "pages": "e76228",
+    "year": "2026",
+    "status": "published",
+    "issue": "42",
+    "article_number": "e76228"
   },
   {
     "title": "Artificial Intelligence-driven mechanistic insights in electrocatalysis",
@@ -162,7 +170,7 @@
     "title": "Fast and Trap-Minimized Li Transport via Size-Mismatch-Driven Cation-Ordering Control in Li-Excess Disordered Rocksalt Cathodes",
     "url": "https://doi.org/10.1021/acsnano.5c22044",
     "authors": "J. Ahn†, B. Ku†, H. Kweon, H. Lee, H. Ahn, M. Choi, M. H. Lee, M. Yoon, J. Choi, J. Hong, J. Kim*",
-    "citation": "ACS Nano, 20, 10556–10569 (2026)",
+    "citation": "ACS Nano, 20(13), 10556–10569 (2026)",
     "doi": "10.1021/acsnano.5c22044",
     "pdf_url": "/assets/papers/2026-24c595be03a8.pdf",
     "lab_author_indices": [
@@ -173,7 +181,12 @@
       4,
       5,
       10
-    ]
+    ],
+    "volume": "20",
+    "pages": "10556–10569",
+    "year": "2026",
+    "status": "published",
+    "issue": "13"
   },
   {
     "title": "Growth-Directing Nanostructured Interfaces via Block Copolymer-Templated Au Nanoseed Arrays for Stabilized Zinc Anodes in Lean-Zinc Batteries",
@@ -192,20 +205,25 @@
     "title": "NaF@MnO-based sacrificial cathode/separator composite for boosting the energy density of sodium-ion batteries",
     "url": "https://doi.org/10.1021/acsnano.5c16400",
     "authors": "S. J. Park, S.-Y. Lee†, Y. M. Kim, J. Kang, J. K. Seo, Y.-J. Kim, J. Kim*, K. J. Kim",
-    "citation": "ACS Nano, 20, 4799–4807 (2026)",
+    "citation": "ACS Nano, 20(6), 4799–4807 (2026)",
     "doi": "10.1021/acsnano.5c16400",
     "pdf_url": "/assets/papers/2026-7bbd266b9a95.pdf",
     "lab_author_indices": [
       1,
       3,
       6
-    ]
+    ],
+    "volume": "20",
+    "pages": "4799–4807",
+    "year": "2026",
+    "status": "published",
+    "issue": "6"
   },
   {
     "title": "Enhanced Fast-Charging Performance of High-Mass-Loading Mn-Rich Li[Mn1-xFex]PO4 Cathodes via LiF-Less Cathode–Electrolyte Interphase",
     "url": "https://doi.org/10.1002/aenm.202506130",
     "authors": "B. Ku†, L. Jang†, H. Kweon, J. Ahn, S. Hwang, J. Lee, M. Choi, S. Yoo, K. Yoo, K.-Y. Park, J. Kim*",
-    "citation": "Advanced Energy Materials, 16, e06130 (2026)",
+    "citation": "Advanced Energy Materials, 16(13), e06130 (2026)",
     "doi": "10.1002/aenm.202506130",
     "pdf_url": "/assets/papers/2026-1136374e66d0.pdf",
     "featured": true,
@@ -218,29 +236,45 @@
       5,
       6,
       10
-    ]
+    ],
+    "volume": "16",
+    "pages": "e06130",
+    "year": "2026",
+    "status": "published",
+    "issue": "13",
+    "article_number": "e06130"
   },
   {
     "title": "Bimodal Composite Cathodes Advancing the Chemo-Mechanical Integrity and Kinetics for All-Solid-State Batteries",
     "url": "https://doi.org/10.1021/acsenergylett.5c03923",
     "authors": "H. Oh, U. Jeong, J. Choi, J. Lim, J. T. Kim, H.-J. Shin, J.-y. Im, H.-W. Gong, J.-P. Ahn, Y. M. Lee, J. Kim, J. Mun, K. Y. Chung, S. H. Oh, J.-W. Lee, S.-Y. Lee, H.-G. Jung",
-    "citation": "ACS Energy Letters, 11, 2103–2114 (2026)",
+    "citation": "ACS Energy Letters, 11(2), 2103–2114 (2026)",
     "doi": "10.1021/acsenergylett.5c03923",
     "pdf_url": "/assets/papers/2026-91beaf7652ca.pdf",
     "lab_author_indices": [
       10
-    ]
+    ],
+    "volume": "11",
+    "pages": "2103–2114",
+    "year": "2026",
+    "status": "published",
+    "issue": "2"
   },
   {
     "title": "Integrated one-step dry process enabling prelithiated thick electrodes without primer coating for high energy density and initial coulombic efficiency",
     "url": "https://doi.org/10.1039/d5ee05739f",
     "authors": "H.-W. Lee, W. Jeong, S. S. Park, H.-J. Ji, J.-S. Woo, J. Lee, Y.-J. An, Y.-C. Hwang, D.-H. Kim, H. Chang, M. Kim, M. Jeong, M. Yoon, D. Lee, J. Kim, Z.-L. Xu, T. Song, J. Moon, J. Choi, W.-J. Kwak",
-    "citation": "Energy & Environmental Science, 19, 1944–1953 (2026)",
+    "citation": "Energy & Environmental Science, 19(6), 1944–1953 (2026)",
     "doi": "10.1039/d5ee05739f",
     "pdf_url": "/assets/papers/2026-108d40d24916.pdf",
     "lab_author_indices": [
       14
-    ]
+    ],
+    "volume": "19",
+    "pages": "1944–1953",
+    "year": "2026",
+    "status": "published",
+    "issue": "6"
   },
   {
     "title": "From Materials to Systems: Challenges and Solutions for Fast-Charge/Discharge Na-Ion Batteries",
@@ -261,7 +295,7 @@
     "title": "Co-Free and Ni-Minimized Li- and Mn-Rich Layered Cathodes with Suppressed Structural Disordering for High-Performance and Cost-Effective LIBs",
     "url": "https://doi.org/10.1002/aenm.202505121",
     "authors": "J. Ahn, H. Jang, H. Ahn, H. Kweon, S. Oh, S. Hwang, M. H. Lee, J. Hong, J. Kim*",
-    "citation": "Advanced Energy Materials, 16, e05121 (2026)",
+    "citation": "Advanced Energy Materials, 16(2), e05121 (2026)",
     "doi": "10.1002/aenm.202505121",
     "pdf_url": "/assets/papers/2026-92a4af5306d1.pdf",
     "featured": true,
@@ -273,25 +307,37 @@
       4,
       5,
       8
-    ]
+    ],
+    "volume": "16",
+    "pages": "e05121",
+    "year": "2026",
+    "status": "published",
+    "issue": "2",
+    "article_number": "e05121"
   },
   {
     "title": "Redox-Mediating Mo2C Nanoparticles Confined Within Nitrogen- and Phosphorus-Codoped Amorphous Carbon Matrix for Lithium–Sulfur Batteries",
     "url": "https://doi.org/10.1002/eem2.70156",
     "authors": "W. I. Kim, M. J. Kim, H. Park, M. Hwang, J. S. Byun, J. Lee, J. Kim, H. S. Park",
-    "citation": "Energy & Environmental Materials, 9, e70156 (2026)",
+    "citation": "Energy & Environmental Materials, 9(2), e70156 (2026)",
     "doi": "10.1002/eem2.70156",
     "pdf_url": "/assets/papers/2026-e020733a8ce8.pdf",
     "lab_author_indices": [
       2,
       6
-    ]
+    ],
+    "volume": "9",
+    "pages": "e70156",
+    "year": "2026",
+    "status": "published",
+    "issue": "2",
+    "article_number": "e70156"
   },
   {
     "title": "2D Phosphorene-Decorated Ni-Rich Layered Cathodes for High-Power and High-Energy Li-ion Batteries",
     "url": "https://doi.org/10.1002/adfm.202511385",
     "authors": "J. Lee, K. Nam, B. Ku, M. Choi, M.-k. Cho, S. Y. Jung, J. Min, J. Ahn, Y. Lee, S.-Y. Lee, D. Lee, Y. S. Cho, D.-S. Kwon, J.-K. Yoo, J. Kang, J. Kim*",
-    "citation": "Advanced Functional Materials, 36, e11385 (2026)",
+    "citation": "Advanced Functional Materials, 36(9), e11385 (2026)",
     "doi": "10.1002/adfm.202511385",
     "pdf_url": "/assets/papers/2026-13ac5314d7ea.pdf",
     "lab_author_indices": [
@@ -302,18 +348,30 @@
       8,
       9,
       15
-    ]
+    ],
+    "volume": "36",
+    "pages": "e11385",
+    "year": "2026",
+    "status": "published",
+    "issue": "9",
+    "article_number": "e11385"
   },
   {
     "title": "Ultra-High-Mass-Loading Electrodes with Enhanced Homogeneity Using High-Concentration Slurry for Lithium-Ion Batteries",
     "url": "https://doi.org/10.1002/cey2.70108",
     "authors": "J. K. Park, W. Shin, W. Jo, H.-J. Lee, W.-Y. Jeon, J. Ahn, J. Yoon, Y.-J. Jeong, J. Oh, M. Kang, M.-J. Choi, J. Joo, J. Kim, S.-K. Cho, J. D. Park, J. Nam, J.-K. Yoo",
-    "citation": "Carbon Energy, 8, e70108 (2026)",
+    "citation": "Carbon Energy, 8(1), e70108 (2026)",
     "doi": "10.1002/cey2.70108",
     "pdf_url": "/assets/papers/2026-1bd52f7403de.pdf",
     "lab_author_indices": [
       5,
       12
-    ]
+    ],
+    "volume": "8",
+    "pages": "e70108",
+    "year": "2026",
+    "status": "published",
+    "issue": "1",
+    "article_number": "e70108"
   }
 ]

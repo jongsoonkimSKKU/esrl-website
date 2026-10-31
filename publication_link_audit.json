@@ -1819,7 +1819,7 @@
       "pdf_sha256": null
     }
   ],
-  "metadata_checked_at": "2026-10-02",
+  "metadata_checked_at": "2026-11-01",
   "metadata_updates": [
     {
       "doi": "10.1021/acsenergylett.6c02530",
@@ -1844,6 +1844,120 @@
       "citation": "Advanced Energy Materials, e04664, Early View (2025)",
       "source": "https://api.crossref.org/works/10.1002/aenm.202504664",
       "status": "Online publication confirmed; volume/issue not assigned"
+    },
+    {
+      "doi": "10.1021/acsnano.5c22044",
+      "citation": "ACS Nano, 20(13), 10556–10569 (2026)",
+      "checked_at": "2026-11-01",
+      "source": "https://pubs.acs.org/doi/10.1021/acsnano.5c22044",
+      "supporting_source": "https://api.crossref.org/works/10.1021/acsnano.5c22044",
+      "status": "Final volume/issue/pages or article number verified; publisher page or final PDF checked; Crossref publisher deposit used where publisher access restricted."
+    },
+    {
+      "doi": "10.1021/acsnano.5c16400",
+      "citation": "ACS Nano, 20(6), 4799–4807 (2026)",
+      "checked_at": "2026-11-01",
+      "source": "https://pubs.acs.org/doi/10.1021/acsnano.5c16400",
+      "supporting_source": "https://api.crossref.org/works/10.1021/acsnano.5c16400",
+      "status": "Final volume/issue/pages or article number verified; publisher page or final PDF checked; Crossref publisher deposit used where publisher access restricted."
+    },
+    {
+      "doi": "10.1021/acsenergylett.5c03923",
+      "citation": "ACS Energy Letters, 11(2), 2103–2114 (2026)",
+      "checked_at": "2026-11-01",
+      "source": "https://pubs.acs.org/doi/10.1021/acsenergylett.5c03923",
+      "supporting_source": "https://api.crossref.org/works/10.1021/acsenergylett.5c03923",
+      "status": "Final volume/issue/pages or article number verified; publisher page or final PDF checked; Crossref publisher deposit used where publisher access restricted."
+    },
+    {
+      "doi": "10.1039/d5ee05739f",
+      "citation": "Energy & Environmental Science, 19(6), 1944–1953 (2026)",
+      "checked_at": "2026-11-01",
+      "source": "https://pubs.rsc.org/ee/article/19/6/1944-1953/317190",
+      "supporting_source": "https://api.crossref.org/works/10.1039/d5ee05739f",
+      "status": "Final volume/issue/pages or article number verified; publisher page or final PDF checked; Crossref publisher deposit used where publisher access restricted."
+    },
+    {
+      "doi": "10.1002/eem2.70156",
+      "citation": "Energy & Environmental Materials, 9(2), e70156 (2026)",
+      "checked_at": "2026-11-01",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/eem2.70156",
+      "supporting_source": "https://api.crossref.org/works/10.1002/eem2.70156",
+      "status": "Final volume/issue/pages or article number verified; publisher page or final PDF checked; Crossref publisher deposit used where publisher access restricted."
+    },
+    {
+      "doi": "10.1002/cey2.70108",
+      "citation": "Carbon Energy, 8(1), e70108 (2026)",
+      "checked_at": "2026-11-01",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/cey2.70108",
+      "supporting_source": "https://api.crossref.org/works/10.1002/cey2.70108",
+      "status": "Final volume/issue/pages or article number verified; publisher page or final PDF checked; Crossref publisher deposit used where publisher access restricted."
+    },
+    {
+      "doi": "10.1002/aenm.202506130",
+      "citation": "Advanced Energy Materials, 16(13), e06130 (2026)",
+      "checked_at": "2026-11-01",
+      "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202506130",
+      "supporting_source": "https://api.crossref.org/works/10.1002/aenm.202506130",
+      "status": "Final volume/issue/pages or article number verified; publisher page or final PDF checked; Crossref publisher deposit used where publisher access restricted."
+    },
+    {
+      "doi": "10.1002/aenm.202505121",
+      "citation": "Advanced Energy Materials, 16(2), e05121 (2026)",
+      "checked_at": "2026-11-01",
+      "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202505121",
+      "supporting_source": "https://api.crossref.org/works/10.1002/aenm.202505121",
+      "status": "Final volume/issue/pages or article number verified; publisher page or final PDF checked; Crossref publisher deposit used where publisher access restricted."
+    },
+    {
+      "doi": "10.1002/adfm.202511385",
+      "citation": "Advanced Functional Materials, 36(9), e11385 (2026)",
+      "checked_at": "2026-11-01",
+      "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202511385",
+      "supporting_source": "https://api.crossref.org/works/10.1002/adfm.202511385",
+      "status": "Final volume/issue/pages or article number verified; publisher page or final PDF checked; Crossref publisher deposit used where publisher access restricted."
+    },
+    {
+      "doi": "10.1002/advs.76228",
+      "citation": "Advanced Science, 13(42), e76228 (2026)",
+      "checked_at": "2026-11-01",
+      "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.76228",
+      "supporting_source": "https://api.crossref.org/works/10.1002/advs.76228",
+      "status": "Final volume/issue/pages or article number verified; publisher page or final PDF checked; Crossref publisher deposit used where publisher access restricted."
+    },
+    {
+      "doi": "10.1021/acsenergylett.6c02530",
+      "citation": "ACS Energy Letters, 11(10), 6972–6980 (2026)",
+      "checked_at": "2026-11-01",
+      "source": "https://pubs.acs.org/aelccp/article/11/10/6972/5426812/Stabilizing-High-Voltage-Operation-in-O3-Type-Na",
+      "supporting_source": "https://api.crossref.org/works/10.1021/acsenergylett.6c02530",
+      "status": "Final volume/issue/pages or article number verified; publisher page or final PDF checked; Crossref publisher deposit used where publisher access restricted."
+    },
+    {
+      "doi": "10.1007/s42823-020-00163-9",
+      "citation": "Carbon Letters, 31(2), 277–285 (2021)",
+      "checked_at": "2026-11-01",
+      "source": "https://link.springer.com/10.1007/s42823-020-00163-9",
+      "supporting_source": "https://api.crossref.org/works/10.1007/s42823-020-00163-9",
+      "status": "Final volume/issue/pages or article number verified; publisher page or final PDF checked; Crossref publisher deposit used where publisher access restricted."
+    },
+    {
+      "doi": "10.1002/advs.77287",
+      "checked_at": "2026-11-01",
+      "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77287",
+      "status": "Publisher page remains Early View; no volume/issue assigned. Existing website year retained (aenm.202504664: 2026 by explicit instruction)."
+    },
+    {
+      "doi": "10.1002/advs.77293",
+      "checked_at": "2026-11-01",
+      "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77293",
+      "status": "Publisher page remains Early View; no volume/issue assigned. Existing website year retained (aenm.202504664: 2026 by explicit instruction)."
+    },
+    {
+      "doi": "10.1002/aenm.202504664",
+      "checked_at": "2026-11-01",
+      "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504664",
+      "status": "Publisher page remains Early View; no volume/issue assigned. Existing website year retained (aenm.202504664: 2026 by explicit instruction)."
     }
   ],
   "academic_service_sources": [
@@ -1862,6 +1976,68 @@
     {
       "role": "2026 K-BIG Project 제1간사",
       "source": "K-BIG Project_기술트리_초안_20260626_0702.pptx"
+    }
+  ],
+  "metadata_checks": [
+    {
+      "checked_at": "2026-11-01",
+      "scope": "All publications.json and content.json publication records inspected; 157 distinct DOI records queried via Crossref; recent failed requests retried.",
+      "crossref_verified": 109,
+      "crossref_unverified_dois": [
+        "10.1149/1.3138705",
+        "10.1021/nn900062q",
+        "10.1007/s13391-011-0603-z",
+        "10.1021/ja406016j",
+        "10.1021/cm4013816",
+        "10.1002/aenm.201300205",
+        "10.1039/c3ee24393a",
+        "10.1021/cm502432q",
+        "10.1016/j.jallcom.2013.09.093",
+        "10.1039/c4ta00955j",
+        "10.1039/c7ta06693g",
+        "10.1021/acs.chemmater.8b02679",
+        "10.4191/kcers.2018.55.1.08",
+        "10.1002/aenm.201702646",
+        "10.1039/c9ta07837a",
+        "10.1016/j.nanoen.2019.02.042",
+        "10.1016/j.ensm.2020.08.024",
+        "10.1002/aenm.202001595",
+        "10.1002/aenm.202001111",
+        "10.1016/j.jpowsour.2020.227976",
+        "10.1016/j.ensm.2020.02.031",
+        "10.1016/j.ensm.2020.02.025",
+        "10.1021/acssuschemeng.9b04944",
+        "10.1016/j.ensm.2019.07.013",
+        "10.1002/aenm.202102311",
+        "10.1016/j.jpowsour.2021.230409",
+        "10.1021/acsami.1c00974",
+        "10.1039/d1ta01602d",
+        "10.1039/d0ee02803g",
+        "10.1016/j.cej.2020.128226",
+        "10.1021/acsenergylett.2c01514",
+        "10.1002/adfm.202207094",
+        "10.1002/adfm.202204354",
+        "10.1039/d2ta02167f",
+        "10.1016/j.ensm.2022.04.005",
+        "10.31613/ceramist.2022.25.1.04",
+        "10.1002/eem2.12187",
+        "10.1016/j.ensm.2023.103048",
+        "10.1016/j.compositesb.2023.110886",
+        "10.1002/aenm.202204353",
+        "10.1002/batt.202200486",
+        "10.1016/j.cej.2022.138883",
+        "10.1002/adfm.202312401",
+        "10.1016/j.ensm.2025.104570",
+        "10.1021/acsenergylett.5c02563",
+        "10.1021/acs.nanolett.5c01307",
+        "10.1002/adma.202501021",
+        "10.1016/j.mser.2025.100970"
+      ],
+      "unresolved_accepted_titles": [
+        "Improved High-Voltage Operation and Fast-Discharge Performance of O3-Type Layered Cathodes for Na-Ion Batteries by Regulating the Fe-Driven Distortion–Dissolution Cascade",
+        "A Fluorine-Free Organic–Inorganic Heterostructure Binder for High-Energy Lithium-Ion Batteries Operable at 4.5 V and 60 °C with Minimized Binder Content"
+      ],
+      "scholar": "429 Too Many Requests. Metrics and all verification dates unchanged; full profile enumeration unavailable."
     }
   ]
 }
