@@ -1,12 +1,13 @@
 {
-  "publications": 165,
+  "publications": 166,
   "citations": 11151,
   "h_index": 56,
   "i10_index": 132,
   "checked_at": "2026-11-01",
-  "publications_checked_at": "2026-10-05",
+  "publications_checked_at": "2026-11-01",
   "i10_index_checked_at": "2026-11-01",
   "source": "https://scholar.google.co.kr/citations?user=bTPbWeIAAAAJ&hl=en",
-  "verification": "Citations, h-index, and i10-index: All-period values from Google Scholar screenshot supplied by the user on 2026-11-01. Publication count retains its prior verified value and date; it is not shown in the screenshot.",
-  "i10_index_verification": "All-period i10-index from the Google Scholar screenshot supplied by the user on 2026-11-01."
+  "verification": "Citations, h-index, and i10-index: All-period values from the Google Scholar screenshot supplied by the user on 2026-11-01. Publication count: 166 unique website records verified on 2026-11-01; user requested website records as the publication-count source.",
+  "i10_index_verification": "All-period i10-index from the Google Scholar screenshot supplied by the user on 2026-11-01.",
+  "publications_source": "Website publication list: publications.json plus content.json publication_archive. Display count is recalculated from these records on each build."
 }
