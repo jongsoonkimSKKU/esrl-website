@@ -1,7 +1,12 @@
 {
   "publications": 165,
-  "citations": 11018,
-  "h_index": 55,
-  "checked_at": "2026-10-05",
-  "source": "https://scholar.google.co.kr/citations?user=bTPbWeIAAAAJ&hl=en"
+  "citations": 11151,
+  "h_index": 56,
+  "i10_index": 132,
+  "checked_at": "2026-11-01",
+  "publications_checked_at": "2026-10-05",
+  "i10_index_checked_at": "2026-11-01",
+  "source": "https://scholar.google.co.kr/citations?user=bTPbWeIAAAAJ&hl=en",
+  "verification": "Citations, h-index, and i10-index: All-period values from Google Scholar screenshot supplied by the user on 2026-11-01. Publication count retains its prior verified value and date; it is not shown in the screenshot.",
+  "i10_index_verification": "All-period i10-index from the Google Scholar screenshot supplied by the user on 2026-11-01."
 }
