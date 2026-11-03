@@ -20,6 +20,20 @@
       "metadata_source": "User-provided publisher PDF, first page: Nano Energy 159 (2026) 112487"
     },
     {
+      "index": 1,
+      "title": "Improved High-Voltage Operation and Fast-Discharge Performance of O3-Type Layered Cathodes for Na-Ion Batteries by Regulating the Fe-Driven Distortion–Dissolution Cascade",
+      "article_url": "https://doi.org/10.1016/j.jechem.2026.10.038",
+      "doi": "10.1016/j.jechem.2026.10.038",
+      "verification": "Publisher-deposited Crossref metadata: exact supplied PII S2095495626008557, title, and all 11 author names match; volume, issue, and pages not assigned in the deposited record.",
+      "original_url": "https://www.sciencedirect.com/science/article/abs/pii/S2095495626008557",
+      "bibliographic_source": "https://api.crossref.org/works/10.1016/j.jechem.2026.10.038",
+      "citation": "Journal of Energy Chemistry, In press (2026)",
+      "verified_at": "2026-11-03",
+      "pdf_path": null,
+      "pdf_source": null,
+      "pdf_sha256": null
+    },
+    {
       "index": 3,
       "title": "Stabilizing High-Voltage Operation in O3-Type Na-Layered Cathodes by Suppressing Distortion-Driven Fe Migration",
       "article_url": "https://doi.org/10.1021/acsenergylett.6c02530",
