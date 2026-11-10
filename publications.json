@@ -87,23 +87,37 @@
     "title": "Basal Plane Graphene Coated Zn Powder for High Performance Aqueous Zn Metal Batteries",
     "url": "https://doi.org/10.1002/advs.77287",
     "authors": "D. Kim, D. Jeong, K. Kim, V.‐C. Ho, J. Kim, H.‐G. Jung, J. H. Kim, G. Jeong, J. Mun",
-    "citation": "Advanced Science, e77287, Early View (2026)",
+    "citation": "Advanced Science, 13(62), e77287 (2026)",
     "doi": "10.1002/advs.77287",
     "lab_author_indices": [
       4
-    ]
+    ],
+    "volume": "13",
+    "issue": "62",
+    "pages": "e77287",
+    "article_number": "e77287",
+    "year": "2026",
+    "status": "published",
+    "published_online": "2026-08-20"
   },
   {
     "title": "A Dispersant-Driven Carbon-Binder Domains Homogeneity in High-Energy-Density Electrodes for Lithium-Ion Batteries",
     "url": "https://doi.org/10.1002/advs.77293",
     "authors": "D.-S. Kwon, M. Y. Seo, J. Ahn†, Y.-J. Jeong, W. Ko, W. Shin, M. J. Kim, J. Lee, W.-Y. Jeon, J. Bang, M.-J. Choi, K. I. Kim, J. J. Eom, S. Y. Oh, J. Kim*, Y. J. Kim, J.-K. Yoo",
-    "citation": "Advanced Science, e77293, Early View (2026)",
+    "citation": "Advanced Science, 13(62), e77293 (2026)",
     "doi": "10.1002/advs.77293",
     "lab_author_indices": [
       2,
       4,
       14
-    ]
+    ],
+    "volume": "13",
+    "issue": "62",
+    "pages": "e77293",
+    "article_number": "e77293",
+    "year": "2026",
+    "status": "published",
+    "published_online": "2026-08-18"
   },
   {
     "title": "Threshold-Triggered Redox Modulation Maximizing Initial Na+ Extraction in Fe–Mn-Dominant P2-Type Na-Layered Cathodes",
