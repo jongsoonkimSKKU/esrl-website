@@ -1,5 +1,37 @@
 [
   {
+    "title": "Fast and Reversible Oxygen Redox via Delocalized TM–O Hybridized Hole States and Local Coordination Flexibility in Mn-Rich P2-Type Na-Layered Cathodes",
+    "url": "",
+    "authors": "M. Choi†, H. Kweon†, J. Ahn, B. Ku, S. Lee, J. Lee, H. Lee, S. Lim, T. Kim, H.-G. Jung, J. Kim*",
+    "citation": "Energy Storage Materials, Accepted (2026)",
+    "year": "2026",
+    "status": "accepted",
+    "lab_author_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "lab_author_names": {
+      "0": "Myungeun Choi",
+      "1": "Hyunji Kweon",
+      "2": "Jinho Ahn",
+      "3": "Bonyoung Ku",
+      "4": "Sangyeop Lee",
+      "5": "Jihoe Lee",
+      "6": "Hoseok Lee",
+      "7": "Sunghyun Lim",
+      "8": "Taegyu Kim",
+      "10": "Jongsoon Kim"
+    }
+  },
+  {
     "title": "Stabilizing Li- and Mn-Rich Layered Cathodes through Oxygen-Redox-Coupled Interphase Transformation",
     "url": "https://doi.org/10.1016/j.nanoen.2026.112487",
     "authors": "H. Jang, S. Oh, H. Lee, H. Kweon, B. Ku, M. Choi, J. Lee, J. Ahn, H. Park, M. H. Lee, H.-S. Kim, J. Kim*",
