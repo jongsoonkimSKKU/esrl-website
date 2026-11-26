@@ -65,15 +65,18 @@
       "doi": "10.1021/acsenergylett.6c02530",
       "verification": "Crossref title match",
       "original_url": "https://doi.org/10.1021/acsenergylett.6c02530",
-      "pdf_path": null,
-      "pdf_source": null,
-      "pdf_sha256": null,
+      "pdf_path": "dist/assets/papers/2026-acsenergylett-6972-6980.pdf",
+      "pdf_source": "User-provided ACS publisher PDF, uploaded 2026-11-26; download access key redacted from the margin",
+      "pdf_sha256": "43b3c9aa37c76ee9231d6906888bf5ce133646d2e3ed58aff13aee3e500a6bbf",
       "citation": "ACS Energy Letters, 11(10), 6972–6980 (2026)",
       "volume": "11",
       "issue": "10",
       "pages": "6972–6980",
       "bibliographic_source": "https://api.crossref.org/works/10.1021/acsenergylett.6c02530",
-      "verified_at": "2026-10-11"
+      "verified_at": "2026-10-11",
+      "source_pdf_sha256": "c5e2a66b71b8d67134581d9a1f1bdde5ba7631a6f68d18230d92585eedb188cf",
+      "pdf_verified_at": "2026-11-26",
+      "pdf_verification": "First-page title, DOI, and citation match; nine pages; all page text and pixels outside the access-key redaction verified against the supplied PDF."
     },
     {
       "index": 4,
