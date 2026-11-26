@@ -1,11 +1,11 @@
 [
   {
-    "title": "Fast and Reversible Oxygen Redox via Delocalized TM–O Hybridized Hole States and Local Coordination Flexibility in Mn-Rich P2-Type Na-Layered Cathodes",
+    "title": "Fast and reversible oxygen redox via delocalized TM–O hybridized hole states and local coordination flexibility in Mn-rich P2-type Na-layered cathodes",
     "url": "https://doi.org/10.1016/j.ensm.2026.105665",
-    "authors": "M. Choi†, H. Kweon†, J. Ahn, B. Ku, S. Lee, J. Lee, H. Lee, S. Lim, T. Kim, H.-G. Jung, J. Kim*",
-    "citation": "Energy Storage Materials, In press, 105665 (2026)",
+    "authors": "M. Choi†, H. Kweon†, J. Ahn, B. Ku, S.-Y. Lee, J. Lee, H. Lee, S. Lim, T. Kim, L. Eom, H.-G. Jung, J. Kim*",
+    "citation": "Energy Storage Materials, 93, 105665 (2026)",
     "year": "2026",
-    "status": "in_press",
+    "status": "published",
     "lab_author_indices": [
       0,
       1,
@@ -16,7 +16,8 @@
       6,
       7,
       8,
-      10
+      9,
+      11
     ],
     "lab_author_names": {
       "0": "Myungeun Choi",
@@ -28,13 +29,16 @@
       "6": "Hoseok Lee",
       "7": "Sunghyun Lim",
       "8": "Taegyu Kim",
-      "10": "Jongsoon Kim"
+      "9": "Lisa Eom",
+      "11": "Jongsoon Kim"
     },
     "doi": "10.1016/j.ensm.2026.105665",
     "pii": "S240582972600797X",
     "article_number": "105665",
     "pages": "105665",
-    "publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S240582972600797X"
+    "publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S240582972600797X",
+    "volume": "93",
+    "published_print": "2026-12"
   },
   {
     "title": "Stabilizing Li- and Mn-Rich Layered Cathodes through Oxygen-Redox-Coupled Interphase Transformation",
