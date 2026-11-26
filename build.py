@@ -3,6 +3,7 @@ from pathlib import Path
 from html import escape as e
 import json
 import hashlib
+import re
 from decimal import Decimal, ROUND_HALF_UP
 ROOT=Path(__file__).parent
 SITE_URL='https://jkimbattery.com'
@@ -40,7 +41,10 @@ STYLESHEET_VERSION=hashlib.sha256((DIST/'style.css').read_bytes()).hexdigest()[:
 SCRIPT_VERSION=hashlib.sha256((DIST/'site.js').read_bytes()).hexdigest()[:12]
 ARROW='<span class="arrow" aria-hidden="true">↗</span>'
 NAV=[('Home','/'),('Research','/research/'),('Professor','/professor/'),('People','/people/'),('Publications','/publications/'),('Equipment','/equipment/'),('Lab life','/life/')]
-PUBLICATION_GROUPS=[('2026',['2026']),('2025',['2025']),('2024',['2024']),('2023',['2023']),('2022',['2022']),('2021',['2021']),('2020',['2020']),('2019',['2019']),('2018',['2018']),('2017',['2017']),('2016–2015',['2016','2015']),('2014–2012',['2014','2013','2012']),('2011–2009',['2011','2010','2009'])]
+def publication_year(p):
+ return int(p.get('year') or re.search(r'(20\d{2})',p['citation'])[1])
+recent_publication_years=sorted({2026}|{publication_year(p) for p in D['publications']},reverse=True)
+PUBLICATION_GROUPS=[(str(year),[str(year)]) for year in recent_publication_years if year>=2026]+[('2025',['2025']),('2024',['2024']),('2023',['2023']),('2022',['2022']),('2021',['2021']),('2020',['2020']),('2019',['2019']),('2018',['2018']),('2017',['2017']),('2016–2015',['2016','2015']),('2014–2012',['2014','2013','2012']),('2011–2009',['2011','2010','2009'])]
 def pubroute(label):return '/publications/'+label.replace('–','-')+'/'
 def navigation(route):
  items=[]
@@ -55,7 +59,6 @@ def navigation(route):
 def people_tabs(active):
  return '<nav class="year-nav people-tabs" aria-label="People pages">'+''.join(f'<a href="{url}"'+(' aria-current="page"' if key==active else '')+f'>{label}</a>' for key,url,label in [('current','/people/','Current members · 현재 구성원'),('alumni','/people/alumni/','Alumni · 졸업생')])+'</nav>'
 from urllib.parse import quote
-import re
 SITE_PUBLICATION_COUNT=len(D['publications'])+sum(len(papers) for papers in D['publication_archive'].values())
 SCHOLAR_METRICS=json.loads((ROOT/'scholar_metrics.json').read_text())
 SCHOLAR=SCHOLAR_METRICS['source']
@@ -339,9 +342,6 @@ def research_impact(surface):
 def application_section():
  return '<section class="section application-section"><div class="wrap"><div class="section-heading"><div><span class="eyebrow">How to apply · 지원 안내</span><h2 lang="ko">관심에서 첫 만남까지.</h2></div></div><div class="beginner-note"><strong lang="ko">실험에서 AI·계산까지, 배터리 소재를 이해하는 연구 역량을 넓혀갑니다.</strong><p lang="ko">AI·계산 분야에 새롭게 도전하는 학생도 환영합니다. 기초부터 실제 소재 설계까지 연결하며 연구 역량을 쌓아갑니다.</p><p lang="en">Build your research capabilities across experiments, AI, and computation. Students new to AI and computational research are welcome to develop their skills from the fundamentals to materials design.</p></div><div class="application-grid"><article><h3>지원 서류 · Documents</h3><p lang="ko">간단한 이력서(CV), 성적증명서, 관심 연구주제와 희망 시작 시기를 이메일로 보내 주세요. 박사후연구원은 연구 경력 및 주요 논문 목록을 함께 보내 주세요.</p><p lang="en">Email your CV, transcript, research interests, and preferred start date. Postdoctoral applicants should also include their research experience and publication list.</p></article><article><h3>지원 시기 · Timing</h3><p lang="ko">연구실 사전 문의는 상시 가능합니다. 대학원 진학 희망자는 성균관대학교 공식 모집 일정에 앞서 연락해 주세요. 학부연구생·박사후연구원의 시작 시기는 면담 후 협의합니다.</p><p lang="en">Lab inquiries are welcome throughout the year. Prospective graduate students should contact us before the official university application period. Start dates for undergraduate researchers and postdoctoral researchers are discussed individually.</p></article></div><ol class="application-steps"><li><strong>이메일 문의</strong><span>지원 서류와 관심 분야 전달</span></li><li><strong>서류 검토</strong><span>연구 관심과 참여 가능 시기 확인</span></li><li><strong>면담</strong><span>연구 방향·참여 과정 논의</span></li><li><strong>지원·합류</strong><span>대학원은 공식 입학 전형, 인턴·포닥은 개별 협의</span></li></ol></div></section>'
 
-def publication_year(p):
- return int(p.get('year') or re.search(r'(20\d{2})',p['citation'])[1])
-
 def featured_impact(p):
  journal=JOURNAL_METRICS['journals'].get(journal_key(p['citation'].split(',')[0]),{})
  year=publication_year(p)-1
@@ -474,6 +474,7 @@ body+=research_impact('professor')
 save('/professor/','Professor',body)
 
 all_papers=[dict(p,year=str(p.get('year',re.search(r'(20\d{2})',p['citation'])[1]))) for p in D['publications']]+[dict(p,year=year) for year,papers in D['publication_archive'].items() for p in papers]
+all_papers.sort(key=publication_year,reverse=True)
 for label,years in [('All',None)]+PUBLICATION_GROUPS:
  route='/publications/' if label=='All' else pubroute(label)
  papers=all_papers if years is None else [p for p in all_papers if p['year'] in years]

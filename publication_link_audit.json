@@ -3,6 +3,26 @@
   "records": [
     {
       "index": 0,
+      "doi": "10.1016/j.ensm.2026.105665",
+      "title": "Fast and reversible oxygen redox via delocalized TM–O hybridized hole states and local coordination flexibility in Mn-rich P2-type Na-layered cathodes",
+      "article_url": "https://doi.org/10.1016/j.ensm.2026.105665",
+      "original_url": "https://www.sciencedirect.com/science/article/abs/pii/S240582972600797X",
+      "citation": "Energy Storage Materials, 93, 105665 (2026)",
+      "volume": "93",
+      "pages": "105665",
+      "bibliographic_source": "https://api.crossref.org/works/10.1016/j.ensm.2026.105665",
+      "metadata_source": "User-provided publisher PDF, first page: Energy Storage Materials 93 (2026) 105665",
+      "verification": "Publisher PDF and Crossref confirm final citation and DOI; all author names and order verified on PDF.",
+      "verified_at": "2026-11-26",
+      "pdf_path": "dist/assets/papers/2026-ensm-105665.pdf",
+      "pdf_source": "User-provided publisher PDF, uploaded 2026-11-26",
+      "pdf_sha256": "36ab16834144da8fa236ee27d8b69456e99b2902a6f4b7d98e57eee1de1a5087",
+      "pdf_verified_at": "2026-11-26",
+      "pdf_verification": "First-page title and DOI match; 16 pages; original bytes preserved.",
+      "article_number": "105665"
+    },
+    {
+      "index": 0,
       "title": "Stabilizing Li- and Mn-Rich Layered Cathodes through Oxygen-Redox-Coupled Interphase Transformation",
       "article_url": "https://doi.org/10.1016/j.nanoen.2026.112487",
       "doi": "10.1016/j.nanoen.2026.112487",
@@ -21,17 +41,22 @@
     },
     {
       "index": 1,
-      "title": "Improved High-Voltage Operation and Fast-Discharge Performance of O3-Type Layered Cathodes for Na-Ion Batteries by Regulating the Fe-Driven Distortion–Dissolution Cascade",
+      "title": "Improved high-voltage operation and fast-discharge performance of O3-type layered cathodes for Na-ion batteries by regulating the Fe-driven distortion-dissolution cascade",
       "article_url": "https://doi.org/10.1016/j.jechem.2026.10.038",
       "doi": "10.1016/j.jechem.2026.10.038",
-      "verification": "Publisher-deposited Crossref metadata: exact supplied PII S2095495626008557, title, and all 11 author names match; volume, issue, and pages not assigned in the deposited record.",
-      "original_url": "https://www.sciencedirect.com/science/article/abs/pii/S2095495626008557",
+      "verification": "Publisher PDF and Crossref confirm final citation and DOI; all author names and order verified on PDF.",
+      "original_url": "https://www.sciencedirect.com/science/article/pii/S2095495626008557",
       "bibliographic_source": "https://api.crossref.org/works/10.1016/j.jechem.2026.10.038",
-      "citation": "Journal of Energy Chemistry, In press (2026)",
-      "verified_at": "2026-11-03",
-      "pdf_path": null,
-      "pdf_source": null,
-      "pdf_sha256": null
+      "citation": "Journal of Energy Chemistry, 125, 1053–1065 (2027)",
+      "verified_at": "2026-11-26",
+      "pdf_path": "dist/assets/papers/2027-jechem-125-1053-1065.pdf",
+      "pdf_source": "User-provided publisher PDF, uploaded 2026-11-26",
+      "pdf_sha256": "cfa76efa1f0ccbe2d0028b8f3a2f649dea8236e49b1ee02b155f03231273111c",
+      "volume": "125",
+      "pages": "1053–1065",
+      "metadata_source": "User-provided publisher PDF, first page: Journal of Energy Chemistry 125 (2027) 1053–1065",
+      "pdf_verified_at": "2026-11-26",
+      "pdf_verification": "First-page title and DOI match; 13 pages; original bytes preserved."
     },
     {
       "index": 3,
@@ -1986,6 +2011,22 @@
       "checked_at": "2026-11-01",
       "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504664",
       "status": "Publisher page remains Early View; no volume/issue assigned. Existing website year retained (aenm.202504664: 2026 by explicit instruction)."
+    },
+    {
+      "doi": "10.1016/j.jechem.2026.10.038",
+      "citation": "Journal of Energy Chemistry, 125, 1053–1065 (2027)",
+      "checked_at": "2026-11-26",
+      "source": "https://www.sciencedirect.com/science/article/pii/S2095495626008557",
+      "supporting_source": "https://api.crossref.org/works/10.1016/j.jechem.2026.10.038",
+      "status": "Final volume and pages/article number verified against publisher PDF; original PDF added."
+    },
+    {
+      "doi": "10.1016/j.ensm.2026.105665",
+      "citation": "Energy Storage Materials, 93, 105665 (2026)",
+      "checked_at": "2026-11-26",
+      "source": "https://www.sciencedirect.com/science/article/abs/pii/S240582972600797X",
+      "supporting_source": "https://api.crossref.org/works/10.1016/j.ensm.2026.105665",
+      "status": "Final volume and pages/article number verified against publisher PDF; original PDF added."
     }
   ],
   "academic_service_sources": [
